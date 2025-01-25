@@ -9,6 +9,6 @@ vectorstore_db = FAISS.load_local(
 
 # Use the vector store in a chatbot or other application
 retriever = vectorstore_db.as_retriever()
-results = retriever.invoke("what to do when a bussinessman is bankrupt ")
+results = retriever.invoke("How many  commercial laws are there in the INDIAN LAW ")
 for result in results:
     print(result.page_content)
