@@ -4,7 +4,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_ollama import OllamaEmbeddings
 
 # Path to the PDF
-commercial_laws_path = "/Users/sanatwalia/Desktop/Assignments_applications/Vidhijna/commercial_laws/General & Commercial Laws.pdf"
+commercial_laws_path = "/Users/sanatwalia/Desktop/Assignments_applications/Vidhijna/commercial_laws/merged_output_laws.pdf"
 
 # Load the PDF
 loader = PDFPlumberLoader(commercial_laws_path)
