@@ -1,0 +1,8 @@
+python-dotenv
+langchain
+langchain-community
+langchain-groq
+langchain-ollama
+langgraph
+PyPDF2
+pdfplumber
