@@ -1,7 +1,5 @@
 # Vidhijna
 
-# Legal Assistant Chatbot
-
 # Screenshots
 ![WhatsApp Image 2025-02-25 at 00 04 02_11edc480](https://github.com/user-attachments/assets/31417c66-9833-44dc-b632-77ec29847cde) <br>
 ![WhatsApp Image 2025-02-25 at 00 04 03_db82d3b8](https://github.com/user-attachments/assets/817651a1-0eb2-4d07-b6f7-e03c8c578f7d)
@@ -11,7 +9,6 @@
 
 The Legal Assistant Chatbot is an intelligent system designed to provide information about commercial laws and regulations. Built using the LangGraph framework, it combines document retrieval from a vector database with web search capabilities to provide comprehensive responses to legal queries.
 
-![Legal Assistant Chatbot Screenshot](https://api.dicebear.com/7.x/identicon/svg?seed=legalbot&backgroundColor=b6e3f4)
 
 ## ✨ Features
 
@@ -114,14 +111,16 @@ You can modify the following settings in Config class:
 
 This chatbot provides general information about commercial laws and regulations. It should not be considered legal advice. Always consult with a qualified legal professional for specific legal matters.
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👨‍💻 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 📞 Support
 
-If you encounter any issues or have questions, please open an issue on the GitHub repository.
+If you encounter any issues or have questions, please open an issue on the GitHub repository. 
+
+# Contributers:
+<ol>
+   <li>
+      <a href="https://github.com/tanmay-vig">Tanmay Vig</a>
+   </li>
+   <li>
+      <a href="https://github.com/sanatwalia896">Sanat Walia</a>
+   </li>
+</ol>
