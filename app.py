@@ -14,7 +14,7 @@ logging.basicConfig(
 
 # Page configuration
 st.set_page_config(
-    page_title="Legal Assistant Chatbot",
+    page_title="Vidhijan",
     page_icon="⚖️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -38,7 +38,7 @@ def main():
 
     # Sidebar
     with st.sidebar:
-        st.title("⚖️ Legal Assistant Settings")
+        st.title("⚖️ Vidhijan Settings")
         st.markdown("---")
 
         st.subheader("Model Settings")
@@ -70,7 +70,7 @@ def main():
             st.experimental_rerun()
 
     # Main content
-    st.title("Legal Assistant Chatbot")
+    st.title("Vidhijan ")
     st.markdown("Ask questions about commercial laws and regulations.")
 
     # Display chat history using Streamlit's native chat elements
