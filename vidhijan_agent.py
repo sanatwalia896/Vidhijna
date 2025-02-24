@@ -12,7 +12,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.tools.retriever import create_retriever_tool
 from langchain_community.utilities.serpapi import SerpAPIWrapper
 from langchain.agents import AgentExecutor, Tool
-from langchain.schema import AIMessage, HumanMessage  # FIXED: Proper message handling
+from langchain.schema import AIMessage, HumanMessage
+from langchain.prompts import ChatPromptTemplate
 from langgraph.graph import StateGraph, END
 from langgraph.graph.message import add_messages
 
@@ -49,6 +50,7 @@ class LangGraphChatbot:
         self.setup_embeddings()
         self.setup_vector_store()
         self.setup_serpapi()
+        self.setup_prompt_template()
         self.setup_graph()
 
     def setup_llm(self):
@@ -94,43 +96,84 @@ class LangGraphChatbot:
             logging.error(f"Failed to initialize SerpAPI: {str(e)}")
             raise
 
+    def setup_prompt_template(self):
+        """Setup the prompt template for the final response generation"""
+        self.prompt_template = ChatPromptTemplate.from_template(
+            """You are a helpful legal assistant providing information about commercial laws and regulations.
+            
+            User query: {query}
+            
+            Information from legal database:
+            {retriever_output}
+            
+            Information from web search:
+            {search_output}
+            
+            Please provide a comprehensive and accurate response to the user's query based on the information provided above.
+            Include relevant citations where appropriate.
+            If information is insufficient, acknowledge limitations and suggest seeking professional legal advice.
+            Your response should be well-structured, clear, and to the point.
+            """
+        )
+        logging.info("Prompt template initialized successfully.")
+
     def retriever_agent(self, state: State) -> Dict:
         """Retrieve documents from FAISS vector store"""
         try:
-            query = state["messages"][-1].content  # FIXED: Extract content correctly
+            query = state["messages"][-1].content
             results = self.retriever.get_relevant_documents(query)
             output = "\n".join([doc.page_content for doc in results])
+            logging.info(f"Retrieved {len(results)} documents from vector store")
             return {"retriever_output": output}
         except Exception as e:
             logging.error(f"Retriever agent error: {str(e)}")
-            return {"retriever_output": ""}
+            return {
+                "retriever_output": "No relevant information found in the legal database."
+            }
 
     def search_agent(self, state: State) -> Dict:
         """Perform a web search using SerpAPI"""
         try:
-            query = state["messages"][-1].content  # FIXED: Extract content correctly
+            query = state["messages"][-1].content
             result = self.search.run(query)
+            logging.info("Web search completed successfully")
             return {"search_output": result}
         except Exception as e:
             logging.error(f"Search agent error: {str(e)}")
-            return {"search_output": ""}
+            return {"search_output": "No additional information found from web search."}
 
     def final_processor(self, state: State) -> Dict:
-        """Process results and generate response"""
-        response = ""
-        if state.get("retriever_output"):
-            response += f"Based on our legal database: {state['retriever_output']}\n\n"
-        if state.get("search_output"):
-            response += (
-                f"Additional information from web search: {state['search_output']}"
+        """Process results and generate response using LLM"""
+        try:
+            # Extract user query
+            user_query = state["messages"][-1].content
+
+            # Get retriever and search outputs
+            retriever_output = state.get(
+                "retriever_output", "No information found in legal database."
+            )
+            search_output = state.get(
+                "search_output", "No information found from web search."
             )
 
-        if not response:
-            response = (
-                "I couldn't find relevant information. Please consult a legal expert."
+            # Format the prompt with context
+            prompt = self.prompt_template.format(
+                query=user_query,
+                retriever_output=retriever_output,
+                search_output=search_output,
             )
 
-        return {"messages": [AIMessage(content=response)]}  # FIXED: Use AIMessage
+            # Generate response using the LLM
+            llm_response = self.llm.invoke(prompt)
+            response_content = llm_response.content
+
+            logging.info("LLM generated response successfully")
+            return {"messages": [AIMessage(content=response_content)]}
+
+        except Exception as e:
+            logging.error(f"Final processor error: {str(e)}")
+            error_response = "I apologize, but I encountered an error while processing your query. Please try again or rephrase your question."
+            return {"messages": [AIMessage(content=error_response)]}
 
     def setup_graph(self):
         """Set up the workflow graph"""
@@ -170,6 +213,7 @@ class LangGraphChatbot:
                 "search_output": "",
             }
 
+            logging.info(f"Processing query: {query}")
             result = self.graph.invoke(state)
 
             if result and "messages" in result and result["messages"]:
@@ -178,7 +222,7 @@ class LangGraphChatbot:
 
         except Exception as e:
             logging.error(f"Error processing query: {str(e)}")
-            return f"An error occurred: {str(e)}"
+            return f"An error occurred while processing your query: {str(e)}"
 
     def run_interactive(self):
         """Run the chatbot in interactive mode"""
