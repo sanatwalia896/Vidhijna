@@ -1,5 +1,7 @@
 # Vidhijna
 
+<b>To view previous version: https://github.com/tanmay-vig/ai-driven-research-engine</b>
+
 # Screenshots
 ![WhatsApp Image 2025-02-25 at 00 04 02_11edc480](https://github.com/user-attachments/assets/31417c66-9833-44dc-b632-77ec29847cde) <br>
 ![WhatsApp Image 2025-02-25 at 00 04 03_db82d3b8](https://github.com/user-attachments/assets/817651a1-0eb2-4d07-b6f7-e03c8c578f7d)
