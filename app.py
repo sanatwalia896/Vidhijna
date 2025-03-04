@@ -44,15 +44,17 @@ def main():
         st.subheader("Model Settings")
         groq_model = st.selectbox(
             "Groq Model",
-            ["llama-3.1-8b-instant", "mixtral-8x7b-32768", "llama-3.1-70b"],
+            [
+                "llama-3.1-8b-instant",
+                "mixtral-8x7b-32768",
+                "llama-3.1-70b",
+                "llama-3.3-70b-versatile",
+                "llama-3.2-90b-vision-preview",
+            ],
             index=0,
         )
 
-        ollama_model = st.selectbox(
-            "Embeddings Model",
-            ["all-minilm:33m", "all-minilm", "nomic-embed-text"],
-            index=0,
-        )
+        ollama_model = st.selectbox("Embeddings Model", ["all-minilm:33m"])
 
         if st.button("Apply Settings"):
             Config.GROQ_MODEL = groq_model
@@ -67,7 +69,7 @@ def main():
 
         if st.button("Clear Chat History"):
             st.session_state.chat_history = []
-            st.experimental_rerun()
+            st.rerun()
 
     # Main content
     st.title("Vidhijan ")

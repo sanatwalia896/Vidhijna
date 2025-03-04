@@ -99,7 +99,7 @@ class LangGraphChatbot:
     def setup_prompt_template(self):
         """Setup the prompt template for the final response generation"""
         self.prompt_template = ChatPromptTemplate.from_template(
-            """You are a helpful legal assistant providing information about commercial laws and regulations.
+            """You are a helpful legal assistant VIDHIJAN  providing information about commercial laws and regulations.
             
             User query: {query}
             
@@ -135,7 +135,8 @@ class LangGraphChatbot:
         """Perform a web search using SerpAPI"""
         try:
             query = state["messages"][-1].content
-            result = self.search.run(query)
+            site_restricted_query = f"{query} site:https://indiankanoon.org/"
+            result = self.search.run(site_restricted_query)
             logging.info("Web search completed successfully")
             return {"search_output": result}
         except Exception as e:
