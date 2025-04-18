@@ -1,0 +1,44 @@
+🏢 Corporate Governance & Fiduciary Duties
+A company's board approved a merger despite clear conflicts of interest involving key directors. What remedies are available under Indian corporate governance principles?
+
+Post-merger, it was discovered that one director had prior financial interests in the target company. Can this amount to a breach of fiduciary duty under the Companies Act, 2013?
+
+⚖️ Shareholder Rights & Minority Protection
+A merger diluted minority shareholders' rights disproportionately, without a proper valuation. Can they challenge the scheme under Section 230(4) of the Companies Act?
+
+A preferential allotment of shares was made to a promoter group just before a merger. Can minority shareholders seek SEBI’s intervention for oppression and mismanagement?
+
+🛠️ M&A Process & Due Diligence Failures
+During due diligence, one company failed to disclose a material government investigation. Post-merger, the acquiring firm suffered financial penalties. What legal action is available for non-disclosure?
+
+An audit firm engaged for due diligence missed red flags in employee liabilities. Can professional negligence claims be initiated by the acquirer?
+
+📜 Contractual Breaches & Specific Clauses
+A merger agreement included a clause for non-compete for key executives. After the merger, one of them joined a competitor. Can the acquirer enforce this clause in Indian courts?
+
+The merger deal had milestone-based payments linked to future profits. The seller manipulated accounting practices to trigger early payouts. What remedies exist under fraud and breach of contract law?
+
+👩‍⚖️ Regulatory & SEBI-Related Disputes
+A merger between two listed entities triggered mandatory open offer provisions under SEBI Takeover Code, which were not complied with. What penalties and shareholder remedies apply?
+
+Post-merger shareholding crossed 75%, breaching SEBI’s minimum public shareholding norms. What regulatory consequences follow, and what actions can minority investors take?
+
+🧠 IP, Confidentiality, and Trade Secrets
+As part of a merger, a confidential technology license was to be assigned. The licensor withheld consent post-merger. Can the merger be challenged for frustration of purpose or breach of conditions precedent?
+
+After a merger, former employees of the acquired company leaked proprietary code. Can the acquiring company claim breach of confidence or seek criminal action under IT Act and IP laws?
+
+🏛️ Cross-Border and Tax Structuring Issues
+A foreign company acquired an Indian entity and repatriated profits via royalty payments to avoid tax. Can Indian tax authorities initiate transfer pricing investigations or invoke GAAR?
+
+A cross-border merger required RBI and NCLT approvals, but parties proceeded with partial integration before approvals. What are the penalties under FEMA and Companies Act?
+
+💼 Employment Law & Industrial Disputes
+Following a merger, the new management changed employment terms unilaterally, leading to mass resignations. Can employees file claims under Industrial Disputes Act or seek reinstatement?
+
+Protected workmen were dismissed post-amalgamation despite standing orders. What are the remedies under labor law, and does the merger shield the employer from liability?
+
+🧾 Tort & Economic Loss
+The acquirer relied on a third-party financial advisor who provided negligent valuations in a high-stakes merger. Can the buyer claim pure economic loss under tort law?
+
+Post-merger, customers of the acquired company suffered data loss due to lax integration. Can they initiate consumer complaints or tort claims against the merged entity?
