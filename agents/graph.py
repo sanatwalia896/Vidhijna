@@ -277,15 +277,12 @@ builder.add_edge("retrieve_from_vector_stores", "summarize_vectors")
 builder.add_edge("summarize_sources", "combine_summaries")
 builder.add_edge("summarize_vectors", "combine_summaries")
 builder.add_edge("combine_summaries", "reflect_on_summary")
-# builder.add_edge("web_research", "summarize_sources")
-# builder.add_edge("summarize_sources", "reflect_on_summary")
+
 
 # # Conditional routing after reflection
 builder.add_conditional_edges("reflect_on_summary", route_research)
 
-# # Route to vector retrieval → summarize vectors → combine → finalize
-# builder.add_edge("retrieve_from_vector_stores", "summarize_vectors")
-# builder.add_edge("summarize_vectors", "combine_summaries")
+
 builder.add_edge("combine_summaries", "finalize_summary")
 
 # Standard flow from summarization to finalization

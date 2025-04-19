@@ -11,6 +11,7 @@ from agents.configuration import Configuration
 from langchain_ollama import OllamaEmbeddings
 from langchain_ollama.llms import OllamaLLM
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from agents.state import SummaryState
 
 ollama_llm = OllamaLLM(model="gemma3:1b")
 
@@ -26,38 +27,58 @@ def deduplicate_and_format_sources(
     search_response, max_tokens_per_source, include_raw_content=False
 ):
     """
-    Takes either a single search response or list of responses from search APIs and formats them.
-    Limits the raw_content to approximately max_tokens_per_source.
-    include_raw_content specifies whether to include the raw_content from Tavily in the formatted string.
+    Formats a search response or list of vector store documents with deduplication.
+    Supports both:
+        - Dict with 'results' key from search APIs
+        - List of vector store Documents
 
     Args:
-        search_response: Either:
-            - A dict with a 'results' key containing a list of search results
-            - A list of dicts, each containing search results
+        search_response (dict or list): Search results or Langchain Documents
+        max_tokens_per_source (int): Approximate token limit for raw content
+        include_raw_content (bool): Whether to include full raw content
 
     Returns:
-        str: Formatted string with deduplicated sources
+        str: Formatted source output
     """
-    # Convert input to list of results
-    if isinstance(search_response, dict):
+    sources_list = []
+
+    # Normalize input
+    if isinstance(search_response, dict) and "results" in search_response:
         sources_list = search_response["results"]
     elif isinstance(search_response, list):
-        sources_list = []
-        for response in search_response:
-            if isinstance(response, dict) and "results" in response:
-                sources_list.extend(response["results"])
+        for item in search_response:
+            if isinstance(item, dict) and "results" in item:
+                sources_list.extend(item["results"])
             else:
-                sources_list.extend(response)
+                sources_list.append(item)  # Could be a Langchain Document
     else:
         raise ValueError(
-            "Input must be either a dict with 'results' or a list of search results"
+            "Input must be dict with 'results' or list of results/Documents."
         )
 
     # Deduplicate by URL
     unique_sources = {}
     for source in sources_list:
-        if source["url"] not in unique_sources:
-            unique_sources[source["url"]] = source
+        # Handle both raw dict and Langchain Document
+        if hasattr(source, "metadata"):  # Langchain Document
+            metadata = source.metadata
+            url = metadata.get("url", "no-url")
+            title = metadata.get("title", "Untitled")
+            content = source.page_content
+            raw_content = metadata.get("raw_content", "")
+        else:  # Search API style dict
+            url = source.get("url", "no-url")
+            title = source.get("title", "Untitled")
+            content = source.get("content", "")
+            raw_content = source.get("raw_content", "")
+
+        if url not in unique_sources:
+            unique_sources[url] = {
+                "url": url,
+                "title": title,
+                "content": content,
+                "raw_content": raw_content,
+            }
 
     # Format output
     formatted_text = "Sources:\n\n"
@@ -67,14 +88,10 @@ def deduplicate_and_format_sources(
         formatted_text += (
             f"Most relevant content from source: {source['content']}\n===\n"
         )
+
         if include_raw_content:
-            # Using rough estimate of 4 characters per token
             char_limit = max_tokens_per_source * 4
-            # Handle None raw_content
-            raw_content = source.get("raw_content", "")
-            if raw_content is None:
-                raw_content = ""
-                print(f"Warning: No raw_content found for source {source['url']}")
+            raw_content = source.get("raw_content", "") or ""
             if len(raw_content) > char_limit:
                 raw_content = raw_content[:char_limit] + "... [truncated]"
             formatted_text += f"Full source content limited to {max_tokens_per_source} tokens: {raw_content}\n\n"
@@ -83,17 +100,31 @@ def deduplicate_and_format_sources(
 
 
 def format_sources(search_results):
-    """Format search results into a bullet-point list of sources.
+    """Format search results or vector documents into a bullet-point list of sources.
 
     Args:
-        search_results (dict): Tavily search response containing results
+        search_results (dict or list): Either:
+            - A dict with 'results' key (from Tavily/DuckDuckGo/etc.)
+            - A list of Langchain Documents (from FAISS/Qdrant/etc.)
 
     Returns:
         str: Formatted string with sources and their URLs
     """
-    return "\n".join(
-        f"* {source['title']} : {source['url']}" for source in search_results["results"]
-    )
+    formatted_lines = []
+
+    if isinstance(search_results, dict) and "results" in search_results:
+        for source in search_results["results"]:
+            formatted_lines.append(f"* {source['title']} : {source['url']}")
+    elif isinstance(search_results, list):
+        for doc in search_results:
+            metadata = getattr(doc, "metadata", {})
+            title = metadata.get("title", "Untitled")
+            url = metadata.get("url", "No URL")
+            formatted_lines.append(f"* {title} : {url}")
+    else:
+        raise ValueError("Expected dict with 'results' or list of Documents.")
+
+    return "\n".join(formatted_lines)
 
 
 @traceable
@@ -304,9 +335,9 @@ def chunk_and_summarize(text, chunk_size=1000, chunk_overlap=100):
     return final_summary.strip()
 
 
-def summarize_vectors(state):
+def summarize_vectors(state: SummaryState):
     combined = ""
-    for doc in state["vector_results"]["laws"] + state["vector_results"]["cases"]:
+    for doc in state.laws_research_results + state.cases_research_results:
         combined += doc.page_content + "\n"
 
     summary = chunk_and_summarize(combined)
@@ -314,5 +345,7 @@ def summarize_vectors(state):
 
 
 def combine_summaries(state):
-    full_text = f"Web Summary:\n{state['web_summary']}\n\nLegal Summary:\n{state['vector_summary']}"
+    full_text = (
+        f"Web Summary:\n{state.web_summary}\n\nLegal Summary:\n{state.vector_summary}"
+    )
     return {"combined_summary": full_text}
