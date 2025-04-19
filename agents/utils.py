@@ -337,15 +337,52 @@ def chunk_and_summarize(text, chunk_size=1000, chunk_overlap=100):
 
 def summarize_vectors(state: SummaryState):
     combined = ""
-    for doc in state.laws_research_results + state.cases_research_results:
-        combined += doc.page_content + "\n"
 
-    summary = chunk_and_summarize(combined)
+    # Handle both possible types of data in the research results
+    for doc in state.laws_research_results + state.cases_research_results:
+        if hasattr(doc, "page_content"):
+            # If it's a Document object
+            combined += doc.page_content + "\n"
+        else:
+            # If it's a string (formatted source)
+            combined += str(doc) + "\n"
+
+    # If combined is still empty, check if we have any results at all
+    if not combined.strip() and (
+        state.laws_research_results or state.cases_research_results
+    ):
+        # Just concatenate whatever we have as strings
+        combined = "\n".join(
+            [
+                str(doc)
+                for doc in state.laws_research_results + state.cases_research_results
+            ]
+        )
+
+    # If we have content to summarize
+    if combined.strip():
+        summary = chunk_and_summarize(combined)
+    else:
+        summary = "No relevant legal documents found in vector stores."
+
     return {"vector_summary": summary}
 
 
-def combine_summaries(state):
-    full_text = (
-        f"Web Summary:\n{state.web_summary}\n\nLegal Summary:\n{state.vector_summary}"
+def combine_summaries(state: SummaryState):
+    # Access the running_summary instead of web_summary if that's what's available
+    web_summary = (
+        state.running_summary
+        if hasattr(state, "running_summary")
+        else "No web summary available."
     )
+
+    # Access vector_summary, with a fallback
+    vector_summary = (
+        state.vector_summary
+        if hasattr(state, "vector_summary")
+        else "No legal summary available."
+    )
+
+    full_text = f"Web Summary:\n{web_summary}\n\nLegal Summary:\n{vector_summary}"
+
     return {"combined_summary": full_text}

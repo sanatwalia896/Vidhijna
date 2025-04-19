@@ -80,10 +80,15 @@ def retrieve_from_vector_stores(state: SummaryState, config: RunnableConfig):
     state.cases_research_results.extend(cases_docs)
     state.complete_research_results.extend(combined_results)
 
+    # Return formatted strings for display and the actual Document objects for processing
     return {
-        "laws_research_results": [format_sources(laws_docs)],
-        "cases_research_results": [format_sources(cases_docs)],
-        "complete_research_results": [format_sources(combined_results)],
+        "laws_research_results": laws_docs,  # Return the actual Document objects
+        "cases_research_results": cases_docs,
+        "complete_research_results": combined_results,
+        # For logging/display purposes
+        "formatted_laws": format_sources(laws_docs),
+        "formatted_cases": format_sources(cases_docs),
+        "formatted_combined": format_sources(combined_results),
     }
 
 
