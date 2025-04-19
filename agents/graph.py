@@ -7,16 +7,21 @@ from langchain_core.runnables import RunnableConfig
 from langchain_ollama import ChatOllama
 from langgraph.graph import START, END, StateGraph
 
-from assistant.configuration import Configuration, SearchAPI
-from assistant.utils import (
+from agents.configuration import Configuration, SearchAPI
+from agents.utils import (
     deduplicate_and_format_sources,
     tavily_search,
     format_sources,
     perplexity_search,
     duckduckgo_search,
+    load_faiss_retriever,
+    retrieve_from_laws_and_cases,
+    summarize_vectors,
+    combine_summaries,
+    chunk_and_summarize,
 )
-from assistant.state import SummaryState, SummaryStateInput, SummaryStateOutput
-from assistant.prompts import (
+from agents.state import SummaryState, SummaryStateInput, SummaryStateOutput
+from agents.prompts import (
     query_writer_instructions,
     summarizer_instructions,
     reflection_instructions,
@@ -51,6 +56,37 @@ def generate_query(state: SummaryState, config: RunnableConfig):
     return {"search_query": query["query"]}
 
 
+# Node to Retrieve Content from Vector Stores (laws and cases)
+def retrieve_from_vector_stores(state: SummaryState, config: RunnableConfig):
+    """Retrieve content from both the 'vidhijan_laws' and 'vidhijan_cases' FAISS vector stores."""
+
+    # Configure
+    configurable = Configuration.from_runnable_config(config)
+
+    # Retrieve documents from laws and cases vector stores
+    retrieval_results = retrieve_from_laws_and_cases(
+        query=state.search_query, config=configurable
+    )
+
+    # Extract results
+    laws_docs = retrieval_results["laws"]
+    cases_docs = retrieval_results["cases"]
+
+    # Combine both sets of documents
+    combined_results = laws_docs + cases_docs
+
+    # Update the state with the retrieved documents
+    state.laws_research_results.extend(laws_docs)
+    state.cases_research_results.extend(cases_docs)
+    state.complete_research_results.extend(combined_results)
+
+    return {
+        "laws_research_results": [format_sources(laws_docs)],
+        "cases_research_results": [format_sources(cases_docs)],
+        "complete_research_results": [format_sources(combined_results)],
+    }
+
+
 def web_research(state: SummaryState, config: RunnableConfig):
     """Gather information from the web"""
 
@@ -71,14 +107,14 @@ def web_research(state: SummaryState, config: RunnableConfig):
             state.search_query, include_raw_content=True, max_results=1
         )
         search_str = deduplicate_and_format_sources(
-            search_results, max_tokens_per_source=1000, include_raw_content=True
+            search_results, max_tokens_per_source=2000, include_raw_content=True
         )
     elif search_api == "perplexity":
         search_results = perplexity_search(
             state.search_query, state.research_loop_count
         )
         search_str = deduplicate_and_format_sources(
-            search_results, max_tokens_per_source=1000, include_raw_content=False
+            search_results, max_tokens_per_source=2000, include_raw_content=False
         )
     elif search_api == "duckduckgo":
         search_results = duckduckgo_search(
@@ -87,7 +123,7 @@ def web_research(state: SummaryState, config: RunnableConfig):
             fetch_full_page=configurable.fetch_full_page,
         )
         search_str = deduplicate_and_format_sources(
-            search_results, max_tokens_per_source=1000, include_raw_content=True
+            search_results, max_tokens_per_source=2000, include_raw_content=True
         )
     else:
         raise ValueError(f"Unsupported search API: {configurable.search_api}")
@@ -198,35 +234,62 @@ def finalize_summary(state: SummaryState):
 
 def route_research(
     state: SummaryState, config: RunnableConfig
-) -> Literal["finalize_summary", "web_research"]:
+) -> Literal["finalize_summary", "web_research", "retrieve_from_vector_stores"]:
     """Route the research based on the follow-up query"""
 
     configurable = Configuration.from_runnable_config(config)
     if state.research_loop_count <= int(configurable.max_web_research_loops):
         return "web_research"
+    elif state.research_loop_count <= int(configurable.max_vector_store_research_loops):
+        return "retrieve_from_vector_stores"  # New node for vector store retrieval
     else:
         return "finalize_summary"
 
 
-# Add nodes and edges
+# Define the state graph
 builder = StateGraph(
     SummaryState,
     input=SummaryStateInput,
     output=SummaryStateOutput,
     config_schema=Configuration,
 )
+
+# Nodes
 builder.add_node("generate_query", generate_query)
 builder.add_node("web_research", web_research)
 builder.add_node("summarize_sources", summarize_sources)
 builder.add_node("reflect_on_summary", reflect_on_summary)
+builder.add_node("retrieve_from_vector_stores", retrieve_from_vector_stores)
+builder.add_node(
+    "summarize_vectors", summarize_vectors
+)  # NEW: summarizing legal vector results
+builder.add_node(
+    "combine_summaries", combine_summaries
+)  # NEW: merging legal and web summaries
 builder.add_node("finalize_summary", finalize_summary)
 
-# Add edges
+# Edges
 builder.add_edge(START, "generate_query")
 builder.add_edge("generate_query", "web_research")
+builder.add_edge("generate_query", "retrieve_from_vector_stores")
 builder.add_edge("web_research", "summarize_sources")
-builder.add_edge("summarize_sources", "reflect_on_summary")
+builder.add_edge("retrieve_from_vector_stores", "summarize_vectors")
+builder.add_edge("summarize_sources", "combine_summaries")
+builder.add_edge("summarize_vectors", "combine_summaries")
+builder.add_edge("combine_summaries", "reflect_on_summary")
+# builder.add_edge("web_research", "summarize_sources")
+# builder.add_edge("summarize_sources", "reflect_on_summary")
+
+# # Conditional routing after reflection
 builder.add_conditional_edges("reflect_on_summary", route_research)
+
+# # Route to vector retrieval → summarize vectors → combine → finalize
+# builder.add_edge("retrieve_from_vector_stores", "summarize_vectors")
+# builder.add_edge("summarize_vectors", "combine_summaries")
+builder.add_edge("combine_summaries", "finalize_summary")
+
+# Standard flow from summarization to finalization
 builder.add_edge("finalize_summary", END)
 
+# Compile the graph
 graph = builder.compile()

@@ -4,6 +4,22 @@ from typing import Dict, Any, List, Optional
 from langsmith import traceable
 from tavily import TavilyClient
 from duckduckgo_search import DDGS
+from langchain.vectorstores import FAISS
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_core.documents import Document
+from agents.configuration import Configuration
+from langchain_ollama import OllamaEmbeddings
+from langchain_ollama.llms import OllamaLLM
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
+ollama_llm = OllamaLLM(model="gemma3:1b")
+
+
+def load_faiss_retriever(path: str) -> FAISS:
+    embeddings = OllamaEmbeddings(
+        model="all-minilm:33m"
+    )  # Same model you used for indexing
+    return FAISS.load_local(path, embeddings, allow_dangerous_deserialization=True)
 
 
 def deduplicate_and_format_sources(
@@ -239,3 +255,64 @@ def perplexity_search(query: str, perplexity_search_loop_count: int) -> Dict[str
         )
 
     return {"results": results}
+
+
+def retrieve_from_laws_and_cases(
+    query: str, config: Optional[Configuration] = None
+) -> Dict[str, List[Document]]:
+    """
+    Perform retrieval from both laws and cases FAISS vector stores.
+
+    Args:
+        query (str): The user's query
+        config (Configuration): The Configuration object to get paths from
+
+    Returns:
+        dict: {
+            "laws": [List of Documents from laws vector store],
+            "cases": [List of Documents from cases vector store]
+        }
+    """
+    if config is None:
+        config = Configuration()  # fallback to default config
+
+    laws_retriever = load_faiss_retriever(config.laws_faiss_path)
+    cases_retriever = load_faiss_retriever(config.cases_faiss_path)
+
+    laws_docs = laws_retriever.similarity_search(query, k=3)
+    cases_docs = cases_retriever.similarity_search(query, k=3)
+
+    return {"laws": laws_docs, "cases": cases_docs}
+
+
+def chunk_and_summarize(text, chunk_size=1000, chunk_overlap=100):
+    splitter = RecursiveCharacterTextSplitter(
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap,
+    )
+    chunks = splitter.split_text(text)
+
+    summaries = []
+    for chunk in chunks:
+        summary = ollama_llm.invoke(f"Summarize the following legal content:\n{chunk}")
+        summaries.append(summary.strip())
+
+    combined_summary_text = "\n".join(summaries)
+    final_summary = ollama_llm.invoke(
+        f"Summarize the following collection of summaries into one cohesive overview:\n{combined_summary_text}"
+    )
+    return final_summary.strip()
+
+
+def summarize_vectors(state):
+    combined = ""
+    for doc in state["vector_results"]["laws"] + state["vector_results"]["cases"]:
+        combined += doc.page_content + "\n"
+
+    summary = chunk_and_summarize(combined)
+    return {"vector_summary": summary}
+
+
+def combine_summaries(state):
+    full_text = f"Web Summary:\n{state['web_summary']}\n\nLegal Summary:\n{state['vector_summary']}"
+    return {"combined_summary": full_text}
