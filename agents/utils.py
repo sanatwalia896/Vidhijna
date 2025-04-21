@@ -345,14 +345,14 @@ def retrieve_from_laws_and_cases(
 
     try:
         laws_retriever = load_faiss_retriever(config.laws_faiss_path)
-        laws_docs = laws_retriever.similarity_search(query, k=3)
+        laws_docs = laws_retriever.similarity_search(query, k=1)
     except Exception as e:
         print(f"Error retrieving laws: {str(e)}")
         laws_docs = []
 
     try:
         cases_retriever = load_faiss_retriever(config.cases_faiss_path)
-        cases_docs = cases_retriever.similarity_search(query, k=3)
+        cases_docs = cases_retriever.similarity_search(query, k=1)
     except Exception as e:
         print(f"Error retrieving cases: {str(e)}")
         cases_docs = []

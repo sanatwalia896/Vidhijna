@@ -210,14 +210,6 @@ def reflect_on_legal_research(state: SummaryState, config: RunnableConfig):
         format="json",
     )
 
-    # Get legal entities if available
-    legal_entities = getattr(state, "legal_entities", {})
-    entities_str = (
-        json.dumps(legal_entities, indent=2)
-        if legal_entities
-        else "No entities extracted"
-    )
-
     result = llm_json_mode.invoke(
         [
             SystemMessage(
@@ -228,8 +220,8 @@ def reflect_on_legal_research(state: SummaryState, config: RunnableConfig):
             HumanMessage(
                 content=(
                     f"Identify gaps in our legal research and generate a follow-up query.\n"
-                    f"Current summary: {state.running_summary}\n"
-                    f"Extracted legal entities: {entities_str}"
+                    f"WebResearch summary: {state.websearch_summary}\n"
+                    f"WebResearch summary: {state.vector_summary}\n"
                 )
             ),
         ]
@@ -322,22 +314,16 @@ def finalize_legal_summary(state: SummaryState, config: RunnableConfig):
 
 def route_research(
     state: SummaryState, config: RunnableConfig
-) -> Literal["finalize_legal_summary", "web_research", "retrieve_from_vector_stores"]:
+) -> Literal["finalize_legal_summary", "web_research"]:
     """Route the research based on the current state and configuration"""
 
     configurable = Configuration.from_runnable_config(config)
 
-    # Prioritize vector store research first for up to max_vector_store_research_loops
-    if state.vectorstore_loop_count <= int(
-        configurable.max_vector_store_research_loops
-    ):
-        return "retrieve_from_vector_stores"
-    # Then use web research for remaining loops
-    elif state.websearch_loop_count <= (int(configurable.max_web_research_loops)):
-        return "web_research"
-    # Finalize when all loops are complete
-    else:
+    # Check if we've reached the maximum number of web research loops
+    if state.websearch_loop_count >= int(configurable.max_web_research_loops):
         return "finalize_legal_summary"
+    else:
+        return "web_research"
 
 
 def extract_legal_entities(
@@ -442,8 +428,8 @@ def chunk_and_summarize(
     state: SummaryState,
     config: RunnableConfig,
     text,
-    chunk_size=1000,
-    chunk_overlap=100,
+    chunk_size=8000,
+    chunk_overlap=500,
 ):
     configurable = Configuration.from_runnable_config(config)
     llm = ChatOllama(
@@ -560,7 +546,7 @@ def combine_summaries(state: SummaryState, config: RunnableConfig):
     """
     # Get web summary, with fallbacks
     web_summary = None
-    for attr in ["vector_summary", "web_summary"]:
+    for attr in ["vector_summary", "websearch_summary"]:
         if hasattr(state, attr) and getattr(state, attr):
             web_summary = getattr(state, attr)
             break
@@ -605,26 +591,30 @@ builder.add_node("finalize_legal_summary", finalize_legal_summary)
 # Edges - Legal-focused workflow
 builder.add_edge(START, "generate_query")
 
-# Initial query routes to vector store retrieval
+# Initial query routes to vector store retrieval and web research
 builder.add_edge("generate_query", "retrieve_from_vector_stores")
 builder.add_edge("generate_query", "web_research")
 
 # Vector store search flows
 builder.add_edge("retrieve_from_vector_stores", "summarize_vectors")
-builder.add_edge("web_research", "summarize_legal_sources")
 builder.add_edge("summarize_vectors", "combine_summaries")
 
 # Web research flows
-
-
-# Entity analysis feeds into combined summaries
+builder.add_edge("web_research", "summarize_legal_sources")
 builder.add_edge("summarize_legal_sources", "combine_summaries")
 
 # Combined summaries route to reflection
 builder.add_edge("combine_summaries", "reflect_on_legal_research")
 
 # Conditional routing based on reflection
-builder.add_conditional_edges("reflect_on_legal_research", route_research)
+builder.add_conditional_edges(
+    "reflect_on_legal_research",
+    route_research,
+    {
+        "web_research": "web_research",
+        "finalize_legal_summary": "finalize_legal_summary",
+    },
+)
 
 # Final node
 builder.add_edge("finalize_legal_summary", END)
