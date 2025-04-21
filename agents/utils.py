@@ -1,4 +1,6 @@
+# utils.py
 import os
+import json
 import requests
 from typing import Dict, Any, List, Optional
 from langsmith import traceable
@@ -13,13 +15,23 @@ from langchain_ollama.llms import OllamaLLM
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from agents.state import SummaryState
 
+# Initialize LLM once at module level
 ollama_llm = OllamaLLM(model="gemma3:1b")
 
 
 def load_faiss_retriever(path: str) -> FAISS:
+    """
+    Load a FAISS vector store from a local path.
+
+    Args:
+        path (str): Path to the FAISS index
+
+    Returns:
+        FAISS: The loaded FAISS vector store
+    """
     embeddings = OllamaEmbeddings(
         model="all-minilm:33m"
-    )  # Same model you used for indexing
+    )  # Same model used for indexing
     return FAISS.load_local(path, embeddings, allow_dangerous_deserialization=True)
 
 
@@ -83,7 +95,7 @@ def deduplicate_and_format_sources(
     # Format output
     formatted_text = "Sources:\n\n"
     for i, source in enumerate(unique_sources.values(), 1):
-        formatted_text += f"Source {source['title']}:\n===\n"
+        formatted_text += f"Source {i}. {source['title']}:\n===\n"
         formatted_text += f"URL: {source['url']}\n===\n"
         formatted_text += (
             f"Most relevant content from source: {source['content']}\n===\n"
@@ -114,13 +126,22 @@ def format_sources(search_results):
 
     if isinstance(search_results, dict) and "results" in search_results:
         for source in search_results["results"]:
-            formatted_lines.append(f"* {source['title']} : {source['url']}")
+            formatted_lines.append(
+                f"* {source.get('title', 'Untitled')} : {source.get('url', 'No URL')}"
+            )
     elif isinstance(search_results, list):
         for doc in search_results:
-            metadata = getattr(doc, "metadata", {})
-            title = metadata.get("title", "Untitled")
-            url = metadata.get("url", "No URL")
-            formatted_lines.append(f"* {title} : {url}")
+            if hasattr(doc, "metadata"):
+                metadata = doc.metadata
+                title = metadata.get("title", "Untitled")
+                url = metadata.get("url", "No URL")
+                formatted_lines.append(f"* {title} : {url}")
+            elif isinstance(doc, dict):
+                title = doc.get("title", "Untitled")
+                url = doc.get("url", "No URL")
+                formatted_lines.append(f"* {title} : {url}")
+            else:
+                formatted_lines.append(f"* Unknown format document")
     else:
         raise ValueError("Expected dict with 'results' or list of Documents.")
 
@@ -136,6 +157,7 @@ def duckduckgo_search(
     Args:
         query (str): The search query to execute
         max_results (int): Maximum number of results to return
+        fetch_full_page (bool): Whether to fetch full page content
 
     Returns:
         dict: Search response containing:
@@ -143,7 +165,7 @@ def duckduckgo_search(
                 - title (str): Title of the search result
                 - url (str): URL of the search result
                 - content (str): Snippet/summary of the content
-                - raw_content (str): Same as content since DDG doesn't provide full page content
+                - raw_content (str): Full page content if fetch_full_page is True
     """
     try:
         with DDGS() as ddgs:
@@ -162,14 +184,21 @@ def duckduckgo_search(
                 raw_content = content
                 if fetch_full_page:
                     try:
-                        # Try to fetch the full page content using curl
+                        # Try to fetch the full page content
                         import urllib.request
                         from bs4 import BeautifulSoup
 
-                        response = urllib.request.urlopen(url)
+                        headers = {
+                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+                        }
+                        req = urllib.request.Request(url, headers=headers)
+                        response = urllib.request.urlopen(req, timeout=10)
                         html = response.read()
                         soup = BeautifulSoup(html, "html.parser")
-                        raw_content = soup.get_text()
+                        # Remove scripts and styles to get cleaner text
+                        for script in soup(["script", "style"]):
+                            script.extract()
+                        raw_content = soup.get_text(separator="\n", strip=True)
 
                     except Exception as e:
                         print(
@@ -198,24 +227,25 @@ def tavily_search(query, include_raw_content=True, max_results=3):
 
     Args:
         query (str): The search query to execute
-        include_raw_content (bool): Whether to include the raw_content from Tavily in the formatted string
+        include_raw_content (bool): Whether to include the raw_content from Tavily
         max_results (int): Maximum number of results to return
 
     Returns:
         dict: Search response containing:
-            - results (list): List of search result dictionaries, each containing:
-                - title (str): Title of the search result
-                - url (str): URL of the search result
-                - content (str): Snippet/summary of the content
-                - raw_content (str): Full content of the page if available"""
-
+            - results (list): List of search result dictionaries
+    """
     api_key = os.getenv("TAVILY_API_KEY")
     if not api_key:
         raise ValueError("TAVILY_API_KEY environment variable is not set")
-    tavily_client = TavilyClient(api_key=api_key)
-    return tavily_client.search(
-        query, max_results=max_results, include_raw_content=include_raw_content
-    )
+
+    try:
+        tavily_client = TavilyClient(api_key=api_key)
+        return tavily_client.search(
+            query, max_results=max_results, include_raw_content=include_raw_content
+        )
+    except Exception as e:
+        print(f"Error in Tavily search: {str(e)}")
+        return {"results": []}
 
 
 @traceable
@@ -228,17 +258,16 @@ def perplexity_search(query: str, perplexity_search_loop_count: int) -> Dict[str
 
     Returns:
         dict: Search response containing:
-            - results (list): List of search result dictionaries, each containing:
-                - title (str): Title of the search result
-                - url (str): URL of the search result
-                - content (str): Snippet/summary of the content
-                - raw_content (str): Full content of the page if available
+            - results (list): List of search result dictionaries
     """
+    api_key = os.getenv("PERPLEXITY_API_KEY")
+    if not api_key:
+        raise ValueError("PERPLEXITY_API_KEY environment variable is not set")
 
     headers = {
         "accept": "application/json",
         "content-type": "application/json",
-        "Authorization": f"Bearer {os.getenv('PERPLEXITY_API_KEY')}",
+        "Authorization": f"Bearer {api_key}",
     }
 
     payload = {
@@ -252,40 +281,47 @@ def perplexity_search(query: str, perplexity_search_loop_count: int) -> Dict[str
         ],
     }
 
-    response = requests.post(
-        "https://api.perplexity.ai/chat/completions", headers=headers, json=payload
-    )
-    response.raise_for_status()  # Raise exception for bad status codes
-
-    # Parse the response
-    data = response.json()
-    content = data["choices"][0]["message"]["content"]
-
-    # Perplexity returns a list of citations for a single search result
-    citations = data.get("citations", ["https://perplexity.ai"])
-
-    # Return first citation with full content, others just as references
-    results = [
-        {
-            "title": f"Perplexity Search {perplexity_search_loop_count + 1}, Source 1",
-            "url": citations[0],
-            "content": content,
-            "raw_content": content,
-        }
-    ]
-
-    # Add additional citations without duplicating content
-    for i, citation in enumerate(citations[1:], start=2):
-        results.append(
-            {
-                "title": f"Perplexity Search {perplexity_search_loop_count + 1}, Source {i}",
-                "url": citation,
-                "content": "See above for full content",
-                "raw_content": None,
-            }
+    try:
+        response = requests.post(
+            "https://api.perplexity.ai/chat/completions",
+            headers=headers,
+            json=payload,
+            timeout=30,
         )
+        response.raise_for_status()  # Raise exception for bad status codes
 
-    return {"results": results}
+        # Parse the response
+        data = response.json()
+        content = data["choices"][0]["message"]["content"]
+
+        # Perplexity returns a list of citations for a single search result
+        citations = data.get("citations", ["https://perplexity.ai"])
+
+        # Return first citation with full content, others just as references
+        results = [
+            {
+                "title": f"Perplexity Search {perplexity_search_loop_count + 1}, Source 1",
+                "url": citations[0] if citations else "https://perplexity.ai",
+                "content": content,
+                "raw_content": content,
+            }
+        ]
+
+        # Add additional citations without duplicating content
+        for i, citation in enumerate(citations[1:], start=2):
+            results.append(
+                {
+                    "title": f"Perplexity Search {perplexity_search_loop_count + 1}, Source {i}",
+                    "url": citation,
+                    "content": "See above for full content",
+                    "raw_content": None,
+                }
+            )
+
+        return {"results": results}
+    except Exception as e:
+        print(f"Error in Perplexity search: {str(e)}")
+        return {"results": []}
 
 
 def retrieve_from_laws_and_cases(
@@ -307,82 +343,60 @@ def retrieve_from_laws_and_cases(
     if config is None:
         config = Configuration()  # fallback to default config
 
-    laws_retriever = load_faiss_retriever(config.laws_faiss_path)
-    cases_retriever = load_faiss_retriever(config.cases_faiss_path)
+    try:
+        laws_retriever = load_faiss_retriever(config.laws_faiss_path)
+        laws_docs = laws_retriever.similarity_search(query, k=3)
+    except Exception as e:
+        print(f"Error retrieving laws: {str(e)}")
+        laws_docs = []
 
-    laws_docs = laws_retriever.similarity_search(query, k=3)
-    cases_docs = cases_retriever.similarity_search(query, k=3)
+    try:
+        cases_retriever = load_faiss_retriever(config.cases_faiss_path)
+        cases_docs = cases_retriever.similarity_search(query, k=3)
+    except Exception as e:
+        print(f"Error retrieving cases: {str(e)}")
+        cases_docs = []
 
     return {"laws": laws_docs, "cases": cases_docs}
 
 
-def chunk_and_summarize(text, chunk_size=1000, chunk_overlap=100):
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size,
-        chunk_overlap=chunk_overlap,
-    )
-    chunks = splitter.split_text(text)
+def generate_legal_analysis(summary, entities, query):
+    """
+    Generate a structured legal analysis based on the summary and entities.
 
-    summaries = []
-    for chunk in chunks:
-        summary = ollama_llm.invoke(f"Summarize the following legal content:\n{chunk}")
-        summaries.append(summary.strip())
+    Args:
+        summary (str): The current research summary
+        entities (dict): Dictionary of extracted legal entities
+        query (str): The original research query
 
-    combined_summary_text = "\n".join(summaries)
-    final_summary = ollama_llm.invoke(
-        f"Summarize the following collection of summaries into one cohesive overview:\n{combined_summary_text}"
-    )
-    return final_summary.strip()
+    Returns:
+        str: Structured legal analysis
+    """
+    if not summary:
+        return "Insufficient information to generate legal analysis."
 
+    prompt = f"""
+    Generate a comprehensive legal analysis based on the following information:
+    
+    Query: {query}
+    
+    Summary: {summary[:5000]}  # Limit summary to avoid token issues
+    
+    Extracted Legal Entities:
+    {json.dumps(entities, indent=2)}
+    
+    Your analysis should include:
+    1. Legal Issue Identification
+    2. Applicable Law/Precedent Analysis
+    3. Application to Facts
+    4. Conclusion and Recommendations
+    
+    Format your response in a structured, professional legal memo style.
+    """
 
-def summarize_vectors(state: SummaryState):
-    combined = ""
-
-    # Handle both possible types of data in the research results
-    for doc in state.laws_research_results + state.cases_research_results:
-        if hasattr(doc, "page_content"):
-            # If it's a Document object
-            combined += doc.page_content + "\n"
-        else:
-            # If it's a string (formatted source)
-            combined += str(doc) + "\n"
-
-    # If combined is still empty, check if we have any results at all
-    if not combined.strip() and (
-        state.laws_research_results or state.cases_research_results
-    ):
-        # Just concatenate whatever we have as strings
-        combined = "\n".join(
-            [
-                str(doc)
-                for doc in state.laws_research_results + state.cases_research_results
-            ]
-        )
-
-    # If we have content to summarize
-    if combined.strip():
-        summary = chunk_and_summarize(combined)
-    else:
-        summary = "No relevant legal documents found in vector stores."
-
-    return {"vector_summary": summary}
-
-
-def combine_summaries(state: SummaryState):
-    # Access the running_summary instead of web_summary if that's what's available
-    web_summary = (
-        state.running_summary
-        if hasattr(state, "running_summary")
-        else "No web summary available."
-    )
-
-    # Access vector_summary, with a fallback
-    vector_summary = (
-        state.vector_summary
-        if hasattr(state, "vector_summary")
-        else "No legal summary available."
-    )
-
-    full_text = f"Web Summary:\n{web_summary}\n\nLegal Summary:\n{vector_summary}"
-
-    return {"combined_summary": full_text}
+    try:
+        result = ollama_llm.invoke(prompt)
+        return result
+    except Exception as e:
+        print(f"Error generating legal analysis: {str(e)}")
+        return "Unable to generate legal analysis due to an error."

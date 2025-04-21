@@ -1,7 +1,7 @@
 🏢 Corporate Governance & Fiduciary Duties
 A company's board approved a merger despite clear conflicts of interest involving key directors. What remedies are available under Indian corporate governance principles?
 
-Post-merger, it was discovered that one director had prior financial interests in the target company. Can this amount to a breach of fiduciary duty under the Companies Act, 2013?
+`Post-merger, it was discovered that one director had prior financial interests in the target company. Can this amount to a breach of fiduciary duty under the Companies Act, 2013?`
 
 ⚖️ Shareholder Rights & Minority Protection
 A merger diluted minority shareholders' rights disproportionately, without a proper valuation. Can they challenge the scheme under Section 230(4) of the Companies Act?

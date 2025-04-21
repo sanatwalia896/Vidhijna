@@ -1,3 +1,4 @@
+# state.py
 import operator
 from dataclasses import dataclass, field
 from typing_extensions import TypedDict, Annotated
@@ -14,8 +15,12 @@ class SummaryState:
         default_factory=list
     )
     sources_gathered: Annotated[list, operator.add] = field(default_factory=list)
-    research_loop_count: int = field(default=0)  # Research loop count
+    websearch_loop_count: int = field(default=0)  # Research loop count
+    vectorstore_loop_count: int = field(default=0)  # Research loop count
+
     running_summary: str = field(default=None)  # Final report
+    vector_summary: str = field(default=None)  # Final report
+    websearch_summary: str = field(default=None)  # Final report
 
 
 @dataclass(kw_only=True)
@@ -29,3 +34,5 @@ class SummaryStateInput:
 @dataclass(kw_only=True)
 class SummaryStateOutput:
     running_summary: str = field(default="")  # Final report
+    vector_summary: str = field(default="")
+    websearch_summary: str = field(default="")
