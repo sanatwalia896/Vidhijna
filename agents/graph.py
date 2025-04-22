@@ -21,11 +21,8 @@ from agents.utils import (
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from agents.state import SummaryState, SummaryStateInput, SummaryStateOutput
 from agents.prompts import (
-    query_writer_instructions,
     legal_query_rewriter_instructions,
-    summarizer_instructions,
     legal_summarizer_instructions,
-    reflection_instructions,
     legal_reflection_instructions,
 )
 
@@ -136,8 +133,8 @@ def web_research(state: SummaryState, config: RunnableConfig):
 
     return {
         "sources_gathered": [format_sources(search_results)],
-        "web_research_loops": state.websearch_loop_count + 1,
         "web_research_results": [search_str],
+        "websearch_loop_count": state.websearch_loop_count + 1,
     }
 
 
@@ -221,7 +218,7 @@ def reflect_on_legal_research(state: SummaryState, config: RunnableConfig):
                 content=(
                     f"Identify gaps in our legal research and generate a follow-up query.\n"
                     f"WebResearch summary: {state.websearch_summary}\n"
-                    f"WebResearch summary: {state.vector_summary}\n"
+                    f"Vector Summary: {state.vector_summary}\n"
                 )
             ),
         ]
@@ -607,14 +604,7 @@ builder.add_edge("summarize_legal_sources", "combine_summaries")
 builder.add_edge("combine_summaries", "reflect_on_legal_research")
 
 # Conditional routing based on reflection
-builder.add_conditional_edges(
-    "reflect_on_legal_research",
-    route_research,
-    {
-        "web_research": "web_research",
-        "finalize_legal_summary": "finalize_legal_summary",
-    },
-)
+builder.add_conditional_edges("reflect_on_legal_research", route_research)
 
 # Final node
 builder.add_edge("finalize_legal_summary", END)

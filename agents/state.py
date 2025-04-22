@@ -19,8 +19,8 @@ class SummaryState:
     vectorstore_loop_count: int = field(default=0)  # Research loop count
 
     running_summary: str = field(default=None)  # Final report
-    vector_summary: str = field(default=None)  # Final report
-    websearch_summary: str = field(default=None)  # Final report
+    vector_summary: str = field(default=None)  # Vector Store  report
+    websearch_summary: str = field(default=None)  # web research report
 
 
 @dataclass(kw_only=True)
