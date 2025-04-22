@@ -34,5 +34,5 @@ class SummaryStateInput:
 @dataclass(kw_only=True)
 class SummaryStateOutput:
     running_summary: str = field(default="")  # Final report
-    vector_summary: str = field(default="")
-    websearch_summary: str = field(default="")
+    vector_summary: str = field(default="")  # Retrieved docs summary
+    websearch_summary: str = field(default="")  # Webresearch summary

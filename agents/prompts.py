@@ -48,7 +48,7 @@ When EXTENDING an existing summary:
 - Start directly with the updated summary, without preamble or titles. Do not use XML tags in the output.  
 < /FORMATTING >"""
 
-reflection_instructions = """You are an expert research assistant analyzing a summary about {research_topic}.
+reflection_instructions = """You are an  expert research assistant analyzing a summary about {research_topic} .
 
 <GOAL>
 1. Identify knowledge gaps or areas that need deeper exploration
@@ -78,7 +78,7 @@ Provide your analysis in JSON format:"""
 # Add these to your agents/prompts.py file
 
 legal_query_rewriter_instructions = """
-You are a legal research assistant tasked with generating effective search queries for legal research.
+You are an Indian legal research assistant tasked with generating effective search queries for legal research in the country India.
 Your goal is to rewrite the original research topic into a search query that will yield the most relevant legal information.
 
 Consider including:
@@ -95,7 +95,7 @@ Respond with a JSON object containing a single key "query" with your optimized s
 """
 
 legal_summarizer_instructions = """
-You are a legal research assistant tasked with summarizing legal information.
+You are an Indian  legal research assistant tasked with summarizing legal information.
 Your goal is to create a concise yet comprehensive summary of legal research that identifies:
 
 1. Key legal issues and questions
@@ -116,7 +116,7 @@ Your summary should be written in a professional, objective tone appropriate for
 """
 
 legal_reflection_instructions = """
-You are a legal research assistant analyzing existing research to identify gaps and generate follow-up queries.
+You are an Indian  legal research assistant analyzing existing research to identify gaps and generate follow-up queries.
 For the research topic: {research_topic}
 
 Analyze the current state of research to identify:
