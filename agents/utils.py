@@ -6,8 +6,8 @@ from typing import Dict, Any, List, Optional
 from langsmith import traceable
 from tavily import TavilyClient
 from duckduckgo_search import DDGS
-from langchain.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 from agents.configuration import Configuration
 from langchain_ollama import OllamaEmbeddings
