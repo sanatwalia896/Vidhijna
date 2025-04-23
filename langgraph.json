@@ -1,9 +1,17 @@
 {
-  "dockerfile_lines": [],
+  "python_version": "3.11",
+  "dependencies": [
+    "langchain_ollama",
+    "langchain_core",
+    "langgraph",
+    "typing_extensions",
+    "faiss-cpu",
+    "."
+  ],
   "graphs": {
     "Vidhijan": "./agents/graph.py:graph"
   },
-  "python_version": "3.11",
-  "env": "./.env",
-  "dependencies": ["."]
+  "env": {
+    "OLLAMA_BASE_URL": "http://localhost:11434"
+  }
 }
