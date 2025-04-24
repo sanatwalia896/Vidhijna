@@ -1,113 +1,247 @@
 import streamlit as st
+import json
 import os
 import logging
-from typing import List
-import time
+import traceback
+from agents.graph import graph, Configuration
+from agents.state import SummaryState, SummaryStateInput, SummaryStateOutput
+from dotenv import load_dotenv
+from dataclasses import fields
+from langchain_core.runnables import RunnableConfig
 
-# Import the LangGraphChatbot from the main module
-from old_codes.vidhijan_agent import LangGraphChatbot, Config
-
-# Setup logging
+# Set up logging
 logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.FileHandler("vidhijan.log"), logging.StreamHandler()],
 )
+logger = logging.getLogger(__name__)
 
-# Page configuration
+# Load environment variables
+load_dotenv()
+
+# Streamlit app configuration
 st.set_page_config(
-    page_title="Vidhijan",
-    page_icon="⚖️",
+    page_title="Vidhijan - Legal Research Assistant",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
 
-def initialize_session_state():
-    """Initialize session state variables if they don't exist"""
-    if "chatbot" not in st.session_state:
-        with st.spinner("Initializing chatbot..."):
-            st.session_state.chatbot = LangGraphChatbot()
+# Title and description
+st.title("Vidhijan")
+st.markdown(
+    """
+**Your AI-powered legal research assistant for India.**  
+Enter a legal topic to generate a comprehensive analysis based on laws, cases, and web research. Configure settings in the sidebar for optimal results.
+"""
+)
 
-    if "chat_history" not in st.session_state:
-        st.session_state.chat_history = []
+# Sidebar for configuration
+with st.sidebar:
+    st.header("Research Settings")
 
+    ollama_base_url = st.text_input(
+        "Ollama Base URL",
+        value=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
+        help="URL of the Ollama server (ensure it's running).",
+    )
 
-def main():
-    """Main function to run the Streamlit app"""
-    # Initialize session state
-    initialize_session_state()
+    local_llm = st.selectbox(
+        "Local LLM Model",
+        ["llama3.1", "mistral", "gemma3:1b"],
+        index=2,
+        help="Select the LLM model for processing.",
+    )
 
-    # Sidebar
-    with st.sidebar:
-        st.title("⚖️ Vidhijan Settings")
-        st.markdown("---")
+    search_api = st.selectbox(
+        "Search API",
+        ["tavily", "perplexity", "duckduckgo"],
+        index=2,
+        help="Choose the web search provider. Ensure API keys are set for Tavily or Perplexity.",
+    )
 
-        st.subheader("Model Settings")
-        groq_model = st.selectbox(
-            "Groq Model",
-            [
-                "llama-3.1-8b-instant",
-                "mixtral-8x7b-32768",
-                "llama-3.1-70b",
-                "llama-3.3-70b-versatile",
-                "llama-3.2-90b-vision-preview",
-            ],
-            index=0,
+    max_web_research_loops = st.slider(
+        "Max Web Research Loops", 1, 5, 3, help="Number of web research iterations."
+    )
+
+    fetch_full_page = st.checkbox(
+        "Fetch Full Page for DuckDuckGo",
+        value=False,
+        help="Fetch full page content for DuckDuckGo results (may increase processing time).",
+    )
+
+    # Validate API keys for Tavily and Perplexity
+    if search_api == "tavily" and not os.getenv("TAVILY_API_KEY"):
+        st.warning("TAVILY_API_KEY is not set. Please add it to your .env file.")
+    if search_api == "perplexity" and not os.getenv("PERPLEXITY_API_KEY"):
+        st.warning("PERPLEXITY_API_KEY is not set. Please add it to your .env file.")
+
+    # Validate FAISS paths
+    laws_faiss_path = os.getenv("LAWS_FAISS_PATH", "commercial_laws_index")
+    cases_faiss_path = os.getenv("CASES_FAISS_PATH", "cases_index")
+    if not os.path.exists(laws_faiss_path):
+        st.warning(
+            f"LAWS_FAISS_PATH ({laws_faiss_path}) does not exist. Vector store search may fail."
+        )
+    if not os.path.exists(cases_faiss_path):
+        st.warning(
+            f"CASES_FAISS_PATH ({cases_faiss_path}) does not exist. Vector store search may fail."
         )
 
-        ollama_model = st.selectbox("Embeddings Model", ["all-minilm:33m"])
+# Create configuration object
+try:
+    config = Configuration(
+        ollama_base_url=ollama_base_url,
+        local_llm=local_llm,
+        search_api=search_api,
+        max_web_research_loops=max_web_research_loops,
+        fetch_full_page=fetch_full_page,
+        laws_faiss_path=laws_faiss_path,
+        cases_faiss_path=cases_faiss_path,
+    )
+except Exception as e:
+    st.error(f"Error initializing configuration: {str(e)}")
+    logger.error(f"Configuration error: {str(e)}")
+    st.stop()
 
-        if st.button("Apply Settings"):
-            Config.GROQ_MODEL = groq_model
-            Config.OLLAMA_MODEL = ollama_model
-            st.session_state.chatbot = LangGraphChatbot()
-            st.success("Settings applied!")
+# Input form
+with st.form("research_form"):
+    research_topic = st.text_input(
+        "Enter Legal Research Topic",
+        placeholder="e.g., Copyright infringement in digital media in India",
+        help="Specify a legal topic relevant to India.",
+    )
+    submitted = st.form_submit_button("Run Research")
 
-        st.markdown("---")
+# Placeholder for results
+results_container = st.empty()
+progress_bar = st.progress(0)
+status_text = st.empty()
+
+
+# Progress simulation
+def update_progress(step, total_steps):
+    progress = min(step / total_steps, 1.0)
+    progress_bar.progress(progress)
+    status_text.text(f"Processing step {step}/{total_steps}...")
+
+
+# Validate state schema
+expected_state_fields = {f.name for f in fields(SummaryState)}
+required_state_fields = {
+    "research_topic",
+    "search_query",
+    "laws_research_results",
+    "cases_research_results",
+    "complete_research_results",
+    "web_research_results",
+    "sources_gathered",
+    "websearch_loop_count",
+    "vectorstore_loop_count",
+    "running_summary",
+    "vector_summary",
+    "websearch_summary",
+}
+if not required_state_fields.issubset(expected_state_fields):
+    missing_fields = required_state_fields - expected_state_fields
+    st.error(f"State schema mismatch: Missing fields in SummaryState: {missing_fields}")
+    logger.error(f"State schema mismatch: Missing fields: {missing_fields}")
+    st.stop()
+
+if submitted and research_topic:
+    try:
+        # Initialize state
+        initial_state = SummaryState(
+            research_topic=research_topic,
+            search_query="",
+            laws_research_results=[],
+            cases_research_results=[],
+            complete_research_results=[],
+            web_research_results=[],
+            sources_gathered=[],
+            running_summary="",
+            websearch_summary="",
+            vector_summary="",
+            websearch_loop_count=0,
+            vectorstore_loop_count=0,
+        )
+
+        # Convert Configuration to RunnableConfig
+        runnable_config = {"configurable": config.to_dict()}
+
+        # Run the graph with progress simulation
+        with st.spinner("Running legal research..."):
+            total_steps = 8  # Number of nodes in graph
+            for step, node in enumerate(
+                [
+                    "generate_query",
+                    "retrieve_from_vector_stores",
+                    "web_research",
+                    "summarize_vectors",
+                    "summarize_legal_sources",
+                    "combine_summaries",
+                    "reflect_on_legal_research",
+                    "finalize_legal_summary",
+                ],
+                1,
+            ):
+                update_progress(step, total_steps)
+                logger.info(f"Simulating progress for node: {node}")
+
+            logger.info(f"Starting graph execution for topic: {research_topic}")
+            result = graph.invoke(
+                input=SummaryStateInput(research_topic=research_topic),
+                config=runnable_config,
+            )
+            logger.info("Graph execution completed")
+
+        # Clear progress indicators
+        progress_bar.progress(1.0)
+        status_text.text("Research complete!")
+
+        # Display results
+        with results_container.container():
+            st.header("Research Results")
+
+            # Final Legal Analysis
+            st.subheader("Final Legal Analysis")
+            if result.get("running_summary"):
+                st.markdown(result["running_summary"])
+            else:
+                st.info("No final summary generated.")
+
+            # Expandable section for web research summary
+            if result.get("websearch_summary"):
+                with st.expander("Web Research Summary", expanded=False):
+                    st.markdown(result["websearch_summary"])
+
+            # Expandable section for vector store summary
+            if result.get("vector_summary"):
+                with st.expander("Legal Document Summary", expanded=False):
+                    st.markdown(result["vector_summary"])
+
+            # Expandable section for sources
+            if result.get("sources_gathered"):
+                with st.expander("Sources Gathered", expanded=False):
+                    st.markdown("\n".join(result["sources_gathered"]))
+
+    except Exception as e:
+        st.error(f"An error occurred during research: {str(e)}")
         st.markdown(
-            "This assistant provides general legal information. It should not be considered as legal advice."
+            """
+        **Possible causes:**
+        - Ollama server not running at the specified URL.
+        - Missing or invalid API keys for Tavily or Perplexity.
+        - FAISS vector stores not found at specified paths.
+        - Network issues or rate limits.
+        - Incompatible configuration or node function.
+        Please check your configuration, logs (vidhijan.log), and try again.
+        """
         )
+        status_text.text("Research failed.")
+        logger.error(f"Research error: {str(e)}\n{traceback.format_exc()}")
 
-        if st.button("Clear Chat History"):
-            st.session_state.chat_history = []
-            st.rerun()
-
-    # Main content
-    st.title("Vidhijan ")
-    st.markdown("Ask questions about commercial laws and regulations.")
-
-    # Display chat history using Streamlit's native chat elements
-    for message in st.session_state.chat_history:
-        if message["role"] == "user":
-            with st.chat_message("user"):
-                st.write(message["content"])
-        else:
-            with st.chat_message("assistant", avatar="⚖️"):
-                st.write(message["content"])
-
-    # Input area
-    user_input = st.chat_input("Ask about commercial laws...")
-
-    if user_input:
-        # Add user message to chat history
-        st.session_state.chat_history.append({"role": "user", "content": user_input})
-
-        # Display the user message (since we're not using st.experimental_rerun())
-        with st.chat_message("user"):
-            st.write(user_input)
-
-        # Display thinking indicator
-        with st.chat_message("assistant", avatar="⚖️"):
-            with st.status("Processing your question..."):
-                # Process the query
-                response = st.session_state.chatbot.process_query(user_input)
-
-        # Add assistant response to chat history
-        st.session_state.chat_history.append({"role": "assistant", "content": response})
-
-        # Display the assistant's response
-        with st.chat_message("assistant", avatar="⚖️"):
-            st.write(response)
-
-
-if __name__ == "__main__":
-    main()
+# Footer
+st.markdown("---")
+st.markdown("**Vidhijan** | Built for legal research in India")

@@ -10,8 +10,5 @@
   ],
   "graphs": {
     "Vidhijan": "./agents/graph.py:graph"
-  },
-  "env": {
-    "OLLAMA_BASE_URL": "http://localhost:11434"
   }
 }

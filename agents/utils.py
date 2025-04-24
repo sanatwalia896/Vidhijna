@@ -15,9 +15,6 @@ from langchain_ollama.llms import OllamaLLM
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from agents.state import SummaryState
 
-# Initialize LLM once at module level
-ollama_llm = OllamaLLM(model="gemma3:1b")
-
 
 def load_faiss_retriever(path: str) -> FAISS:
     """
@@ -358,45 +355,3 @@ def retrieve_from_laws_and_cases(
         cases_docs = []
 
     return {"laws": laws_docs, "cases": cases_docs}
-
-
-def generate_legal_analysis(summary, entities, query):
-    """
-    Generate a structured legal analysis based on the summary and entities.
-
-    Args:
-        summary (str): The current research summary
-        entities (dict): Dictionary of extracted legal entities
-        query (str): The original research query
-
-    Returns:
-        str: Structured legal analysis
-    """
-    if not summary:
-        return "Insufficient information to generate legal analysis."
-
-    prompt = f"""
-    Generate a comprehensive legal analysis based on the following information:
-    
-    Query: {query}
-    
-    Summary: {summary[:5000]}  # Limit summary to avoid token issues
-    
-    Extracted Legal Entities:
-    {json.dumps(entities, indent=2)}
-    
-    Your analysis should include:
-    1. Legal Issue Identification
-    2. Applicable Law/Precedent Analysis
-    3. Application to Facts
-    4. Conclusion and Recommendations
-    
-    Format your response in a structured, professional legal memo style.
-    """
-
-    try:
-        result = ollama_llm.invoke(prompt)
-        return result
-    except Exception as e:
-        print(f"Error generating legal analysis: {str(e)}")
-        return "Unable to generate legal analysis due to an error."

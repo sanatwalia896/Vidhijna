@@ -1,9 +1,0 @@
-{
-  "dockerfile_lines": [],
-  "graphs": {
-    "Vidhijan": "./agents/graph.py:graph"
-  },
-  "python_version": "3.11",
-  "env": "./.env",
-  "dependencies": ["."]
-}

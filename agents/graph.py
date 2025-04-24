@@ -16,7 +16,6 @@ from agents.utils import (
     duckduckgo_search,
     load_faiss_retriever,
     retrieve_from_laws_and_cases,
-    generate_legal_analysis,
 )
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from agents.state import SummaryState, SummaryStateInput, SummaryStateOutput
