@@ -5,7 +5,7 @@ from typing import List
 import time
 
 # Import the LangGraphChatbot from the main module
-from vidhijan_agent import LangGraphChatbot, Config
+from old_codes.vidhijan_agent import LangGraphChatbot, Config
 
 # Setup logging
 logging.basicConfig(

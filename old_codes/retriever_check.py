@@ -1,5 +1,7 @@
 from langchain_community.vectorstores import FAISS
 from langchain_ollama import OllamaEmbeddings
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_groq import ChatGroq
 
 # Load the saved vector store
 embeddings = OllamaEmbeddings(model="all-minilm:33m")
