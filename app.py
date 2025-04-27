@@ -32,8 +32,8 @@ st.set_page_config(
 st.title("Vidhijan")
 st.markdown(
     """
-**Your AI-powered legal research assistant for India.**  
-Enter a legal topic to generate a comprehensive analysis based on laws, cases, and web research. Configure settings in the sidebar for optimal results.
+**Your AI-powered commercial courts  legal research assistant for India.**  
+Enter a comeercial courts related legal topic to generate a comprehensive analysis based on laws, cases, and web research. Configure settings in the sidebar for optimal results.
 """
 )
 
@@ -49,16 +49,15 @@ with st.sidebar:
 
     local_llm = st.selectbox(
         "Local LLM Model",
-        ["llama3.1", "mistral", "gemma3:1b"],
+        ["llama3.1:1b", "llama3.2:1b-text-q5_K_S", "gemma3:1b"],
         index=2,
         help="Select the LLM model for processing.",
     )
 
     search_api = st.selectbox(
         "Search API",
-        ["tavily", "perplexity", "duckduckgo"],
+        ["duckduckgo"],
         index=2,
-        help="Choose the web search provider. Ensure API keys are set for Tavily or Perplexity.",
     )
 
     max_web_research_loops = st.slider(
