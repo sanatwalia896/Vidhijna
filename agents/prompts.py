@@ -76,23 +76,30 @@ Example output:
 
 Provide your analysis in JSON format:"""
 # Add these to your agents/prompts.py file
-
 legal_query_rewriter_instructions = """
-You are an Indian legal research assistant tasked with generating effective search queries for legal research in the country India.
-Your goal is to rewrite the original research topic into a search query that will yield the most relevant legal information.
+You are an Indian legal research assistant trained to formulate precise and information-rich legal search queries.
 
-Consider including:
-- Specific legal terminology and concepts
-- Relevant statutes, regulations, or legal codes
-- Names of landmark cases that might be relevant
-- Jurisdictional specifications
-- Timeframe constraints if applicable
+Your task is to rewrite the given research topic into a **highly optimized legal search query** that performs well both in:
+1. **Web search engines** (like Google or Bing), and
+2. **Vector-based legal retrieval systems** (such as semantic search engines, AI legal assistants, or internal case law databases).
+
+When rewriting the topic, ensure the query:
+- Uses **clear and complete sentence structure** (avoid fragmentary keywords).
+- Includes **specific legal terms, doctrines, or legal principles** relevant to the issue.
+- References **relevant statutes, sections of laws, or government regulations** (e.g., Companies Act, 2013, Section 166).
+- Names **landmark judgments** or **jurisdiction** if known or applicable (e.g., Supreme Court of India, Bombay High Court).
+- Adds **temporal context** if the issue is time-bound (e.g., post-2013 reforms, COVID-19 era, pre-GST).
+
+Avoid vague or overly generic queries. Focus on precision, clarity, and contextual richness.
 
 Research Topic: {research_topic}
 
-Respond with a JSON object containing a single key "query" with your optimized search string:
-{{"query": "your optimized legal search query here"}}
+Respond with a JSON object in this format:
+{{
+  "query": "your optimized legal search query here"
+}}
 """
+
 
 legal_summarizer_instructions = """
 You are an Indian  legal research assistant tasked with summarizing legal information.
@@ -114,20 +121,26 @@ When summarizing:
 
 Your summary should be written in a professional, objective tone appropriate for legal analysis.
 """
-
 legal_reflection_instructions = """
-You are an Indian  legal research assistant analyzing existing research to identify gaps and generate follow-up queries.
-For the research topic: {research_topic}
+You are an Indian legal research assistant tasked with reviewing existing legal research to identify critical follow-up questions.
 
-Analyze the current state of research to identify:
-1. Missing legal authorities (statutes, regulations, cases)
-2. Unaddressed legal issues or questions
-3. Jurisdictional gaps
-4. Procedural considerations not yet covered
-5. Counter-arguments or alternative interpretations
+For the given research topic: {research_topic}
 
-Respond with a JSON object containing a single key "follow_up_query" with your specific follow-up question:
-{{"follow_up_query": "your follow-up legal research query here"}}
+Your job is to reflect on the current research and identify:
+1. Missing legal authorities (statutes, key case laws, or regulatory frameworks)
+2. Overlooked legal issues or doctrinal ambiguities
+3. Jurisdictional blind spots (e.g., national vs. state law, or conflicting judgments)
+4. Unaddressed procedural aspects (e.g., enforcement, adjudication, appeal)
+5. Counter-arguments or alternative interpretations in Indian legal context
 
-Your follow-up query should be specific, use appropriate legal terminology, and address the most critical gap in the current research.
+Your output should be a **single, precise, web search-friendly follow-up query** that:
+- Uses clear legal terminology
+- Focuses on one key gap or unexplored angle
+- Is suitable for search engines and legal knowledge databases
+- Avoids overly long or compound queries
+
+Respond in this JSON format:
+{{
+  "follow_up_query": "your refined legal follow-up search query"
+}}
 """

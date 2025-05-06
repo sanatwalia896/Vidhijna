@@ -1,5 +1,5 @@
 🏢 Corporate Governance & Fiduciary Duties
-A company's board approved a merger despite clear conflicts of interest involving key directors. What remedies are available under Indian corporate governance principles?
+A company's board approved a merger despite clear conflicts of interest involving key directors. What remedies are available under Indian corporate governance principles? 
 
 Post-merger, it was discovered that one director had prior financial interests in the target company. Can this amount to a breach of fiduciary duty under the Companies Act, 2013?
 
@@ -15,7 +15,6 @@ An audit firm engaged for due diligence missed red flags in employee liabilities
 📜 Contractual Breaches & Specific Clauses
 A merger agreement included a clause for non-compete for key executives. After the merger, one of them joined a competitor. Can the acquirer enforce this clause in Indian courts?
 
-The merger deal had milestone-based payments linked to future profits. The seller manipulated accounting practices to trigger early payouts. What remedies exist under fraud and breach of contract law?
 
 👩‍⚖️ Regulatory & SEBI-Related Disputes
 A merger between two listed entities triggered mandatory open offer provisions under SEBI Takeover Code, which were not complied with. What penalties and shareholder remedies apply?
