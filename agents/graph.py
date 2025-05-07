@@ -40,7 +40,7 @@ def generate_query(state: SummaryState, config: RunnableConfig):
     llm_json_mode = ChatOllama(
         base_url=configurable.ollama_base_url,
         model=configurable.local_llm,
-        temperature=0,
+        temperature=0.3,
         format="json",
     )
     result = llm_json_mode.invoke(
@@ -174,7 +174,7 @@ def summarize_legal_web_sources(state: SummaryState, config: RunnableConfig):
     llm = ChatOllama(
         base_url=configurable.ollama_base_url,
         model=configurable.local_llm,
-        temperature=0,
+        temperature=0.3,
     )
     result = llm.invoke(
         [
@@ -202,7 +202,7 @@ def reflect_on_legal_research(state: SummaryState, config: RunnableConfig):
     llm_json_mode = ChatOllama(
         base_url=configurable.ollama_base_url,
         model=configurable.local_llm,
-        temperature=0,
+        temperature=0.3,
         format="json",
     )
 
@@ -273,7 +273,7 @@ def finalize_legal_summary(state: SummaryState, config: RunnableConfig):
     llm = ChatOllama(
         base_url=configurable.ollama_base_url,
         model=configurable.local_llm,
-        temperature=0,
+        temperature=0.1,
     )
 
     # Format all accumulated sources
@@ -431,7 +431,7 @@ def chunk_and_summarize(
     llm = ChatOllama(
         base_url=configurable.ollama_base_url,
         model=configurable.local_llm,
-        temperature=0,
+        temperature=0.1,
     )
     if not text or not str(text).strip():
         return "No content provided to summarize."

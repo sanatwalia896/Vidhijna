@@ -321,15 +321,26 @@ def perplexity_search(query: str, perplexity_search_loop_count: int) -> Dict[str
         return {"results": []}
 
 
+from typing import Dict, List, Optional
+from langchain_core.documents import Document
+from agents.configuration import Configuration
+from agents.utils import load_faiss_retriever
+
+
 def retrieve_from_laws_and_cases(
-    query: str, config: Optional[Configuration] = None
+    query: str,
+    config: Optional[Configuration] = None,
+    similarity_threshold: float = 0.7,  # Add a threshold parameter
+    max_docs: int = 5,  # Optional: Limit the maximum number of documents
 ) -> Dict[str, List[Document]]:
     """
-    Perform retrieval from both laws and cases FAISS vector stores.
+    Perform retrieval from both laws and cases FAISS vector stores, filtering by similarity score.
 
     Args:
         query (str): The user's query
         config (Configuration): The Configuration object to get paths from
+        similarity_threshold (float): Minimum similarity score for documents to be included (0 to 1)
+        max_docs (int): Maximum number of documents to retrieve per retriever
 
     Returns:
         dict: {
@@ -338,18 +349,39 @@ def retrieve_from_laws_and_cases(
         }
     """
     if config is None:
-        config = Configuration()  # fallback to default config
+        config = Configuration()  # Fallback to default config
+
+    laws_docs = []
+    cases_docs = []
 
     try:
+        # Load laws retriever
         laws_retriever = load_faiss_retriever(config.laws_faiss_path)
-        laws_docs = laws_retriever.similarity_search(query, k=1)
+        # Retrieve documents with similarity scores
+        laws_results = laws_retriever.similarity_search_with_score(query, k=max_docs)
+        # Filter documents based on similarity threshold
+        laws_docs = [
+            doc
+            for doc, score in laws_results
+            if score
+            >= similarity_threshold  # Assuming score is normalized between 0 and 1
+        ]
     except Exception as e:
         print(f"Error retrieving laws: {str(e)}")
         laws_docs = []
 
     try:
+        # Load cases retriever
         cases_retriever = load_faiss_retriever(config.cases_faiss_path)
-        cases_docs = cases_retriever.similarity_search(query, k=1)
+        # Retrieve documents with similarity scores
+        cases_results = cases_retriever.similarity_search_with_score(query, k=max_docs)
+        # Filter documents based on similarity threshold
+        cases_docs = [
+            doc
+            for doc, score in cases_results
+            if score
+            >= similarity_threshold  # Assuming score is normalized between 0 and 1
+        ]
     except Exception as e:
         print(f"Error retrieving cases: {str(e)}")
         cases_docs = []

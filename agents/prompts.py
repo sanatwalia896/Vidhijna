@@ -1,146 +1,99 @@
-query_writer_instructions = """Your goal is to generate a targeted web search query.
-The query will gather information related to a specific legal  topic in India .
+legal_query_rewriter_instructions = """Your goal is to generate a concise, information-rich legal search query.
+The query should be suitable for both web search engines (Google, Bing) and Indian legal research databases (Manupatra, Indian Kanoon, SCC Online).
 
 <TOPIC>
 {research_topic}
 </TOPIC>
 
+<GUIDELINES>
+- Use natural language in the form of a complete sentence or query.
+- Include relevant legal terms, statutes, doctrines, or sections (e.g., IPC 498A, Article 21, Dowry Prohibition Act, 1961).
+- Specify jurisdiction or temporal context if needed (e.g., Supreme Court of India, post-2013, recent rulings).
+- Focus on a key legal issue, dispute, or remedy such as breach of trust, compensation, digital evidence, etc.
+- Avoid keyword stuffing, repetition, or listing multiple years.
+- Limit the query to 50 words or 400 characters.
+</GUIDELINES>
+
 <FORMAT>
 Format your response as a JSON object with ALL three of these exact keys:
-   - "query": The actual search query string
-   - "aspect": The specific aspect of the topic being researched
-   - "rationale": Brief explanation of why this query is relevant
+   - "query": The final legal search query string
+   - "aspect": The specific legal angle or focus
+   - "rationale": Brief explanation of why this formulation is effective
 </FORMAT>
 
 <EXAMPLE>
 Example output:
 {{
-    "query": "machine learning transformer architecture explained",
-    "aspect": "technical architecture",
-    "rationale": "Understanding the fundamental structure of transformer models"
+    "query": "Legal remedies under IPC 498A and Dowry Prohibition Act, 1961 for dowry-related abuse in India post-2013, with reference to Supreme Court judgments and digital evidence in recent case law",
+    "aspect": "dowry-related criminal law and enforcement",
+    "rationale": "Combines relevant statutes, time scope, and enforcement mechanisms for accurate legal research"
 }}
 </EXAMPLE>
 
-Provide your response in JSON format:"""
-
-summarizer_instructions = """
-<GOAL>
-Generate a high-quality summary of the web search results and keep it concise / related to the user topic.
-</GOAL>
-
-<REQUIREMENTS>
-When creating a NEW summary:
-1. Highlight the most relevant information related to the user topic from the search results
-2. Ensure a coherent flow of information
-
-When EXTENDING an existing summary:                                                                                                                 
-1. Read the existing summary and new search results carefully.                                                    
-2. Compare the new information with the existing summary.                                                         
-3. For each piece of new information:                                                                             
-    a. If it's related to existing points, integrate it into the relevant paragraph.                               
-    b. If it's entirely new but relevant, add a new paragraph with a smooth transition.                            
-    c. If it's not relevant to the user topic, skip it.                                                            
-4. Ensure all additions are relevant to the user's topic.                                                         
-5. Verify that your final output differs from the input summary.                                                                                                                                                            
-< /REQUIREMENTS >
-
-< FORMATTING >
-- Start directly with the updated summary, without preamble or titles. Do not use XML tags in the output.  
-< /FORMATTING >"""
-
-reflection_instructions = """You are an  expert research assistant analyzing a summary about {research_topic} .
-
-<GOAL>
-1. Identify knowledge gaps or areas that need deeper exploration
-2. Generate a follow-up question that would help expand your understanding
-3. Focus on technical details, implementation specifics, or emerging trends that weren't fully covered
-</GOAL>
-
-<REQUIREMENTS>
-Ensure the follow-up question is self-contained and includes necessary context for web search.
-</REQUIREMENTS>
-
-<FORMAT>
-Format your response as a JSON object with these exact keys:
-- knowledge_gap: Describe what information is missing or needs clarification
-- follow_up_query: Write a specific question to address this gap
-</FORMAT>
-
-<EXAMPLE>
-Example output:
-{{
-    "knowledge_gap": "The summary lacks information about performance metrics and benchmarks",
-    "follow_up_query": "What are typical performance benchmarks and metrics used to evaluate [specific technology]?"
-}}
-</EXAMPLE>
-
-Provide your analysis in JSON format:"""
-# Add these to your agents/prompts.py file
-legal_query_rewriter_instructions = """
-You are an Indian legal research assistant trained to formulate precise and information-rich legal search queries.
-
-Your task is to rewrite the given research topic into a **highly optimized legal search query** that performs well both in:
-1. **Web search engines** (like Google or Bing), and
-2. **Vector-based legal retrieval systems** (such as semantic search engines, AI legal assistants, or internal case law databases).
-
-When rewriting the topic, ensure the query:
-- Uses **clear and complete sentence structure** (avoid fragmentary keywords).
-- Includes **specific legal terms, doctrines, or legal principles** relevant to the issue.
-- References **relevant statutes, sections of laws, or government regulations** (e.g., Companies Act, 2013, Section 166).
-- Names **landmark judgments** or **jurisdiction** if known or applicable (e.g., Supreme Court of India, Bombay High Court).
-- Adds **temporal context** if the issue is time-bound (e.g., post-2013 reforms, COVID-19 era, pre-GST).
-
-Avoid vague or overly generic queries. Focus on precision, clarity, and contextual richness.
-
-Research Topic: {research_topic}
-
-Respond with a JSON object in this format:
-{{
-  "query": "your optimized legal search query here"
-}}
+Provide your response in JSON format:
 """
 
 
 legal_summarizer_instructions = """
-You are an Indian  legal research assistant tasked with summarizing legal information.
-Your goal is to create a concise yet comprehensive summary of legal research that identifies:
+<GOAL>
+Generate a clear, professional legal summary tailored to Indian legal research.
+The summary should identify and organize the key legal dimensions of a topic or set of legal materials.
+</GOAL>
 
-1. Key legal issues and questions
-2. Applicable statutes, regulations, and case law
-3. Legal principles and doctrines that apply
-4. Potential arguments and counterarguments
-5. Jurisdictional considerations
+<REQUIREMENTS>
+When creating a NEW summary:
+1. Identify and summarize the key legal issues and research questions.
+2. Include applicable statutes, sections, and relevant case law (e.g., IPC, CrPC, Constitution of India).
+3. Highlight legal doctrines, principles, and their applicability.
+4. Outline potential arguments and counterarguments.
+5. Mention jurisdictional considerations and procedural aspects.
+6. Distinguish between binding and persuasive legal authorities.
 
-When summarizing:
-- Use precise legal terminology
-- Cite specific statutes and cases when mentioned
-- Distinguish between binding and persuasive authority
-- Note any jurisdictional limitations
-- Identify procedural considerations
-- Organize information logically by issue
+When EXTENDING an existing summary:
+1. Read the existing summary and any new legal material carefully.
+2. Integrate new points as follows:
+   a. If related to an existing issue, merge into the appropriate section.
+   b. If it's a distinct legal angle, add a new logically placed paragraph.
+   c. If irrelevant, exclude it.
+3. Maintain coherence and legal accuracy.
+4. Ensure the final output is not identical to the previous summary.
+</REQUIREMENTS>
 
-Your summary should be written in a professional, objective tone appropriate for legal analysis.
+<FORMATTING>
+- Write in a professional, objective tone suitable for legal analysis.
+- Use clear subheadings or bullet points where appropriate.
+- Do not use XML tags in the output; start directly with the summary.
+</FORMATTING>
 """
-legal_reflection_instructions = """
-You are an Indian legal research assistant tasked with reviewing existing legal research to identify critical follow-up questions.
 
-For the given research topic: {research_topic}
+legal_reflection_instructions = """You are an Indian legal research assistant reviewing a summary on: {research_topic}.
 
-Your job is to reflect on the current research and identify:
-1. Missing legal authorities (statutes, key case laws, or regulatory frameworks)
-2. Overlooked legal issues or doctrinal ambiguities
-3. Jurisdictional blind spots (e.g., national vs. state law, or conflicting judgments)
-4. Unaddressed procedural aspects (e.g., enforcement, adjudication, appeal)
-5. Counter-arguments or alternative interpretations in Indian legal context
+<GOAL>
+1. Identify missing legal authorities, overlooked issues, or unclear doctrinal areas.
+2. Generate a follow-up question to deepen legal analysis.
+3. Focus on statutory gaps, case law ambiguities, procedural blind spots, or jurisdictional issues.
+</GOAL>
 
-Your output should be a **single, precise, web search-friendly follow-up query** that:
-- Uses clear legal terminology
-- Focuses on one key gap or unexplored angle
-- Is suitable for search engines and legal knowledge databases
-- Avoids overly long or compound queries
+<REQUIREMENTS>
+- Ensure the follow-up query is self-contained and understandable without additional context.
+- Use precise legal terminology relevant to Indian law (e.g., IPC, CrPC, constitutional articles, SC rulings).
+- Limit the question to one key angle or unresolved issue.
+- Make it suitable for web searches or legal databases like SCC Online or Indian Kanoon.
+</REQUIREMENTS>
 
-Respond in this JSON format:
+<FORMAT>
+Format your response as a JSON object with these exact keys:
+- knowledge_gap: Describe the missing or unclear legal dimension
+- follow_up_query: Write a clear, targeted legal research question
+</FORMAT>
+
+<EXAMPLE>
+Example output:
 {{
-  "follow_up_query": "your refined legal follow-up search query"
+    "knowledge_gap": "The summary does not address conflicting High Court interpretations on digital privacy under Article 21",
+    "follow_up_query": "What are the key High Court rulings on digital privacy under Article 21 of the Indian Constitution?"
 }}
+</EXAMPLE>
+
+Provide your output in JSON format:
 """
