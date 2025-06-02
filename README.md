@@ -1,123 +1,304 @@
 # Vidhijna
 
-<b>To view previous version: https://github.com/tanmay-vig/ai-driven-research-engine</b>
+Vidhijna is a Python-based application designed to assist users in conducting comprehensive legal research on Indian law, inspired by and adapted from the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher) by LangChain AI. It takes a user-defined legal problem, generates optimized search queries, retrieves relevant information from legal databases and web sources, summarizes findings, and produces a cohesive legal analysis. Additionally, the project includes a model evaluation component to assess the performance of various Grok models on legal queries using OPIK metrics. The system leverages vector stores for legal documents, web search APIs, language models, and Streamlit for visualization of evaluation results.
 
-# Screenshots
-![WhatsApp Image 2025-02-25 at 00 04 02_11edc480](https://github.com/user-attachments/assets/31417c66-9833-44dc-b632-77ec29847cde) <br>
-![WhatsApp Image 2025-02-25 at 00 04 03_db82d3b8](https://github.com/user-attachments/assets/817651a1-0eb2-4d07-b6f7-e03c8c578f7d)
+## Table of Contents
 
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Workflow](#workflow)
+- [Model Evaluation](#model-evaluation)
+- [Screenshots](#screenshots)
+- [Configuration](#configuration)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-## 🚀 Overview
+## Overview
 
-The Legal Assistant Chatbot is an intelligent system designed to provide information about commercial laws and regulations. Built using the LangGraph framework, it combines document retrieval from a vector database with web search capabilities to provide comprehensive responses to legal queries.
+The Legal Research Assistant automates the process of legal research by:
 
+1. Rewriting user queries into precise, legally-focused search terms suitable for Indian legal databases (e.g., Manupatra, Indian Kanoon, SCC Online) and web search engines.
+2. Retrieving relevant documents from pre-indexed FAISS vector stores containing Indian laws and case law.
+3. Performing web searches using APIs like DuckDuckGo, Tavily, or Perplexity to gather additional context, with the web research component adapted from the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher).
+4. Summarizing and combining results from vector stores and web searches into a coherent legal analysis.
+5. Reflecting on the research to identify gaps and generate follow-up queries, iterating until sufficient information is gathered.
+6. Producing a final legal analysis with citations, recommendations, and structured formatting.
 
-## ✨ Features
+Additionally, the project includes a model evaluation module (`models_score_checker.py`) that evaluates different Grok models on legal queries using OPIK metrics such as Hallucination Score, Relevance Score, Correctness Score, Context Utilization, and Context Precision. The results are visualized using Streamlit, providing insights into model performance.
 
-- *Interactive Chat Interface*: Streamlit-based UI for easy interaction
-- *Vector Store Retrieval*: Uses FAISS to retrieve relevant legal information from a pre-populated database
-- *Web Search Integration*: Supplements answers with up-to-date information from the web via SerpAPI
-- *Multi-Step Processing*: Powered by LangGraph for flexible, multi-stage query processing
-- *Chat History*: Maintains conversation context across interactions
-- *Configurable Models*: Choose different language and embedding models based on your needs
+The system is built using a modular state graph (`langgraph`) to manage the research workflow, ensuring scalability and maintainability.
 
-## 📋 Requirements
+## Features
 
-- Python 3.8+
-- Required Python packages (see requirements.txt)
-- SerpAPI API key (for web search functionality)
-- Groq API key (for LLM functionality)
-- Ollama installed locally (for embeddings)
+- **Query Rewriting**: Generates concise, legally-focused search queries tailored for Indian legal research.
+- **Dual-Source Retrieval**: Retrieves documents from FAISS vector stores (laws and cases) and web searches.
+- **Summarization**: Produces professional legal summaries with clear sections, citations, and analysis of statutes, case law, and legal principles.
+- **Reflection and Iteration**: Identifies gaps in research and generates follow-up queries to deepen analysis.
+- **Configurable Search**: Supports multiple web search APIs (DuckDuckGo, Tavily, Perplexity) and customizable research loops.
+- **Legal Entity Extraction**: Identifies statutes, cases, jurisdictions, and other key legal entities for comprehensive analysis.
+- **Final Analysis**: Combines all research into a structured legal report with practical recommendations.
+- **Model Evaluation**: Evaluates Grok models on legal queries using OPIK metrics, with results visualized in a Streamlit app.
+- **Visualization**: Displays model performance metrics (e.g., Correctness, Relevance, Context Utilization) in bar charts for easy comparison.
 
-## 💾 Installation
+## Project Structure
 
-1. Clone the repository:
+The project consists of the following main files:
 
-   bash
-   git clone https://github.com/yourusername/legal-assistant-chatbot.git
-   cd legal-assistant-chatbot
-   
+- **`state.py`**: Defines the `SummaryState`, `SummaryStateInput`, and `SummaryStateOutput` dataclasses to manage the state of the research process, including research topic, search queries, results, and summaries.
+- **`prompts.py`**: Contains prompt templates for query rewriting, summarization, and reflection, ensuring legal accuracy and relevance for Indian law.
+- **`configuration.py`**: Manages configuration settings, including search API selection, vector store paths, and LLM parameters, with environment variable support.
+- **`graph.py`**: Implements the state graph using `langgraph`, defining nodes (e.g., query generation, retrieval, summarization) and edges for the research workflow.
+- **`utils.py`**: Provides utility functions for loading FAISS vector stores, performing web searches (adapted from Local Deep Researcher), deduplicating sources, and formatting results.
+- **`models_score_checker.py`**: Implements a Streamlit app to evaluate Grok models on legal queries using OPIK metrics, with visualization of results.
 
-2. Install dependencies:
+## Installation
 
-   bash
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/your-repo/legal-research-assistant.git
+   cd legal-research-assistant
+   ```
+
+2. **Set Up a Virtual Environment**:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Dependencies**:
+
+   ```bash
    pip install -r requirements.txt
-   
+   ```
 
-3. Create a .env file in the root directory with your API keys:
+4. **Set Environment Variables**:
+   Create a `.env` file in the project root and configure the following:
 
-   
-   SERPAPI_API_KEY=your_serpapi_key_here
-   GROQ_API_KEY=your_groq_api_key_here
-   
+   ```bash
+   MAX_WEB_RESEARCH_LOOPS=3
+   MAX_VECTOR_RESEARCH_LOOPS=1
+   SEARCH_DEPTH=3
+   OLLAMA_MODEL=gemma3:1b
+   OLLAMA_BASE_URL=http://localhost:11434/
+   SEARCH_API=duckduckgo
+   FETCH_FULL_PAGE=False
+   LAWS_FAISS_PATH=/path/to/laws_index
+   CASES_FAISS_PATH=/path/to/cases_index
+   TAVILY_API_KEY=your_tavily_api_key
+   PERPLEXITY_API_KEY=your_perplexity_api_key
+   DEV_MODE=True
+   DEBUG_MODE=True
+   LOG_DIR=logs
+   ```
 
-4. Ensure you have Ollama installed and running with the required models:
-   bash
-   ollama pull all-minilm:33m
-   
+5. **Set Up FAISS Vector Stores**:
+   Ensure FAISS indexes for laws and cases are available at the paths specified in `LAWS_FAISS_PATH` and `CASES_FAISS_PATH`. These should be pre-indexed with legal documents using the `all-minilm:33m` embedding model.
 
-## 🚀 Usage
+6. **Run Ollama LLM**:
+   Ensure an Ollama server is running locally or at the specified `OLLAMA_BASE_URL` with the configured model (e.g., `gemma3:1b`).
 
-### Running the Streamlit Web App
+## Usage
 
-bash
-streamlit run app.py
+### Running the Legal Research Assistant
 
+1. **Run the Application**:
+   Execute the main script to start the research process:
 
-This will launch the web interface at http://localhost:8501.
+   ```bash
+   python main.py
+   ```
 
-### Using the Command Line Interface
+2. **Provide a Research Topic**:
+   Input a legal problem or topic (e.g., "Legal remedies for dowry-related abuse in India"). The system will:
 
-For a simpler interface, you can run the chatbot in CLI mode:
+   - Rewrite the query for optimal search.
+   - Retrieve relevant laws and cases from FAISS vector stores.
+   - Perform web searches using the configured API (e.g., DuckDuckGo), leveraging techniques inspired by the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher).
+   - Summarize and combine results.
+   - Reflect on gaps and iterate if needed.
+   - Generate a final legal analysis.
 
-bash
-python main.py
+3. **Output**:
+   The system outputs a structured legal report in the `running_summary` field, including web and vector store summaries, citations, and recommendations.
 
+### Running the Model Evaluator
 
-## 📚 Vector Store Setup
+1. **Run the Streamlit App**:
+   Launch the Streamlit app to evaluate Grok models:
 
-The chatbot relies on a pre-populated FAISS vector store containing commercial law information. To create or update the vector store:
+   ```bash
+   streamlit run models_score_checker.py
+   ```
 
-1. Prepare your document collection in a directory
-2. Run the indexing script:
-   bash
-   python scripts/create_index.py --input_dir your_documents/ --output_dir commercial_laws_index
-   
+2. **Evaluate Models**:
 
-## 🧩 Technical Architecture
+   - Select models to evaluate from the list (e.g., `llama-3.3-70b-versatile`, `llama-guard-3-8b`).
+   - Choose test queries or add a custom query (e.g., "What are the key provisions of the Indian Contract Act regarding breach of contract?").
+   - Click "Run Evaluations" to compute OPIK metrics for each model-query pair.
 
-### Components
+3. **View Results**:
+   - The app displays a table of results, including metrics like Correctness Score, Relevance Score, and Hallucination Score.
+   - A bar chart visualizes the performance of each model across different metrics.
+   - Results can be exported as a CSV file.
 
-- *LangGraphChatbot*: Main class orchestrating the workflow
-- *State Graph*:
-  - *Retriever Node*: Queries the vector store for relevant documents
-  - *Search Node*: Performs web searches for additional context
-  - *Final Processor*: Combines information and generates responses
-- *Streamlit Interface*: Provides a user-friendly web interface
+## Workflow
 
-### Data Flow
+The research process follows these steps, managed by the state graph in `graph.py`:
 
+1. **Query Generation** (`generate_query`):
 
-User Query → State Initialization → Document Retrieval → Web Search → Response Generation → UI Display
+   - Takes the user’s research topic and generates a legally-focused search query using the `legal_query_rewriter_instructions` prompt.
+   - Output: A JSON object with the query, legal aspect, and rationale.
 
+2. **Vector Store Retrieval** (`retrieve_from_vector_stores`):
 
-## 🔧 Configuration
+   - Queries FAISS vector stores for laws and cases using the generated query.
+   - Filters results by similarity threshold (default: 0.7) and limits to a maximum number of documents (default: 5).
 
-You can modify the following settings in Config class:
+3. **Web Research** (`web_research`):
 
-- GROQ_MODEL: The language model to use (default: "llama-3.1-8b-instant")
-- OLLAMA_MODEL: The embedding model for vector search (default: "all-minilm:33m")
-- VECTOR_STORE_PATH: Path to the FAISS vector store (default: "commercial_laws_index")
+   - Performs web searches using the configured API (DuckDuckGo, Tavily, or Perplexity), with implementation inspired by the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher).
+   - Deduplicates and formats results, optionally fetching full page content.
 
-## ⚠ Disclaimer
+4. **Summarization**:
 
-This chatbot provides general information about commercial laws and regulations. It should not be considered legal advice. Always consult with a qualified legal professional for specific legal matters.
+   - **Vector Summarization** (`summarize_vectors`): Summarizes retrieved laws and cases into a cohesive legal summary.
+   - **Web Summarization** (`summarize_legal_sources`): Summarizes web search results, integrating with existing summaries if available.
+   - **Combined Summarization** (`combine_summaries`): Merges vector and web summaries into a comprehensive report.
 
-## 📞 Support
+5. **Reflection** (`reflect_on_legal_research`):
 
-If you encounter any issues or have questions, please open an issue on the GitHub repository. 
+   - Analyzes summaries for gaps or unclear areas.
+   - Generates a follow-up query to deepen research if needed.
+
+6. **Routing** (`route_research`):
+
+   - If the maximum web research loops (`MAX_WEB_RESEARCH_LOOPS`) are reached, routes to finalization.
+   - Otherwise, routes to another web research iteration with the new query.
+
+7. **Finalization** (`finalize_legal_summary`):
+   - Combines all research into a final legal analysis with citations and recommendations.
+   - Outputs the result in `running_summary`.
+
+## Model Evaluation
+
+The `models_score_checker.py` script provides a Streamlit-based interface to evaluate Grok models on legal queries using OPIK metrics. The evaluation process includes:
+
+1. **Model Selection**:
+
+   - Users can select from a list of Grok models, such as `llama-3.3-70b-versatile`, `llama-guard-3-8b`, and `allam-2-7b`.
+
+2. **Query Selection**:
+
+   - Predefined legal queries are available, such as "What are the key provisions of the Indian Contract Act regarding breach of contract?".
+   - Users can also add custom queries.
+
+3. **Evaluation Metrics**:
+
+   - **Hallucination Score**: Measures the extent of incorrect or fabricated information in the response.
+   - **Relevance Score**: Assesses how relevant the response is to the query.
+   - **Correctness Score**: Evaluates the factual accuracy of the response.
+   - **Context Utilization**: Measures how well the model uses the provided context.
+   - **Context Precision**: Assesses the precision of the context used in the response.
+   - **Average Score**: Computes the average of the above metrics (adjusted for Hallucination Score).
+
+4. **Visualization**:
+
+   - Results are displayed in a table and a bar chart, comparing models across the OPIK metrics.
+   - The bar chart shows scores for Correctness, Relevance, Context Utilization, Context Precision, and Average Score for each model.
+
+5. **Export**:
+   - Results can be downloaded as a CSV file for further analysis.
+
+## Screenshots
+
+### LangGraph Development Server
+
+Below is a screenshot of the LangGraph development server, showing the state graph used to manage the legal research workflow:
+
+![LangGraph Development Server](assets/langgraph_dev_server_0.png)
+![LangGraph Development Server](assets/langgraph_dev_server_1.png)
+![LangGraph Development Server](assets/langgraph_dev_server_2.png)
+![LangGraph Development Server](assets/langgraph_dev_server_3.png)
+![LangGraph Development Server](assets/langgraph_dev_server_4.png)
+![LangGraph Development Server](assets/langgraph_dev_server_5.png)
+
+### Streamlit Model Evaluator - Run Evaluations Tab
+
+This screenshot shows the "Run Evaluations" tab of the Streamlit app, where users can select models and queries to evaluate:
+
+![Streamlit Run Evaluations](images/streamlit_run_evaluations.png)
+
+_Caption: The "Run Evaluations" tab allows users to select models and queries, with a progress bar indicating evaluation status._
+
+### Streamlit Model Evaluator - Results Summary Tab
+
+This screenshot shows the "Results Summary" tab, displaying a bar chart of model performance across OPIK metrics:
+
+![Streamlit Results Summary](images/streamlit_results_summary.png)
+
+_Caption: The "Results Summary" tab visualizes model performance with a bar chart, comparing Correctness, Relevance, Context Utilization, Context Precision, and Average Score._
+
+## Configuration
+
+The `configuration.py` file allows customization of:
+
+- **Research Loops**: `MAX_WEB_RESEARCH_LOOPS` (default: 3), `MAX_VECTOR_RESEARCH_LOOPS` (default: 1).
+- **Search Depth**: Number of web queries per loop (`SEARCH_DEPTH`, default: 3).
+- **LLM Settings**: Model name (`OLLAMA_MODEL`, default: `gemma3:1b`) and server URL (`OLLAMA_BASE_URL`).
+- **Search API**: Options include `duckduckgo`, `tavily`, or `perplexity` (`SEARCH_API`).
+- **Vector Store Paths**: Paths to FAISS indexes for laws and cases (`LAWS_FAISS_PATH`, `CASES_FAISS_PATH`).
+- **Developer Toggles**: Enable/disable `DEV_MODE` and `DEBUG_MODE` for logging and testing.
+
+Set these via environment variables or a `RunnableConfig` object.
+
+## Dependencies
+
+- **Python**: 3.8+
+- **langchain**: For document retrieval and text splitting.
+- **langchain_ollama**: For LLM and embedding integration with Ollama.
+- **langgraph**: For managing the state graph workflow.
+- **tavily-python**: For Tavily search API (optional).
+- **duckduckgo-search**: For DuckDuckGo search.
+- **requests**: For Perplexity API calls.
+- **beautifulsoup4**: For web scraping in DuckDuckGo full-page fetch.
+- **faiss-cpu**: For vector store operations.
+- **python-dotenv**: For environment variable management.
+- **streamlit**: For the model evaluation interface.
+- **pandas**: For data manipulation in the evaluator.
+- **matplotlib**: For visualizing evaluation results.
+
+Install dependencies using:
+
+```bash
+pip install langchain langchain_ollama langgraph tavily-python duckduckgo-search requests beautifulsoup4 faiss-cpu python-dotenv streamlit pandas matplotlib
+```
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/your-feature`).
+3. Commit changes (`git commit -m 'Add your feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
+
+Please ensure code follows PEP 8 standards and includes tests for new functionality.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 # Contributers:
+
 <ol>
    <li>
       <a href="https://github.com/tanmay-vig">Tanmay Vig</a>
@@ -126,3 +307,7 @@ If you encounter any issues or have questions, please open an issue on the GitHu
       <a href="https://github.com/sanatwalia896">Sanat Walia</a>
    </li>
 </ol>
+
+## Acknowledgments
+
+This project was inspired by and builds upon the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher) by LangChain AI. The web research functionality, particularly the integration of multiple search APIs (DuckDuckGo, Tavily, Perplexity) and the deduplication and formatting of search results, is adapted from their work. We extend our gratitude to the LangChain AI team for their open-source contributions, which provided a foundation for the web research component of this project.
