@@ -230,19 +230,19 @@ Below is a screenshot of the LangGraph development server, showing the state gra
 ![LangGraph Development Server](assets/langgraph_dev_server_4.png)
 ![LangGraph Development Server](assets/langgraph_dev_server_5.png)
 
-### Streamlit Model Evaluator - Run Evaluations Tab
+### Streamlit frontend
 
-This screenshot shows the "Run Evaluations" tab of the Streamlit app, where users can select models and queries to evaluate:
-
-![Streamlit Run Evaluations](images/streamlit_run_evaluations.png)
-
-_Caption: The "Run Evaluations" tab allows users to select models and queries, with a progress bar indicating evaluation status._
+This screenshot the frontend of my project , I have used streamlit for making this frontend
+![Streamlit frontend](assets/streamlit_app_1.png)
+![Streamlit frontend](assets/streamlit_app_2.png)
 
 ### Streamlit Model Evaluator - Results Summary Tab
 
 This screenshot shows the "Results Summary" tab, displaying a bar chart of model performance across OPIK metrics:
 
-![Streamlit Results Summary](images/streamlit_results_summary.png)
+![Streamlit Results Summary](assets/evaluation_1.png)
+![Streamlit Results Summary](assets/evaluation_2.png)
+![Streamlit Results Summary](assets/evaluation3.png)
 
 _Caption: The "Results Summary" tab visualizes model performance with a bar chart, comparing Correctness, Relevance, Context Utilization, Context Precision, and Average Score._
 
