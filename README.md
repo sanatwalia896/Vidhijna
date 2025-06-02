@@ -240,8 +240,8 @@ This screenshot the frontend of my project , I have used streamlit for making th
 
 This screenshot shows the "Results Summary" tab, displaying a bar chart of model performance across OPIK metrics:
 
-![Streamlit Results Summary](assets/evaluation_1.png)
-![Streamlit Results Summary](assets/evaluation_2.png)
+![Streamlit Results Summary](assets/evalaution_1.png)
+![Streamlit Results Summary](assets/evalauation_2.png)
 ![Streamlit Results Summary](assets/evaluation3.png)
 
 _Caption: The "Results Summary" tab visualizes model performance with a bar chart, comparing Correctness, Relevance, Context Utilization, Context Precision, and Average Score._
