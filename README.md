@@ -301,11 +301,12 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 <ol>
    <li>
-      <a href="https://github.com/tanmay-vig">Tanmay Vig</a>
-   </li>
-   <li>
       <a href="https://github.com/sanatwalia896">Sanat Walia</a>
    </li>
+   <li>
+      <a href="https://github.com/tanmay-vig">Tanmay Vig</a>
+   </li>
+
 </ol>
 
 ## Acknowledgments
