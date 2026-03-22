@@ -1,614 +1,687 @@
-# graph.py
-import json
-from typing_extensions import Literal
+"""
+graph.py — Vidhijna v2 multi-agent system
 
-from langchain_core.messages import HumanMessage, SystemMessage
+Preserves the best of the original graph:
+  - query rewriting → parallel retrieval + web research
+  - summarize → reflect → loop pattern
+  - legal entity extraction
+
+Upgrades:
+  - ChatOllama → ChatGroq
+  - FAISS → Pinecone (vidhijna-legal + vidhijna-books namespaces)
+  - SummaryState → VidhijnaState
+  - Supervisor routes to 4 specialist agents
+  - MemorySaver for conversational chat mode
+  - Tavily with domain targeting per fetch type
+"""
+
+import json
+import re
+from typing import Literal
+from datetime import datetime
+
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from langchain_core.runnables import RunnableConfig
-from langchain_ollama import ChatOllama
+from langchain_groq import ChatGroq
 from langgraph.graph import START, END, StateGraph
+from langgraph.checkpoint.memory import MemorySaver
 from dotenv import load_dotenv
 
-from agents.configuration import Configuration, SearchAPI
-from agents.utils import (
-    deduplicate_and_format_sources,
-    tavily_search,
-    format_sources,
-    perplexity_search,
-    duckduckgo_search,
-    load_faiss_retriever,
-    retrieve_from_laws_and_cases,
+from agents.state import (
+    VidhijnaState, VidhijnaInput, VidhijnaOutput,
+    TavilyFetchSignal, VECTOR_STORE_GAPS,
 )
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from agents.state import SummaryState, SummaryStateInput, SummaryStateOutput
+from agents.configuration import Configuration
 from agents.prompts import (
-    legal_query_rewriter_instructions,
-    legal_summarizer_instructions,
-    legal_reflection_instructions,
+    SUPERVISOR_PROMPT,
+    LEGAL_RETRIEVAL_SUMMARY_PROMPT,
+    BOOKS_RETRIEVAL_SUMMARY_PROMPT,
+    WEB_RESEARCH_SUMMARY_PROMPT,
+    REFLECTION_PROMPT,
+    FINAL_RESEARCH_PROMPT,
+    CHAT_PROMPT,
+    DOCUMENT_ANALYSIS_PROMPT,
+    DRAFT_PROMPT,
 )
+from agents.tools.retrieval import retrieve_legal, retrieve_books, format_chunks
+from agents.tools.search import tavily_search, format_web_results
 
 load_dotenv()
-# Nodes
-def generate_query(state: SummaryState, config: RunnableConfig):
-    """Generate a legal-focused query for search"""
 
-    # Format the prompt with legal-specific query writing instructions
-    legal_query_instructions = legal_query_rewriter_instructions.format(
-        research_topic=state.research_topic
+
+# ── LLM factory ───────────────────────────────────────────────────────────────
+
+def get_llm(model: str, temperature: float = 0.1, json_mode: bool = False):
+    kwargs = dict(model=model, temperature=temperature)
+    if json_mode:
+        kwargs["model_kwargs"] = {"response_format": {"type": "json_object"}}
+    return ChatGroq(**kwargs)
+
+
+def clean_thinking_tags(text: str) -> str:
+    """Remove <think>...</think> tags from model output."""
+    while "<think>" in text and "</think>" in text:
+        start = text.find("<think>")
+        end   = text.find("</think>") + len("</think>")
+        text  = text[:start] + text[end:]
+    return text.strip()
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# SUPERVISOR
+# ══════════════════════════════════════════════════════════════════════════════
+
+def supervisor(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Classifies intent, rewrites query, generates retrieval filters,
+    and decides whether Tavily is needed.
+    """
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.supervisor_model, temperature=0.1, json_mode=True)
+
+    recent = state.messages[-6:] if state.messages else []
+    history_summary = " | ".join(
+        f"{m.type}: {m.content[:80]}" for m in recent
+    ) or "None"
+
+    prompt = SUPERVISOR_PROMPT.format(
+        query=state.query,
+        history_summary=history_summary,
+        has_file="Yes" if state.uploaded_file_text else "No",
     )
 
-    # Generate a query
-    configurable = Configuration.from_runnable_config(config)
-    llm_json_mode = ChatOllama(
-        base_url=configurable.ollama_base_url,
-        model=configurable.local_llm,
-        temperature=0.3,
-        format="json",
-    )
-    result = llm_json_mode.invoke(
-        [
-            SystemMessage(content=legal_query_instructions),
-            HumanMessage(content=f"Generate a legally-focused query for research:"),
-        ]
-    )
-    query = json.loads(result.content)
-
-    return {"search_query": query["query"]}
-
-
-def retrieve_from_vector_stores(state: SummaryState, config: RunnableConfig):
-    """Retrieve content from both the 'vidhijan_laws' and 'vidhijan_cases' FAISS vector stores."""
-
-    # Configure
-    configurable = Configuration.from_runnable_config(config)
-
-    # Retrieve documents from laws and cases vector stores
-    retrieval_results = retrieve_from_laws_and_cases(
-        query=state.search_query, config=configurable
-    )
-
-    # Extract results
-    laws_docs = retrieval_results["laws"]
-    cases_docs = retrieval_results["cases"]
-
-    # Combine both sets of documents
-    combined_results = laws_docs + cases_docs
-
-    # Update the state with the retrieved documents
-    state.laws_research_results.extend(laws_docs)
-    state.cases_research_results.extend(cases_docs)
-    state.complete_research_results.extend(combined_results)
-
-    # Return formatted strings for display and the actual Document objects for processing
-    return {
-        "laws_research_results": laws_docs,
-        "cases_research_results": cases_docs,
-        "complete_research_results": combined_results,
-        # For logging/display purposes
-        "formatted_laws": format_sources(laws_docs),
-        "formatted_cases": format_sources(cases_docs),
-        "formatted_combined": format_sources(combined_results),
-        "vectorstore_loop_count": state.vectorstore_loop_count + 1,
-    }
-
-
-def web_research(state: SummaryState, config: RunnableConfig):
-    """Gather information from the web with a legal focus"""
-
-    # Configure
-    configurable = Configuration.from_runnable_config(config)
-
-    # Handle both cases for search_api
-    if isinstance(configurable.search_api, str):
-        search_api = configurable.search_api
-    else:
-        search_api = configurable.search_api.value
-
-    # Add legal context to the search query
-    legal_query = f"legal perspective: {state.search_query}"
-
-    # Search the web
-    if search_api == "tavily":
-        search_results = tavily_search(
-            legal_query, include_raw_content=True, max_results=3
-        )
-        search_str = deduplicate_and_format_sources(
-            search_results, max_tokens_per_source=2000, include_raw_content=True
-        )
-    elif search_api == "perplexity":
-        search_results = perplexity_search(legal_query, state.websearch_loop_count)
-        search_str = deduplicate_and_format_sources(
-            search_results, max_tokens_per_source=2000, include_raw_content=False
-        )
-    elif search_api == "duckduckgo":
-        search_results = duckduckgo_search(
-            legal_query,
-            max_results=3,
-            fetch_full_page=configurable.fetch_full_page,
-        )
-        search_str = deduplicate_and_format_sources(
-            search_results, max_tokens_per_source=2000, include_raw_content=True
-        )
-    else:
-        raise ValueError(f"Unsupported search API: {configurable.search_api}")
-
-    return {
-        "sources_gathered": [format_sources(search_results)],
-        "web_research_results": [search_str],
-        "websearch_loop_count": state.websearch_loop_count + 1,
-        "formatted_sources_gathered": format_sources(search_results)
-    }
-
-
-def summarize_legal_web_sources(state: SummaryState, config: RunnableConfig):
-    """Summarize legal sources with specialized legal context"""
-
-    # Existing summary
-    existing_summary = state.websearch_summary
-
-    # Most recent web research
-    web_research = state.web_research_results[-1] if state.web_research_results else ""
-
-    # Get extracted legal entities if available
-    legal_entities = getattr(state, "legal_entities", {})
-    entities_context = (
-        f"<Legal Entities>\n{json.dumps(legal_entities, indent=2)}\n</Legal Entities>"
-        if legal_entities
-        else ""
-    )
-
-    # Build the human message with legal context
-    if existing_summary:
-        human_message_content = (
-            f"<Legal Query>\n{state.research_topic}\n</Legal Query>\n\n"
-            f"{entities_context}\n\n"
-            f"<Existing Summary>\n{existing_summary}\n</Existing Summary>\n\n"
-            f"<New Research Results>\n{web_research}\n</New Research Results>"
-        )
-    else:
-        human_message_content = (
-            f"<Legal Query>\n{state.research_topic}\n</Legal Query>\n\n"
-            f"{entities_context}\n\n"
-            f"<Research Results>\n{web_research}\n</Research Results>"
-        )
-
-    # Run the LLM with legal-specific instructions
-    configurable = Configuration.from_runnable_config(config)
-    llm = ChatOllama(
-        base_url=configurable.ollama_base_url,
-        model=configurable.local_llm,
-        temperature=0.1,
-    )
-    result = llm.invoke(
-        [
-            SystemMessage(content=legal_summarizer_instructions),
-            HumanMessage(content=human_message_content),
-        ]
-    )
-
-    websearch_summary = result.content
-
-    # Clean up any thinking tags
-    while "<think>" in websearch_summary and "</think>" in websearch_summary:
-        start = websearch_summary.find("<think>")
-        end = websearch_summary.find("</think>") + len("</think>")
-        websearch_summary = websearch_summary[:start] + websearch_summary[end:]
-
-    return {"websearch_summary": websearch_summary}
-
-
-def reflect_on_legal_research(state: SummaryState, config: RunnableConfig):
-    """Reflect on the legal research and generate follow-up queries"""
-
-    # Generate a follow-up query with legal focus
-    configurable = Configuration.from_runnable_config(config)
-    llm_json_mode = ChatOllama(
-        base_url=configurable.ollama_base_url,
-        model=configurable.local_llm,
-        temperature=0.3,
-        format="json",
-    )
-
-    result = llm_json_mode.invoke(
-        [
-            SystemMessage(
-                content=legal_reflection_instructions.format(
-                    research_topic=state.research_topic
-                )
-            ),
-            HumanMessage(
-                content=(
-                    f"Identify gaps in our legal research and generate a follow-up query.\n"
-                    f"WebResearch summary: {state.websearch_summary}\n"
-                    f"Vector Summary: {state.vector_summary}\n"
-                )
-            ),
-        ]
-    )
+    result = llm.invoke([SystemMessage(content=prompt)])
 
     try:
-        follow_up_data = json.loads(result.content)
-
-        # Get the follow-up query
-        query = follow_up_data.get("follow_up_query")
-
-        if not query:
-            # Fallback with legal focus
-            return {"search_query": f"legal analysis of {state.research_topic}"}
-
-        # Update search query with legal follow-up query
-        return {"search_query": follow_up_data["follow_up_query"]}
+        data = json.loads(clean_thinking_tags(result.content))
     except json.JSONDecodeError:
-        # Handle JSON parsing failures gracefully
-        return {"search_query": f"legal precedents related to {state.research_topic}"}
+        data = {
+            "intent": "research",
+            "rewritten_query": state.query,
+            "retrieval_filters": {},
+            "target_namespaces": ["vidhijna-legal", "vidhijna-books"],
+            "tavily_signals": [],
+            "needs_web_search": False,
+        }
+
+    signals = data.get("tavily_signals", [])
+
+    # Auto-add Tavily signal for known vector store gaps
+    if cfg.is_vector_store_gap(state.query) and not signals:
+        signals.append({
+            "fetch_type": "regulation",
+            "query": state.query,
+            "target_domains": cfg.get_domains_for_fetch_type("regulation"),
+            "reason": "Topic likely missing from vector store",
+            "priority": "high",
+        })
+
+    signal_objects = [
+        TavilyFetchSignal(
+            fetch_type=s.get("fetch_type", "general"),
+            query=s.get("query", state.query),
+            target_domains=s.get("target_domains", []),
+            reason=s.get("reason", ""),
+            priority=s.get("priority", "medium"),
+        )
+        for s in signals
+    ]
+
+    return {
+        "intent":            data.get("intent", "research"),
+        "rewritten_query":   data.get("rewritten_query", state.query),
+        "retrieval_filters": data.get("retrieval_filters", {}),
+        "target_namespaces": data.get("target_namespaces", ["vidhijna-legal"]),
+        "tavily_signals":    signal_objects,
+        "needs_web_search":  bool(signal_objects),
+        "messages":          [HumanMessage(content=state.query)],
+    }
 
 
-def analyze_legal_entities(state: SummaryState, config: RunnableConfig):
-    """Extract and analyze key legal entities from research results"""
-
-    # Configure
-    configurable = Configuration.from_runnable_config(config)
-    # Extract the text from combined research results
-    existing_summary = state.vector_summary
-
-    combined_text = ""
-    for doc in state.complete_research_results:
-        if hasattr(doc, "page_content"):
-            combined_text += doc.page_content + "\n\n"
-        else:
-            combined_text += str(doc) + "\n\n"
-
-    # Add web research if available
-    if state.web_research_results:
-        combined_text += "\n\n".join(state.web_research_results)
-
-    # Extract entities
-    entities = extract_legal_entities(combined_text, state=state, config=config)
-
-    return {"legal_entities": entities}
+def route_intent(
+    state: VidhijnaState,
+) -> Literal["generate_query", "chat_agent", "document_agent", "draft_agent"]:
+    intent = state.intent
+    if intent == "chat":     return "chat_agent"
+    if intent == "document": return "document_agent"
+    if intent == "draft":    return "draft_agent"
+    return "generate_query"   # research — enters deep research pipeline
 
 
-def finalize_legal_summary(state: SummaryState, config: RunnableConfig):
-    """Generate a final legal analysis with recommendations"""
+# ══════════════════════════════════════════════════════════════════════════════
+# DEEP RESEARCH PIPELINE
+# (preserves original graph structure, upgraded to Groq + Pinecone)
+# ══════════════════════════════════════════════════════════════════════════════
 
-    # Analyze the accumulated research
-    configurable = Configuration.from_runnable_config(config)
-    llm = ChatOllama(
-        base_url=configurable.ollama_base_url,
-        model=configurable.local_llm,
-        temperature=0.1,
+def generate_query(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Rewrite the query for optimal legal retrieval.
+    Mirrors original generate_query but uses Groq + structured output.
+    """
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.research_model, temperature=0.3, json_mode=True)
+
+    prompt = f"""You are a legal query optimiser for Indian commercial law.
+Rewrite the following query to maximise vector store retrieval quality.
+Make it specific, include relevant legal terms, section numbers if known.
+
+Original query: {state.query}
+
+Return JSON: {{"query": "rewritten query here"}}"""
+
+    result = llm.invoke([SystemMessage(content=prompt)])
+
+    try:
+        data = json.loads(clean_thinking_tags(result.content))
+        rewritten = data.get("query", state.query)
+    except json.JSONDecodeError:
+        rewritten = state.query
+
+    return {"rewritten_query": rewritten}
+
+
+def retrieve_from_vector_stores(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Retrieve from both Pinecone namespaces in parallel.
+    Replaces original FAISS retrieval from laws + cases.
+    """
+    cfg = Configuration.from_runnable_config(config)
+    query = state.rewritten_query or state.query
+
+    legal_matches = retrieve_legal(
+        query=query,
+        top_k=cfg.retrieval_top_k_legal,
+        filters=state.retrieval_filters or None,
+        score_threshold=cfg.retrieval_score_threshold,
+    )
+    book_matches = retrieve_books(
+        query=query,
+        top_k=cfg.retrieval_top_k_books,
+        score_threshold=cfg.retrieval_score_threshold,
     )
 
-    # Format all accumulated sources
-    all_sources = "\n".join(source for source in state.sources_gathered)
+    return {
+        "legal_chunks":   legal_matches,
+        "book_chunks":    book_matches,
+        "vector_loop_count": state.vector_loop_count + 1,
+    }
 
-    # Generate final legal analysis
-    result = llm.invoke(
-        [
-            SystemMessage(
-                content=(
-                    "You are a legal research assistant creating a final analysis. "
-                    "Provide a comprehensive legal analysis with citations to relevant laws and cases. "
-                    "Include applicable legal principles, precedents, and potential considerations. "
-                    "Format your response with clear sections and professional legal language."
-                )
+
+def web_research(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Tavily search with domain targeting based on Tavily signals.
+    Replaces original web_research with domain-aware fetching.
+    """
+    cfg = Configuration.from_runnable_config(config)
+
+    if not state.needs_web_search or not state.tavily_signals:
+        # Still do a general search if no signals but web search enabled
+        query = state.rewritten_query or state.query
+        results = tavily_search(
+            query=query,
+            fetch_type="general",
+            target_domains=[],
+            max_results=3,
+        )
+    else:
+        results = []
+        for signal in state.tavily_signals:
+            domains = signal.target_domains or cfg.get_domains_for_fetch_type(
+                signal.fetch_type
+            )
+            fetched = tavily_search(
+                query=signal.query,
+                fetch_type=signal.fetch_type,
+                target_domains=domains,
+                max_results=cfg.tavily_max_results,
+                search_depth=cfg.tavily_search_depth,
+            )
+            results.extend(fetched)
+
+    urls = [r.get("url", "") for r in results if r.get("url")]
+
+    return {
+        "web_results":          results,
+        "sources_gathered":     urls,
+        "web_search_loop_count": state.web_search_loop_count + 1,
+        "tavily_results_log":   [{
+            "timestamp":     datetime.utcnow().isoformat(),
+            "results_count": len(results),
+        }],
+    }
+
+
+def summarize_vectors(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Summarize Pinecone retrieval results.
+    Mirrors original summarize_vectors.
+    """
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.research_model, temperature=0.1)
+    query = state.rewritten_query or state.query
+
+    legal_text = format_chunks(state.legal_chunks)
+    books_text  = format_chunks(state.book_chunks)
+
+    legal_summary = ""
+    if state.legal_chunks:
+        result = llm.invoke([SystemMessage(content=LEGAL_RETRIEVAL_SUMMARY_PROMPT.format(
+            query=query, chunks=legal_text
+        ))])
+        legal_summary = clean_thinking_tags(result.content)
+
+    books_summary = ""
+    if state.book_chunks:
+        result = llm.invoke([SystemMessage(content=BOOKS_RETRIEVAL_SUMMARY_PROMPT.format(
+            query=query, chunks=books_text
+        ))])
+        books_summary = clean_thinking_tags(result.content)
+
+    return {
+        "legal_summary": legal_summary,
+        "books_summary": books_summary,
+    }
+
+
+def summarize_web_sources(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Summarize Tavily web results.
+    Mirrors original summarize_legal_web_sources.
+    """
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.research_model, temperature=0.1)
+    query = state.rewritten_query or state.query
+
+    web_summary = ""
+    if state.web_results:
+        web_text = format_web_results(state.web_results)
+        result = llm.invoke([SystemMessage(content=WEB_RESEARCH_SUMMARY_PROMPT.format(
+            query=query, results=web_text
+        ))])
+        web_summary = clean_thinking_tags(result.content)
+
+    return {"web_summary": web_summary}
+
+
+def combine_summaries(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Combine all summaries into running_summary.
+    Mirrors original combine_summaries.
+    """
+    legal  = state.legal_summary  or "No relevant law sections found."
+    books  = state.books_summary  or "No commentary found."
+    web    = state.web_summary    or "No web results."
+
+    running = f"""# Legal Research Summary
+
+## Applicable Law
+{legal}
+
+## Legal Commentary & Reasoning
+{books}
+
+## Web Research (Cases & Regulations)
+{web}
+"""
+    return {"running_summary": running}
+
+
+def extract_legal_entities(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Extract statutes, cases, principles, parties from research results.
+    Mirrors original extract_legal_entities — upgraded to Groq.
+    """
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.research_model, temperature=0, json_mode=True)
+
+    combined_text = state.running_summary or ""
+    if not combined_text.strip():
+        return {"legal_entities": {
+            "statutes": [], "cases": [], "principles": [],
+            "jurisdictions": [], "dates": [], "parties": [],
+        }}
+
+    prompt = f"""Extract key legal entities from the following research.
+Return JSON with keys: statutes, cases, principles, jurisdictions, dates, parties.
+Each value is a list of strings.
+
+Text: {combined_text[:6000]}"""
+
+    try:
+        result = llm.invoke([SystemMessage(content=prompt)])
+        entities = json.loads(clean_thinking_tags(result.content))
+        for key in ["statutes", "cases", "principles", "jurisdictions", "dates", "parties"]:
+            if key not in entities:
+                entities[key] = []
+        return {"legal_entities": entities}
+    except Exception:
+        return {"legal_entities": {
+            "statutes": [], "cases": [], "principles": [],
+            "jurisdictions": [], "dates": [], "parties": [],
+        }}
+
+
+def reflect_on_research(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Identify gaps and generate follow-up queries.
+    Mirrors original reflect_on_legal_research — upgraded to Groq.
+    """
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.research_model, temperature=0.3, json_mode=True)
+
+    result = llm.invoke([SystemMessage(content=REFLECTION_PROMPT.format(
+        query=state.query,
+        legal_summary=state.legal_summary   or "None",
+        books_summary=state.books_summary   or "None",
+        web_summary=state.web_summary       or "None",
+    ))])
+
+    try:
+        data = json.loads(clean_thinking_tags(result.content))
+    except json.JSONDecodeError:
+        data = {"has_gaps": False, "gaps": [], "followup_queries": []}
+
+    # Generate new Tavily signals from reflection gaps
+    new_signals = []
+    if data.get("tavily_needed") and data.get("tavily_query"):
+        new_signals.append(TavilyFetchSignal(
+            fetch_type=data.get("tavily_fetch_type", "general"),
+            query=data["tavily_query"],
+            target_domains=cfg.get_domains_for_fetch_type(
+                data.get("tavily_fetch_type", "general")
             ),
-            HumanMessage(
-                content=(
-                    f"Research Topic: {state.research_topic}\n\n"
-                    f"Current Analysis: {state.running_summary}\n\n"
-                    f"Create a final legal analysis with practical recommendations."
-                )
-            ),
-        ]
-    )
+            reason="Gap identified during reflection",
+            priority="high",
+        ))
 
-    final_analysis = result.content
+    followups = data.get("followup_queries", [])
 
-    # Add sources to the final report
-    complete_report = f"{final_analysis}\n\n## Sources\n{all_sources}"
-
-    return {"running_summary": complete_report}
+    return {
+        "knowledge_gaps":        data.get("gaps", []),
+        "followup_queries":      followups,
+        "reflection_loop_count": state.reflection_loop_count + 1,
+        "tavily_signals":        new_signals,
+        "needs_web_search":      bool(new_signals),
+        "rewritten_query":       followups[0] if followups else state.rewritten_query,
+    }
 
 
 def route_research(
-    state: SummaryState, config: RunnableConfig
-) -> Literal["finalize_legal_summary", "web_research"]:
-    """Route the research based on the current state and configuration"""
-
-    configurable = Configuration.from_runnable_config(config)
-
-    # Check if we've reached the maximum number of web research loops
-    if state.websearch_loop_count >= int(configurable.max_web_research_loops):
-        return "finalize_legal_summary"
-    else:
-        return "web_research"
-
-
-def extract_legal_entities(
-    text,
-    state: SummaryState,
-    config: RunnableConfig,
-):
+    state: VidhijnaState, config: RunnableConfig
+) -> Literal["retrieve_from_vector_stores", "finalize_research"]:
     """
-    Extract key legal entities from text such as statutes, case names,
-    jurisdictions, dates, and legal principles.
-
-    Args:
-        text (str): The input text from which to extract entities
-
-    Returns:
-        dict: Dictionary containing extracted entities by category
+    Loop back for another retrieval pass or finalize.
+    Mirrors original route_research.
     """
-    if not text or not str(text).strip():
+    cfg = Configuration.from_runnable_config(config)
+    if (
+        state.knowledge_gaps
+        and state.reflection_loop_count < cfg.max_reflection_loops
+    ):
+        return "retrieve_from_vector_stores"
+    return "finalize_research"
+
+
+def finalize_research(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Generate comprehensive final legal analysis.
+    Mirrors original finalize_legal_summary — upgraded to Groq.
+    """
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.research_model, temperature=0.1)
+
+    result = llm.invoke([SystemMessage(content=FINAL_RESEARCH_PROMPT.format(
+        query=state.query,
+        legal_summary=state.legal_summary  or "Not found in legal database.",
+        books_summary=state.books_summary  or "Not found in commentary.",
+        web_summary=state.web_summary      or "No web results.",
+    ))])
+
+    final_text = clean_thinking_tags(result.content)
+
+    # Build citations from retrieved chunks + web results
+    citations = []
+    for chunk in state.legal_chunks[:5]:
+        meta = chunk.get("metadata", {})
+        if meta.get("act_name") and meta.get("section_number"):
+            citations.append(f"{meta['act_name']} — Section {meta['section_number']}")
+    for r in state.web_results[:3]:
+        if r.get("url"):
+            citations.append(r["url"])
+
+    return {
+        "running_summary": final_text,
+        "final_response":  final_text,
+        "citations":       list(dict.fromkeys(citations)),
+    }
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# CHAT AGENT
+# ══════════════════════════════════════════════════════════════════════════════
+
+def chat_agent(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """
+    Conversational agent with MemorySaver memory.
+    Quick retrieval + direct answer, no deep reflection loop.
+    """
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.chat_model, temperature=0.2)
+
+    legal_matches = retrieve_legal(
+        query=state.rewritten_query or state.query,
+        top_k=4,
+        score_threshold=cfg.retrieval_score_threshold,
+    )
+    legal_context = format_chunks(legal_matches) if legal_matches else "No specific sections found."
+
+    messages = list(state.messages[-cfg.max_memory_messages:])
+    messages.append(SystemMessage(content=CHAT_PROMPT.format(
+        query=state.query,
+        legal_context=legal_context,
+    )))
+
+    result = llm.invoke(messages)
+    response = clean_thinking_tags(result.content)
+
+    return {
+        "final_response": response,
+        "legal_chunks":   legal_matches,
+        "messages":       [AIMessage(content=response)],
+    }
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# DOCUMENT AGENT
+# ══════════════════════════════════════════════════════════════════════════════
+
+def document_agent(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """OCR + contract analysis agent."""
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.groq_model, temperature=0.1)
+
+    if not state.uploaded_file_text:
         return {
-            "statutes": [],
-            "cases": [],
-            "principles": [],
-            "jurisdictions": [],
-            "dates": [],
-            "parties": [],
+            "final_response": "No document found. Please upload a PDF or image.",
+            "error": "No document uploaded",
         }
 
-    # Use ollama_llm to extract entities
-    prompt = f"""Extract the key legal entities from the following text.
-    Format your response as JSON with these keys:
-    - statutes: List of mentioned statutes, acts, or regulations
-    - cases: List of case names
-    - principles: List of legal principles or doctrines
-    - jurisdictions: List of jurisdictions mentioned
-    - dates: List of relevant dates mentioned
-    - parties: List of parties mentioned
-    
-    Text: {text[:8000]}  # Truncate to avoid token limits
-    
-    JSON Response:
-    """
-    configurable = Configuration.from_runnable_config(config)
-    llm = ChatOllama(
-        base_url=configurable.ollama_base_url,
-        model=configurable.local_llm,
-        temperature=0,
+    result = llm.invoke([SystemMessage(content=DOCUMENT_ANALYSIS_PROMPT.format(
+        document_text=state.uploaded_file_text[:8000],
+        query=state.query or "Provide a full analysis of this document.",
+    ))])
+
+    legal_matches = retrieve_legal(
+        query=state.uploaded_file_text[:400],
+        top_k=4,
+        score_threshold=cfg.retrieval_score_threshold,
     )
 
-    try:
-        result = llm.invoke(prompt)
-        # Parse the result - finding JSON part if needed
-        import re
+    return {
+        "final_response":    clean_thinking_tags(result.content),
+        "legal_chunks":      legal_matches,
+        "document_analysis": {"raw_analysis": result.content},
+    }
 
-        json_match = re.search(r"```json\n(.*?)\n```", result, re.DOTALL)
-        if json_match:
-            json_str = json_match.group(1)
-        else:
-            json_str = result
 
-        # Clean the JSON string
-        json_str = re.sub(r"```.*?```", "", json_str, flags=re.DOTALL)
+# ══════════════════════════════════════════════════════════════════════════════
+# DRAFT AGENT
+# ══════════════════════════════════════════════════════════════════════════════
 
-        # Try to parse as JSON
-        try:
-            entities = json.loads(json_str)
-            # Ensure all expected keys exist
-            for key in [
-                "statutes",
-                "cases",
-                "principles",
-                "jurisdictions",
-                "dates",
-                "parties",
-            ]:
-                if key not in entities:
-                    entities[key] = []
-            return entities
-        except json.JSONDecodeError:
-            # If JSON parsing fails, extract what we can
-            print(f"Failed to parse JSON: {json_str}")
-            return {
-                "statutes": [],
-                "cases": [],
-                "principles": [],
-                "jurisdictions": [],
-                "dates": [],
-                "parties": [],
-            }
-    except Exception as e:
-        print(f"Error extracting legal entities: {str(e)}")
+def draft_agent(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """Legal document drafting agent."""
+    cfg = Configuration.from_runnable_config(config)
+    llm = get_llm(cfg.groq_model, temperature=0.2)
+
+    draft_type = state.draft_type or "legal document"
+
+    if draft_type not in cfg.supported_draft_types:
         return {
-            "statutes": [],
-            "cases": [],
-            "principles": [],
-            "jurisdictions": [],
-            "dates": [],
-            "parties": [],
+            "final_response": (
+                f"Draft type '{draft_type}' not supported. "
+                f"Supported: {', '.join(cfg.supported_draft_types)}"
+            ),
+            "error": f"Unsupported draft type: {draft_type}",
         }
 
-
-def chunk_and_summarize(
-    state: SummaryState,
-    config: RunnableConfig,
-    text,
-    chunk_size=8000,
-    chunk_overlap=500,
-):
-    configurable = Configuration.from_runnable_config(config)
-    llm = ChatOllama(
-        base_url=configurable.ollama_base_url,
-        model=configurable.local_llm,
-        temperature=0.1,
+    legal_matches = retrieve_legal(
+        query=f"{draft_type} contract requirements India",
+        top_k=4,
+        score_threshold=cfg.retrieval_score_threshold,
     )
-    if not text or not str(text).strip():
-        return "No content provided to summarize."
 
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size,
-        chunk_overlap=chunk_overlap,
+    inputs_text = "\n".join(
+        f"- {k}: {v}" for k, v in (state.draft_inputs or {}).items()
+    ) or "Use standard template."
+
+    result = llm.invoke([SystemMessage(content=DRAFT_PROMPT.format(
+        draft_type=draft_type,
+        draft_inputs=inputs_text,
+        jurisdiction=cfg.default_jurisdiction,
+    ))])
+
+    draft_text = clean_thinking_tags(result.content)
+
+    return {
+        "draft_output":   draft_text,
+        "final_response": draft_text,
+        "legal_chunks":   legal_matches,
+        "draft_history":  [{"version": 1, "content": draft_text, "type": draft_type}],
+    }
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# RESPONSE FORMATTER
+# ══════════════════════════════════════════════════════════════════════════════
+
+def response_formatter(state: VidhijnaState, config: RunnableConfig) -> dict:
+    """Adds citations and legal disclaimer. Final node before END."""
+    cfg = Configuration.from_runnable_config(config)
+
+    response = state.final_response or state.running_summary or "No response generated."
+
+    if cfg.include_citations and state.citations:
+        cites = "\n".join(f"• {c}" for c in state.citations[:8])
+        response = f"{response}\n\n**Sources:**\n{cites}"
+
+    if not state.disclaimer_added:
+        response = f"{response}\n\n---\n{cfg.legal_disclaimer}"
+
+    return {
+        "final_response":   response,
+        "disclaimer_added": True,
+        "messages":         [AIMessage(content=response)],
+    }
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# GRAPH ASSEMBLY
+# ══════════════════════════════════════════════════════════════════════════════
+
+def build_graph():
+    builder = StateGraph(
+        VidhijnaState,
+        input=VidhijnaInput,
+        output=VidhijnaOutput,
+        config_schema=Configuration,
     )
-    chunks = splitter.split_text(text)
 
-    if not chunks:
-        return "No content to summarize after splitting."
+    # ── Nodes ──────────────────────────────────────────────────────────────────
+    builder.add_node("supervisor",                supervisor)
 
-    if len(chunks) == 1 and len(text) < chunk_size:
-        response = llm.invoke(f"Summarize the following legal content:\n{text}")
-        summary = response.content if hasattr(response, "content") else str(response)
-        return summary.strip()
+    # Deep research pipeline (mirrors original graph flow)
+    builder.add_node("generate_query",            generate_query)
+    builder.add_node("retrieve_from_vector_stores", retrieve_from_vector_stores)
+    builder.add_node("web_research",              web_research)
+    builder.add_node("summarize_vectors",         summarize_vectors)
+    builder.add_node("summarize_web_sources",     summarize_web_sources)
+    builder.add_node("combine_summaries",         combine_summaries)
+    builder.add_node("extract_legal_entities",    extract_legal_entities)
+    builder.add_node("reflect_on_research",       reflect_on_research)
+    builder.add_node("finalize_research",         finalize_research)
 
-    summaries = []
-    for i, chunk in enumerate(chunks):
-        try:
-            response = llm.invoke(
-                f"Summarize the following legal content (part {i+1}/{len(chunks)}):\n{chunk}"
-            )
-            summary = (
-                response.content if hasattr(response, "content") else str(response)
-            )
-            summaries.append(summary.strip())
-        except Exception as e:
-            print(f"Error summarizing chunk {i+1}: {str(e)}")
-            summaries.append(f"[Error summarizing this section: {str(e)}]")
+    # Specialist agents
+    builder.add_node("chat_agent",     chat_agent)
+    builder.add_node("document_agent", document_agent)
+    builder.add_node("draft_agent",    draft_agent)
 
-    if len(summaries) > 1:
-        combined_summary_text = "\n\n".join(summaries)
-        try:
-            response = llm.invoke(
-                f"Create a cohesive summary of these {len(summaries)} section summaries:\n{combined_summary_text}"
-            )
-            final_summary = (
-                response.content if hasattr(response, "content") else str(response)
-            )
-            return final_summary.strip()
-        except Exception as e:
-            print(f"Error creating final summary: {str(e)}")
-            return (
-                "Error creating final summary. Individual section summaries:\n\n"
-                + combined_summary_text
-            )
-    elif summaries:
-        return summaries[0]
-    else:
-        return "No summaries could be generated."
+    # Shared formatter
+    builder.add_node("response_formatter", response_formatter)
 
+    # ── Edges ──────────────────────────────────────────────────────────────────
 
-def summarize_vectors(state: SummaryState, config: RunnableConfig):
-    """
-    Summarize vector search results from the state.
+    builder.add_edge(START, "supervisor")
 
-    Args:
-        state (SummaryState): The state containing research results
+    # Supervisor routes by intent
+    builder.add_conditional_edges(
+        "supervisor",
+        route_intent,
+        {
+            "generate_query": "generate_query",
+            "chat_agent":     "chat_agent",
+            "document_agent": "document_agent",
+            "draft_agent":    "draft_agent",
+        },
+    )
 
-    Returns:
-        dict: Dictionary with vector_summary key
-    """
-    combined = ""
+    # ── Deep research pipeline (original graph structure preserved) ────────────
+    builder.add_edge("generate_query", "retrieve_from_vector_stores")
+    builder.add_edge("generate_query", "web_research")
 
-    # Get document content from both laws and cases research results
-    docs = []
+    # Parallel: vector store + web → both summarize independently
+    builder.add_edge("retrieve_from_vector_stores", "summarize_vectors")
+    builder.add_edge("web_research",                "summarize_web_sources")
 
-    # Handle laws research results
-    if hasattr(state, "laws_research_results") and state.laws_research_results:
-        docs.extend(state.laws_research_results)
+    # Both summaries must complete before combining
+    builder.add_edge("summarize_vectors",     "combine_summaries")
+    builder.add_edge("summarize_web_sources", "combine_summaries")
 
-    # Handle cases research results
-    if hasattr(state, "cases_research_results") and state.cases_research_results:
-        docs.extend(state.cases_research_results)
+    # Combined → entity extraction → reflection
+    builder.add_edge("combine_summaries",      "extract_legal_entities")
+    builder.add_edge("extract_legal_entities", "reflect_on_research")
 
-    # Process all documents
-    for doc in docs:
-        if hasattr(doc, "page_content"):
-            # If it's a Document object
-            combined += str(doc.page_content) + "\n\n"
-        elif isinstance(doc, dict) and "content" in doc:
-            # If it's a dictionary with content
-            combined += doc["content"] + "\n\n"
-        else:
-            # If it's a string or another format
-            combined += str(doc) + "\n\n"
+    # Reflection → loop or finalize
+    builder.add_conditional_edges(
+        "reflect_on_research",
+        route_research,
+        {
+            "retrieve_from_vector_stores": "retrieve_from_vector_stores",
+            "finalize_research":           "finalize_research",
+        },
+    )
 
-    # If we have content to summarize
-    if combined.strip():
-        summary = chunk_and_summarize(text=combined, config=config, state=state)
-    else:
-        summary = "No relevant legal documents found in vector stores."
+    builder.add_edge("finalize_research", "response_formatter")
 
-    return {"vector_summary": summary}
+    # ── Specialist agents → formatter ──────────────────────────────────────────
+    builder.add_edge("chat_agent",     "response_formatter")
+    builder.add_edge("document_agent", "response_formatter")
+    builder.add_edge("draft_agent",    "response_formatter")
+
+    builder.add_edge("response_formatter", END)
+
+    # ── Memory (per thread_id) ────────────────────────────────────────────────
+    memory = MemorySaver()
+    return builder.compile(checkpointer=memory)
 
 
-def combine_summaries(state: SummaryState, config: RunnableConfig):
-    """
-    Combine web and vector summaries into a comprehensive summary.
-
-    Args:
-        state (SummaryState): The state containing summaries
-
-    Returns:
-        dict: Dictionary with combined_summary key
-    """
-    # Get web summary, with fallbacks
-    web_summary = None
-    for attr in ["vector_summary", "websearch_summary"]:
-        if hasattr(state, attr) and getattr(state, attr):
-            web_summary = getattr(state, attr)
-            break
-
-    if not web_summary:
-        web_summary = "No web summary available."
-
-    # Get vector summary, with fallback
-    vector_summary = getattr(state, "vector_summary", "No legal summary available.")
-
-    # Combine summaries with clear section headings
-    full_text = f"""# Combined Legal Research Summary
-
-## Web Research Summary
-{web_summary}
-
-## Legal Document Summary
-{vector_summary}
-"""
-
-    return {"running_summary": full_text}
-
-
-# Define the state graph
-builder = StateGraph(
-    SummaryState,
-    input=SummaryStateInput,
-    output=SummaryStateOutput,
-    config_schema=Configuration,
-)
-
-# Nodes
-builder.add_node("generate_query", generate_query)
-builder.add_node("retrieve_from_vector_stores", retrieve_from_vector_stores)
-builder.add_node("web_research", web_research)
-builder.add_node("summarize_vectors", summarize_vectors)
-builder.add_node("summarize_legal_sources", summarize_legal_web_sources)
-builder.add_node("combine_summaries", combine_summaries)
-builder.add_node("reflect_on_legal_research", reflect_on_legal_research)
-builder.add_node("finalize_legal_summary", finalize_legal_summary)
-
-# Edges - Legal-focused workflow
-builder.add_edge(START, "generate_query")
-
-# Initial query routes to vector store retrieval and web research
-builder.add_edge("generate_query", "retrieve_from_vector_stores")
-builder.add_edge("generate_query", "web_research")
-
-# Vector store search flows
-builder.add_edge("retrieve_from_vector_stores", "summarize_vectors")
-builder.add_edge("summarize_vectors", "combine_summaries")
-
-# Web research flows
-builder.add_edge("web_research", "summarize_legal_sources")
-builder.add_edge("summarize_legal_sources", "combine_summaries")
-
-# Combined summaries route to reflection
-builder.add_edge("combine_summaries", "reflect_on_legal_research")
-
-# Conditional routing based on reflection
-builder.add_conditional_edges("reflect_on_legal_research", route_research)
-
-# Final node
-builder.add_edge("finalize_legal_summary", END)
-
-# Compile the graph
-graph = builder.compile()
+graph = build_graph()
