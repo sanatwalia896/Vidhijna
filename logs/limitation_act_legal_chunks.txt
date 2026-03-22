@@ -1,0 +1,3751 @@
+FILE:         limitation_act.pdf
+NAMESPACE:    vidhijna-legal
+INGESTED AT:  2026-03-23T00:10:37.938690
+TOTAL CHUNKS: 121
+======================================================================
+
+CHUNK 1
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 12
+  section_title       : Exclusion of time in legal proceedings.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.934985
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 12
+
+PART III
+COMPUTATION OF PERIOD OF LIMITATION
+12. Exclusion of time in legal proceedings.
+13. Exclusion of time in cases where leave to sue or appeal as a pauper is applied for.
+14. Exclusion of time of proceeding bona fide in court without jurisdiction.
+15. Exclusion of time in certain other cases.
+16. Effect of death on or before the accrual of the right 
+
+======================================================================
+
+CHUNK 2
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 22
+  section_title       : Continuing breaches and torts.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935090
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 22
+
+22. Continuing breaches and torts.
+23. Suits for compensation for acts not actionable without special damage.
+24. Computation of time mentioned in instruments.
+
+======================================================================
+
+CHUNK 3
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 25
+  section_title       : Acquisition of easements by prescription.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935110
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 25
+
+PART IV
+ACQUISITION OF OWNERSHIP BY POSSESSION
+25. Acquisition of easements by prescription.
+26. Exclusion in favour of reversioner of servient tenement.
+27. Extinguishment of right to property.
+1
+
+======================================================================
+
+CHUNK 4
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 28
+  section_title       : [Repealed.]
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935135
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 28
+
+PART V
+MISCELLANEOUS
+SECTIONS
+28. [Repealed.]
+29. Savings.
+30. Provision for suits, etc., for which the prescribed period is shorter than the period prescribed by
+the Indian Limitation Act, 1908.
+31. Provisions as to barred or pending suits, etc.
+32. [Repealed.]
+THE SCHEDULE.
+2
+
+THE LIMITATION ACT, 1963
+ACT NO. 36 OF 1963
+[5th October, 1963.]
+An Act to con
+
+======================================================================
+
+CHUNK 5
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : Short title, extent and commencement.—(1) This Act may be called the Limitation
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935153
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 1
+
+PART I
+PRELIMINARY
+1. Short title, extent and commencement.—(1) This Act may be called the Limitation Act, 1963.
+(2) It extends to the whole of India 1***.
+(3) It shall come into force on such date2 as the Central Government may, by notification in the
+Official Gazette, appoint.
+
+======================================================================
+
+CHUNK 6
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 2
+  section_title       : Definitions.—In this Act, unless the context otherwise requires,—
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935171
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 2
+
+2. Definitions.—In this Act, unless the context otherwise requires,—
+(a) “applicant” includes—
+(i) a petitioner;
+(ii) any person from or through whom an applicant derives his right to apply;
+(iii) any person whose estate is represented by the applicant as executor, administrator or
+other representative;
+(b) “application” includes a petition;
+(c) “bill of ex
+
+======================================================================
+
+CHUNK 7
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935207
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(e) “defendant” includes—
+(i) any person from or through whom a defendant derives his liability to be sued;
+(ii) any person whose estate is represented by the defendant as executor, administrator or
+other representative;
+(f) “easement” includes a right not arising from contract, by which one person is entitled to
+remove and appropriate for his own profit any 
+
+======================================================================
+
+CHUNK 8
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935226
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(i) “plaintiff” includes—
+(i) any person from or through whom a plaintiff derives his right to sue;
+(ii) any person whose estate is represented by the plaintiff as executor, administrator or other
+representative;
+
+======================================================================
+
+CHUNK 9
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : The words “except the State of Jammu and Kashmir” omitted by Act 34 of 2019, s.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935239
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 1
+
+1. The words “except the State of Jammu and Kashmir” omitted by Act 34 of 2019, s. 95 and the Fifth Schedule (w.e.f. 31-
+10- 2019).
+
+======================================================================
+
+CHUNK 10
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 2
+  section_title       : 1st January, 1964, vide notification No. S.O. 3118, dated 29th October, 1963, se
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935256
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 2
+
+2. 1st January, 1964, vide notification No. S.O. 3118, dated 29th October, 1963, see Gazette of India, Part II, sec. 3 (ii).
+Amended in West Bengal by W.B. Act 18 of 1977.
+1st September, 1984, vide notification No. S.O. 647(C), in respect of the State of Sikkim dated 24th August, 1984, see
+Gazette of India, Part II, sec. 3(ii).
+3
+
+(j) “period of limitation”
+
+======================================================================
+
+CHUNK 11
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935285
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(k) “promissory note” means any instrument whereby the maker engages absolutely to pay a
+specified sum of money to another at a time therein limited, or on demand, or at sight;
+(l) “suit” does not include an appeal or an application;
+(m) “tort" means a civil wrong which is not exclusively the breach of a contract or the breach of a
+trust;
+(n) “trustee” does n
+
+======================================================================
+
+CHUNK 12
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 3
+  section_title       : Bar of limitation.—(1) Subject to the provisions contained in sections 4 to 24 (
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935299
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 3
+
+3. Bar of limitation.—(1) Subject to the provisions contained in sections 4 to 24 (inclusive), every
+suit instituted, appeal preferred, and application made after the prescribed period shall be dismissed,
+although limitation has not been set up as a defence.
+
+======================================================================
+
+CHUNK 13
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935327
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(2) For the purposes of this Act,—
+(a) a suit is instituted,—
+(i) in an ordinary case, when the plaint is presented to the proper officer;
+(ii) in the case of a pauper, when his application for leave to sue as a pauper is made; and
+(iii) in the case of a claim against a company which is being wound up by the court, when the
+claimant first sends in his claim t
+
+======================================================================
+
+CHUNK 14
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935348
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(i) in the case of a set off, on the same date as the suit in which the set off is pleaded;
+(ii) in the case of a counter claim, on the date on which the counter claim is made in court;
+(c) an application by notice of motion in a High Court is made when the application is presented
+to the proper officer of that court.
+
+======================================================================
+
+CHUNK 15
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 4
+  section_title       : Expiry of prescribed period when court is closed.—Where the prescribed period fo
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935363
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 4
+
+4. Expiry of prescribed period when court is closed.—Where the prescribed period for any suit,
+appeal or application expires on a day when the court is closed, the suit, appeal or application may be
+instituted, preferred or made on the day when the court re-opens.
+Explanation.—A court shall be deemed to be closed on any day within the meaning of this sectio
+
+======================================================================
+
+CHUNK 16
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 5
+  section_title       : Extension of prescribed period in certain cases.—Any appeal or any application,
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935381
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 5
+
+5. Extension of prescribed period in certain cases.—Any appeal or any application, other than an
+application under any of the provisions of Order XXI of the Code of Civil Procedure, 1908 (5 of 1908),
+may be admitted after the prescribed period if the appellant or the applicant satisfies the court that he had
+sufficient cause for not preferring the appeal or
+
+======================================================================
+
+CHUNK 17
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 6
+  section_title       : Legal disability.—(1) Where a person entitled to institute a suit or make an app
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935396
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 6
+
+6. Legal disability.—(1) Where a person entitled to institute a suit or make an application for the
+execution of a decree is, at the time from which the prescribed period is to be reckoned, a minor or insane,
+or an idiot, he may institute the suit or make the application within the same period after the disability has
+ceased, as would otherwise have been al
+
+======================================================================
+
+CHUNK 18
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935427
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(2) Where such person is, at the time from which the prescribed period is to be reckoned, affected by
+two such disabilities, or where, before his disability has ceased, he is affected by another disability, he
+may institute the suit or make the application within the same period after both disabilities have ceased, as
+would otherwise have been allowed from th
+
+======================================================================
+
+CHUNK 19
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935458
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(4) Where the legal representative referred to in sub-section (3) is, at the date of the death of the
+person whom he represents, affected by any such disability, the rules contained sub-sections (1) and (2)
+shall apply.
+(5) Where a person under disability dies after the disability ceases but within the period allowed to
+him under this section, his legal repre
+
+======================================================================
+
+CHUNK 20
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 7
+  section_title       : Disability of one of several persons.—Where one of several persons jointly entit
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935476
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 7
+
+7. Disability of one of several persons.—Where one of several persons jointly entitled to institute a
+suit or make an application for the execution of a decree is under any such disability, and a discharge can
+be given without the concurrence of such person, time will run against them all; but, where no such
+discharge can be given, time will not run as agai
+
+======================================================================
+
+CHUNK 21
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935497
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+in respect of any immovable property.
+Explanation II.—For the purposes of this section, the Manager of a Hindu undivided family governed
+by the Mitakshara law shall be deemed to be capable of giving a discharge without the concurrence of the
+other members of the family only if he is in management of the joint family property.
+
+======================================================================
+
+CHUNK 22
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 8
+  section_title       : Special exceptions.—Nothing in section 6 or in section 7 applies to suits to enf
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935515
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 8
+
+8. Special exceptions.—Nothing in section 6 or in section 7 applies to suits to enforce rights of pre-
+emption, or shall be deemed to extend, for more than three years from the cessation of the disability or the
+death of the person affected thereby, the period of limitation for any suit or application.
+9. Continuous running of time.—Where once time has begu
+
+======================================================================
+
+CHUNK 23
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 10
+  section_title       : Suits against trustees and their representatives.—Notwithstanding anything conta
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935533
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 10
+
+10. Suits against trustees and their representatives.—Notwithstanding anything contained in the
+foregoing provisions of this Act, no suit against a person in whom property has become vested in trust for
+any specific purpose, or against his legal representatives or assigns (not being assigns for valuable
+consideration), for the purpose of following in his o
+
+======================================================================
+
+CHUNK 24
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935546
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+purpose and the manager of the property shall be deemed to be the trustee thereof.
+
+======================================================================
+
+CHUNK 25
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 11
+  section_title       : Suits on contracts entered into outside the territories to which the Act extends
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935564
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 11
+
+11. Suits on contracts entered into outside the territories to which the Act extends.—(1) Suits
+instituted in the territories to which this Act extends on contracts entered into in the State of Jammu and
+Kashmir or in a foreign country shall be subject to the rules of limitation contained in this Act.
+(2) No rule of limitation in force in the State of Jamm
+
+======================================================================
+
+CHUNK 26
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 12
+  section_title       : Exclusion of time in legal proceedings.—(1) In computing the period of limitatio
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935582
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 12
+
+12. Exclusion of time in legal proceedings.—(1) In computing the period of limitation for any suit,
+appeal or application, the day from which such period is to be reckoned, shall be excluded.
+(2) In computing the period of limitation for an appeal or an application for leave to appeal or for
+revision or for review of a judgment, the day on which the judgme
+
+======================================================================
+
+CHUNK 27
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935614
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(3) Where a decree or order is appealed from or sought to be revised or reviewed, or where an
+application is made for leave to appeal from a decree or order, the time requisite for obtaining a copy of
+the judgment 1*** shall also be excluded.
+(4) In computing the period of limitation for an application to set aside an award, the time requisite
+for obtaining a
+
+======================================================================
+
+CHUNK 28
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 13
+  section_title       : Exclusion of time in cases where leave to sue or appeal as a pauper is applied f
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935631
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 13
+
+13. Exclusion of time in cases where leave to sue or appeal as a pauper is applied for.—In
+computing the period of limitation prescribed for any suit or appeal in any case where an application for
+leave to sue or appeal as a pauper has been made and rejected, the time during which the applicant has
+been prosecuting in good faith his application for such le
+
+======================================================================
+
+CHUNK 29
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 14
+  section_title       : Exclusion of time of proceeding bona fide in court without jurisdiction.—(1) In
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935647
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 14
+
+14. Exclusion of time of proceeding bona fide in court without jurisdiction.—(1) In computing the
+period of limitation for any suit the time during which the plaintiff has been prosecuting with due
+diligence another civil proceeding, whether in a court of first instance or of appeal or revision, against the
+defendant shall be excluded, where the proceeding
+
+======================================================================
+
+CHUNK 30
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935673
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(2) In computing the period of limitation for any application, the time during which the applicant has
+been prosecuting with due diligence another civil proceeding, whether in a court of first instance or of
+appeal or revision, against the same party for the same relief shall be excluded, where such proceeding is
+prosecuted in good faith in a court which, fro
+
+======================================================================
+
+CHUNK 31
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935708
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(3) Notwithstanding anything contained in rule 2 of Order XXIII of the Code of Civil Procedure,
+1908 (5 of 1908), the provisions of sub-section (1) shall apply in relation to a fresh suit instituted on
+permission granted by the court under rule 1 of that Order, where such permission is granted on the
+ground that the first suit must fail by reason of a defect 
+
+======================================================================
+
+CHUNK 32
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : The words “on which the decree or order is founded” omitted by Act 46 of 1999, s
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935723
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 1
+
+1. The words “on which the decree or order is founded” omitted by Act 46 of 1999, s. 33 (w.e.f. 1-7-2002).
+6
+
+(b) a plaintiff or an applicant resisting an appeal shall be deemed to be prosecuting a proceeding;
+(c) misjoinder of parties or of causes of action shall be deemed to be a cause of a like nature with
+defect of jurisdiction.
+
+======================================================================
+
+CHUNK 33
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 15
+  section_title       : Exclusion of time in certain other cases.—(1) In computing the period of limitat
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935738
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 15
+
+15. Exclusion of time in certain other cases.—(1) In computing the period of limitation of any suit
+or application for the execution of a decree, the institution or execution of which has been stayed by
+injunction or order, the time of the continuance of the injunction or order, the day on which it was issued
+or made, and the day on which it was withdrawn,
+
+======================================================================
+
+CHUNK 34
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935773
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(2) In computing the period of limitation for any suit of which notice has been given, or for which the
+previous consent or sanction of the Government or any other authority is required, in accordance with the
+requirements of any law for the time being in force, the period of such notice or, as the case may be, the
+time required for obtaining such consent or 
+
+======================================================================
+
+CHUNK 35
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935801
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(3) In computing the period of limitation for any suit or application for execution of a decree by any
+receiver or interim receiver appointed in proceedings for the adjudication of a person as an insolvent or by
+any liquidator or provisional liquidator appointed in proceedings for the winding up of a company, the
+period beginning with the date of institution 
+
+======================================================================
+
+CHUNK 36
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935826
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(4) In computing the period of limitation for a suit for possession by a purchaser at a sale in execution
+of a decree, the time during which a proceeding to set aside the sale has been prosecuted shall be
+excluded.
+(5) In computing the period of limitation for any suit the time during which the defendant has been
+absent from India and from the territories out
+
+======================================================================
+
+CHUNK 37
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 16
+  section_title       : Effect of death on or before the accrual of the right to sue.—(1) Where a person
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935843
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 16
+
+16. Effect of death on or before the accrual of the right to sue.—(1) Where a person who would, if
+he were living, have a right to institute a suit or make an application dies before the right accrues, or
+where a right to institute a suit or make an application accrues only on the death of a person, the period of
+limitation shall be computed from the time 
+
+======================================================================
+
+CHUNK 38
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935876
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(2) Where a person against whom, if he were living, a right to institute a suit or make an application
+would have accrued dies before the right accrues, or where a right to institute a suit or make an
+application against any person accrues on the death of such person, the period of limitation shall be
+computed from the time when there is a legal representativ
+
+======================================================================
+
+CHUNK 39
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 17
+  section_title       : Effect of fraud or mistake.—(1) Where, in the case of any suit or application fo
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935892
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 17
+
+17. Effect of fraud or mistake.—(1) Where, in the case of any suit or application for which a period
+of limitation is prescribed by this Act,—
+(a) the suit or application is based upon the fraud of the defendant or respondent or his agent; or
+(b) the knowledge of the right or title on which a suit or application is founded is concealed by
+the fraud of any 
+
+======================================================================
+
+CHUNK 40
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935928
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(d) where any document necessary to establish the right of the plaintiff or applicant has been
+fraudulently concealed from him,
+7
+
+the period of limitation shall not begin to run until the plaintiff or applicant has discovered the fraud or
+the mistake or could, with reasonable diligence, have discovered it; or in the case of a concealed
+document, until the pl
+
+======================================================================
+
+CHUNK 41
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.935973
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(i) in the case of fraud, has been purchased for valuable consideration by a person who was not a
+party to the fraud and did not at the time of the purchase know, or have reason to believe, that any
+fraud had been committed, or
+(ii) in the case of mistake, has been purchased for valuable consideration subsequently to the
+transaction in which the mistake was m
+
+======================================================================
+
+CHUNK 42
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936001
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(2) Where a judgment-debtor has, by fraud or force, prevented the execution of a decree or order
+within the period of limitation, the court may, on the application of the judgment-creditor made after the
+expiry of the said period extend the period for execution of the decree or order:
+Provided that such application is made within one year from the date of the
+
+======================================================================
+
+CHUNK 43
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 18
+  section_title       : Effect of acknowledgment in writing.—(1) Where, before the expiration of the pre
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936017
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 18
+
+18. Effect of acknowledgment in writing.—(1) Where, before the expiration of the prescribed
+period for a suit or application in respect of any property or right, an acknowledgment of liability in
+respect of such property or right has been made in writing signed by the party against whom such
+property or right is claimed, or by any person through whom he de
+
+======================================================================
+
+CHUNK 44
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936052
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(2) Where the writing containing the acknowledgment is undated, oral evidence may be given of the
+time when it was signed; but subject to the provisions of the Indian Evidence Act, 1872 (1 of 1872), oral
+evidence of its contents shall not be received.
+Explanation.—For the purposes of this section,—
+(a) an acknowledgment may be sufficient though it omits to sp
+
+======================================================================
+
+CHUNK 45
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936069
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(b) the word “signed” means signed either personally or by an agent duly authorised in this
+behalf, and
+(c) an application for the execution of a decree or order shall not be deemed to be an application
+in respect of any property or right.
+
+======================================================================
+
+CHUNK 46
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 19
+  section_title       : Effect of payment on account of debt or of interest on legacy.—Where payment on
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936086
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 19
+
+19. Effect of payment on account of debt or of interest on legacy.—Where payment on account of
+a debt or of interest on a legacy is made before the expiration of the prescribed period by the person liable
+to pay the debt or legacy or by his agent duly authorised in this behalf, a fresh period of limitation shall be
+computed from the time when the payment w
+
+======================================================================
+
+CHUNK 47
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936104
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(a) where mortgaged land is in the possession of the mortgagee, the receipt of the rent or produce
+of such land shall be deemed to be a payment;
+(b) “debt” does not include money payable under a decree or order of a court.
+
+======================================================================
+
+CHUNK 48
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 20
+  section_title       : Effect of acknowledgment or payment by another person.—(1) The expression “agent
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936122
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 20
+
+20. Effect of acknowledgment or payment by another person.—(1) The expression “agent duly
+authorised in this behalf” in sections 18 and 19 shall, in the case of a person under disability, include his
+lawful guardian, committee or manager or an agent duly authorised by such guardian, committee or
+manager to sign the acknowledgment or make the payment.
+(2) N
+
+======================================================================
+
+CHUNK 49
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936153
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(3) For the purposes of the said sections,—
+(a) an acknowledgment signed or a payment made in respect of any liability by, or by the duly
+authorised agent of, any limited owner of property who is governed by Hindu law, shall be a valid
+acknowledgment or payment, as the case may be, against a reversioner succeeding to such liability;
+and
+(b) where a liability 
+
+======================================================================
+
+CHUNK 50
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 21
+  section_title       : Effect of substituting or adding new plaintiff or defendant.—(1) Where after the
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936168
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 21
+
+21. Effect of substituting or adding new plaintiff or defendant.—(1) Where after the institution of
+a suit, a new plaintiff or defendant is substituted or added, the suit shall, as regards him, be deemed to
+have been instituted when he was so made a party:
+Provided that where the court is satisfied that the omission to include a new plaintiff or defendant 
+
+======================================================================
+
+CHUNK 51
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936186
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(2) Nothing in sub-section (1) shall apply to a case where a party is added or substituted owing to
+assignment or devolution of any interest during the pendency of a suit or where a plaintiff is made a
+defendant or a defendant is made a plaintiff.
+
+======================================================================
+
+CHUNK 52
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 22
+  section_title       : Continuing breaches and torts.—In the case of a continuing breach of contract or
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936203
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 22
+
+22. Continuing breaches and torts.—In the case of a continuing breach of contract or in the case of
+a continuing tort, a fresh period of limitation begins to run at every moment of the time during which the
+breach or the tort, as the case may be, continues.
+23. Suits for compensation for acts not actionable without special damage.—In the case of a suit
+for
+
+======================================================================
+
+CHUNK 53
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 24
+  section_title       : Computation of time mentioned in instruments.—All instruments shall for the purp
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936215
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 24
+
+24. Computation of time mentioned in instruments.—All instruments shall for the purposes of this
+Act be deemed to be made with reference to the Gregorian calendar.
+
+======================================================================
+
+CHUNK 54
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 25
+  section_title       : Acquisition of easements by prescription.—(1) Where the access and use of light
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936233
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 25
+
+25. Acquisition of easements by prescription.—(1) Where the access and use of light or air to and
+for any building have been peaceably enjoyed therewith as an easement, and as of right, without
+interruption, and for twenty years, and where any way or watercourse or the use of any water or any other
+easement (whether affirmative or negative) has been peacea
+
+======================================================================
+
+CHUNK 55
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936249
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(2) Each of the said periods of twenty years shall be taken to be a period ending within two years next
+before the institution of the suit wherein the claim to which such period relates is contested.
+9
+
+======================================================================
+
+CHUNK 56
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936281
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(3) Where the property over which a right is claimed under sub-section (1) belongs to the
+Government that sub-section shall be read as if for the words “twenty years” the words “thirty years”
+were substituted.
+Explanation.—Nothing is an interruption within the meaning of this section, unless where there is an
+actual discontinuance of the possession or enjoyme
+
+======================================================================
+
+CHUNK 57
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 26
+  section_title       : Exclusion in favour of reversioner of serivent tenement.—Where any land or water
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936298
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 26
+
+26. Exclusion in favour of reversioner of serivent tenement.—Where any land or water upon, over
+or from, which any easement has been enjoyed or derived has been held under or by virtue of any interest
+for life or in terms of years exceeding three years from the granting thereof, the time of the enjoyment of
+such easement during the continuance of such inte
+
+======================================================================
+
+CHUNK 58
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 27
+  section_title       : Extinguishment of right to property.—At the determination of the period hereby l
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936311
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 27
+
+27. Extinguishment of right to property.—At the determination of the period hereby limited to any
+person for instituting a suit for possession of any property, his right to such property shall be
+extinguished.
+
+======================================================================
+
+CHUNK 59
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 28
+  section_title       : [Amendment of certain Acts.]—Rep. by Repealing and Amending Act, 1974 (56 of 197
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936323
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 28
+
+PART V
+MISCELLANEOUS
+28. [Amendment of certain Acts.]—Rep. by Repealing and Amending Act, 1974 (56 of 1974),s.
+2andtheFirst Schedule (w.e.f. 20-12-1974).
+
+======================================================================
+
+CHUNK 60
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 29
+  section_title       : Savings.—(1) Nothing in this Act shall affect section 25 of the Indian Contract
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936343
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 29
+
+29. Savings.—(1) Nothing in this Act shall affect section 25 of the Indian Contract Act, 1872 (9 of
+1872).
+(2) Where any special or local law prescribes for any suit, appeal or application a period of limitation
+different from the period prescribed by the Schedule, the provisions of section 3 shall apply as if such
+period were the period prescribed by the 
+
+======================================================================
+
+CHUNK 61
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936366
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(3) Save as otherwise provided in any law for the time being in force with respect to marriage and
+divorce, nothing in this Act shall apply to any suit or other proceeding under any such law.
+(4) Sections 25 and 26 and the definition of “easement” in section 2 shall not apply to cases arising in
+the territories to which the Indian Easements Act, 1882 (5 of 18
+
+======================================================================
+
+CHUNK 62
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 30
+  section_title       : Provision for suits, etc., for which the prescribed period is shorter than the p
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936378
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 30
+
+30. Provision for suits, etc., for which the prescribed period is shorter than the period
+prescribed by the Indian Limitation Act, 1908.—Notwithstanding anything contained in this Act,—
+
+======================================================================
+
+CHUNK 63
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936412
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(a) any suit for which the period of limitation is shorter than the period of limitation prescribed by
+the Indian Limitation Act, 1908 (9 of 1908), may be instituted within a period of1[seven years] next
+after the commencement of this Act or within the period prescribed for such suit by the Indian
+Limitation Act, 1908 (9 of 1908), whichever period expires ear
+
+======================================================================
+
+CHUNK 64
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936431
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+under the Indian Limitation Act, 1908 (9 of 1908), as has already expired before the commencement
+of this Act is shorter than the period prescribed for such suit under this Act, then, the suit may be
+instituted within the period of limitation prescribed therefor under this Act;]
+
+======================================================================
+
+CHUNK 65
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936464
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(b) any appeal or application for which the period of limitation is shorter than the period of
+limitation prescribed by the Indian Limitation Act, 1908 (9 of 1908), may be preferred or made within
+a period of ninety days next after the commencement of this Act or within the period prescribed for
+such appeal or application by the Indian Limitation Act, 1908, w
+
+======================================================================
+
+CHUNK 66
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936497
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(a) Any suit for which the period of limitation is shorter than the period of limitation prescribed
+by the Limitation Act, Samvat 1995, may be instituted within a period of one year next after
+the commencement of the Jammu and Kashmir Reorganisation Act, 2019 or within the period
+prescribed for such suit by the Limitation Act, Samvat 1995, whichever period ex
+
+======================================================================
+
+CHUNK 67
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936521
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+respect of such suit under the said Act, as has already expired before the commencement of
+the Jammu and Kashmir Reorganisation Act, 2019 is shorter than the period prescribed for
+such suit under the Limitation Act, 1963, then, the suit may be instituted within the period of
+limitation prescribed therefor under the Limitation Act, 1963;
+
+======================================================================
+
+CHUNK 68
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936551
+
+CONTENT:
+The Limitation Act, 1963 |  | Section
+
+(b) Any appeal or application for which the period of limitation is shorter than the period of
+limitation prescribed by the Limitation Act, Samvat 1995, may be preferred or made within a
+period of ninety days next after the commencement of the Jammu and Kashmir
+Reorganisation Act, 2019 or within the period prescribed for such appeal or application by
+the Limi
+
+======================================================================
+
+CHUNK 69
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 31
+  section_title       : Provisions as to barred or pending suits, etc.—Nothing in this Act shall,—
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936566
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 31
+
+31. Provisions as to barred or pending suits, etc.—Nothing in this Act shall,—
+(a) enable any suit, appeal or application to be instituted, preferred or made, for which the period
+of limitation prescribed by the Indian Limitation Act, 1908 (9 of 1908), expired before the
+commencement of this Act; or
+(b) affect any suit, appeal or application instituted, pr
+
+======================================================================
+
+CHUNK 70
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 32
+  section_title       : [Repeal.]—Rep. by Repealing and Amending Act, 1974 (56 of 1974), s. 2 and the Fi
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936580
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 32
+
+32. [Repeal.]—Rep. by Repealing and Amending Act, 1974 (56 of 1974), s. 2 and the First Schedule
+(w.e.f. 20-12-1974).
+11
+
+THE SCHEDULE
+(PERIODS OF LIMITATION)
+[See sections 2(j) and 3]
+FIRST DIVISION—SUITS
+Description of suit Period of limitation Time from which period begins to run
+
+======================================================================
+
+CHUNK 71
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : For the balance due on a mutual, Three years. The close of the year in which the
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936597
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 1
+
+PART I.—SUITS RELATING TO ACCOUNTS
+1. For the balance due on a mutual, Three years. The close of the year in which the last
+open and current account, where item admitted or proved is entered in
+there have been reciprocal the account; such year to be computed
+demands between the parties. as in the account.
+2. Against a factor for an account. Three years. Whe
+
+======================================================================
+
+CHUNK 72
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 3
+  section_title       : By a principal against his agent for Three years. When the account is, during th
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936613
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 3
+
+3. By a principal against his agent for Three years. When the account is, during the
+movable property received by the continuance of the agency, demanded
+latter and not accounted for. and refused or, where no such demand
+is made, when the agency terminates.
+4. Other suits by principals against Three years. When the neglect or misconduct becomes
+agents for n
+
+======================================================================
+
+CHUNK 73
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 6
+  section_title       : For a seaman’s wages Three years. The end of the voyage during which the
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936631
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 6
+
+PART II.—SUITS RELATING TO CONTRACTS
+6. For a seaman’s wages Three years. The end of the voyage during which the
+wages are earned.
+7. For wages in the case of any other Three years. When the wages accrue due.
+person.
+8. For the price of food or drink sold Three years. When the food or drink is delivered.
+by the keeper of a hotel, tavern
+or lodging-house.
+9.
+
+======================================================================
+
+CHUNK 74
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 12
+  section_title       : For the hire of animals, vehicles, Three years. When the hire becomes payable.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936649
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 12
+
+12. For the hire of animals, vehicles, Three years. When the hire becomes payable.
+boats or household furniture.
+13. For the balance of money advanced Three years. When the goods ought to be delivered.
+in payment of goods to be
+delivered.
+14. For the price of goods sold and Three years. The date of the delivery of the goods.
+delivered where no fixed period
+
+======================================================================
+
+CHUNK 75
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 16
+  section_title       : For the price of goods sold and Three years. When the period of the proposed bil
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936667
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 16
+
+16. For the price of goods sold and Three years. When the period of the proposed bill
+delivered to be paid for by a bill elapses.
+of exchange, no such bill being
+given.
+17. For the price of trees or growing Three years. The date of the sale.
+crops sold by the plaintiff to the
+defendant where no fixed period
+of credit is agreed upon.
+18. For the price of wo
+
+======================================================================
+
+CHUNK 76
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 21
+  section_title       : For money lent under an agreement Three years. When the loan is made.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936684
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 21
+
+21. For money lent under an agreement Three years. When the loan is made.
+that it shall be payable on
+demand.
+22. For money deposited under an Three years. When the demand is made.
+agreement that it shall be
+payable on demand, including
+money of a customer in the
+hands of his banker so payable.
+23. For money payable to the plaintiff Three years. When the m
+
+======================================================================
+
+CHUNK 77
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 26
+  section_title       : For money payable to the plaintiff Three years. When the accounts are stated in
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936701
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 26
+
+26. For money payable to the plaintiff Three years. When the accounts are stated in writing
+for money found to be due from signed by the defendant or his agent
+the defendant to the plaintiff on duly authorised in this behalf, unless
+accounts stated between them. where the debt is, by a simultaneous
+agreement in writing signed as
+aforesaid, made payable at 
+
+======================================================================
+
+CHUNK 78
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 28
+  section_title       : On a single bond, where a day is Three years. The day so specified.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936720
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 28
+
+28. On a single bond, where a day is Three years. The day so specified.
+specified for payment.
+29. On a single bond, where no such Three years. The date of executing the bond.
+day is specified.
+30. On a bond subject to a condition. Three years. When the condition is broken.
+13
+
+Description of suit Period of limitation Time from which period begins to run
+3
+
+======================================================================
+
+CHUNK 79
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 33
+  section_title       : On a bill of exchange accepted Three years. When the bill is presented at that p
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936738
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 33
+
+33. On a bill of exchange accepted Three years. When the bill is presented at that place.
+payable at a particular place.
+34. On a bill of exchange or promissory Three years. When the fixed time expires.
+note payable at a fixed time after
+sight or after demand.
+35. On a bill of exchange or promissory Three years. The date of the bill or note.
+note payable o
+
+======================================================================
+
+CHUNK 80
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 37
+  section_title       : On a promissory note or bond Three years. When the default is made, unless where
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936755
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 37
+
+37. On a promissory note or bond Three years. When the default is made, unless where
+payable by instalments, which the payee or obligee waives the
+provides that, if default be made benefit of the provision and then
+in payment of one or more when fresh default is made in respect
+instalments, the whole shall be of which there is no such waiver.
+due.
+38. On a
+
+======================================================================
+
+CHUNK 81
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 40
+  section_title       : By the payee against the drawer of Three years. The date of the refusal to accep
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936770
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 40
+
+40. By the payee against the drawer of Three years. The date of the refusal to accept.
+a bill of exchange, which has
+been dishonoured bynon-
+acceptance.
+41. By the acceptor of an Three years. When the acceptor pays the amount of the
+accommodation-bill against the bill.
+drawer.
+42. By a surety against the principal Three years. When the surety pays the cred
+
+======================================================================
+
+CHUNK 82
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 44
+  section_title       : (a) On a policy of insurance when Three years. The date of the death of the dece
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936787
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 44
+
+44. (a) On a policy of insurance when Three years. The date of the death of the deceased, or
+the sum insured is payable after where the claim on the policy is
+proof of the death has been denied, either partly or wholly, the
+given to or received by the date of such denial.
+insurers.
+(b) On a policy of insurance when Three years. The date of the occurrence c
+
+======================================================================
+
+CHUNK 83
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 45
+  section_title       : By the assured to recover premia Three years. When the insurers elect to avoid t
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936803
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 45
+
+45. By the assured to recover premia Three years. When the insurers elect to avoid the
+paid under a policy voidable at policy.
+the election of the insurers.
+46. Under the Indian Succession Act, Three years. The date of the payment or distribution.
+1925 (39 of 1925), section 360
+or section 361, to compel a
+refund by a person to whom an
+executor or administr
+
+======================================================================
+
+CHUNK 84
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 48
+  section_title       : For contribution by a party who has Three years. The date of the payment in exce
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936823
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 48
+
+48. For contribution by a party who has Three years. The date of the payment in excess of the
+paid the whole or more than his plaintiff’s own share.
+share of the amount due under a
+joint decree, or by a sharer in a
+joint estate who has paid the
+whole or more than his share of
+the amount of revenue due from
+himself and his co-sharers.
+49. By a co-trustee to
+
+======================================================================
+
+CHUNK 85
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 51
+  section_title       : For the profits of immovable Three years. When the profits are received.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936841
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 51
+
+51. For the profits of immovable Three years. When the profits are received.
+property belonging to the
+plaintiff which have been
+wrongfully received by the
+defendant.
+52. For arrears of rent. Three years. When the arrears become due.
+53. By a vendor of immovable property Three years. The time fixed for completing the sale,
+for personal payment of unpaid or
+
+======================================================================
+
+CHUNK 86
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 55
+  section_title       : For compensation for the breach of Three years. When the contract is broken or (
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936857
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 55
+
+55. For compensation for the breach of Three years. When the contract is broken or (where
+any contract, express or implied there are successive breaches) when
+not herein specially provided the breach in respect of which the
+for. suit is instituted occurs or (where the
+breach is continuing) when it ceases.
+15
+
+Description of suit Period of limitation Time f
+
+======================================================================
+
+CHUNK 87
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 56
+  section_title       : To declare the forgery of an Three years. When the issue or registration becomes
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936873
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 56
+
+PART III.—SUITS RELATING TO DECLARATIONS
+56. To declare the forgery of an Three years. When the issue or registration becomes
+instrument issued or registered. known to the plaintiff.
+57. To obtain a declaration that an Three years. When the alleged adoption becomes
+alleged adoption is invalid, or known to the plaintiff.
+never, in fact, took place.
+58. To o
+
+======================================================================
+
+CHUNK 88
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 59
+  section_title       : To cancel or set aside an instrument Three years. When the facts entitling the p
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936888
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 59
+
+PART IV.—SUITS RELATING TO DECREES AND INSTRUMENTS
+59. To cancel or set aside an instrument Three years. When the facts entitling the plaintiff to
+or decree or for the rescission of have the instrument or decree
+a contract. cancelled or set aside or the contract
+rescinded first become known to him.
+
+======================================================================
+
+CHUNK 89
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 60
+  section_title       : To set aside a transfer of property
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936905
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 60
+
+60. To set aside a transfer of property
+made by the guardian of a
+ward—
+(a) by the ward who has attained Three years. When the ward attains majority.
+majority;
+(b)by the ward’s legal
+representative—
+(i) when the ward dies within Three years. When the ward attains majority.
+three years from the date of
+attaining majority.
+(ii) when the ward dies before Thre
+
+======================================================================
+
+CHUNK 90
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 61
+  section_title       : By a mortgagor—
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936925
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 61
+
+PART V.—SUITS RELATING TO IMMOVABLE PROPERTY
+61. By a mortgagor—
+(a)to redeem or recover Thirty years. When the right to redeem or to recover
+possession of immovable possession accrues.
+property mortgaged;
+(b)to recover possession of Twelve years. When the transfer becomes known to the
+immovable property mortgaged plaintiff.
+and afterwards transferred by
+t
+
+======================================================================
+
+CHUNK 91
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 62
+  section_title       : To enforce payment of money Twelve years. When the money sued for becomes due.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936942
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 62
+
+62. To enforce payment of money Twelve years. When the money sued for becomes due.
+secured by a mortgage or
+otherwise charged upon
+immovable property.
+63. By a mortgagee—
+(a) for foreclosure; Thirty years. When the money secured by the mortgage
+becomes due.
+(b) for possession of immovable Twelve years. When the mortgagee becomes entitled to
+property mortga
+
+======================================================================
+
+CHUNK 92
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 66
+  section_title       : For possession of immovable Twelve years. When the forfeiture is incurred or the
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936957
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 66
+
+66. For possession of immovable Twelve years. When the forfeiture is incurred or the
+property when the plaintiff has condition is broken.
+become entitled to possession by
+reason of any forfeiture or breach
+of condition.
+67. By a landlord to recover possession Twelve years. When the tenancy is determined.
+from a tenant.
+
+======================================================================
+
+CHUNK 93
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 68
+  section_title       : For specific movable property lost, Three years. When the person having the righ
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936977
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 68
+
+PART VI.—SUITS RELATING TO MOVABLE PROPERTY
+68. For specific movable property lost, Three years. When the person having the right to the
+or acquired by theft, or dishonest possession of the property first learns
+misappropriation or conversion. in whose possession it is.
+69. For other specific movable property. Three years. When the property is wrongfully t
+
+======================================================================
+
+CHUNK 94
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 71
+  section_title       : To recover movable property Three years. When the sale becomes known to the
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.936991
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 71
+
+71. To recover movable property Three years. When the sale becomes known to the
+deposited or pawned, and plaintiff.
+afterwards bought from the
+depository or pawnee for a
+valuable consideration.
+
+======================================================================
+
+CHUNK 95
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 72
+  section_title       : For compensation for doing or for One year. When the act or omission takes place
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937009
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 72
+
+PART VII.—SUITS RELATING TO TORT
+72. For compensation for doing or for One year. When the act or omission takes place.
+omitting to do an act alleged to
+be in pursuance of any enactment
+in force for the time being in the
+territories to which this Act
+extends.
+73. For compensation for false One year. When the imprisonment ends.
+imprisonment.
+74. For compensa
+
+======================================================================
+
+CHUNK 96
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 75
+  section_title       : For compensation for libel. One year. When the libel is published.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937027
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 75
+
+75. For compensation for libel. One year. When the libel is published.
+76. For compensation for slander. One year. When the words are spoken, or, if the
+words are not actionable in
+themselves, when the special damage
+complained of results.
+77. For compensation for loss of service One year. When the loss occurs.
+occasioned by the seduction of
+the plaintiff’
+
+======================================================================
+
+CHUNK 97
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 80
+  section_title       : For compensation for wrongful One year. The date of the seizure.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937046
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 80
+
+80. For compensation for wrongful One year. The date of the seizure.
+seizure of movable property
+under legal process.
+81. By executors, administrators or One year. The date of the death of the person
+representatives under the Legal wronged.
+Representatives’ Suits Act, 1855
+(12 of 1855).
+82. By executors, administrators or Two years. The date of the death o
+
+======================================================================
+
+CHUNK 98
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 84
+  section_title       : Against one who, having a right to Two years. When the perversion first becomes
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937067
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 84
+
+84. Against one who, having a right to Two years. When the perversion first becomes known
+use property for specific to the person injured thereby.
+purposes, perverts it to other
+purposes.
+18
+
+Description of suit Period of limitation Time from which period begins to run
+85. For compensation for obstructing a Three years. The date of the obstruction.
+way or 
+
+======================================================================
+
+CHUNK 99
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 89
+  section_title       : To restrain waste. Three years. When the waste begins.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937087
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 89
+
+89. To restrain waste. Three years. When the waste begins.
+90. For compensation for injury caused Three years. When the injunction ceases.
+by an injunction wrongfully
+obtained.
+91. For compensation,—
+(a)for wrongfully taking or detaining Three years. When the person having the right to the
+any specific movable possession of the property first learns
+proper
+
+======================================================================
+
+CHUNK 100
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 92
+  section_title       : To recover possession of immovable Twelve years. When the transfer becomes known
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937104
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 92
+
+PART VIII.—SUITS RELATING TO TRUSTS AND TRUST PROPERTY
+92. To recover possession of immovable Twelve years. When the transfer becomes known to the
+property conveyed or bequeathed plaintiff.
+in trust and afterwards transferred
+by the trustee for a valuable
+consideration.
+93. To recover possession of movable Three years. When the transfer becomes known to th
+
+======================================================================
+
+CHUNK 101
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 96
+  section_title       : By the manager of Hindu, Muslim or Twelve years. The date of death, resignation
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937121
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 96
+
+96. By the manager of Hindu, Muslim or Twelve years. The date of death, resignation or removal
+Buddhist religious or charitable of the transferor or the date of
+endowment to recover possession appointment of the plaintiff as
+of movable or immovable manager of the endowment,
+properly comprised in the whichever is later.
+endowment which has been
+transferred 
+
+======================================================================
+
+CHUNK 102
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 97
+  section_title       : To enforce a right of pre-emption One year. When the purchaser take under the sa
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937137
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 97
+
+PART IX.—SUITS RELATING TO MISCELLANEOUS MATTERS
+97. To enforce a right of pre-emption One year. When the purchaser take under the sale
+whether the right is founded on sought to be impeached, physical
+law or general usage or on possession of the whole or part of the
+special contract. property sold, or, where the subject
+matter of the sale does not admit of
+
+======================================================================
+
+CHUNK 103
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 98
+  section_title       : By a person against whom 1[an One year. The date of the final order.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937157
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 98
+
+98. By a person against whom 1[an One year. The date of the final order.
+order referred to in rule 63 or in
+rule 103] of Order XXI of the
+Code of Civil Procedure, 1908
+(5 of 1908), or an order under
+section 28 of thePresidency
+Small Cause Courts Act, 1882
+(15 of 1882), has been made, to
+establish the right which he
+claims to the property
+comprised in the o
+
+======================================================================
+
+CHUNK 104
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 100
+  section_title       : To alter or set aside any decision One year. The date of the final decision or o
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937175
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 100
+
+100. To alter or set aside any decision One year. The date of the final decision or order by the
+or order of a civil court in any court or the date of the act or order of
+proceeding other than a suit or the officer, as the case may be.
+any act or order of an officer of
+Government in his official
+capacity.
+101. Upon a judgment, including a Three years. The
+
+======================================================================
+
+CHUNK 105
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 103
+  section_title       : To make good out of the general Three years. The date of the trustee's death or
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937190
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 103
+
+103. To make good out of the general Three years. The date of the trustee's death or if the
+estate of a deceased trustee the loss has not then resulted, the date of
+loss occasioned by a breach of the loss.
+trust.
+104. To establish a periodically Three years. When the plaintiff is first refused the
+recurring right. enjoyment of the right.
+105. By a Hindu f
+
+======================================================================
+
+CHUNK 106
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 106
+  section_title       : For a legacy or for a share of a Twelve years. When the legacy or share becomes
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937206
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 106
+
+106. For a legacy or for a share of a Twelve years. When the legacy or share becomes
+residur bequeathed by a testator payable or deliverable.
+or for a distributive share of the
+property of an intestate against
+an executor or an administrator
+or some other person legally
+charged with the duty of
+distributing the estate.
+1. Subs. by Act 52 of 1964, s. 3 and
+
+======================================================================
+
+CHUNK 107
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 109
+  section_title       : By a Hindu governed by Twelve years. When the alienee takes possession of the
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937220
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 109
+
+109. By a Hindu governed by Twelve years. When the alienee takes possession of the
+Mitakshara law to set aside his property.
+father’s alienation of ancestral
+property.
+110. By a person excluded from a joint Twelve years. When the exclusion becomes known to
+family property to enforce a the plaintiff.
+right to share therein.
+111. By or on behalf of any loca
+
+======================================================================
+
+CHUNK 108
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 112
+  section_title       : Any suit (except a suit before the Thirty years. When the period of limitation w
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937232
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 112
+
+112. Any suit (except a suit before the Thirty years. When the period of limitation would
+Supreme Court in the exercise of begin to run under this Act against a
+its original jurisdiction) by or on like suit by a private person.
+behalf of the Central
+Government or any State
+Government, including the
+Government of the State of
+Jammu and Kashmir.
+
+======================================================================
+
+CHUNK 109
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 113
+  section_title       : Any suit for which no period of Three years. When the right to sue accrues.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937246
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 113
+
+PART X.—SUITS FOR WHICH THERE IS NO PRESCRIBED PERIOD
+113. Any suit for which no period of Three years. When the right to sue accrues.
+limitation is provided elsewhere
+in this Schedule.
+SECOND DIVISION—APPEALS
+114. Appeal from an order of
+acquittal,—
+(a)under sub-section (1) or sub- Ninety days. The date of the order appealed from.
+section (2) of section 
+
+======================================================================
+
+CHUNK 110
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 115
+  section_title       : Under the Code of Criminal
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937261
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 115
+
+115. Under the Code of Criminal
+Procedure, 1898 (5 of 1898)—
+(a) from a sentence of death Thirty days. The date of the sentence.
+passed by a court of session or
+by a High Court in the
+exercise of its original
+criminal jurisdiction;
+(b) from any other sentence or
+any order not being an order
+of acquittal—
+(i) to the High Court Sixty days. The date of the s
+
+======================================================================
+
+CHUNK 111
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 117
+  section_title       : From a decree or order of any High Thirty days. The date of the decree or order.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937271
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 117
+
+117. From a decree or order of any High Thirty days. The date of the decree or order.
+Court to the same Court.
+THIRD DIVISION—APPLICATIONS
+
+======================================================================
+
+CHUNK 112
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 118
+  section_title       : For leave to appear and defend a Ten days. When the summons is served.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937286
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 118
+
+PART I.—APPLICATIONS IN SPECIFIED CASES
+118. For leave to appear and defend a Ten days. When the summons is served.
+suit under summary
+procedure.
+119. Under the Arbitration Act, 1940
+(10 of 1940),—
+(a) for the filing in court of an Thirty days. The date of service of the notice of the
+award; making of the award;
+(b) for setting aside an award Thirty days.
+
+======================================================================
+
+CHUNK 113
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 120
+  section_title       : Under the Code of Civil Ninety days. The date of death of the plaintiff,
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937297
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 120
+
+120. Under the Code of Civil Ninety days. The date of death of the plaintiff,
+Procedure, 1908 (5 of 1908), appellant, defendant or respondent, as
+to have the legalrepresentative the case may be.
+of a deceased plaintiff or
+appellant or of a deceased
+defendant or respondent, made
+a party.
+121. Under the same Code for an order Sixty days. The date of abateme
+
+======================================================================
+
+CHUNK 114
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 122
+  section_title       : To restore a suit or appeal or Thirty days. The date of dismissal.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937876
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 122
+
+122. To restore a suit or appeal or Thirty days. The date of dismissal.
+application for review or
+revision dismissed for default
+of appearance or for want of
+prosecution or for failure to
+pay costs of service of process
+or to furnish security for costs.
+22
+
+Description of suit Period of limitation Time from which period begins to run
+
+======================================================================
+
+CHUNK 115
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 123
+  section_title       : To set aside a decree passed ex Thirty days. The date of the decree or where the
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937897
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 123
+
+123. To set aside a decree passed ex Thirty days. The date of the decree or where the
+parte or to rehear an appeal summons or notice was not duly
+decreed or heard ex parte. served, when the applicant had
+Explanation.—For the purpose of knowledge of the decree.
+this article, substituted service
+under rule 20 of Order V of
+the Code of Civil Procedure,
+1908 
+
+======================================================================
+
+CHUNK 116
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 126
+  section_title       : For the payment of the amount of Thirty days. The date of the decree.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937912
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 126
+
+126. For the payment of the amount of Thirty days. The date of the decree.
+a decree by instalments.
+127. To set aside a sale in execution of 1[Sixty days]. The date of the sale.
+a decree, including any such
+application by a judgment-
+debtor.
+128. For possession by one Thirty days. The date of the dispossession.
+dispossessed of immovable
+property and dispu
+
+======================================================================
+
+CHUNK 117
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 130
+  section_title       : For leave to appeal as a pauper—
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937926
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 130
+
+130. For leave to appeal as a pauper—
+(a) to the High Court; Sixty days. The date of decree appealed from.
+(b) to any other court. Thirty days. The date of decree appealed from.
+131. To any court for the exercise of Ninety days. The date of the decree or order or
+its powers of revision under sentence sought to be revised.
+the Code of Civil Procedure,
+1908
+
+======================================================================
+
+CHUNK 118
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 132
+  section_title       : To the High Court for a Sixty days. The date of the decree, order or sentence.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937938
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 132
+
+132. To the High Court for a Sixty days. The date of the decree, order or sentence.
+certificate of fitness to appeal
+to the Supreme Court under
+clause (1) of article 132,
+article 133 or sub-clause (c) of
+clause (1) of article 134 of the
+Constitution or under any
+other law for the time being in
+force.
+1. Subs. by Act 104 of 1976, s. 98, for “Thirty days” (
+
+======================================================================
+
+CHUNK 119
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 133
+  section_title       : To the Supreme Court for special
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937953
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 133
+
+133. To the Supreme Court for special
+leave to appeal,—
+(a) in a case involving death Sixty days. The date of the judgment final order or
+sentence; sentence.
+(b) in a case where leave to Sixty days. The date of the order of refusal.
+appeal was refused by the
+High Court;
+(c) in any other case. Ninety days. The date of the judgment or order.
+134. For delive
+
+======================================================================
+
+CHUNK 120
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 136
+  section_title       : For the execution of any decree Twelve years. 1[When] the decree or order become
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937967
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 136
+
+136. For the execution of any decree Twelve years. 1[When] the decree or order becomes
+(other than a decree granting a enforceable or where the decree or any
+mandatory injunction) or subsequent order directs any payment
+order of any civil court. of money or the delivery of any
+property to be made at a certain date or
+at recurring periods, when default in
+
+
+======================================================================
+
+CHUNK 121
+----------------------------------------
+METADATA:
+  act_name            : The Limitation Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : civil, commercial, procedural
+  related_acts        : Indian Contract Act, 1872, Indian Partnership Act, 1932, Transfer of Property Act, 1882
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the limitation of suits and other proceedings in India.
+  chapter             : 
+  section_number      : 137
+  section_title       : Any other application for which Three years. When the right to apply accrues.
+  source              : limitation_act.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-23T00:10:37.937978
+
+CONTENT:
+The Limitation Act, 1963 |  | Section 137
+
+PART II—OTHER APPLICATION
+137. Any other application for which Three years. When the right to apply accrues.
+no period of limitation is
+provided elsewhere in this
+Division.
+1. Subs. by Act 53 of 1964, s. 3 and the Second Schedule, for “Where” (w.e.f. 12-12-1964.)
+24
+
+======================================================================
+
