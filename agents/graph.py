@@ -6,6 +6,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.runnables import RunnableConfig
 from langchain_ollama import ChatOllama
 from langgraph.graph import START, END, StateGraph
+from dotenv import load_dotenv
 
 from agents.configuration import Configuration, SearchAPI
 from agents.utils import (
@@ -25,7 +26,7 @@ from agents.prompts import (
     legal_reflection_instructions,
 )
 
-
+load_dotenv()
 # Nodes
 def generate_query(state: SummaryState, config: RunnableConfig):
     """Generate a legal-focused query for search"""
@@ -134,6 +135,7 @@ def web_research(state: SummaryState, config: RunnableConfig):
         "sources_gathered": [format_sources(search_results)],
         "web_research_results": [search_str],
         "websearch_loop_count": state.websearch_loop_count + 1,
+        "formatted_sources_gathered": format_sources(search_results)
     }
 
 
@@ -174,7 +176,7 @@ def summarize_legal_web_sources(state: SummaryState, config: RunnableConfig):
     llm = ChatOllama(
         base_url=configurable.ollama_base_url,
         model=configurable.local_llm,
-        temperature=0.3,
+        temperature=0.1,
     )
     result = llm.invoke(
         [

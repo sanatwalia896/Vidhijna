@@ -1,3 +1,15 @@
+
+import re
+
+def clean_repeated_tokens(text):
+    # Remove repeated digits like "20202020"
+    text = re.sub(r'(\d{2,})\1+', r'\1', text)
+    # Remove repeated letters like "aaaaaaa"
+    text = re.sub(r'(.)\1{4,}', r'\1', text)
+    # Remove repeated phrases
+    text = re.sub(r'(\b\w+\b)( \1\b)+', r'\1', text)
+    return text.strip()
+
 # utils.py
 import os
 import json

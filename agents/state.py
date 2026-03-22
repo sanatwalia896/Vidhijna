@@ -3,7 +3,6 @@ import operator
 from dataclasses import dataclass, field
 from typing_extensions import TypedDict, Annotated
 
-
 @dataclass(kw_only=True)
 class SummaryState:
     research_topic: str = field(default=None)  # Report topic
