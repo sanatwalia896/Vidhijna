@@ -1,0 +1,3029 @@
+FILE:         specific_relief_act_1963.pdf
+NAMESPACE:    vidhijna-legal
+INGESTED AT:  2026-03-22T15:49:46.937580
+TOTAL CHUNKS: 102
+======================================================================
+
+CHUNK 1
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : Chapter II — SPECIFIC PERFORMANCE OF CONTRACTS
+  section_number      : 9
+  section_title       : Defences respecting suits for relief based on contract.
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.933776
+
+CONTENT:
+The Specific Relief Act, 1963 | Chapter II — SPECIFIC PERFORMANCE OF CONTRACTS | Section 9
+
+CHAPTER II
+SPECIFIC PERFORMANCE OF CONTRACTS
+9. Defences respecting suits for relief based on contract.
+CONTRACTS WHICH CAN BE SPECIFICALLY ENFORCED
+10. Specific performance in respect of contracts.
+11. Cases in which specific performance of contracts connected with trusts enforceable.
+12. Specific performa
+
+======================================================================
+
+CHUNK 2
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 15
+  section_title       : Who may obtain specific performance.
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.933883
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 15
+
+15. Who may obtain specific performance.
+16. Personal bars to relief.
+17. Contract to sell or let property by one who has no title, not specifically enforceable.
+18. Non-enforcement except with variation.
+19. Relief against parties and persons claiming under them by subsequent title.
+1
+
+Substituted performance of contracts, etc.
+SECTIONS
+20. Substitut
+
+======================================================================
+
+CHUNK 3
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 23
+  section_title       : Liquidation of damages not a bar to specific performance.
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.933905
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 23
+
+23. Liquidation of damages not a bar to specific performance.
+24. Bar of suit for compensation for breach after dismissal of suit for specific performance.
+ENFORCEMENT OF AWARDS AND DIRECTIONS TO EXECUTE SETTLEMENTS
+25. Application of preceding sections to certain awards and testamentary directions to execute
+settlements.
+
+======================================================================
+
+CHUNK 4
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : Chapter III — RECTIFICATION OF INSTRUMENTS
+  section_number      : 26
+  section_title       : When instrument may be rectified.
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.933922
+
+CONTENT:
+The Specific Relief Act, 1963 | Chapter III — RECTIFICATION OF INSTRUMENTS | Section 26
+
+CHAPTER III
+RECTIFICATION OF INSTRUMENTS
+26. When instrument may be rectified.
+CHAPTER IV
+RESCISSION OF CONTRACTS
+27. When rescission may be adjudged or refused.
+28. Rescission in certain circumstances of contracts for the sale or lease of immovable property, the
+specific performance of which has been decreed.
+
+======================================================================
+
+CHUNK 5
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 1
+  section_title       : Short title, extent and commencement.—(1) This Act may be called the Specific Re
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.933944
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 1
+
+PART I
+PRELIMINARY
+1. Short title, extent and commencement.—(1) This Act may be called the Specific Relief Act, 1963.
+(2) It extends to the whole of India 1[***].
+(3) It shall come into force on such date2 as the Central Government may, by notification in the
+Official Gazette, appoint.
+
+======================================================================
+
+CHUNK 6
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : Chapter IX — of that Act;
+  section_number      : 2
+  section_title       : Definitions.—In this Act, unless the context otherwise requires,—
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.933968
+
+CONTENT:
+The Specific Relief Act, 1963 | Chapter IX — of that Act; | Section 2
+
+2. Definitions.—In this Act, unless the context otherwise requires,—
+(a) “obligation” includes every duty enforceable by law;
+(b) “settlement” means an instrument (other than a will or codicil as defined by the Indian
+Succession Act, 1925 (39 of 1925), whereby the destination or devolution of successive interests in
+movable or 
+
+======================================================================
+
+CHUNK 7
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.933990
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(d) “trustee” includes every person holding property in trust;
+(e) all other words and expressions used herein but not defined, and defined in the Indian Contract
+Act, 1872 (9 of 1872), have the meanings respectively assigned to them in that Act.
+
+======================================================================
+
+CHUNK 8
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 3
+  section_title       : Savings.—Except as otherwise provided herein, nothing in this Act shall be deeme
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934011
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 3
+
+3. Savings.—Except as otherwise provided herein, nothing in this Act shall be deemed—
+(a) to deprive any person of any right to relief, other than specific performance, which he may have
+under any contract; or
+(b) to affect the operation of the Indian Registration Act, 1908 (16 of 1908), on documents.
+4. Specific relief to be granted only for enforcing
+
+======================================================================
+
+CHUNK 9
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : Chapter I — RECOVERING POSSESSION OF PROPERTY
+  section_number      : 5
+  section_title       : Recovery of specific immovable property.—A person entitled to the possession of
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934029
+
+CONTENT:
+The Specific Relief Act, 1963 | Chapter I — RECOVERING POSSESSION OF PROPERTY | Section 5
+
+CHAPTER I
+RECOVERING POSSESSION OF PROPERTY
+5. Recovery of specific immovable property.—A person entitled to the possession of specific
+immovable property may recover it in the manner provided by the Code of Civil Procedure, 1908
+(5 of 1908).
+6. Suit by person dispossessed of immovable property.—(1) If any p
+
+======================================================================
+
+CHUNK 10
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 2
+  section_title       : 1st March, 1964, vide notification No. S.O. 189, dated 13th January, 1964, see G
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934044
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 2
+
+2. 1st March, 1964, vide notification No. S.O. 189, dated 13th January, 1964, see Gazette of India, Extraordinary, Part II,
+sec. 3(ii).
+
+======================================================================
+
+CHUNK 11
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 3
+  section_title       : Ins. by Act 18 of 2018, s. 2 (w.e.f. 1-10-2018).
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934065
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 3
+
+3. Ins. by Act 18 of 2018, s. 2 (w.e.f. 1-10-2018).
+4
+
+he has been in possession or any person] claiming through him may, by suit, recover possession thereof,
+notwithstanding any other title that may be set up in such suit.
+(2) No suit under this section shall be brought—
+(a) after the expiry of six months from the date of dispossession; or
+(b) against
+
+======================================================================
+
+CHUNK 12
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 7
+  section_title       : Recovery of specific movable property.—A person entitled to the possession of sp
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934086
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 7
+
+7. Recovery of specific movable property.—A person entitled to the possession of specific movable
+property may recover it in the manner provided by the Code of Civil Procedure, 1908 (5 of 1908).
+Explanation 1.—A trustee may sue under this section for the possession of movable property to the
+beneficial interest in which the person for whom he is truste
+
+======================================================================
+
+CHUNK 13
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 8
+  section_title       : Liability of person in possession, not as owner, to deliver to persons entitled
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934108
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 8
+
+8. Liability of person in possession, not as owner, to deliver to persons entitled to immediate
+possession.—Any person having the possession or control of a particular article of movable property, of
+which he is not the owner, may be compelled specifically to deliver it to the person entitled to its immediate
+possession, in any of the following cases:—
+
+======================================================================
+
+CHUNK 14
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934141
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(d) when the possession of the thing claimed has been wrongfully transferred from the plaintiff.
+Explanation.—Unless and until the contrary is proved, the court shall, in respect of any article of
+movable property claimed under clause (b) or clause (c) of this section, presume—
+(a) that compensation in money would not afford the plaintiff adequate relief
+
+======================================================================
+
+CHUNK 15
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : Chapter II — SPECIFIC PERFORMANCE OF CONTRACTS
+  section_number      : 9
+  section_title       : Defences respecting suits for relief based on contract.—Except as otherwise prov
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934157
+
+CONTENT:
+The Specific Relief Act, 1963 | Chapter II — SPECIFIC PERFORMANCE OF CONTRACTS | Section 9
+
+CHAPTER II
+SPECIFIC PERFORMANCE OF CONTRACTS
+9. Defences respecting suits for relief based on contract.—Except as otherwise provided herein
+where any relief is claimed under this Chapter in respect of a contract, the person against whom the relief
+is claimed may plead by way of defence any ground which is a
+
+======================================================================
+
+CHUNK 16
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 11
+  section_title       : Cases in which specific performance of contracts connected with trusts enforceab
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934175
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 11
+
+11. Cases in which specific performance of contracts connected with trusts enforceable.—(1)
+Except as otherwise provided in this Act, specific performance of a 1[contract shall], be enforced when the
+act agreed to be done is in the performance wholly or partly of a trust.
+(2) A contract made by a trustee in excess of his powers or in breach of trust c
+
+======================================================================
+
+CHUNK 17
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 12
+  section_title       : Specific performance of part of contract.—(1) Except as otherwise hereinafter pr
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934194
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 12
+
+12. Specific performance of part of contract.—(1) Except as otherwise hereinafter provided in this
+section, the court shall not direct the specific performance of a part of a contract.
+(2) Where a party to a contract is unable to perform the whole of his part of it, but the part which must
+be left unperformed be a only a small proportion to the whole 
+
+======================================================================
+
+CHUNK 18
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934225
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(3) Where a party to a contract is unable to perform the whole of his part of it, and the part which must
+be left unperformed either—
+(a) forms a considerable part of the whole, though admitting of compensation in money; or
+(b) does not admit of compensation in money;
+he is not entitled to obtain a decree for specific performance; but the court may, at t
+
+======================================================================
+
+CHUNK 19
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934258
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(i) in a case falling under clause (a), pays or has paid the agreed consideration for the whole of the
+contract reduced by the consideration for the part which must be left unperformed and in a case falling
+under clause (b) 2[pays or has paid] the consideration for the whole of the contract without any
+abatement; and
+(ii) in either case, relinquishes all
+
+======================================================================
+
+CHUNK 20
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934287
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(4) When a part of a contract which, taken by itself, can and ought to be specifically performed, stands
+on a separate and independent footing from another part of the same contract which cannot or ought not to
+be specifically performed, the court may direct specific performance of the former part.
+Explanation.—For the purposes of this section, a party t
+
+======================================================================
+
+CHUNK 21
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 13
+  section_title       : Rights of purchaser or lessee against person with no title or imperfect title.—(
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934308
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 13
+
+13. Rights of purchaser or lessee against person with no title or imperfect title.—(1) Where a
+person contracts to sell or let certain immovable property having no title or only an imperfect title, the
+purchaser or lessee (subject to the other provisions of this Chapter), has the following rights, namely:—
+(a) if the vendor or lessor has subsequently 
+
+======================================================================
+
+CHUNK 22
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934335
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(b) where the concurrence of other person is necessary for validating the title, and they are bound
+to concur at the request of the vendor or lessor, the purchaser or lessee may compel him to procure such
+concurrence, and when a conveyance by other persons is necessary to validate the title and they are
+bound to convey at the request of the vendor or les
+
+======================================================================
+
+CHUNK 23
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934359
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(c) where the vendor professes to sell unencumbered property, but the property is mortgaged for an
+amount not exceeding the purchase money and the vendor has in fact only a right to redeem it, the
+purchaser may compel him to redeem the mortgage and to obtain a valid discharge, and, where
+necessary, also a conveyance from the mortgagee;
+
+======================================================================
+
+CHUNK 24
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 1
+  section_title       : Subs. by Act 18 of 2018, s. 4, for “contract may, in the discretion of the court
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934371
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 1
+
+1. Subs. by Act 18 of 2018, s. 4, for “contract may, in the discretion of the court” (w.e.f. 1-10-2018).
+
+======================================================================
+
+CHUNK 25
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 2
+  section_title       : Ins. by Act 52 of 1964, s. 3 and the Second Schedule (w.e.f. 29-12-1964).
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934387
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 2
+
+2. Ins. by Act 52 of 1964, s. 3 and the Second Schedule (w.e.f. 29-12-1964).
+6
+
+(d) where the vendor or lessor sues for specific performance of the contract and the suit is dismissed
+on the ground of his want of title or imperfect title, the defendant has a right to a return of his deposit,
+if any, with interest thereon, to his costs of the suit, and t
+
+======================================================================
+
+CHUNK 26
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934419
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(2) The provisions of sub-section (1) shall also apply, as far as may be, to contracts for the sale or hire
+of movable property.
+CONTRACTS WHICH CANNOT BE SPECIFICALLY ENFORCED
+1[14. Contracts not specifically enforceable.—The following contracts cannot be specifically
+enforced, namely:—
+(a) where a party to the contract has obtained substituted performa
+
+======================================================================
+
+CHUNK 27
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934434
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(c) a contract which is so dependent on the personal qualifications of the parties that the court cannot
+enforce specific performance of its material terms; and
+
+======================================================================
+
+CHUNK 28
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 14A
+  section_title       : Power of court to engage experts.—(1) Without prejudice to the generality of the
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934453
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 14A
+
+(d) a contract which is in its nature determinable.
+14A. Power of court to engage experts.—(1) Without prejudice to the generality of the provisions
+contained in the Code of Civil Procedure, 1908 (5 of 1908), in any suit under this Act, where the court
+considers it necessary to get expert opinion to assist it on any specific issue involved in the sui
+
+======================================================================
+
+CHUNK 29
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934486
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(2) The court may require or direct any person to give relevant information to the expert or to produce,
+or to provide access to, any relevant documents, goods or other property for his inspection.
+(3) The opinion or report given by the expert shall form part of the record of the suit; and the court, or
+with the permission of the court any of the parties
+
+======================================================================
+
+CHUNK 30
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934506
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(4) The expert shall be entitled to such fee, cost or expense as the court may fix, which shall be payable
+by the parties in such proportion, and at such time, as the court may direct.]
+PERSONS FOR OR AGAINST WHOM CONTRACTS MAY BE SPECIFICALLY ENFORCED
+
+======================================================================
+
+CHUNK 31
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 15
+  section_title       : Who may obtain specific performance.—Except as otherwise provided by this Chapte
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934520
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 15
+
+15. Who may obtain specific performance.—Except as otherwise provided by this Chapter, the
+specific performance of a contract may be obtained by—
+(a) any party thereto;
+
+======================================================================
+
+CHUNK 32
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934552
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(a) any party thereto;
+(b) the representative in interest or the principal, of any party thereto:
+Provided that where the learning, skill, solvency or any personal quality of such party is a material
+ingredient in the contract, or where the contract provides that his interest shall not be assigned, his
+representative in interest or his principal shall no
+
+======================================================================
+
+CHUNK 33
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934579
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(c) where the contract is a settlement on marriage, or a compromise of doubtful rights between
+members of the same family, any person beneficially entitled thereunder;
+(d) where the contract has been entered into by a tenant for life in due exercise of a power, the
+remainderman;
+(e) a reversioner in possession, where the agreement is a covenant entered i
+
+======================================================================
+
+CHUNK 34
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 1
+  section_title       : Subs. by Act 18 of 2018, s. 5, for section 14 (w.e.f. 1-10-2018).
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934602
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 1
+
+1. Subs. by Act 18 of 2018, s. 5, for section 14 (w.e.f. 1-10-2018).
+7
+
+(f) a reversioner in remainder, where the agreement is such a covenant, and the reversioner is
+entitled to the benefit thereof and will sustain material injury by reason of its breach;
+1[(fa) when a limited liability partnership has entered into a contract and subsequently becomes
+
+
+======================================================================
+
+CHUNK 35
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934624
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(h) when the promoters of a company have, before its incorporation, entered into a contract for the
+purposes of the company, and such contract is warranted by the terms of the incorporation, the
+company:
+Provided that the company has accepted the contract and has communicated such acceptance to the
+other party to the contract.
+
+======================================================================
+
+CHUNK 36
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 16
+  section_title       : Personal bars to relief.—Specific performance of a contract cannot be enforced i
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934640
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 16
+
+16. Personal bars to relief.—Specific performance of a contract cannot be enforced in favour of a
+person—
+2[(a) who has obtained substituted performance of contract under section 20; or]
+(b) who has become incapable of performing, or violates any essential term of, the contract that on
+his part remains to be performed, or acts in fraud of the contract
+
+======================================================================
+
+CHUNK 37
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934676
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(c) 3[who fails to prove] that he has performed or has always been ready and willing to perform the
+essential terms of the contract which are to be performed by him, other than terms the performance of
+which has been prevented or waived by the defendant.
+Explanation.—For the purposes of clause (c),—
+(i) where a contract involves the payment of money, it 
+
+======================================================================
+
+CHUNK 38
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 17
+  section_title       : Contract to sell or let property by one who has no title, not specifically enfor
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934696
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 17
+
+17. Contract to sell or let property by one who has no title, not specifically enforceable.—(1) A
+contract to sell or let any immovable property cannot be specifically enforced in favour of a vendor or
+lessor—
+(a) who, knowing himself not to have any title to the property, has contracted to sell or let the
+property;
+(b) who, though he entered into the
+
+======================================================================
+
+CHUNK 39
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934711
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(2) The provisions of sub-section (1) shall also apply, as far as may be, to contracts for the sale or hire
+of movable property.
+
+======================================================================
+
+CHUNK 40
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 18
+  section_title       : Non-enforcement except with variation.—Where a plaintiff seeks specific performa
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934732
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 18
+
+18. Non-enforcement except with variation.—Where a plaintiff seeks specific performance of a
+contract in writing, to which the defendant sets up a variation, the plaintiff cannot obtain the performance
+sought, except with the variation so set up, in the following cases, namely:—
+(a) where by fraud, mistake of fact or mis-representation, the written co
+
+======================================================================
+
+CHUNK 41
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 2
+  section_title       : Subs. by s. 7, ibid., for clause (a) (w.e.f. 1-10-2018).
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934748
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 2
+
+2. Subs. by s. 7, ibid., for clause (a) (w.e.f. 1-10-2018).
+3.Subs. by s. 7, ibid., for “who fails to aver and prove” (w.e.f. 1-10-2018).
+4. Subs by Act 18 of 2018, s. 7, for “must aver” (w.e.f. 1-10-2018).
+8
+
+(b) where the object of the parties was to produce a certain legal result which the contract as framed
+is not calculated to produce;
+(c) where t
+
+======================================================================
+
+CHUNK 42
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 19
+  section_title       : Relief against parties and persons claiming under them by subsequent title.—Exce
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934765
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 19
+
+19. Relief against parties and persons claiming under them by subsequent title.—Except as
+otherwise provided by this Chapter, specific performance of a contract may be enforced against—
+(a) either party thereto;
+(b) any other person claiming under him by a title arising subsequently to the contract, except a
+transferee for value who has paid his money
+
+======================================================================
+
+CHUNK 43
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934795
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(c) any person claiming under a title which, though prior to the contract and known to the plaintiff,
+might have been displaced by the defendant;
+1[(ca) when a limited liability partnership has entered into a contract and subsequently becomes
+amalgamated with another limited liability partnership, the new limited liability partnership which
+arises out of
+
+======================================================================
+
+CHUNK 44
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934830
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(e) when the promoters of a company have, before its incorporation, entered into a contract for the
+purpose of the company and such contract is warranted by the terms of the incorporation, the company:
+Provided that the company has accepted the contract and communicated such acceptance to the other
+party to the contract.
+2[Substituted performance of cont
+
+======================================================================
+
+CHUNK 45
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934850
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+such breach shall have the option of substituted performance through a third party or by his own agency,
+and, recover the expenses and other costs actually incurred, spent or suffered by him, from the party
+committing such breach.
+
+======================================================================
+
+CHUNK 46
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934883
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(2) No substituted performance of contract under sub-section (1) shall be undertaken unless the party
+who suffers such breach has given a notice in writing, of not less than thirty days, to the party in breach
+calling upon him to perform the contract within such time as specified in the notice, and on his refusal or
+failure to do so, he may get the same 
+
+======================================================================
+
+CHUNK 47
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934904
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(3) Where the party suffering breach of contract has got the contract performed through a third party or
+by his own agency after giving notice under sub-section (1), he shall not be entitled to claim relief of specific
+performance against the party in breach.
+
+======================================================================
+
+CHUNK 48
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 20A
+  section_title       : Special provisions for contract relating to infrastructure project.—(1) No injun
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934925
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 20A
+
+(4) Nothing in this section shall prevent the party who has suffered breach of contract from claiming
+compensation from the party in breach.
+20A. Special provisions for contract relating to infrastructure project.—(1) No injunction shall be
+granted by a court in a suit under this Act involving a contract relating to an infrastructure project specifie
+
+======================================================================
+
+CHUNK 49
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 1
+  section_title       : Ins. by Act 18 of 2018, s. 8 (w.e.f. 1-10-2018).
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934940
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 1
+
+1. Ins. by Act 18 of 2018, s. 8 (w.e.f. 1-10-2018).
+2. Subs. by s. 9, ibid., for “Discretion and powers of Court”(w.e.f. 1-10-2018).
+
+======================================================================
+
+CHUNK 50
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 3
+  section_title       : Subs. by s. 10, ibid., for section 20 (w.e.f. 1-10-2018).
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934960
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 3
+
+3. Subs. by s. 10, ibid., for section 20 (w.e.f. 1-10-2018).
+9
+
+Explanation.—For the purposes of this section, section 20B and clause (ha) of section 41, the
+expression “infrastructure project” means the category of projects and infrastructure Sub-Sectors specified
+in the Schedule.
+(2) The Central Government may, depending upon the requirement for deve
+
+======================================================================
+
+CHUNK 51
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.934995
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(3) Every notification issued under this Act by the Central Government shall be laid, as soon as may be
+after it is issued, before each House of Parliament, while it is in session, for a total period of thirty days
+which may be comprised in one session or in two or more successive sessions, and if, before the expiry of
+the session immediately following t
+
+======================================================================
+
+CHUNK 52
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 20B
+  section_title       : Special Courts.—The State Government, in consultation with the Chief Justice of
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935017
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 20B
+
+be; so, however, that any such modification or annulment shall be without prejudice to the validity of
+anything previously done under that notification.
+20B. Special Courts.—The State Government, in consultation with the Chief Justice of the High Court,
+shall designate, by notification published in the Official Gazette, one or more Civil Courts as Sp
+
+======================================================================
+
+CHUNK 53
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935043
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+Procedure, 1908 (5 of 1908), a suit filed under the provisions of this Act shall be disposed of by the court
+within a period of twelve months from the date of service of summons to the defendant:
+Provided that the said period may be extended for a further period not exceeding six months in
+aggregate after recording reasons in writing for such extension b
+
+======================================================================
+
+CHUNK 54
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 21
+  section_title       : Power to award compensation in certain cases.—(1) In a suit for specific perform
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935059
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 21
+
+21. Power to award compensation in certain cases.—(1) In a suit for specific performance of a
+contract, the plaintiff may also claim compensation for its breach 1[in addition to] such performance.
+(2) If, in any such suit, the court decides that specific performance ought not to be granted, but that
+there is a contract between the parties which has be
+
+======================================================================
+
+CHUNK 55
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935085
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(3) If, in any such suit, the court decides that specific performance ought to be granted, but that it is not
+sufficient to satisfy the justice of the case, and that some compensation for breach of the contract should
+also be made to the plaintiff, it shall award him such compensation accordingly.
+(4) In determining the amount of any compensation awarded
+
+======================================================================
+
+CHUNK 56
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935115
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(5) No compensation shall be awarded under this section unless the plaintiff has claimed such
+compensation in his plaint:
+Provided that where the plaintiff has not claimed any such compensation in the plaint, the court shall,
+at any stage of the proceeding, allow him to amend the plaint on such terms as may be just, for including a
+claim for such compens
+
+======================================================================
+
+CHUNK 57
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 22
+  section_title       : Power to grant relief for possession, partition, refund of earnest money, etc.—(
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935131
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 22
+
+22. Power to grant relief for possession, partition, refund of earnest money, etc.—(1)
+Notwithstanding anything to the contrary contained in the Code of Civil Procedure,1908 (5 of 1908), any
+person suing for the specific performance of a contract for the transfer of immovable property may, in an
+appropriate case, ask for—
+(a) possession, or partition 
+
+======================================================================
+
+CHUNK 58
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 1
+  section_title       : Subs. by Act 18 of 2018, s. 11, for “, either in addition to, or in substitution
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935152
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 1
+
+1. Subs. by Act 18 of 2018, s. 11, for “, either in addition to, or in substitution of,” (w.e.f. 1-10-2018).
+10
+
+(b) any other relief to which he may be entitled, including the refund of any earnest money or
+deposit paid or 1[made by] him, in case his claim for specific performance is refused.
+(2) No relief under clause (a) or clause (b) of sub-section
+
+======================================================================
+
+CHUNK 59
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935169
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(3) The power of the court to grant relief under clause (b) of sub-section (1) shall be without prejudice
+to its powers to award compensation under section 21.
+
+======================================================================
+
+CHUNK 60
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 23
+  section_title       : Liquidation of damages not a bar to specific performance.—(1) A contract, otherw
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935190
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 23
+
+23. Liquidation of damages not a bar to specific performance.—(1) A contract, otherwise proper to
+be specifically enforced, may be so enforced, though a sum be named in it as the amount to be paid in case
+of its breach and the party in default is willing to pay the same, if the court, having regard to the terms of
+the contract and other attending circ
+
+======================================================================
+
+CHUNK 61
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935204
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(2) When enforcing specific performance under this section, the court shall not also decree payment of
+the sum so named in the contract.
+
+======================================================================
+
+CHUNK 62
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 24
+  section_title       : Bar of suit for compensation for breach after dismissal of suit for specific per
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935222
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 24
+
+24. Bar of suit for compensation for breach after dismissal of suit for specific performance.—The
+dismissal of a suit for specific performance of a contract or part thereof shall bar the plaintiff’s right to sue
+for compensation for the breach of such contract or part, as the case may be, but shall not bar his right to
+sue for any other relief to whic
+
+======================================================================
+
+CHUNK 63
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 25
+  section_title       : Application of preceding sections to certain awards and testamentary directions
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935238
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 25
+
+25. Application of preceding sections to certain awards and testamentary directions to execute
+settlements.—The provisions of this Chapter as to contracts shall apply to awards to which 2[the Arbitration
+and Conciliation Act, 1996 (26 of 1996)], does not apply and to directions in a will or codicil to execute a
+particular settlement.
+
+======================================================================
+
+CHUNK 64
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 26
+  section_title       : When instrument may be rectified.—(1) When, through fraud or a mutual mistake of
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935256
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 26
+
+26. When instrument may be rectified.—(1) When, through fraud or a mutual mistake of the parties,
+a contract or other instrument in writing [not being the articles of association of a company to which the
+Companies Act, 1956 (1 of 1956), applies] does not express their real intention, then—
+(a) either party or his representative in interest may instit
+
+======================================================================
+
+CHUNK 65
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935274
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(c) a defendant in any such suit as is referred to in clause (b), may, in addition to any other defence
+open to him, ask for rectification of the instrument.
+
+======================================================================
+
+CHUNK 66
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935308
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(2) If, in any suit in which a contract or other instrument is sought to be rectified under sub-
+section (1), the court finds that the instrument, through fraud or mistake, does not express the real intention
+of the parties, the court may, in its discretion, direct rectification of the instrument so as to express that
+intention, so far as this can be don
+
+======================================================================
+
+CHUNK 67
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 1
+  section_title       : Subs. by Act 52 of 1964, s. 3 and the Second Schedule, for “made to” (w.e.f. 29-
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935325
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 1
+
+1. Subs. by Act 52 of 1964, s. 3 and the Second Schedule, for “made to” (w.e.f. 29-12-1964).
+2. Subs. by Act 18 of 2018, s. 12, for “the Arbitration Act, 1940 (10 of 1940)” (w.e.f. 1-10-2018).
+11
+
+(4) No relief for the rectification of an instrument shall be granted to any party under this section unless
+it has been specifically claimed:
+Provided that 
+
+======================================================================
+
+CHUNK 68
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 27
+  section_title       : When rescission may be adjudged or refused.—(1) Any person interested in a contr
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935341
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 27
+
+27. When rescission may be adjudged or refused.—(1) Any person interested in a contract may sue
+to have it rescinded, and such rescission may be adjudged by the court in any of the following cases,
+namely:—
+(a) where the contract is voidable or terminable by the plaintiff;
+(b) where the contract is unlawful for causes not apparent on its face and the 
+
+======================================================================
+
+CHUNK 69
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935373
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(2) Notwithstanding anything contained in sub-section (1), the court may refuse to rescind the
+contract—
+(a) where the plaintiff has expressly or impliedly ratified the contract; or
+(b) where, owing to the change of circumstances which has taken place since the making of the
+contract (not being due to any act of the defendant himself), the parties cannot
+
+======================================================================
+
+CHUNK 70
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935395
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(d) where only a part of the contract is sought to be rescinded and such part is not severable from
+the rest of the contract.
+Explanation.—In this section “contract” in relation to the territories to which the Transfer of Property
+Act, 1882 (4 of 1882), does not extend, means a contract in writing.
+
+======================================================================
+
+CHUNK 71
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 28
+  section_title       : Rescission in certain circumstances of contracts for the sale or lease of immova
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935413
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 28
+
+28. Rescission in certain circumstances of contracts for the sale or lease of immovable property,
+the specific performance of which has been decreed.—(1) Where in any suit a decree for specific
+performance of a contract for the sale or lease of immovable property has been made and the purchaser or
+lessee does not, within the period allowed by the decr
+
+======================================================================
+
+CHUNK 72
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935428
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+court may, by order, rescind the contract either so far as regards the party in default or altogether, as the
+justice of the case may require.
+
+======================================================================
+
+CHUNK 73
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935461
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(2) Where a contract is rescinded under sub-section (1), the court—
+(a) shall direct the purchaser or the lessee, if he has obtained possession of the property under the
+contract, to restore such possession to the vendor or lessor, and
+(b) may direct payment to the vendor or lessor of all the rents and profits which have accrued in
+respect of the propert
+
+======================================================================
+
+CHUNK 74
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935494
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(3) If the purchase or lessee pays the purchase money or other sum which he is ordered to pay under
+the decree within the period referred to in sub-section (1), the court may, on application made in the same
+suit, award the purchaser or lessee such further relief as he may be entitled to, including in appropriate cases
+all or any of the following reliefs
+
+======================================================================
+
+CHUNK 75
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935515
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(4) No separate suit in respect of any relief which may be claimed under this section shall lie at the
+instance of a vendor, purchaser, lessor or lessee, as the case may be.
+(5) The costs of any proceedings under this section shall be in the discretion of the court.
+
+======================================================================
+
+CHUNK 76
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 29
+  section_title       : Alternative prayer for rescission in suit for specific performance.—A plaintiff
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935531
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 29
+
+29. Alternative prayer for rescission in suit for specific performance.—A plaintiff instituting a suit
+for the specific performance of a contract in writing may pray in the alternative that, if the contract cannot
+be specifically enforced, it may be rescinded and delivered up to be cancelled; and the court, if it refuses to
+enforce the contract specif
+
+======================================================================
+
+CHUNK 77
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 30
+  section_title       : Court may require parties rescinding to do equity.—On adjudging the rescission o
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935547
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 30
+
+30. Court may require parties rescinding to do equity.—On adjudging the rescission of a contract,
+the court may require the party to whom such relief is granted to restore, so far as may be, any benefit which
+he may have received from the other party and to make any compensation to him which justice may require.
+
+======================================================================
+
+CHUNK 78
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 31
+  section_title       : When cancellation may be ordered.—(1) Any person against whom a written instrume
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935568
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 31
+
+31. When cancellation may be ordered.—(1) Any person against whom a written instrument is void
+or voidable, and who has reasonable apprehension that such instrument, if left outstanding may cause him
+serious injury, may sue to have it adjudged void or voidable; and the court may, in its discretion, so adjudge
+it and order it to be delivered up and can
+
+======================================================================
+
+CHUNK 79
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 32
+  section_title       : What instruments may be partially cancelled.—Where an instrument is evidence of
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935581
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 32
+
+32. What instruments may be partially cancelled.—Where an instrument is evidence of different
+rights or different obligations, the court may, in a proper case, cancel it in part and allow it to stand for the
+residue.
+
+======================================================================
+
+CHUNK 80
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 33
+  section_title       : Power to require benefit to be restored or compensation to be made when instrume
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935610
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 33
+
+33. Power to require benefit to be restored or compensation to be made when instrument is
+cancelled or is successfully resisted as being void or voidable.—(1) On adjudging the cancellation of an
+instrument, the court may require the party to whom such relief is granted, to restore, so far as may be any
+benefit which he may have received from the other
+
+======================================================================
+
+CHUNK 81
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935635
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(2) Where a defendant successfully resists any suit on the ground—
+(a) that the instrument sought to be enforced against him in the suit is voidable, the court may if
+the defendant has received any benefit under the instrument from the other party, require him to restore,
+so far as may be, such benefit to that party or to make compensation for it;
+
+======================================================================
+
+CHUNK 82
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935660
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(b) that the agreement sought to be enforced against him in the suit is void by reason of his not
+having been competent to contract under section 11 of the Indian Contract Act, 1872 (9 of 1872), the
+court may, if the defendant has received any benefit under the agreement from the other party, require
+him to restore, so far as may be, such benefit to that
+
+======================================================================
+
+CHUNK 83
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 34
+  section_title       : Discretion of court as to declaration of status or right.—Any person entitled to
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935676
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 34
+
+34. Discretion of court as to declaration of status or right.—Any person entitled to any legal
+character, or to any right as to any property, may institute a suit against any person denying, or interested
+to deny, his title to such character or right, and the court may in its discretion make therein a declaration
+that he is so entitled, and the plaint
+
+======================================================================
+
+CHUNK 84
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935693
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+Explanation.—A trustee of property is a “person interested to deny” a title adverse to the title of some
+one who is not inexistence, and for whom, if in existence, he would be a trustee.
+
+======================================================================
+
+CHUNK 85
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : Chapter i — s binding only on the parties to the
+  section_number      : 35
+  section_title       : Effect of declaration.—A declaration made under this Chapter is binding only on
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935710
+
+CONTENT:
+The Specific Relief Act, 1963 | Chapter i — s binding only on the parties to the | Section 35
+
+35. Effect of declaration.—A declaration made under this Chapter is binding only on the parties to the
+suit, persons claiming through them respectively, and, where any of the parties are trustees, on the persons
+for whom, if in existence at the date of the declaration, such parties would be trustees.
+
+======================================================================
+
+CHUNK 86
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : Chapter VII — INJUNCTIONS GENERALLY
+  section_number      : 36
+  section_title       : Preventive relief how granted.—Preventive relief is granted at the discretion of
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935726
+
+CONTENT:
+The Specific Relief Act, 1963 | Chapter VII — INJUNCTIONS GENERALLY | Section 36
+
+CHAPTER VII
+INJUNCTIONS GENERALLY
+36. Preventive relief how granted.—Preventive relief is granted at the discretion of the court by
+injunction, temporary or perpetual.
+
+======================================================================
+
+CHUNK 87
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 37
+  section_title       : Temporary and perpetual injunctions.—(1) Temporary injunctions are such as are t
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935743
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 37
+
+37. Temporary and perpetual injunctions.—(1) Temporary injunctions are such as are to continue
+until a specific time, or until the further order of the court, and they may be granted at any stage of a suit,
+and are regulated by the Code of Civil Procedure, 1908 (5 of 1908).
+(2) A perpetual injunction can only be granted by the decree made at the heari
+
+======================================================================
+
+CHUNK 88
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : Chapter II — .
+  section_number      : 38
+  section_title       : Perpetual injunction when granted.—(1) Subject to the other provisions contained
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935759
+
+CONTENT:
+The Specific Relief Act, 1963 | Chapter II — . | Section 38
+
+38. Perpetual injunction when granted.—(1) Subject to the other provisions contained in or referred
+to by this Chapter, a perpetual injunction may be granted to the plaintiff to prevent the breach of an
+obligation existing in his favour, whether expressly or by implication.
+(2) When any such obligation arises from contract, the court sha
+
+======================================================================
+
+CHUNK 89
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935790
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(3) When the defendant invades or threatens to invade the plaintiff’s right to, or enjoyment of, property,
+the court may grant a perpetual injunction in the following cases, namely:—
+(a) where the defendant is trustee of the property for the plaintiff;
+(b) where there exists no standard for ascertaining the actual damage caused, or likely to be caused,
+b
+
+======================================================================
+
+CHUNK 90
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 39
+  section_title       : Mandatory injunctions.—When, to prevent the breach of an obligation, it is neces
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935804
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 39
+
+39. Mandatory injunctions.—When, to prevent the breach of an obligation, it is necessary to compel
+the performance of certain acts which the court is capable of enforcing, the court may in its discretion grant
+an injunction to prevent the breach complained of, and also to compel performance of the requisite acts.
+
+======================================================================
+
+CHUNK 91
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 40
+  section_title       : Damages in lieu of, or in addition to, injunction.—(1) The plaintiff in a suit f
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935824
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 40
+
+40. Damages in lieu of, or in addition to, injunction.—(1) The plaintiff in a suit for perpetual
+injunction under section 38, or mandatory injunction under section 39, may claim damages either in
+addition to, or in substitution for, such injunction and the court may, if it thinks fit, award such damages.
+(2) No relief for damages shall be granted unde
+
+======================================================================
+
+CHUNK 92
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935839
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(3) The dismissal of a suit to prevent the breach of an obligation existing in favour of the plaintiff shall
+bar his right to sue for damages for such breach.
+14
+
+======================================================================
+
+CHUNK 93
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 41
+  section_title       : Injunction when refused.—An injunction cannot be granted—
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935859
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 41
+
+41. Injunction when refused.—An injunction cannot be granted—
+(a) to restrain any person from prosecuting a judicial proceeding pending at the institution of the
+suit in which the injunction is sought, unless such restraint is necessary to prevent a multiplicity of
+proceedings;
+(b) to restrain any person from instituting or prosecuting any proceeding 
+
+======================================================================
+
+CHUNK 94
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935897
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(f) to prevent, on the ground of nuisance, an act of which it is not reasonably clear that it will be a
+nuisance;
+(g) to prevent a continuing breach in which the plaintiff has acquiesced;
+(h) when equally efficacious relief can certainly be obtained by any other usual mode of proceeding
+except in case of breach of trust;
+1[(ha) if it would impede or dela
+
+======================================================================
+
+CHUNK 95
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 42
+  section_title       : Injunction to perform negative agreement.—Notwithstanding anything contained in
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935916
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 42
+
+42. Injunction to perform negative agreement.—Notwithstanding anything contained in clause (e)
+of section 41, where a contract comprises an affirmative agreement to do a certain act, coupled with a
+negative agreement, express or implied, not to do a certain act, the circumstance that the court is unable to
+compel specific performance of the affirmativ
+
+======================================================================
+
+CHUNK 96
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 1
+  section_title       : Ins. by Act 18 of 2018, s. 13 (w.e.f. 1-10-2018).
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935939
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 1
+
+1. Ins. by Act 18 of 2018, s. 13 (w.e.f. 1-10-2018).
+2. Sections 43 and 44 rep. by the Repealing and Amending Act, 1974 (56 of 1974), s. 2 and the First Schedule
+(w.e.f. 20-12-1974).
+15
+
+1[THE SCHEDULE
+[See sections 20A and 41 (ha)]
+Category of projects and Infrastructure Sub-Sectors
+Sl. No. Category Infrastructure Sub-Sectors
+1 2 3
+
+======================================================================
+
+CHUNK 97
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 1
+  section_title       : Transport (a) Road and bridges
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935956
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 1
+
+1. Transport (a) Road and bridges
+(b) Ports (including Capital Dredging)
+(c) Shipyards (including a floating or land-based facility with the
+essential features of waterfront, turning basin, berthing and docking
+facility, slipways or ship lifts, and which is self-sufficient for carrying on
+shipbuilding/repair/breaking activities)
+(d) Inland Waterways
+(e
+
+======================================================================
+
+CHUNK 98
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 2
+  section_title       : Energy (a) Electricity Generation
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935973
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 2
+
+2. Energy (a) Electricity Generation
+(b) Electricity Transmission
+(c) Electricity Distribution
+(d) Oil pipelines
+(e) Oil/Gas/Liquefied Natural Gas (LNG) storage facility(including
+strategic storage of crude oil)
+(f) Gas pipelines (including city gas distribution network)
+3. Water and (a) Solid Waste Management
+Sanitation
+(b) Water supply pipelines
+(c) 
+
+======================================================================
+
+CHUNK 99
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 4
+  section_title       : Communication (a) Telecommunication (Fixed network including optic fibre/wire/ca
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.935988
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 4
+
+4. Communication (a) Telecommunication (Fixed network including optic fibre/wire/cable
+networks which provide broadband/internet)
+(b) Telecommunication towers
+(c) Telecommunications and Telecom Services
+1. Ins. by Act 18 of 2018, s. 14 (w.e.f. 1-10-2018).
+16
+
+Sl. No. Category Infrastructure Sub-Sectors
+1 2 3
+
+======================================================================
+
+CHUNK 100
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 5
+  section_title       : Social and (a) Education Institutions (capital stock)
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.936005
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section 5
+
+5. Social and (a) Education Institutions (capital stock)
+Commercial
+(b) Sports infrastructure (including provision of Sports Stadia and
+Infrastructure
+Infrastructure for Academies for Training/Research in Sports and Sports-
+relating activities)
+(c) Hospitals (capital stock including Medical Colleges, Para Medical
+Training Institutes and Diagnostic Cent
+
+======================================================================
+
+CHUNK 101
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.936032
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(e) Common infrastructure for industrial parks and other parks with
+industrial activity such as food parks, textile parks, Special Economic
+Zones, tourism facilities and agriculture markets
+(f) Post-harvest storage infrastructure for agriculture and horticulture
+produce including cold storage
+(g) Terminal markets
+(h) Soil-testing laboratories
+(i) Cold ch
+
+======================================================================
+
+CHUNK 102
+----------------------------------------
+METADATA:
+  act_name            : The Specific Relief Act, 1963
+  year_enacted        : 1963
+  last_amended        : 
+  legal_domain        : contract, civil, commercial
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Arbitration and Conciliation Act, 1996
+  importance          : medium
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : The Specific Relief Act, 1963 governs the grant of specific relief in civil cases, including recovery of possession of property, specific performance of contracts, and rectification of instruments.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : specific_relief_act_1963.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:49:46.936057
+
+CONTENT:
+The Specific Relief Act, 1963 |  | Section
+
+(j) Affordable Housing (including a housing project using at least 50%
+of the Floor Area Ratio (FAR)/Floor Space Index (FSI) for dwelling units
+with carpet area of not more than 60 square meters
+Explanation.—For the purposes of this sub-clause, the term “carpet area”
+shall have the same meaning as assigned to it in clause (k) of section 2 of
+the Real Est
+
+======================================================================
+

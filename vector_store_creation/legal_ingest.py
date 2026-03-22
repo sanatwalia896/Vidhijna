@@ -1,19 +1,23 @@
 """
-legal_ingest.py — vidhijna-legal namespace population
+legal_ingest_v2.py — Fast hierarchical ingestion for vidhijna-legal
 
-Flow per page:
-  1. LLM reads page text → returns char ranges worth indexing + what to skip
-  2. Slice text by those ranges
-  3. RecursiveCharacterTextSplitter cuts each slice into chunks
-  4. LLM extracts metadata for each chunk
-  5. Upsert to vidhijna-legal namespace
+Flow per document:
+  1. Extract TOC + first 2 pages text
+  2. ONE LLM call → generates document-level metadata
+  3. Extract full text
+  4. Hierarchical splitting (Chapter → Section → Sub-section → Sentence)
+  5. Stamp document metadata on every chunk + extract position metadata via regex
+  6. Embed + upsert to vidhijna-legal
+
+One LLM call per document. No per-chunk LLM. Fast.
 
 Run:
-  python vector_store_creation/legal_ingest.py --file data/legal_docs/indian_contract_act_1872.pdf
-  python vector_store_creation/legal_ingest.py   # all legal docs
+  python vector_store_creation/legal_ingest_v2.py --file data/legal_docs/indian_contract_act_1872.pdf
+  python vector_store_creation/legal_ingest_v2.py
 """
 
 import os
+import re
 import json
 import time
 import argparse
@@ -44,31 +48,6 @@ LEGAL_DIRS      = ["data/legal_docs"]
 LOG_DIR.mkdir(exist_ok=True)
 CHECKPOINT_DIR.mkdir(exist_ok=True)
 
-
-# ── Checkpoint helpers ──────────────────────────────────────────────────────────
-
-def save_checkpoint(file_path: Path, page_num: int, docs_so_far: int):
-    cp = CHECKPOINT_DIR / f"{file_path.stem}.json"
-    import json as _json
-    _json.dump({"page_num": page_num, "docs": docs_so_far,
-                "file": str(file_path)}, open(cp, "w"))
-
-def load_checkpoint(file_path: Path) -> int:
-    cp = CHECKPOINT_DIR / f"{file_path.stem}.json"
-    if cp.exists():
-        import json as _json
-        data = _json.load(open(cp))
-        page = data.get("page_num", 0)
-        docs = data.get("docs", 0)
-        print(f"  [checkpoint] Resuming from page {page+1} ({docs} docs already upserted)")
-        return page
-    return 0
-
-def clear_checkpoint(file_path: Path):
-    cp = CHECKPOINT_DIR / f"{file_path.stem}.json"
-    if cp.exists():
-        cp.unlink()
-
 KNOWN_ACTS = [
     "Indian Contract Act, 1872",
     "Companies Act, 2013",
@@ -83,6 +62,7 @@ KNOWN_ACTS = [
     "Sale of Goods Act, 1930",
     "Negotiable Instruments Act, 1881",
     "Foreign Exchange Management Act, 1999",
+    "Limited Liability Partnership Act, 2008",
     "Constitution of India",
 ]
 
@@ -107,249 +87,242 @@ if not pc.has_index(PINECONE_INDEX):
 index        = pc.Index(PINECONE_INDEX)
 vector_store = PineconeVectorStore(index=index, embedding=embeddings)
 
+# Hierarchical separators — respects legal document structure
+# Tries to split at highest level first, falls back down
 splitter = RecursiveCharacterTextSplitter(
-    chunk_size=600,
+    chunk_size=700,
     chunk_overlap=80,
-    separators=["\n\n", "\n", ". ", " ", ""],
+    separators=[
+        "\nCHAPTER ",        # Chapter level
+        "\nPART ",           # Part level
+        "\nSCHEDULE ",       # Schedule level
+        r"\n\n\d+\.",
+        r"\n\d+\.",
+        r"\n\(\d+\)",
+        r"\n\([a-z]\)",
+        "\n\n",
+        "\n",
+        ". ",
+        " ",
+        "",
+    ],
+    is_separator_regex=True,
 )
 
-# ── Step 1: Extract page text ───────────────────────────────────────────────────
 
-def extract_pages(file_path: Path) -> list[dict]:
+# ── Checkpoint helpers ──────────────────────────────────────────────────────────
+
+def save_checkpoint(file_path: Path):
+    cp = CHECKPOINT_DIR / f"{file_path.stem}.done"
+    cp.touch()
+
+def is_done(file_path: Path) -> bool:
+    cp = CHECKPOINT_DIR / f"{file_path.stem}.done"
+    return cp.exists()
+
+def clear_checkpoint(file_path: Path):
+    cp = CHECKPOINT_DIR / f"{file_path.stem}.done"
+    if cp.exists():
+        cp.unlink()
+
+
+# ── Step 1: Extract text ────────────────────────────────────────────────────────
+
+def extract_full_text(file_path: Path) -> tuple[str, str]:
+    """Returns (toc_and_first_pages, full_text)"""
     if file_path.suffix == ".txt":
-        text    = file_path.read_text(encoding="utf-8", errors="ignore")
-        batches = [text[i:i+2000] for i in range(0, len(text), 2000)]
-        return [{"page_num": i+1, "text": c} for i, c in enumerate(batches)]
+        full = file_path.read_text(encoding="utf-8", errors="ignore")
+        return full[:3000], full
+
     pages = []
     with pdfplumber.open(file_path) as pdf:
-        for i, page in enumerate(pdf.pages):
+        for page in pdf.pages:
             text = page.extract_text() or ""
-            pages.append({"page_num": i+1, "text": text.strip()})
-    return pages
+            pages.append(text.strip())
+
+    full_text   = "\n\n".join(pages)
+    # TOC is usually in first 3 pages
+    toc_preview = "\n\n".join(pages[:3])
+    return toc_preview, full_text
 
 
-# ── Step 2: LLM skims page → returns char ranges ───────────────────────────────
+# ── Step 2: ONE LLM call → document metadata ───────────────────────────────────
 
-PAGE_SKIM_PROMPT = """You are skimming a page from an Indian legal document.
+DOC_METADATA_PROMPT = """You are a legal document analyst for Indian commercial law.
 
-Your job: identify which character ranges contain actual legal content worth indexing.
+Given the filename and TOC/opening pages of a legal document, generate metadata
+that will be stamped on EVERY chunk from this document.
 
-INCLUDE (legal content):
-- Legal provisions and sections
-- Definitions
-- Penalties and enforcement
-- Explanations and illustrations
-- Schedules with legal substance
+Filename: {filename}
 
-SKIP (noise):
-- Section number lists / table of contents lines
-- Page numbers, headers, footers
-- Blank lines between sections
-- Authentication / signature text
+TOC and first pages:
+{toc_text}
 
-Read the page text below. It has character positions 0 to {text_len}.
-
-Return a JSON array of ranges to INCLUDE. Each range:
-- start: integer character position (inclusive)
-- end: integer character position (exclusive)  
-- content_type: one of [provision, definition, penalty, illustration, schedule, preamble]
-- section_hint: section number if visible e.g. "73" or "" if not clear
-
-Return ONLY valid JSON array. No markdown, no explanation.
-If the entire page is noise, return empty array [].
-
-Page text:
-{page_text}
-"""
-
-def skim_page(page_text: str, page_num: int) -> list[dict]:
-    if len(page_text.strip()) < 50:
-        return []
-
-    resp = None
-    for attempt in range(4):
-        try:
-            resp = groq_client.chat.completions.create(
-                model=GROQ_MODEL,
-                messages=[{"role": "user", "content": PAGE_SKIM_PROMPT.format(
-                    text_len=len(page_text),
-                    page_text=page_text[:2500],
-                )}],
-                temperature=0.1,
-                max_tokens=800,
-            )
-            break
-        except Exception as e:
-            if "429" in str(e) or "rate_limit" in str(e).lower():
-                wait = 30 * (attempt + 1)
-                print(f"      [rate limit] waiting {wait}s...")
-                time.sleep(wait)
-            else:
-                raise
-
-    if resp is None:
-        print(f"      [skim_page] all retries failed for page {page_num} — skipping")
-        return []
-
-    raw = _clean_json(resp.choices[0].message.content.strip())
-    try:
-        ranges = json.loads(raw)
-        if not isinstance(ranges, list):
-            return []
-        # Validate and clamp ranges to actual text length
-        valid = []
-        text_len = len(page_text)
-        for r in ranges:
-            start = max(0, int(r.get("start", 0)))
-            end   = min(text_len, int(r.get("end", text_len)))
-            if end > start + 30:   # at least 30 chars
-                r["start"] = start
-                r["end"]   = end
-                valid.append(r)
-        return valid
-    except (json.JSONDecodeError, ValueError):
-        # Fallback — include entire page
-        return [{"start": 0, "end": len(page_text),
-                 "content_type": "provision", "section_hint": ""}]
-
-
-# ── Step 3: Slice + split ───────────────────────────────────────────────────────
-
-def slice_and_split(page_text: str, ranges: list[dict], page_num: int) -> list[dict]:
-    """
-    Slice page text by LLM-identified ranges, then run RecursiveCharacterTextSplitter.
-    Returns list of {text, content_type, section_hint, page_num}
-    """
-    results = []
-    for r in ranges:
-        slice_text = page_text[r["start"]:r["end"]].strip()
-        if not slice_text:
-            continue
-
-        # RecursiveCharacterTextSplitter on this slice
-        sub_chunks = splitter.split_text(slice_text)
-
-        for chunk_text in sub_chunks:
-            chunk_text = chunk_text.strip()
-            if len(chunk_text.split()) < 15:   # skip very short chunks
-                continue
-            results.append({
-                "text":         chunk_text,
-                "content_type": r.get("content_type", "provision"),
-                "section_hint": r.get("section_hint", ""),
-                "page_num":     page_num,
-            })
-    return results
-
-
-# ── Step 4: LLM extracts metadata for a batch of chunks ────────────────────────
-
-METADATA_PROMPT = """You are extracting metadata for legal document chunks going into a RAG vector store.
-
-For each chunk, extract:
-- chunk_index: the index number I give you (integer)
-- act_name: full official act name e.g. "Indian Contract Act, 1872"
-- section_number: exact section number e.g. "73", "2(a)" — empty string if unclear
-- section_title: title of this section — empty string if unclear
-- chapter: chapter name e.g. "Chapter VI" — empty string if unclear
-- doc_type: one of [provision, definition, penalty, schedule, preamble, illustration, explanation]
-- legal_concepts: list of 3-5 specific legal concepts e.g. ["breach", "damages", "remoteness"]
-- importance: high | medium | low
-- related_acts: list of acts from below that this chunk is related to (empty list if none):
+Known acts for cross-referencing:
 {known_acts}
-- cross_references: list of specific sections mentioned in this chunk e.g. ["S.74", "S.75"]
-- summary: one sentence — what legal question does this chunk answer?
 
-Return a JSON array with one object per chunk. No markdown, no explanation.
+Return ONLY a valid JSON object with these fields:
+{{
+  "act_name": "full official name e.g. Indian Contract Act, 1872",
+  "year_enacted": "year as string e.g. 1872",
+  "last_amended": "most recent amendment year as string, empty if unknown",
+  "legal_domain": "comma-separated domains e.g. contract, agency, commercial",
+  "related_acts": ["list of related act names from the known acts list"],
+  "total_chapters": "number of chapters as string",
+  "importance": "high | medium | low",
+  "doc_type": "act | regulation | constitution | code",
+  "jurisdiction": "India",
+  "summary": "one sentence describing what this act governs"
+}}
 
-Chunks:
-{chunks}
+No markdown, no explanation. Only JSON.
 """
 
-def extract_metadata_batch(chunks: list[dict]) -> list[dict]:
-    if not chunks:
-        return []
-
-    # Format chunks for LLM
-    chunks_text = "\n\n".join(
-        f"[{i}] {c['text'][:400]}"
-        for i, c in enumerate(chunks)
-    )
+def generate_doc_metadata(file_path: Path, toc_text: str) -> dict:
+    print(f"  [LLM] Generating document metadata...")
 
     resp = None
     for attempt in range(4):
         try:
             resp = groq_client.chat.completions.create(
                 model=GROQ_MODEL,
-                messages=[{"role": "user", "content": METADATA_PROMPT.format(
+                messages=[{"role": "user", "content": DOC_METADATA_PROMPT.format(
+                    filename=file_path.name,
+                    toc_text=toc_text[:3000],
                     known_acts="\n".join(f"- {a}" for a in KNOWN_ACTS),
-                    chunks=chunks_text[:3000],
                 )}],
                 temperature=0.1,
-                max_tokens=2000,
+                max_tokens=600,
             )
             break
         except Exception as e:
             if "429" in str(e) or "rate_limit" in str(e).lower():
                 wait = 30 * (attempt + 1)
-                print(f"      [rate limit] waiting {wait}s...")
+                print(f"  [rate limit] waiting {wait}s...")
                 time.sleep(wait)
             else:
                 raise
 
     if resp is None:
-        print(f"      [metadata] all retries failed — returning empty metadata")
-        return []
+        print(f"  [LLM] All retries failed — using filename-based fallback metadata")
+        return _fallback_metadata(file_path)
 
     raw = _clean_json(resp.choices[0].message.content.strip())
     try:
-        metadata_list = json.loads(raw)
-        if not isinstance(metadata_list, list):
-            return []
-        return metadata_list
+        meta = json.loads(raw)
+        print(f"  [LLM] act_name: {meta.get('act_name', '?')}")
+        print(f"  [LLM] related_acts: {meta.get('related_acts', [])}")
+        return meta
     except json.JSONDecodeError:
-        return []
+        print(f"  [LLM] JSON parse failed — using fallback metadata")
+        return _fallback_metadata(file_path)
 
 
-# ── Step 5: Build LangChain Documents ──────────────────────────────────────────
+def _fallback_metadata(file_path: Path) -> dict:
+    """Derive basic metadata from filename when LLM fails."""
+    name = file_path.stem.replace("_", " ").title()
+    year = re.search(r"\d{4}", file_path.name)
+    return {
+        "act_name":      name,
+        "year_enacted":  year.group(0) if year else "",
+        "last_amended":  "",
+        "legal_domain":  "commercial",
+        "related_acts":  [],
+        "total_chapters":"",
+        "importance":    "high",
+        "doc_type":      "act",
+        "jurisdiction":  "India",
+        "summary":       f"Legal document: {name}",
+    }
+
+
+# ── Step 3: Hierarchical splitting ──────────────────────────────────────────────
+
+def hierarchical_split(full_text: str) -> list[str]:
+    """Split using legal document hierarchy via RecursiveCharacterTextSplitter."""
+    chunks = splitter.split_text(full_text)
+    valid = []
+    for c in chunks:
+        c = c.strip()
+        if len(c.split()) < 15:
+            continue
+        # Skip TOC-style chunks: many short lines, no real sentences
+        lines = [l.strip() for l in c.split("\n") if l.strip()]
+        if len(lines) > 6 and sum(1 for l in lines if len(l) < 50) / len(lines) > 0.8:
+            continue
+        # Skip chunks that are just "ARRANGEMENT OF SECTIONS" style
+        if "ARRANGEMENT OF SECTIONS" in c or "arrangement of sections" in c.lower():
+            continue
+        valid.append(c)
+    return valid
+
+
+# ── Step 4: Extract position metadata from chunk text ──────────────────────────
+
+# Regex patterns for extracting position in legal hierarchy
+CHAPTER_PAT    = re.compile(r"CHAPTER\s+([IVXLCDM\d]+)\s*[-—]?\s*(.{0,80})", re.IGNORECASE)
+SECTION_PAT    = re.compile(r"(?:^|\n)\s*(\d+[A-Z]?)\.\s+([^\n]{0,80})", re.MULTILINE)
+SUBSECTION_PAT = re.compile(r"\((\d+)\)")
+CLAUSE_PAT     = re.compile(r"\(([a-z])\)")
+
+def extract_position_metadata(chunk_text: str) -> dict:
+    """Extract chapter, section number, section title from chunk text via regex."""
+    meta = {
+        "chapter":        "",
+        "section_number": "",
+        "section_title":  "",
+    }
+
+    # Chapter
+    ch_match = CHAPTER_PAT.search(chunk_text)
+    if ch_match:
+        meta["chapter"] = f"Chapter {ch_match.group(1)} — {ch_match.group(2).strip()}"[:100]
+
+    # Section number + title (first match in chunk)
+    sec_match = SECTION_PAT.search(chunk_text)
+    if sec_match:
+        meta["section_number"] = sec_match.group(1)
+        meta["section_title"]  = sec_match.group(2).strip()[:150]
+
+    return meta
+
+
+# ── Step 5: Build Documents ─────────────────────────────────────────────────────
 
 def build_documents(
-    chunks: list[dict],
-    metadata_list: list[dict],
+    chunks: list[str],
+    doc_meta: dict,
     file_path: Path,
 ) -> list[Document]:
     docs = []
-    meta_by_idx = {m.get("chunk_index", i): m for i, m in enumerate(metadata_list)}
+    for chunk_text in chunks:
+        # Position metadata from regex — no LLM needed
+        position = extract_position_metadata(chunk_text)
 
-    for i, chunk in enumerate(chunks):
-        meta = meta_by_idx.get(i, {})
-        text    = chunk["text"].strip()
-        summary = meta.get("summary", "").strip()
-        act     = meta.get("act_name", "")
-        sec     = str(meta.get("section_number", chunk.get("section_hint", "")))
-
-        # Content = summary + "Act — Section X" + verbatim text
-        section_ref  = f"{act} — Section {sec}" if act and sec else act
-        full_content = "\n\n".join(filter(None, [summary, section_ref, text]))
+        # Full content = doc summary context + chunk text
+        # This helps embedding understand context even for short chunks
+        context_line = f"{doc_meta.get('act_name', '')} | {position.get('chapter', '')} | Section {position.get('section_number', '')}".strip(" |")
+        full_content = f"{context_line}\n\n{chunk_text}" if context_line.replace("|","").strip() else chunk_text
 
         metadata = {
-            # Level 1 — General
-            "act_name":         act,
-            "legal_concepts":   ", ".join(meta.get("legal_concepts", [])[:5]),
-            "importance":       meta.get("importance", "medium"),
-            "doc_type":         meta.get("doc_type", chunk.get("content_type", "provision")),
-            # Level 2 — Legal specific
-            "section_number":   sec,
-            "section_title":    meta.get("section_title", "")[:200],
-            "chapter":          meta.get("chapter", ""),
-            "related_acts":     ", ".join(meta.get("related_acts", [])[:5]),
-            "cross_references": ", ".join(meta.get("cross_references", [])[:8]),
-            "summary":          summary[:300],
+            # Document-level (from LLM, same for all chunks)
+            "act_name":       doc_meta.get("act_name", ""),
+            "year_enacted":   str(doc_meta.get("year_enacted", "")),
+            "last_amended":   str(doc_meta.get("last_amended", "")),
+            "legal_domain":   doc_meta.get("legal_domain", ""),
+            "related_acts":   ", ".join(doc_meta.get("related_acts", [])[:5]),
+            "importance":     doc_meta.get("importance", "high"),
+            "doc_type":       doc_meta.get("doc_type", "act"),
+            "jurisdiction":   doc_meta.get("jurisdiction", "India"),
+            "doc_summary":    doc_meta.get("summary", "")[:300],
+            # Position-level (from regex, unique per chunk)
+            "chapter":        position.get("chapter", ""),
+            "section_number": position.get("section_number", ""),
+            "section_title":  position.get("section_title", ""),
             # Housekeeping
-            "page_num":         str(chunk.get("page_num", "")),
-            "source":           file_path.name,
-            "namespace":        NS_LEGAL,
-            "ingested_at":      datetime.now().isoformat(),
+            "source":         file_path.name,
+            "namespace":      NS_LEGAL,
+            "ingested_at":    datetime.now().isoformat(),
         }
 
         docs.append(Document(page_content=full_content, metadata=metadata))
@@ -373,7 +346,7 @@ def log_chunks(docs: list[Document], file_path: Path):
             for k, v in doc.metadata.items():
                 f.write(f"  {k:<20}: {v}\n")
             f.write("\nCONTENT:\n")
-            f.write(doc.page_content[:500])
+            f.write(doc.page_content[:400])
             f.write("\n\n" + "=" * 70 + "\n\n")
     print(f"  Log → {log_file}")
 
@@ -384,9 +357,14 @@ def upsert(docs: list[Document]):
     if not docs:
         print("  No chunks to upsert")
         return
-    uuids = [str(uuid4()) for _ in docs]
-    vector_store.add_documents(documents=docs, ids=uuids, namespace=NS_LEGAL)
-    print(f"  Upserted {len(docs)} chunks → Pinecone [{NS_LEGAL}]")
+    # Batch into 100s for Pinecone
+    batch_size = 100
+    for i in range(0, len(docs), batch_size):
+        batch = docs[i:i+batch_size]
+        uuids = [str(uuid4()) for _ in batch]
+        vector_store.add_documents(documents=batch, ids=uuids, namespace=NS_LEGAL)
+        print(f"  Upserted batch {i//batch_size + 1} ({len(batch)} chunks)")
+        time.sleep(1)
 
 
 # ── Main pipeline ───────────────────────────────────────────────────────────────
@@ -396,67 +374,49 @@ def process_file(file_path: Path):
     print(f"[LEGAL] {file_path.name}")
     print(f"{'='*60}")
 
-    pages = extract_pages(file_path)
-    print(f"  Pages: {len(pages)}")
+    if is_done(file_path):
+        print(f"  Already processed — skipping (delete logs/checkpoints/{file_path.stem}.done to reprocess)")
+        return
 
-    # Resume from checkpoint if exists
-    resume_from = load_checkpoint(file_path)
+    # Step 1 — Extract text
+    toc_text, full_text = extract_full_text(file_path)
+    print(f"  Full text: {len(full_text):,} chars")
 
-    all_docs = []
+    # Step 2 — ONE LLM call for doc metadata
+    doc_meta = generate_doc_metadata(file_path, toc_text)
+    time.sleep(2)  # brief pause after LLM call
 
-    for page in pages:
-        page_num  = page["page_num"]
-        page_text = page["text"]
+    # Step 3 — Hierarchical split
+    chunks = hierarchical_split(full_text)
+    print(f"  Chunks after hierarchical split: {len(chunks)}")
 
-        # Skip already-processed pages
-        if page_num <= resume_from:
-            print(f"  [Page {page_num:>3}] already done — skipping")
-            continue
+    # Step 4+5 — Build documents with metadata
+    docs = build_documents(chunks, doc_meta, file_path)
+    print(f"  Documents built: {len(docs)}")
 
-        print(f"  [Page {page_num:>3}] Skimming ({len(page_text)} chars)...", end=" ")
+    # Step 6 — Log
+    log_chunks(docs, file_path)
 
-        # Step 1 — LLM finds char ranges
-        ranges = skim_page(page_text, page_num)
-        if not ranges:
-            print("skipped")
-            save_checkpoint(file_path, page_num, len(all_docs))
-            time.sleep(1)
-            continue
+    # Step 7 — Upsert
+    upsert(docs)
 
-        # Step 2 — Slice + split
-        raw_chunks = slice_and_split(page_text, ranges, page_num)
-        if not raw_chunks:
-            print("0 chunks")
-            save_checkpoint(file_path, page_num, len(all_docs))
-            continue
-
-        # Step 3 — Extract metadata + upsert immediately
-        metadata_list = extract_metadata_batch(raw_chunks)
-        docs = build_documents(raw_chunks, metadata_list, file_path)
-
-        # Upsert this page's chunks immediately — don't wait till end
-        upsert(docs)
-        all_docs.extend(docs)
-
-        # Save checkpoint after every successful page
-        save_checkpoint(file_path, page_num, len(all_docs))
-
-        print(f"{len(docs)} chunks upserted")
-        time.sleep(1.5)
-
-    print(f"\n  Total chunks upserted: {len(all_docs)}")
-    log_chunks(all_docs, file_path)
-    clear_checkpoint(file_path)
+    # Mark as done
+    save_checkpoint(file_path)
     print(f"  Done: {file_path.name}")
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--file", help="Process a single file")
+    parser.add_argument("--file",    help="Process a single file")
+    parser.add_argument("--reprocess", action="store_true",
+                        help="Reprocess even if checkpoint exists")
     args = parser.parse_args()
 
     if args.file:
-        process_file(Path(args.file))
+        fp = Path(args.file)
+        if args.reprocess:
+            clear_checkpoint(fp)
+        process_file(fp)
         return
 
     files = []
@@ -467,17 +427,25 @@ def main():
             files.extend(sorted(p.glob("*.txt")))
 
     print(f"Found {len(files)} legal files\n")
+    done  = sum(1 for f in files if is_done(f))
+    print(f"Already done: {done} / {len(files)}")
+    print(f"To process:   {len(files)-done} / {len(files)}\n")
+
     for f in files:
         process_file(f)
 
-    print("\nAll done!")
+    print("\n" + "="*60)
+    print("All legal docs processed!")
+    print(f"Chunks in vidhijna-legal → check Pinecone dashboard")
+    print("="*60)
 
 
-# ── Helpers ─────────────────────────────────────────────────────────────────────
+# ── Helpers ──────────────────────────────────────────────────────────────────────
 
 def _clean_json(raw: str) -> str:
     if "```" in raw:
-        raw = raw.split("```")[1]
+        parts = raw.split("```")
+        raw   = parts[1] if len(parts) > 1 else parts[0]
         if raw.startswith("json"):
             raw = raw[4:]
     return raw.strip()

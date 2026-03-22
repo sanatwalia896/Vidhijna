@@ -1,0 +1,2986 @@
+FILE:         principles_of_contract_anson.txt
+NAMESPACE:    vidhijna-books
+INGESTED AT:  2026-03-22T19:14:37.122384
+TOTAL CHUNKS: 91
+======================================================================
+
+CHUNK 1
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117270
+
+CONTENT:
+Principles of Contract
+
+He told me in his letter that his reason for wanting me to set to him
+was, becoz he wanted to have the Picters of all the Members of the
+Copperation, and of course they wood not be complete without mine, for
+tho of course he knew that I was not a real Common Counseller, still, he
+thort that I had left sitch a mark among them by my ten years constant
+service and unwarying at
+
+======================================================================
+
+CHUNK 2
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117410
+
+CONTENT:
+Principles of Contract
+
+"Mr. ROBERT the City Waiter" a leading off the presession or a bringing
+up the Reer! I remembers werry well when the other City Picter was
+printed, about a year ago, when the LORD MARE'S three Footmen, all in
+their werry hansumest uniforms, was placed exactly in the front, and all
+being fine hansum fellers, as they undowtedly is, they were thort to
+have taken the shine out 
+
+======================================================================
+
+CHUNK 3
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117441
+
+CONTENT:
+Principles of Contract
+
+from that one, and carried out in quite another style altogether, and
+will, I shoud think, atract such uniwersal admiration as will quite cut
+out the Picter Gallery as was shown at Gildall last summer.
+
+======================================================================
+
+CHUNK 4
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117498
+
+CONTENT:
+Principles of Contract
+
+Sum few of the werry hansumest of the hole Court as has bin and got
+taken already, has bin and stuck theirselves up in the Reading Room, and
+werry proud they is of their apperience, and BROWN and Me has got sum of
+the Atendents to let us go in before the Members comes, and see em
+privately. BROWN says as how as he's quite sure as there must be sum
+mistake about me, becoz as
+
+======================================================================
+
+CHUNK 5
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117549
+
+CONTENT:
+Principles of Contract
+
+*       *       *       *       *
+
+I had my chance of going yesterday, and werry kind the Gennelman wos who
+took me, and he took me three times, to make sure of me. He said as I
+was a werry good Setter, and that everybody woud know who I was by my
+likenesses in _Punch_, and lots of peeple woud like to git my Picter, as
+it was a werry good likeness.
+
+ ROBERT.
+
+       *      
+
+======================================================================
+
+CHUNK 6
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117604
+
+CONTENT:
+Principles of Contract
+
+*       *       *       *       *
+
+[Illustration: MAKING THINGS SMOOTH.
+
+_Keeper (to Sportsmen, who have just fired all four barrels without
+touching a feather)._ "DEARY ME! UNCOMMON STRONG ON THE WING BIRDS IS,
+GENTLEMEN! 'STONISHING AMOUNT O' SHOT THEY CARRIES AWAY WITH 'EM TO BE
+SURE!"]
+
+       *       *       *       *       *
+
+THE "AUTOMATIC" CONSCIENCE.
+
+    [A late r
+
+======================================================================
+
+CHUNK 7
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117666
+
+CONTENT:
+Principles of Contract
+
+*       *       *       *       *
+
+IN THE PRESS.--_The Cruelty of the Jap._ By the Author of _The Kindness
+of the Celestial_.
+
+       *       *       *       *       *
+
+A LITTLE FLIRTATION.
+
+    SCENE--_The "Gothenburg Arms," under new (Municipal) Management,
+    licensed for the sale of liquors for the public profit only._
+    Mr. G., _an elderly but cheerful and chatty cu
+
+======================================================================
+
+CHUNK 8
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117724
+
+CONTENT:
+Principles of Contract
+
+_Mr. G. (aside)._ Aha! there she is, looking smart as fresh paint!
+(_Aloud._) Good morning, Miss JOSEY! How are you, my dear?
+
+_Miss Joe._ Ah, tha-anks. _I_'m all right.
+
+_Mr. G._ Which you look it indeed! Just a glass of the usual, my dear,
+_if_ you please.
+
+_Miss Joe (drawing it)._ Oh, I thought you'd turned total abstainer or
+something.
+
+_Mr. G._ Dear no! That's your cha
+
+======================================================================
+
+CHUNK 9
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117783
+
+CONTENT:
+Principles of Contract
+
+_Mr. G._ Come now, Miss JOE, don't be raspy this morning.
+
+_Miss Joe. Me_ raspy, indeed! Well, you _do_ take the cake!
+
+You've been awfully down on the Bungs for a long time, have you and your
+friends, that Miss HARCOURT and such.
+
+_Mr. G._ Don't call her my friend, if you please, dear Miss JOSEY.
+
+_Miss Joe._ Oh, come!--I say!--this is a trifle _too_ much!
+
+Were not you an
+
+======================================================================
+
+CHUNK 10
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117840
+
+CONTENT:
+Principles of Contract
+
+_Miss Joe._ What _are_ you at?
+
+_Mr. G._ Why, my dear girl, this new Gothenburg system always has struck
+me as quite the sole chance
+
+Of escape from predicament truly contemptible--only fair promise of real
+advance.
+
+_So_ glad to see you so active in aid of it!
+
+_Miss Joe (coquettishly). Oh_, Mr. G.! if Miss H. could but hear----!
+
+_Mr. G. (pettishly)._ Bother Miss H.! Loca
+
+======================================================================
+
+CHUNK 11
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117895
+
+CONTENT:
+Principles of Contract
+
+Is all tommy-rot _as a remedy_!
+
+_Miss Joe._ Really, my _dear_ Mr. G., you are getting on fast.
+
+Don't mean to say you mean "chucking" Miss H. and the rest of the
+Vetoers, WILFRID and all?
+
+What will _he_ say? He'll be giving you beans; and that blessed Alliance
+will raise a big squall.
+
+_Mr. G._ "Charge, CHESTER, charge!" is my Marmion-motto. LAWSON and
+DAWSON may kick up 
+
+======================================================================
+
+CHUNK 12
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.117949
+
+CONTENT:
+Principles of Contract
+
+_Miss Joe._ Well, I feel flattered! But oh, _poor_ Miss H.
+
+_Mr. G. Entre nous_, my dear JOE, Local Option, _per se_, Is just an
+Imposture!!!
+
+_Miss H. (who has entered unperceived)._ Oh, _is_ it? My favourite
+measure, too! Oh, Mister G.! Mister G.!
+
+Call you this backing your friends? And to _her too_, that minx who was
+false to you when _I_ was true!
+
+Really it's not safe
+
+======================================================================
+
+CHUNK 13
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118006
+
+CONTENT:
+Principles of Contract
+
+*       *       *       *       *
+
+[Illustration:
+
+A LITTLE FLIRTATION.
+
+_Mr. G._ "YES, MISS, I ENTIRELY AGREE WITH YOU. 'LOCAL OPTION'
+IS--IS--UM--MORE OR LESS OF AN IMPOSTURE."
+
+_Miss Harcourt (horrified, appearing in the doorway)._ "OH! MR. G.! MR.
+G.!!"
+
+    ["... Local option ... if pretending to the honour of a remedy,
+    is little better than an imposture.... I am g
+
+======================================================================
+
+CHUNK 14
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118054
+
+CONTENT:
+Principles of Contract
+
+*       *       *       *       *
+
+LYRE AND LANCET.
+
+(_A Story in Scenes._)
+
+PART XIII.--WHAT'S IN A NAME?
+
+    SCENE XXII.--_At the Supper-table in the Housekeeper's Room._ Mrs.
+    POMFRET _and_ TREDWELL _are at the head and foot of the table
+    respectively_. UNDERSHELL _is between_ Mrs. POMFRET _and_ Miss
+    PHILLIPSON. _The Steward's Room Boy waits._
+
+_Tredwell._ I d
+
+======================================================================
+
+CHUNK 15
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118108
+
+CONTENT:
+Principles of Contract
+
+_Tredwell._ I don't see Mr. ADAMS here this evening, Mrs. POMFRET.
+What's the reason of that?
+
+_Mrs. Pomfret._ Why, he asked to be excused to-night, Mr. TREDWELL. You
+see some of the visitors' coachmen are putting up their horses here, and
+he's helping Mr. CHECKLEY entertain them. (_To_ UNDERSHELL.) Mr. ADAMS
+is our Stud-Groom, and him and Mr. CHECKLEY, the 'ed coachman, ar
+
+======================================================================
+
+CHUNK 16
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118154
+
+CONTENT:
+Principles of Contract
+
+_Undershell (mystified)._ I--I'm exceedingly sorry to have missed him,
+Ma'am. (_To himself._) Is the Stud-Groom _literary_, I wonder?... Ah,
+no, I remember now; I allowed Miss PHILLIPSON to conclude that my tastes
+were equestrian. Perhaps it's just as well the Stud-Groom _isn't_ here!
+
+_Mrs. Pomfr._ Well, he _may_ drop in later on. I shouldn't be surprised
+if you and he had
+
+======================================================================
+
+CHUNK 17
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118208
+
+CONTENT:
+Principles of Contract
+
+_Mrs. Pomfr._ I've known stranger things than _that_ happen. Why, only
+the other day, a gentleman came into this very room, as it might be
+yourself, and it struck me he was looking very hard at me, and by-and-by
+he says, "You don't recollect _me_, Ma'am, but I know _you_ very well,"
+says he. So I said to him, "You certainly have the advantage of me at
+present, Sir." "Well, 
+
+======================================================================
+
+CHUNK 18
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118249
+
+CONTENT:
+Principles of Contract
+
+Stillroom Maid; and I consider I owe the position I have since attained
+entirely to the good advice you used to give me, as I've never forgot
+it, Ma'am," says he. Then it flashed across me who it was--"Mr.
+POCKLINGTON!!!" says I. Which it _were_. And him own man to the Duke of
+DUMBLESHIRE! Which was what made it so very nice and 'andsome of him to
+remember me all that time.
+
+======================================================================
+
+CHUNK 19
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118297
+
+CONTENT:
+Principles of Contract
+
+_Und. (perfunctorily)._ It must have been most gratifying, Ma'am. (_To
+himself._) I hope this old lady hasn't any more anecdotes of this highly
+interesting nature. I mustn't neglect Miss PHILLIPSON--especially as I
+haven't very long to stay here.
+
+    [_He consults his watch stealthily._
+
+_Miss Phillipson (observing the action)._ I'm sorry you find it so slow
+here; it's not
+
+======================================================================
+
+CHUNK 20
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118354
+
+CONTENT:
+Principles of Contract
+
+[_She pouts._
+
+_Und. (to himself)._ I can't let this poor girl think me a brute! But I
+must be careful not to go too far. (_To her, in an undertone which he
+tries to render unemotional._) Don't misunderstand me like that. If I
+looked at my watch, it was merely to count the minutes that are left. In
+one short half hour I must go--I must pass out of your life, and you
+must fo
+
+======================================================================
+
+CHUNK 21
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118409
+
+CONTENT:
+Principles of Contract
+
+_Phill. (bending her head with a gratified little giggle)._ I declare
+you're beginning all that _again_. I never _did_ see such a cure as you
+are.
+
+_Und. (to himself, displeased)._ I wish she could bring herself to take
+me a little more seriously. I can _not_ consider it a compliment to be
+called a "cure"--whatever that is.
+
+_Steptoe (considering it time to interfere)._ Com
+
+======================================================================
+
+CHUNK 22
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118461
+
+CONTENT:
+Principles of Contract
+
+_Und. (stiffly)._ I--ah--was not making any remark that could be
+described as a sparkler, Sir. I _don't_ sparkle.
+
+_Phill. (demurely)._ He was being rather sentimental just then, Mr.
+STEPTOE, as it happens. Not that he can't sparkle, when he likes. I'm
+sure if you'd heard how he went on in the fly!
+
+_Steptoe (with malice)._ Not having been privileged to be present,
+perhaps 
+
+======================================================================
+
+CHUNK 23
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118495
+
+CONTENT:
+Principles of Contract
+
+_Miss Dolman._ Do, Mr. UNDERSHELL, please. I do _love_ a good laugh.
+
+_Und. (crimson)._ I--you really must excuse me. I said nothing worth
+repeating. I don't remember that I was particularly----
+
+_Stept._ Pardon me. Afraid I was indiscreet. We must spare Miss
+PHILLIPSON'S blushes by all manner of means.
+
+======================================================================
+
+CHUNK 24
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118541
+
+CONTENT:
+Principles of Contract
+
+_Phill._ Oh, it was nothing of _that_ sort, Mr. STEPTOE! _I_'ve no
+objection to repeat what he said. He called me a little green something
+or other. No; he said _that_ in the train, though. But he would have it
+that the old cab-horse was a magic steed, and the fly an enchanted
+chariot; and I don't know what all. (_As nobody smiles._) It sounded
+awfully funny as _he_ said it
+
+======================================================================
+
+CHUNK 25
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118597
+
+CONTENT:
+Principles of Contract
+
+_Stept. (patronisingly)._ I can readily believe it. We shall have you
+contributing to some of our yumerous periodicals, Mr. UNDERSHELL, Sir,
+before long. Such facetious talent is too good to be lost, it
+reelly is.
+
+_Und. (to himself, writhing)._ I gave her credit for more sense. To make
+me publicly ridiculous like this!
+
+    [_He sulks._
+
+_Miss Stickler_ (_to_ M. RIDEVOS, _
+
+======================================================================
+
+CHUNK 26
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118655
+
+CONTENT:
+Principles of Contract
+
+[_General outcry and sensation._
+
+_Mrs. Pomfr. (concerned)._ You never mean that, Mossoo? And a nice dish
+of quails just put on, too, that they haven't even touched upstairs!
+
+_M. Rid._ It is for zat I do not remmain! Zey 'ave not toch him; my
+pyramide, result of a genius stupend, énorme! to zem he is nossing; zey
+retturn him to crash me! To-morrow I demmand zat Miladi acce
+
+======================================================================
+
+CHUNK 27
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118710
+
+CONTENT:
+Principles of Contract
+
+_Mrs. Pomfr. (severely)._ Stay where you are, HARRIET; he's better left
+to himself. If he wasn't so wropped up in his cookery, he'd know there's
+always a dish as goes the round untasted, without why or wherefore. I've
+no _patience_ with the man!
+
+_Tred. (philosophically)._ That's the worst of 'aving to do with
+Frenchmen; they're so apt to beyave with a sutting childishness
+
+
+======================================================================
+
+CHUNK 28
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118759
+
+CONTENT:
+Principles of Contract
+
+_Mlle. Chiffon._ As you for Frenchman, _hein_?
+
+_Tred._ No, 'ang it _all_, Mamsell, I 'ope there's no danger o' _that_!
+(_To_ Miss PHILLIPSON.) Delighted to see the Countess keeps as fit as
+ever, Miss PHILLIPSON! Wonderful woman for her time o' life! Law, she
+_did_ give the Bishop beans at dinner, and no mistake!
+
+_Phill._ Her ladyship is pretty generous with them to most p
+
+======================================================================
+
+CHUNK 29
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118803
+
+CONTENT:
+Principles of Contract
+
+_Tred._ She don't favour her ma, I will say _that_ for her. By the way,
+who is the party they brought down with them? a youngish looking
+chap--seemed a bit out of his helement, when he first come in, though
+he's soon got over that, judging by the way him and your Lady RHODA,
+Miss DOLMAN, was 'obnobbing together at table!
+
+_Phill._ Nobody came down with _my_ ladies; they mus
+
+======================================================================
+
+CHUNK 30
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118854
+
+CONTENT:
+Principles of Contract
+
+_Tred._ Why, he give it to me, I know, when I enounced him; but it's
+gone clean out of my head again. He's got the Verney Chamber, I know
+_that_ much; but what _was_ his name again? I shall forget my own next.
+
+_Und. (involuntarily)._ In the Verney Chamber? Then the name must be
+SPURRELL!
+
+_Phill. (starting)._ SPURRELL! Why, _I_ used to---- But of course it
+can't be _him_!
+
+
+======================================================================
+
+CHUNK 31
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118882
+
+CONTENT:
+Principles of Contract
+
+_Und._ Why, the fact is, I happened to find out that--(_here he receives
+an admonitory drive in the back from the_ Boy)--that his name _was_
+SPURRELL. (_To himself._) I wish this infernal Boy wouldn't be so
+officious; but perhaps he's right!
+
+======================================================================
+
+CHUNK 32
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118932
+
+CONTENT:
+Principles of Contract
+
+_Tred._ Ho, indeed! Well, _another_ time, Mr. HUNDERSHELL, if you
+require information about parties staying with Us, p'r'aps you'll be
+good enough to apply to me personally, instead of picking it up in some
+'ole and corner fashion. (UNDERSHELL _controls his indignation with
+difficulty_.) To return to the individual in question, Miss PHILLIPSON,
+I should have said myself he 
+
+======================================================================
+
+CHUNK 33
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.118985
+
+CONTENT:
+Principles of Contract
+
+_Phill. (to herself, relieved)._ Then it _isn't_ my JEM! I might have
+known he wouldn't be visiting here, and carrying on with Lady RHODAS.
+He'd never forget himself like that--if he _has_ forgotten me!
+
+_Stept._ It strikes me he's more of a sporting character, TREDWELL. I
+know when I was circulating with the cigarettes, and so on, in the hall
+just now, he was telling the C
+
+======================================================================
+
+CHUNK 34
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119041
+
+CONTENT:
+Principles of Contract
+
+_Tred._ I may be mistook, STEPTOE. All _I_ can say is, that when me and
+JAMES was serving cawfy to the ladies in the drawing-room, some of them
+had got 'old of a little pink book all sprinkled over with silver
+cutlets, and, rightly _or_ wrongly, I took it to 'ave some connection
+with 'im.
+
+_Und. (excitedly)._ Pink and silver! Might I ask--was it a volume of
+poetry, called--
+
+======================================================================
+
+CHUNK 35
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119062
+
+CONTENT:
+Principles of Contract
+
+[UNDERSHELL _collapses_; Mr. ADAMS _enters, and steps into the
+    chair vacated by the Chef, next to_ Mrs. POMFRET, _with whom he
+    converses_.
+
+======================================================================
+
+CHUNK 36
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119109
+
+CONTENT:
+Principles of Contract
+
+_Und. (to himself)._ To think that they may be discussing my book in the
+drawing-room at this very moment, while I--I---- (_He chokes._) Ah, it
+won't bear thinking of! I must--I _will_ get out of this cursed place! I
+have stood this too long as it is! But I won't go till I have seen this
+fellow SPURRELL, and made him give me back my things. What's the
+time?... ten! I can go
+
+======================================================================
+
+CHUNK 37
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119153
+
+CONTENT:
+Principles of Contract
+
+_Mrs. Pomfr._ Well, Mr. UNDERSHELL, Sir, you're the best judge; and, if
+you really can't stop, this is Mr. ADAMS, who'll take you round to the
+stables himself, and do anything that's necessary. Won't you, Mr. ADAMS?
+
+_Adams._ So you're off to-night, Sir, are you? Well, I'd rather ha'
+shown you _Deerfoot_ by daylight, myself; but there, I dessay that won't
+make much differen
+
+======================================================================
+
+CHUNK 38
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119209
+
+CONTENT:
+Principles of Contract
+
+_Und. (to himself)._ So _Deerfoot's_ a _horse_! One of the features of
+Wyvern, I suppose; they seem very anxious I shouldn't miss it. _I_ don't
+want to see the beast; but I daresay it won't take many minutes; and, if
+I don't humour this man, I shan't get a conveyance to go away in!
+(_Aloud._) No difference whatever--to _me_. I shall be delighted to be
+shown _Deerfoot_; only
+
+======================================================================
+
+CHUNK 39
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119269
+
+CONTENT:
+Principles of Contract
+
+[UNDERSHELL _takes a hasty farewell of_ Miss PHILLIPSON _and the
+    company generally--none of whom attempts to detain him--and follows
+    his guide_. _As the door closes upon them, he hears a burst of
+    stifled merriment, amidst which_ Miss PHILLIPSON'S _laughter is
+    only too painfully recognisable_.
+
+[Illustration: "He suttingly didn't give me the impression of bei
+
+======================================================================
+
+CHUNK 40
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119319
+
+CONTENT:
+Principles of Contract
+
+*       *       *       *       *
+
+[Illustration: ENHANCED VALUE.
+
+_'Arry._ "WHAT SORT OF A JOB'S THAT YOU'VE GOT AT BABEL BUILDINGS, ALF?"
+
+_Alf._ "JOLLY 'ARD; ALL THE MESSAGES AND PARCELS FROM THE TOP OF THE
+'OUSE TO THE BASEMENT GO THROUGH ME; AND I'M ONLY GETTING THIRTY BOB A
+WEEK!"
+
+_'Arry._ "TELL YER WHAT, OLD MAN, YOU'D COMMAND DOUBLE THE MONEY IF YOU
+WAS FITTED UP W
+
+======================================================================
+
+CHUNK 41
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119373
+
+CONTENT:
+Principles of Contract
+
+SIR,--I have seen some letters in the _Daily Graphic_ on the above
+subject. A much more curious thing happened to me on April 1, 1887, at
+twenty-five minutes past ten in the morning. I dropped a pin about four
+yards from the south-western corner of the Marble Arch. It is almost
+incredible that exactly three years later I picked up a pin, at 4.17 in
+the afternoon, three yard
+
+======================================================================
+
+CHUNK 42
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119411
+
+CONTENT:
+Principles of Contract
+
+carefully the levels of the ground, the flow of the surface water, and
+the direction of the prevailing air currents, and I am reluctantly
+forced to the conclusion that it was _not_ the same pin. Had it been, I
+should have found it five and a half inches further north. The question
+now is, whose pin was it?--Your obedient servant,
+
+======================================================================
+
+CHUNK 43
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119468
+
+CONTENT:
+Principles of Contract
+
+DEAR SIR,--Some weeks ago I rode outside an omnibus from Piccadilly
+Circus to Charing Cross. Getting down hastily, when I found that it went
+on to Westminster instead of the City, I left behind a large grey parrot
+in a cage, a siphon of soda-water, and a St. Bernard dog. Yesterday,
+when I climbed on to an omnibus following the same route, I found my
+cage, my siphon, and my 
+
+======================================================================
+
+CHUNK 44
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119488
+
+CONTENT:
+Principles of Contract
+
+not, for the sagacious animal had evidently made use of them to sustain
+life, not very satisfactorily, for he was a mere skeleton.
+
+======================================================================
+
+CHUNK 45
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119551
+
+CONTENT:
+Principles of Contract
+
+Yours obediently,
+
+ CONSTANT READER.
+
+DEAR MR. PUNCH,--Last evening I went out to dinner, and put my one
+latch-key in my pocket. Marvellous to relate, on my return home at three
+A.M., I took it, as I thought, from my pocket, and found that it had
+become two!
+
+  Yours faithfully,
+
+  BOOSEY TITE.
+
+       *       *       *       *       *
+
+[Illustration: "EHEU FUGACES----"
+
+AN
+
+======================================================================
+
+CHUNK 46
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119581
+
+CONTENT:
+Principles of Contract
+
+"AH WELL! FORTY YEARS _DO_ CHANGE A GIRL!"]
+
+       *       *       *       *       *
+
+JAP THE GIANT-KILLER.
+
+(_Fragment of a Tale of New Japan as told around a Fire-Brazier in Dai
+Nippon._)
+
+       *       *       *       *       *
+
+======================================================================
+
+CHUNK 47
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119637
+
+CONTENT:
+Principles of Contract
+
+Once upon a time in the Happy Dragon-fly shaped Land of the Rising
+Sun there lived a little hero named JAP. Small he was, but valiant as
+TAKÉ-NO-UCHI-NO-SUKUNÉ himself of the long life and many-syllabled
+name. He was a dead hand at dragon slaying, and had killed more tigers
+than HADÉSU. He could exorcise Oni like one o'clock, these demons or
+imps having an exceeding bad tim
+
+======================================================================
+
+CHUNK 48
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119681
+
+CONTENT:
+Principles of Contract
+
+talk when young and old gathered around the hibachi, or fire-braziers,
+to list to tales of heroism, filial piety, and Pro-Gress. Pro-Gress was
+the name of the great new goddess of whom JAP was a votary. From her he
+had received the gift of a new "sword of sharpness," which would not
+only, like the gift of the triple-headed Cornish giant, "cut through
+anything," but would ma
+
+======================================================================
+
+CHUNK 49
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119741
+
+CONTENT:
+Principles of Contract
+
+Little JAP, having acquired this wonderful sword, compared with which
+that which NITTA threw into the sea was a mere oyster-knife, was
+naturally desirous of using it. He kept it as sharp as that of the
+great demon-queller SHŌ-KI; but the demons he quelled with it were
+the great obstructive ogres known as Kon-serva-tism, Fogi-ism and
+Pre-ju-dice. JAP gave those antiquated bo
+
+======================================================================
+
+CHUNK 50
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119798
+
+CONTENT:
+Principles of Contract
+
+Tatsus, JAP could show after one of his regular "battues" was a caution
+to Saurians, I can assure you! He had a collection of Tatsu-teeth that
+would have aroused the envy of CADMUS, and given JASON a high-toned
+job. As to that terrible wild-fowl, the Ho-ho bird, with "the head
+of a pheasant, the beak of a swallow, the neck of a tortoise, and
+the outward semblance of a drago
+
+======================================================================
+
+CHUNK 51
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119825
+
+CONTENT:
+Principles of Contract
+
+and left, as though they were really pheasants in a swell British
+preserve; and it was commonly said that when JAP had a day among
+the Ho-hos, there was a glut in the Toyoakitsu poultry market for a
+fortnight after.
+
+======================================================================
+
+CHUNK 52
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119850
+
+CONTENT:
+Principles of Contract
+
+But JAP, in time, grew tired of the common or cherry-garden Ho-ho, and
+aweary of such small sport as mere dragons and demons could furnish. He
+yearned like an Anglo-Indian Shikari for big game!
+
+======================================================================
+
+CHUNK 53
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119907
+
+CONTENT:
+Principles of Contract
+
+Now there was an ugly, but enormous giant, fierce-looking as
+Kaminari, the Thunder-god, old as Urashima, the Kami-no-kuni _Rip
+Van Winkle_, strong as Asaina Saburō, the Dai Nippon Hercules, big
+as Fusi-yama, "the matchless mountain," rich as the Treasure Ship,
+laden with Ta-kara-mono (or "Precious Things"), stubborn, stolid,
+and unprogressive as Kamé, the hairy-tailed torto
+
+======================================================================
+
+CHUNK 54
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119962
+
+CONTENT:
+Principles of Contract
+
+Now Little JAP hated Big JON-NI, and Big JON-NI disdained Little JAP,
+as indeed he disdained everybody else save his conceited and colossal
+self. JAP curled his lip at JON-NI; JON-NI put out his tongue at JAP
+like a China figure; when the duodecimo hero bit his thumb at the
+elephantine Celestial, the elephantine Celestial cocked a snook at
+the duodecimo hero. This could not
+
+======================================================================
+
+CHUNK 55
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.119987
+
+CONTENT:
+Principles of Contract
+
+He cried, "By the heroic Hidésato who slew the giant Centipede, I
+will have a slap at this bouncing _Bobadil_ of a wooden-headed,
+grandmother-worshipping, old Stick-in-the-mud!"
+
+======================================================================
+
+CHUNK 56
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120016
+
+CONTENT:
+Principles of Contract
+
+Some of his more timid friends tried to dissuade him. "Beware, JAP,"
+they cried, "this Chinese Blunderbore is too big for thee!" "Pooh!"
+retorted the undaunted JAP. "Remember
+
+  ----'the valiant Cornishman
+  Who slew the giant Cormoran.'
+
+======================================================================
+
+CHUNK 57
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120075
+
+CONTENT:
+Principles of Contract
+
+Am I not as big as JACK now, and as fit to play the Giant-killer as he?
+Too big? Why, the overgrown monster is like the Buddhist Daruma, who,
+'arriving in China in the sixth century, at once went into a state of
+abstraction, which extended over nine years, during which time he never
+moved; and as a result lost the use of his legs.' Only JON-NI has been
+'in a state of abstra
+
+======================================================================
+
+CHUNK 58
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120130
+
+CONTENT:
+Principles of Contract
+
+His admiring friends dubbed him "JAP the Giant-Killer" at once. And,
+indeed, when he "went for" that clumsy Colossus, who in physical
+proportions out-Chang'd CHANG himself, the result of the first round,
+in which the swaggersome JON-NI was fairly beaten to his knees, seemed
+to justify the title. But giants are not usually "knocked out" in one
+round, and--well, my children, 
+
+======================================================================
+
+CHUNK 59
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120175
+
+CONTENT:
+Principles of Contract
+
+II.
+
+  No, no, it shall not be; the poet's eye
+    Shall yet flash fire, his heart shall never fail,
+    Though round about him, blanching in the gale,
+  His fellows falter----Waves, be not too high;
+  Mere height proves nothing. Leave, oh leave me dry.
+    Down, waves! Down, fluttering heart! Why should I quail?
+    Here in the packet of the Royal Mail
+  I tread the deck a
+
+======================================================================
+
+CHUNK 60
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120237
+
+CONTENT:
+Principles of Contract
+
+*       *       *       *       *
+
+[Illustration: PREHISTORIC PEEPS.
+
+THERE WERE OFTEN UNFORESEEN CIRCUMSTANCES WHICH GAVE TO THE HIGHLAND
+STALKING OF THOSE DAYS AN ADDED ZEST!]
+
+       *       *       *       *       *
+
+BOWL ME NO MORE!
+
+(_An Unlucky Batsman's Lament after a Season of Slow Wickets._)
+
+AIR--"_Ask me no more._"
+
+  Bowl me no more: the man may draw the stumps
+
+======================================================================
+
+CHUNK 61
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120287
+
+CONTENT:
+Principles of Contract
+
+A DAY'S RIDE, A LAW'S ROMANCE.
+
+(_A Story of the Long Vacation._)
+
+"MR. BRIEFLESS," said an eminent solicitor to me the other day, "I
+want you to go to East Babbleton, in Guiltshire, to see if the Great
+Gooseberry Will case is still open. It is a matter of vital importance,
+and I shall be glad if you can attend to it to-morrow."
+
+Referring to PORTINGTON, I found that my dia
+
+======================================================================
+
+CHUNK 62
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120315
+
+CONTENT:
+Principles of Contract
+
+"I must know at once," continued the gentleman, "because I desire to
+bring the matter before the Vacation Judge on an originating summons. I
+need scarcely add, that you will get the fullest particulars from the
+parish clerk."
+
+======================================================================
+
+CHUNK 63
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120368
+
+CONTENT:
+Principles of Contract
+
+Although rather imperfectly instructed, I determined to visit East
+Babbleton. The usual sources of railway information led me to believe
+that the place was six or seven miles distant from Nearvices in
+Guiltshire. I determined to go to Nearvices, taking with me my two
+lads (home for the holidays), GEORGE LEWIS HERSCHELL and EDWARD CLARKE
+RUSSELL. Before now I have explained 
+
+======================================================================
+
+CHUNK 64
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120419
+
+CONTENT:
+Principles of Contract
+
+professional advancement. We had to start at an unusually early hour
+from London, and after enjoying the companionship of some sportsmen,
+who talked about "duck" and "roots" for a quarter of a day, arrived
+at Nearvices at eleven o'clock. I made at once for the Red Lion, the
+principal hotel in the town. My sons followed me, eager for breakfast.
+Until then, they had satisfied
+
+======================================================================
+
+CHUNK 65
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120464
+
+CONTENT:
+Principles of Contract
+
+The "Red Lion" was in a state of great commotion. There were people
+in high hats at the door, people in high hats looking out of the
+coffee-room window, people in high hats thronging the hall. With some
+trouble my lads and I got our breakfast, then I asked for the ostler.
+He came to me after a pause and awaited my orders.
+
+"I want a trap to take me over to East Babbleton," 
+
+======================================================================
+
+CHUNK 66
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120519
+
+CONTENT:
+Principles of Contract
+
+"Very sorry, Sir, but, I can't do it for you. All the carriages in the
+house are hired. You know, Sir, Miss SMITH is going to be married, and
+consequently you can't get a conveyance for love or money."
+
+I was seriously annoyed, as the instructions of my client were explicit.
+
+"I really must get over," I said emphatically; "surely Miss SMITH can
+lend us one of her carriages.
+
+======================================================================
+
+CHUNK 67
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120576
+
+CONTENT:
+Principles of Contract
+
+"Oh, _do_ Papa," shouted my two sons in an ecstacy of delight. "It would
+be _such_ fun! and mother isn't here to stop you."
+
+"Well, I will have a shot at it," I returned; "although truth to tell I
+am a little rusty. I have not driven for some time."
+
+The ostler eyed me rather sharply, and retired. I then thought it my
+duty to reprove my sons for their ill-timed levity, expl
+
+======================================================================
+
+CHUNK 68
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120628
+
+CONTENT:
+Principles of Contract
+
+"But you have never driven in your life?" said GEORGE LEWIS HERSCHELL.
+"Have you, Papa?"
+
+"I cannot say that I have," I replied, with that truthfulness which is
+the characteristic of my dealings in the domestic circle.
+
+"Oh, what a game!" shouted EDWARD CLARKE RUSSELL, roaring with laughter.
+
+Severely chiding my offspring, I proceeded to the hall door. The ostler
+had been a
+
+======================================================================
+
+CHUNK 69
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120683
+
+CONTENT:
+Principles of Contract
+
+It was a small dog-cart, which conjured up visions of the toy
+waggon-and-horse department in the Lowther Arcade. There was a horse in
+the shafts. The harness was imperfect, and the collar showed its straw.
+However, I took my seat, and the boys got up beside me. Then, amidst the
+good wishes of the wedding party watching our progress, I started. The
+horse immediately took up 
+
+======================================================================
+
+CHUNK 70
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120700
+
+CONTENT:
+Principles of Contract
+
+to carry with him a lamp-post. We cannoned off the pavement into the
+middle of the road, and were fairly "off."
+
+======================================================================
+
+CHUNK 71
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120754
+
+CONTENT:
+Principles of Contract
+
+"If you boys laugh any more," I said, with the utmost severity, "I will
+turn you out and leave you."
+
+"But Papa, if mother could only see us!" cried the pair, and then they
+indulged in apparently unextinguishable bursts of merriment.
+
+I had no further time for remonstrance, as the brute of a horse, after
+beginning in a trot, had suddenly quickened its pace to a mad gallop.
+
+
+======================================================================
+
+CHUNK 72
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120806
+
+CONTENT:
+Principles of Contract
+
+"Which is the way to East Babbleton?" I asked, to explain my rather
+abrupt pull-up. "Am I taking the right road?"
+
+The dustman looked at me, at the horse, smiled, and answered in the
+affirmative. Seeing that we were now about to descend a hill, I got down
+and led the horse by its bridle. The brute resented the attention. So
+far as I could judge, without being an expert in h
+
+======================================================================
+
+CHUNK 73
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120857
+
+CONTENT:
+Principles of Contract
+
+"Do get in, Papa," said EDWARD CLARKE RUSSELL. "Perhaps he will go all
+right if you leave him alone."
+
+Adopting my son's advice, I mounted the cart, and once again jerked the
+reins. The beast began at a trot, and then, as before, commenced a mad
+gallop. We rapidly left Nearvices behind us, and brought ourselves to a
+stop in front of a haystack.
+
+"You see," I said, "the brut
+
+======================================================================
+
+CHUNK 74
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120904
+
+CONTENT:
+Principles of Contract
+
+"But look, Papa, at that," cried GEORGE LEWIS HERSCHELL, pointing to
+what seemed to be the remains of a coal cart. The wheels were off, the
+black diamonds were scattered about in all directions, and the shafts
+were broken.
+
+"Was that an accident?" I asked an old man who was lighting his pipe.
+The venerable individual paused, looked at the pipe, looked at the
+pieces of the c
+
+======================================================================
+
+CHUNK 75
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120933
+
+CONTENT:
+Principles of Contract
+
+"Well, yes, it was," he admitted, in an accent I cannot reproduce; but
+added, in a tone that suggested that mishaps of a similar character
+occurred on the average every five minutes; "but _that_ accident
+happened near an hour ago."
+
+======================================================================
+
+CHUNK 76
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.120974
+
+CONTENT:
+Principles of Contract
+
+This intelligence rather damped my ardour, and I immediately got off the
+cart and insisted upon leading the brute down the next hill. The animal
+protested, and shook its head. Remembering its possible tooth-ache, I
+treated it with increased courtesy, telling it to "Gee-up" and "be a
+good horse." I am sorry to say that the creature did not seem inclined
+to acknowledge my kin
+
+======================================================================
+
+CHUNK 77
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121018
+
+CONTENT:
+Principles of Contract
+
+Having come to a level piece of road, I once more mounted into the
+Lowther Arcade dog-cart, and urged on my partially wild career. I had
+passed a four-winged post at cross roads, and had followed the sign
+pointing to "Babbleton." I had got safely up to a farm-house, having
+restrained _en route_ an inclination on the part of my horse to commit
+suicide by jumping over the par
+
+======================================================================
+
+CHUNK 78
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121059
+
+CONTENT:
+Principles of Contract
+
+"Is this the way to East Babbleton?" I asked a rather cheery,
+rosy-cheeked dame, who had been watching our manoeuvres with a kindly
+smile, not entirely exempt from good-natured apprehension.
+
+"No, this is not the road, Master," she returned, in the same
+unapproachable dialect. "You ought to have borne to the left when you
+came to the cross-roads."
+
+======================================================================
+
+CHUNK 79
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121105
+
+CONTENT:
+Principles of Contract
+
+Seeing that I had to go back, I seized each of the reins and called upon
+my beast of a horse to make an effort. The noble animal answered bravely
+to the call, and managed to turn round on a space of turf about the size
+of a waggon wheel. It was really a very clever performance, and had it
+been seen by Mr. RITCHIE, I fancy would have secured for us a lucrative
+engagement for
+
+======================================================================
+
+CHUNK 80
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121152
+
+CONTENT:
+Principles of Contract
+
+"Well, that was a shave surely," said the dame of the cheery
+countenance; "when I saw your off wheel go up in the air and hang over
+the ditch I thought it would be all up with ye."
+
+Accepting the compliment with dignified geniality, I asked our fair
+critic if she could bait our horse.
+
+"Well, I can give him a handful of hay," said the lady; "but I would not
+take him out of 
+
+======================================================================
+
+CHUNK 81
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121207
+
+CONTENT:
+Principles of Contract
+
+Refreshed by the nourishment, our steed started again, and after
+retracing our steps and nearly upsetting a hay cart, and narrowly
+running down a pig, we reached East Babbleton in fairly good condition.
+I looked at my watch and found that we had done the six miles in two
+hours and a quarter. Having transacted my business, I now turned the
+nose of my steed homewards. I had n
+
+======================================================================
+
+CHUNK 82
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121241
+
+CONTENT:
+Principles of Contract
+
+London. This being so, I saw it was absolutely necessary that I should
+act with decision. I held a council of war with my two sons, and we came
+to the conclusion that we must get back as fast at we could, and when
+there was a difficulty, risk it. We entered our conveyance and started.
+
+======================================================================
+
+CHUNK 83
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121296
+
+CONTENT:
+Principles of Contract
+
+I shall never forget the experience. It was absolutely delightful.
+Giving _Flora_ (I came to the conclusion that my steed with the
+tooth-ache must have been called _Flora_) her head, I urged her to
+progress as rapidly as possible. The mare promptly answered to the call.
+I said "chick," and she started off at a mad gallop. We absolutely flew
+up-hill, down-hill, and would no 
+
+======================================================================
+
+CHUNK 84
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121330
+
+CONTENT:
+Principles of Contract
+
+children, ducks, dogs and gipsies fled in terror. We boldly cannoned
+against waggons and shook milestones to their very foundations. I had
+long since forgotten my nervousness, and had assumed an air that would
+have been becoming in an individual nicknamed (let us say) "down the
+road Billy."
+
+======================================================================
+
+CHUNK 85
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121386
+
+CONTENT:
+Principles of Contract
+
+I urged _Flora_ to "gee up," by suggesting that "five o'clock tea" was
+waiting for her on her arrival at Nearvices. My two sons, GEORGE LEWIS
+HERSCHELL and EDWARD CLARKE RUSSELL, also rendered valuable assistance
+by waving their straw hats, and singing comic songs with a vehemence
+that rendered the ballads undistinguishable from war ditties. As we
+entered Nearvices, _Flora_
+
+======================================================================
+
+CHUNK 86
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121437
+
+CONTENT:
+Principles of Contract
+
+to fresh exertions by a feeble flick of the whip, that expended its
+force on the shafts and a part of the collar. Again we flew on. We
+renewed our acquaintance with the attractive lamp-post, we crossed the
+sharp curve of the familiar pavement, we collided against the monument
+to a worthy in the market-place, and drove up with a jerk in front of
+the "Red Lion." I looked agai
+
+======================================================================
+
+CHUNK 87
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121477
+
+CONTENT:
+Principles of Contract
+
+"What, you have come back!" exclaimed the landlady of the "Red Lion."
+"Why, we never expected to see you."
+
+I found subsequently that the wedding party, after watching our
+departure, had taken bets about our probable return. The most popular
+wager seemed to be that we should reappear after midnight with a wheel,
+a bit of harness, and the whip, but without the quadruped.
+
+======================================================================
+
+CHUNK 88
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121533
+
+CONTENT:
+Principles of Contract
+
+I have nothing further to relate save this. That after my recent success
+I am thinking seriously of giving up the Bar and taking to the road. If
+I can raise the required capital, I think I shall run a four-horse coach
+between the Temple and Turnham Green. Both my boys are anxious to give
+up their school to act as my guard.
+
+By the way, I may add in conclusion that the paris
+
+======================================================================
+
+CHUNK 89
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121598
+
+CONTENT:
+Principles of Contract
+
+_Pump-Handle Court,
+       September 22, 1894._
+
+ (_Signed_)
+     A. BRIEFLESS, JUNIOR.
+
+
+       *       *       *       *       *
+
+[Illustration: SELF-EVIDENT.
+
+_The Colonel._ "WHAT WAS THAT NOISE I HEARD JUST NOW?"
+
+_His Nephew._ "OH! I WAS BLOWING UP MY SERVANT!"
+
+_The Colonel._ "MAY I ASK WHY?"
+
+_His Nephew._ "WELL--AW--YOU SEE HE IS SUCH A CONFOUNDED IDIOT!"
+
+_The Colo
+
+======================================================================
+
+CHUNK 90
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121654
+
+CONTENT:
+Principles of Contract
+
+*       *       *       *       *
+
+[Illustration: THE CUT DIRECT.
+
+SCENE--_A Norfolk Beach._
+
+_Mr. and Mrs. Wavely (returning to their tent)._ "AH, MR. MCVICAR! YOU
+REMEMBER MEETING US AT PITLOCHRIE LAST AUTUMN, DON'T YOU?"
+
+_Mr. McVicar._ "I RECOLLECT YOUR FACES PERFATELY WELL, SIR; BUT YE'LL
+EXCUSE ME OBSAIRVIN' THAT THE PRAISENT CIRCUMSTANCES ARE VERRA, VERRA
+DIFFERENT!"
+
+======================================================================
+
+CHUNK 91
+----------------------------------------
+METADATA:
+  book_title          : Principles of Contract
+  authors             : 
+  publisher           : 
+  book_type           : study_notes
+  covers_acts         : Indian Contract Act, 1872
+  legal_domain        : contract, commercial
+  book_purpose        : To provide a comprehensive understanding of the principles of contract law in India.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : mixed
+  chapter             : 
+  topic_number        : 
+  source              : principles_of_contract_anson.txt
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:14:37.121688
+
+CONTENT:
+Principles of Contract
+
+[Transcriber's Note:
+
+Inconsistent spelling and hyphenation are as in the original.]
+
+
+
+
+
+End of the Project Gutenberg EBook of Punch, or the London Charivari, Volume
+107, September 29, 1894, by Various
+
+*** END OF THE PROJECT GUTENBERG EBOOK 46738 ***
+
+======================================================================
+

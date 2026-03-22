@@ -1,0 +1,4230 @@
+FILE:         indian_partnership_act_1932.pdf
+NAMESPACE:    vidhijna-legal
+INGESTED AT:  2026-03-22T15:37:00.004243
+TOTAL CHUNKS: 140
+======================================================================
+
+CHUNK 1
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter IV — RELATIONS OF PARTNERS TO THIRD PARTIES
+  section_number      : 18
+  section_title       : Partner to be agent of the firm.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001033
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter IV — RELATIONS OF PARTNERS TO THIRD PARTIES | Section 18
+
+CHAPTER IV
+RELATIONS OF PARTNERS TO THIRD PARTIES
+18. Partner to be agent of the firm.
+19. Implied authority of partner as agent of the firm.
+20. Extension and restriction of partner’s implied authority.
+1
+
+SECTIONS
+21. Partner’s authority in an emergency.
+22. Mode of doing act to bind firm.
+23. Ef
+
+======================================================================
+
+CHUNK 2
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter V — INCOMING AND OUTGOING PARTNERS
+  section_number      : 31
+  section_title       : Introduction of a partner.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001120
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter V — INCOMING AND OUTGOING PARTNERS | Section 31
+
+CHAPTER V
+INCOMING AND OUTGOING PARTNERS
+31. Introduction of a partner.
+32. Retirement of a partner.
+33. Expulsion of a partner.
+34. Insolvency of a partner.
+35. Liability of estate of deceased partner.
+36. Rights of outgoing partner to carry on competing business.
+Agreements in restraint of trade.
+37. Righ
+
+======================================================================
+
+CHUNK 3
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter VI — DISSOLUTION OF A FIRM
+  section_number      : 39
+  section_title       : Dissolution of a firm.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001135
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter VI — DISSOLUTION OF A FIRM | Section 39
+
+CHAPTER VI
+DISSOLUTION OF A FIRM
+39. Dissolution of a firm.
+40. Dissolution by agreement.
+41. Compulsory dissolution.
+42. Dissolution on the happening of certain contingencies.
+43. Dissolution by notice of partnership at will.
+44. Dissolution by the Court.
+45. Liability for acts of partners done after dissolution.
+
+
+======================================================================
+
+CHUNK 4
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 51
+  section_title       : Return of premium on premature dissolution.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001148
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 51
+
+51. Return of premium on premature dissolution.
+2
+
+SECTIONS
+52. Rights where partnership contract is rescinded for fraud or misrepresentation.
+53. Right to restrain from use of firm name or firm property.
+54. Agreements in restraint of trade.
+55. Sale of goodwill after dissolution.
+Rights of buyer and seller of goodwill.
+Agreements in restraint of 
+
+======================================================================
+
+CHUNK 5
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter VII — REGISTRATION OF FIRMS
+  section_number      : 56
+  section_title       : Power to exempt from application of this Chapter.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001160
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter VII — REGISTRATION OF FIRMS | Section 56
+
+CHAPTER VII
+REGISTRATION OF FIRMS
+56. Power to exempt from application of this Chapter.
+57. Appointment of Registrars.
+58. Application for registration.
+59. Registration.
+60. Recording of alterations in firm name and principal place of business.
+61. Noting of closing and opening of branches.
+62. Noting of changes 
+
+======================================================================
+
+CHUNK 6
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 69
+  section_title       : Effect of non-registration.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001169
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 69
+
+69. Effect of non-registration.
+70. Penalty for furnishing false particulars.
+71. Power to make rules.
+
+======================================================================
+
+CHUNK 7
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter I — PRELIMINARY
+  section_number      : 1
+  section_title       : Short title, extent and commencement.—(1) This Act may be called the Indian Part
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001179
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter I — PRELIMINARY | Section 1
+
+CHAPTER I
+PRELIMINARY
+1. Short title, extent and commencement.—(1) This Act may be called the Indian Partnership Act,
+1932.
+1[(2) It extends to the whole of India 2[3***].]
+(3) It shall come into force on the 1st day of October, 1932, except section 69, which shall come into
+force on the 1st day of October, 1933.
+
+======================================================================
+
+CHUNK 8
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 2
+  section_title       : Definitions.—In this Act, unless there is anything repugnant in the subject or c
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001194
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 2
+
+2. Definitions.—In this Act, unless there is anything repugnant in the subject or context,—
+(a) an“act of a firm” means any act or omission by all the partners, or by any partner or agent of
+the firm which gives rise to a right enforceable by or against the firm;
+(b) “business” includes every trade, occupation and profession;
+(c) “prescribed” means 
+
+======================================================================
+
+CHUNK 9
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 3
+  section_title       : Application of provisions of Act 9 of 1872.—Theunrepealed provisions of the Indi
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001208
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 3
+
+3. Application of provisions of Act 9 of 1872.—Theunrepealed provisions of the Indian Contract
+Act, 1872 (9 of 1872), save in so far as they are inconsistent with the express provisions of this Act, shall
+continue to apply to firms.
+STATE AMENDMENT
+Goa, Daman and Diu
+In exercise of the powers conferred by sub-section (2) of Section 3 of the Goa, Dam
+
+======================================================================
+
+CHUNK 10
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : The Indian Partnership Act, 1932.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001220
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 1
+
+1. The Indian Partnership Act, 1932.
+By order and in the name of the Lieutenant Governor of Goa, Daman and Diu.
+[Published in the Official Gazette Series I No. 11 dated 12-3-1964] (w.e.f. 22nd January 1964)
+1. Subs. by the A. O. 1950, for sub-section (2).
+2. Subs. by Act 3 of 1951, s. 3 and the Schedule, for “except Part B States”.
+3. The words “exc
+
+======================================================================
+
+CHUNK 11
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter II — THE NATURE OF PARTNERSHIP
+  section_number      : 4
+  section_title       : Definition of “partnership”, “partner”, “firm” and “firm name”.—“Partnership” is
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001231
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter II — THE NATURE OF PARTNERSHIP | Section 4
+
+CHAPTER II
+THE NATURE OF PARTNERSHIP
+4. Definition of “partnership”, “partner”, “firm” and “firm name”.—“Partnership” is the relation
+between persons who have agreed to share the profits of a business carried on by all or any of them acting
+for all.
+Persons who have entered into partnership with one another are 
+
+======================================================================
+
+CHUNK 12
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 5
+  section_title       : Partnership not created by status.—The relation of partnership arises from contr
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001242
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 5
+
+5. Partnership not created by status.—The relation of partnership arises from contract and not from
+status;
+and, in particular, the members of a Hindu undivided family carrying on a family business as such, or
+a Burmese Buddhist husband and wife carrying on business as such are not partners in such business
+
+======================================================================
+
+CHUNK 13
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 6
+  section_title       : Mode of determining existence of partnership.—In determining whether a group of
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001256
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 6
+
+6. Mode of determining existence of partnership.—In determining whether a group of personsisor
+is not a firm, or whether a person is or is not a partner in a firm, regard shall be had to the real relation
+between the parties, as shown by all relevant facts taken together.
+Explanation 1.—The sharing of profits or of gross returns arising from propert
+
+======================================================================
+
+CHUNK 14
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001267
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+make him a partner with the persons carrying on the business;
+and, in particular, the receipt of such share or payment—
+
+======================================================================
+
+CHUNK 15
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001286
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(a) by a lender of money to persons engaged or about to engage in any business,
+(b) by a servant or agent as remuneration,
+(c) by the widow or child of a deceased partner, as annuity, or
+(d) by a previous owner or part owner of the business, as consideration for the sale of the
+goodwill or share thereof,
+does not of itself make the receiver a partner 
+
+======================================================================
+
+CHUNK 16
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 7
+  section_title       : Partnership at will.—Where no provision is made by contract between the partners
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001297
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 7
+
+7. Partnership at will.—Where no provision is made by contract between the partners for the
+duration of their partnership or for the determination of their partnership, the partnership is “partnership at
+will”.
+8. Particular partnership.—A person may become a partner with another person in particular
+adventures or undertakings.
+
+======================================================================
+
+CHUNK 17
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter III — RELATIONS OF PARTNERS TO ONE ANOTHER
+  section_number      : 9
+  section_title       : General duties of partners.—Partners are bound to carry on the business of the f
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001307
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter III — RELATIONS OF PARTNERS TO ONE ANOTHER | Section 9
+
+CHAPTER III
+RELATIONS OF PARTNERS TO ONE ANOTHER
+9. General duties of partners.—Partners are bound to carry on the business of the firm to the
+greatest common advantage, to be just and faithful to each other, and to render true accounts and full
+information of all things affecting the firm to any par
+
+======================================================================
+
+CHUNK 18
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 11
+  section_title       : Determination of rights and duties of partners by contract between the partners.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001322
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 11
+
+11. Determination of rights and duties of partners by contract between the partners.
+Agreements in restraint of trade.—(1) Subject to the provisions of this Act, the mutual rights and duties
+of the partners of a firm may be determined by contract between the partners, and such contract may be
+expressed or may be implied by a course of dealing.
+5
+
+S
+
+======================================================================
+
+CHUNK 19
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001337
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) Notwithstanding anything contained in section 27 of the Indian Contract Act, 1872 (9 of 1872),
+such contracts may provide that a partner shall not carry on any business other than that of the firm while
+he is a partner.
+
+======================================================================
+
+CHUNK 20
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 12
+  section_title       : The conduct of the business.—Subject to contract between the partners—
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001352
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 12
+
+12. The conduct of the business.—Subject to contract between the partners—
+(a) every partner has a right to take part in the conduct of the business;
+(b) every partner is bound to attend diligently to his duties in the conduct of the business;
+(c) any difference arising as to ordinary matters connected with the business may be decided by a
+majority
+
+======================================================================
+
+CHUNK 21
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 13
+  section_title       : Mutual rights, and liabilities.—Subject to contract between the partners—
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001366
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 13
+
+13. Mutual rights, and liabilities.—Subject to contract between the partners—
+(a) a partner is not entitled to receive remuneration for taking part in the conduct of the business;
+(b) the partners are entitled to share equally in the profits earned, and shall contribute equally to
+the losses sustained by the firm;
+(c) where a partner is entitled to
+
+======================================================================
+
+CHUNK 22
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001388
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(e) the firm shall indemnify a partner in respect of payments made and liabilities incurred by
+him—
+(i) in the ordinary and proper conduct of the business, and
+(ii) in doing such act, in an emergency, for the purpose of protecting the firm from loss, as
+would be done by a person of ordinary prudence, in his own case, under similar circumstances;
+and
+(
+
+======================================================================
+
+CHUNK 23
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 14
+  section_title       : The property of the firm.—Subject to contract between the partners, the property
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001402
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 14
+
+14. The property of the firm.—Subject to contract between the partners, the property of the firm
+includes all property and rights and interests in property originally brought into the stock of the firm, or
+acquired, by purchase or otherwise, by or for the firm, or for the purposes and in the course of the
+business of the firm, and includes also the
+
+======================================================================
+
+CHUNK 24
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 15
+  section_title       : Application of the property of the firm.—Subject to contract between the partner
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001418
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 15
+
+15. Application of the property of the firm.—Subject to contract between the partners, the property
+of the firm shall be held and used by the partners exclusively for the purposes of the business.
+16. Personal profits earned by partners.—Subject to contract between the partners,—
+(a) if a partner derives any profits for himself from any transaction
+
+======================================================================
+
+CHUNK 25
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 17
+  section_title       : Rights and duties of partners—after a change in the firm, after the expiry of th
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001435
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 17
+
+17. Rights and duties of partners—after a change in the firm, after the expiry of the term of the
+firm, and—where additional undertakings are carried out.—Subject to contract between the
+partners,—
+(a) where a change occurs in the constitution of a firm, the mutual rights and duties of the
+partners in the reconstituted firm remain the same as they 
+
+======================================================================
+
+CHUNK 26
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001451
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(c) where a firm constituted to carry out one or more adventures or undertakings carries out other
+adventures or undertakings, the mutual rights and duties of the partners in respect of the other
+adventures or undertakings are the same as those in respect of the original adventures or undertakings.
+
+======================================================================
+
+CHUNK 27
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter IV — RELATIONS OF PARTNERS TO THIRD PARTIES
+  section_number      : 18
+  section_title       : Partner to be agent of the firm.— Subject to the provisions of this Act, a partn
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001460
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter IV — RELATIONS OF PARTNERS TO THIRD PARTIES | Section 18
+
+CHAPTER IV
+RELATIONS OF PARTNERS TO THIRD PARTIES
+18. Partner to be agent of the firm.— Subject to the provisions of this Act, a partner is the agent of
+the firm for the purposes of the business of the firm.
+
+======================================================================
+
+CHUNK 28
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 19
+  section_title       : Implied authority of partner as agent of the firm.—(1) Subject to the provisions
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001471
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 19
+
+19. Implied authority of partner as agent of the firm.—(1) Subject to the provisions of section 22,
+the act of a partner which is done to carry on, in the usual way, business of the kind carried on by the
+firm, binds the firm.
+The authority of a partner to bind the firm conferred by this section is called his “implied authority”.
+
+======================================================================
+
+CHUNK 29
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001496
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) In the absence of any usage or custom of trade to the contrary, the implied authority of a partner
+does not empower him to—
+(a) submit a dispute relating to the business of the firm to arbitration,
+(b) open a banking account on behalf of the firm in his own name,
+(c) compromise or relinquish any claim or portion of a claim by the firm,
+(d) withdra
+
+======================================================================
+
+CHUNK 30
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 20
+  section_title       : Extension and restriction of partner's implied authority.—The partners in a firm
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001509
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 20
+
+20. Extension and restriction of partner's implied authority.—The partners in a firm may, by
+contract between the partners, extend or restrict the implied authority of any partner.
+Notwithstanding any such restriction, any act done by a partner on behalf of the firm which falls
+within his implied authority binds the firm, unless the person with who
+
+======================================================================
+
+CHUNK 31
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 21
+  section_title       : Partner’s authority in an emergency.—A Partner has authority, in an emergency, t
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001524
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 21
+
+21. Partner’s authority in an emergency.—A Partner has authority, in an emergency, to do all such
+acts for the purpose of protecting the firm from loss as would be done by a person of ordinary prudence,
+in his own case, acting under similar circumstances, and such acts bind the firm.
+22. Mode of doing act to bind firm.—In order to bind a firm, an a
+
+======================================================================
+
+CHUNK 32
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 23
+  section_title       : Effect of admissions by a partner.—An admission or representation made by a part
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001537
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 23
+
+23. Effect of admissions by a partner.—An admission or representation made by a partner
+concerning the affairs of the firm is evidence against the firm, if it is made in the ordinary course of
+business.
+24. Effect of notice to acting partner.—Notice to a partner who habitually acts in the business of the
+firm of any matter relating to the affairs o
+
+======================================================================
+
+CHUNK 33
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 25
+  section_title       : Liability of a partner for acts of the firm.—Every partner is liable, jointly wi
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001552
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 25
+
+25. Liability of a partner for acts of the firm.—Every partner is liable, jointly with all the other
+partners and also severally, for all acts of the firm done while he is a partner.
+26. Liability of the firm for wrongful acts of a partner.—Where, by the wrongful act or omission
+of a partner acting in the ordinary course of the business of a firm, 
+
+======================================================================
+
+CHUNK 34
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 27
+  section_title       : Liability of firm for misapplication by partners.—Where—
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001566
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 27
+
+27. Liability of firm for misapplication by partners.—Where—
+(a) a partner acting within his apparent authority receives money or property from a third party
+and misapplies it, or
+(b) a firm in the course of its business receives money or property from a third party, and the
+money or property is misapplied by any of the partners while it is in the 
+
+======================================================================
+
+CHUNK 35
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 28
+  section_title       : Holding out.—(1) Anyone who by words spoken or written or by conduct represents
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001580
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 28
+
+28. Holding out.—(1) Anyone who by words spoken or written or by conduct represents himself, or
+knowingly permits himself to be represented, to be a partner in a firm, is liable as a partner in that firm to
+anyone who has on the faith of any such representation given credit to the firm, whether the person
+representing himself or represented to be a
+
+======================================================================
+
+CHUNK 36
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001595
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) Where after a partner’s death the business is continued in the old firm name, the continued use of
+that name or of the deceased partner’s name as a part thereof shall not itself make his legal representative
+or his estate liable for any act of the firm done after his death.
+
+======================================================================
+
+CHUNK 37
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 29
+  section_title       : Rights of transferee of a partner’s interest.—(1) A transfer by a partner of his
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001609
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 29
+
+29. Rights of transferee of a partner’s interest.—(1) A transfer by a partner of his interest in the
+firm, either absolute or by mortgage, or by the creation by him of a charge on such interest, does not
+entitle the transferee, during the continuance of the firm, to interfere in the conduct of the business, or to
+require accounts, or to inspect the
+
+======================================================================
+
+CHUNK 38
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001628
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) If the firm is dissolved or if the transferring partner ceases to be a partner, the transferee is entitled
+as against the remaining partners to receive the share of the assetsof the firm to which the transferring
+partner is entitled, and, for the purpose of ascertaining that share, to an account as from the date of the
+dissolution.
+
+======================================================================
+
+CHUNK 39
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 30
+  section_title       : Minors admitted to the benefits of partnership.—(1) A person who is a minor acco
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001643
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 30
+
+30. Minors admitted to the benefits of partnership.—(1) A person who is a minor according to the
+law to which he is subject may not be a partner in a firm, but, with the consent of all the partners for the
+time being, he may be admitted to the benefits of partnership.
+(2) Such minor has a right to such share of the property and of the profits of th
+
+======================================================================
+
+CHUNK 40
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001670
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(4) Such minor may not sue the partners for an account or payment of his share of the property or
+profits of the firm, save when severing his connection with the firm, and in such case the amount of his
+share shall be determined by a valuation made as far as possible in accordance with the rules contained in
+section 48:
+Provided that all the partners 
+
+======================================================================
+
+CHUNK 41
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001694
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(5) At any time within six months of his attaining majority, or of his obtaining knowledge that he had
+been admitted to the benefits of partnership, whichever date is later, such person may give public notice
+8
+
+that he has elected to become or that he has elected not to become a partner in the firm, and such notice
+shall determine his position as reg
+
+======================================================================
+
+CHUNK 42
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001725
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(6) Where any person has been admitted as a minor to the benefits of partnership in a firm, the burden
+of proving the fact that such person had no knowledge of such admission until a particular date after the
+expiry of six months of his attaining majority shall lie on the persons asserting that fact.
+(7) Where such person becomes a partner,—
+(a) his r
+
+======================================================================
+
+CHUNK 43
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001747
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(8)Where such person elects not to become a partner,—
+(a) his rights and liabilities shall continue to be those of a minor under this section up to the date
+on which he gives public notice,
+(b) his share shall not be liable for any acts of the firm done after the date of the notice,
+and
+(c) he shall be entitled to sue the partners for his share of the
+
+======================================================================
+
+CHUNK 44
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter V — INCOMING AND OUTGOING PARTNERS
+  section_number      : 31
+  section_title       : Introduction of a partner.—(1) Subject to contract between the partners and to t
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001758
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter V — INCOMING AND OUTGOING PARTNERS | Section 31
+
+CHAPTER V
+INCOMING AND OUTGOING PARTNERS
+31. Introduction of a partner.—(1) Subject to contract between the partners and to the provisions of
+section 30, no person shall be introduced as a partner into a firm without the consent of all the existing
+partners.
+(2)Subject to the provisions of section 30, a per
+
+======================================================================
+
+CHUNK 45
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 32
+  section_title       : Retirement of a partner.—(1) A partner may retire—
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.001772
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 32
+
+32. Retirement of a partner.—(1) A partner may retire—
+(a) with the consent of all the other partners,
+(b) in accordance with an express agreement by the partners, or
+(c) where the partnership is at will, by giving notice in writing to all the other partners of his
+intention to retire.
+(2) A retiring partner may be discharged from any liability to 
+
+======================================================================
+
+CHUNK 46
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002028
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(3) Notwithstanding the retirement of a partner from a firm, he and the partners continue to
+be liable as partners to third parties for any act done by any of them which would have been an
+act of the firm if done before the retirement, until public notice is given of the retirement:
+Provided that a retired partner is not liable to any third party who 
+
+======================================================================
+
+CHUNK 47
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 33
+  section_title       : Expulsion of a partner.—(1) Apartner may not be expelled from a firm by any majo
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002041
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 33
+
+33. Expulsion of a partner.—(1) Apartner may not be expelled from a firm by any majority of the
+partners, save in the exercise in good faith of powers conferred by contract between the partners.
+(2)The provisions of sub-sections (2), (3)and (4)of section 32 shall apply to an expelled partner as if
+he were a retired partner.
+
+======================================================================
+
+CHUNK 48
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 34
+  section_title       : Insolvency of a partner.—(1) Where a partner in a firm is adjudicated an insolve
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002056
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 34
+
+34. Insolvency of a partner.—(1) Where a partner in a firm is adjudicated an insolvent he ceases
+to be a partner on the date on which the order of adjudication is made, whether or not the firm is
+thereby dissolved.
+(2)Where under a contract between the partners the firm is not dissolved by the adjudication ofa
+partner as an insolvent, the estate of
+
+======================================================================
+
+CHUNK 49
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 35
+  section_title       : Liability of estate of deceased partner. — Where under a contract between the pa
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002066
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 35
+
+35. Liability of estate of deceased partner. — Where under a contract between the partners the firm
+is not dissolved by the death of a partner, the estate of a deceased partner is not liable for any act of the
+firm done after his death.
+
+======================================================================
+
+CHUNK 50
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 36
+  section_title       : Rights of outgoing partner to carry on competing business. Agreements in restrai
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002079
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 36
+
+36. Rights of outgoing partner to carry on competing business. Agreements in restraint of
+trade.—(1) An outgoing partner may carry on a business competing with that of the firm and he may
+advertise such business, but, subject to contract to the contrary, he may not—
+(a) use the firm name,
+(b) represent himself as carrying on the business of the fir
+
+======================================================================
+
+CHUNK 51
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002098
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) A partner may make an agreement with his partners that on ceasing to be a partner he will not
+carry on any business similar to that of the firm within a specified period or within specified local limits;
+and, notwithstanding anything contained in section 27 of the Indian Contract Act, 1872 (9 of 1872), such
+agreement shall be valid if the restrict
+
+======================================================================
+
+CHUNK 52
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 37
+  section_title       : Right of outgoing partner in certain cases to share subsequent profits.—Where an
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002114
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 37
+
+37. Right of outgoing partner in certain cases to share subsequent profits.—Where any member
+of a firm has died or otherwise ceased to be a partner, and the surviving or continuing partners carry on
+the business of the firm with the property of the firm without any final settlement of accounts as between
+them and the outgoing partner or his estate,
+
+======================================================================
+
+CHUNK 53
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002140
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+firm or to interest at the rate of six per cent. per annum on the amount of his share in the property of the
+firm:
+Provided that whereby contract between the partners an option is given to surviving or continuing
+partners to purchase the interest of a deceased or outgoing partner, and that option is duly exercised, the
+estate of the deceased partner, 
+
+======================================================================
+
+CHUNK 54
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 38
+  section_title       : Revocation of continuing guarantee by change in firm.—A continuing guarantee giv
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002152
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 38
+
+38. Revocation of continuing guarantee by change in firm.—A continuing guarantee given
+to a firm, or to a third party in respect of the transactions of a firm, is, in the absence of agreement to the
+contrary, revoked as to future transactions from the date of any change in the constitution of the firm.
+
+======================================================================
+
+CHUNK 55
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter VI — DISSOLUTION OF A FIRM
+  section_number      : 39
+  section_title       : Dissolution of a firm.—The dissolution of partnership between all the partners o
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002162
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter VI — DISSOLUTION OF A FIRM | Section 39
+
+CHAPTER VI
+DISSOLUTION OF A FIRM
+39. Dissolution of a firm.—The dissolution of partnership between all the partners of a firm is called
+the “dissolution of the firm”.
+40. Dissolution by agreement.—A firm may be dissolved with the consent of all the partners or in
+accordance with a contract between the partners.
+10
+
+======================================================================
+
+CHUNK 56
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 41
+  section_title       : Compulsory dissolution.—A firm is dissolved—
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002176
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 41
+
+41. Compulsory dissolution.—A firm is dissolved—
+(a) by the adjudication of all the partners or of all the partners but one as insolvent, or
+(b) by the happening of any event which makes it unlawful for the business of the firm to be
+carried on or for the partners to carry it on in partnership :
+Provided that, where more than one separate adventure
+
+======================================================================
+
+CHUNK 57
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 42
+  section_title       : Dissolution on the happening of certain contingencies.—Subject to contract betwe
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002191
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 42
+
+42. Dissolution on the happening of certain contingencies.—Subject to contract between the
+partners a firm is dissolved—
+(a) if constituted for a fixed term, by the expiry of that term;
+(b) if constituted to carry out one or more adventures or undertakings, by the completion thereof;
+(c) by the death of a partner; and
+(d) by the adjudication of a p
+
+======================================================================
+
+CHUNK 58
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 43
+  section_title       : Dissolution by notice of partnership at will.—(1) Where the partnership is at wi
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002209
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 43
+
+43. Dissolution by notice of partnership at will.—(1) Where the partnership is at will, the firm may
+be dissolved by any partner giving notice in writing to all the other partners of his intention to dissolve the
+firm.
+(2) The firm is dissolved as from the date mentioned in the notice as the date of dissolution or, if no
+date is so mentioned, as fr
+
+======================================================================
+
+CHUNK 59
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 44
+  section_title       : Dissolution by the Court.—At the suit of a partner, the Court may dissolve a fir
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002228
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 44
+
+44. Dissolution by the Court.—At the suit of a partner, the Court may dissolve a firm on any of the
+following grounds, namely:—
+(a) that a partner has become of unsound mind, in which case the suit may be brought as well by
+the next friend of the partner who has become of unsound mind as by any other partner;
+(b) that a partner, other than the part
+
+======================================================================
+
+CHUNK 60
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002257
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(d) that a partner, other than the partner suing, wilfully or persistently commits breach of
+agreements relating to the management of the affairs of the firm or the conduct of its business, or
+otherwise so conducts himself in matters relating to the business that it is not reasonably practicable
+for the other partners to carry on the business in partn
+
+======================================================================
+
+CHUNK 61
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002297
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(e) that a partner, other than the partner suing, has in any way transferred the whole of his interest
+in the firm to a third party, or has allowed his share to be charged under the provisions of rule 49 of
+Order XXI of the First Schedule to the Code of Civil Procedure, 1908 (5 of 1908), or has allowed it to
+be sold in the recovery of arrears of land-
+
+======================================================================
+
+CHUNK 62
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 45
+  section_title       : Liability for acts of partners done after dissolution.—(1) Notwithstanding the d
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002318
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 45
+
+45. Liability for acts of partners done after dissolution.—(1) Notwithstanding the dissolution of a
+firm, the partners continue to be liable as such to third parties for any act done by any of them which
+would have been an act of the firm if done before the dissolution, until public notice is given of the
+dissolution:
+Provided that the estate of a 
+
+======================================================================
+
+CHUNK 63
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 46
+  section_title       : Right of partners to have business wound up after dissolution.—On the dissolutio
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002337
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 46
+
+46. Right of partners to have business wound up after dissolution.—On the dissolution of a
+firm every partner or his representative is entitled, as against all the other partners or their
+representatives, to have the property of the firm applied in payment of the debts and liabilities of the
+firm, and to have the surplus distributed among the partn
+
+======================================================================
+
+CHUNK 64
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 47
+  section_title       : Continuing authority of partners for purposes of winding up.—After the dissoluti
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002358
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 47
+
+47. Continuing authority of partners for purposes of winding up.—After the dissolution of a firm
+the authority of each partner to bind the firm, and the other mutual rights and obligations of the partners,
+continue notwithstanding the dissolution, so far as may be necessary to wind up the affairs of the firm and
+to complete transactions begun but u
+
+======================================================================
+
+CHUNK 65
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 48
+  section_title       : Mode of settlement of accounts between partners. —In settling the accounts of a
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002378
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 48
+
+48. Mode of settlement of accounts between partners. —In settling the accounts of a firm after
+dissolution, the following rules shall, subject to agreement by the partners, be observed: —
+(a) Losses, including deficiencies of capital, shall be paid first out of profits, next out of capital,
+and, lastly, if necessary, by the partners individually in
+
+======================================================================
+
+CHUNK 66
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002405
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(i) in paying the debts of the firm to third parties;
+(ii) in paying to each partner rateably what is due to him from the firm for advances as
+distinguished from capital;
+(iii) in paying to each partner rateably what is due to him on account of capital; and
+(iv) the residue, if any, shall be divided among the partners in the proportions in which they
+
+
+======================================================================
+
+CHUNK 67
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 49
+  section_title       : Payment of firm debts and of separate debts.—Where there are joint debts due fro
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002426
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 49
+
+49. Payment of firm debts and of separate debts.—Where there are joint debts due from the firm,
+and also separate debts due from any partner, the property of the firm shall be applied in the first instance
+in payment of the debts of the firm, and, if there is any surplus, then the share of each partner shall be
+applied in payment of his separate de
+
+======================================================================
+
+CHUNK 68
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 50
+  section_title       : Personal profits earned after dissolution.—Subject to contract between the partn
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002445
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 50
+
+50. Personal profits earned after dissolution.—Subject to contract between the partners, the
+provisions of clause (a) of section 16 shall apply to transactions by any surviving partner or by the
+representatives of a deceased partner, undertaken after the firm is dissolved on account of the death of a
+partner and before its affairs have been complet
+
+======================================================================
+
+CHUNK 69
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 51
+  section_title       : Return of premium on premature dissolution. —Where a partner has paid a premium
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002465
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 51
+
+51. Return of premium on premature dissolution. —Where a partner has paid a premium on
+entering into partnership for a fixed term, and the firm is dissolved before the expiration of that term
+otherwise than by the death of a partner, he shall be entitled to repayment of the premium or of such part
+thereof as may be reasonable, regard being had to t
+
+======================================================================
+
+CHUNK 70
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 52
+  section_title       : Rights where partnership contract is rescinded for fraud or misrepresentation.—W
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002479
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 52
+
+52. Rights where partnership contract is rescinded for fraud or misrepresentation.—Where a
+contract creating partnership is rescinded on the ground of the fraud or misrepresentationofany of the
+parties thereto, the party entitled to rescind is, without prejudice to any other right, entitled—
+(a) to a lien on, or a right of retention of, the surplus
+
+======================================================================
+
+CHUNK 71
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002491
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(c) to be indemnified by the partner or partners guilty of the fraud or misrepresentation against all
+the debts of the firm.
+
+======================================================================
+
+CHUNK 72
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 53
+  section_title       : Right to restrain from use of firm name or firm property.—After a firm is dissol
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002504
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 53
+
+53. Right to restrain from use of firm name or firm property.—After a firm is dissolved, every
+partner or his representative may, in the absence of a contract between the partners to the contrary,
+restrain any other partner or his representative from carrying on a similar business in the firm name or
+from using any of the property of the firm for h
+
+======================================================================
+
+CHUNK 73
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 54
+  section_title       : Agreements in restraint of trade.—Partners may, upon or in anticipation of the d
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002517
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 54
+
+54. Agreements in restraint of trade.—Partners may, upon or in anticipation of the dissolution of
+the firm, make an agreement that some or all of them will not carry on a business similar to that of the
+firm within a specified period or within specified local limits; and notwithstanding anything contained in
+section 27 of the Indian Contract Act, 1
+
+======================================================================
+
+CHUNK 74
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 55
+  section_title       : Sale of goodwill after dissolution. Rights of buyer and seller of goodwill. Agre
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002528
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 55
+
+55. Sale of goodwill after dissolution. Rights of buyer and seller of goodwill. Agreements in
+restraint of trade.—(1) In settling the accounts of a firm after dissolution, the goodwill shall, subject to
+contract between the partners, be included in the assets, and it may be sold either separately or along with
+other property of the firm.
+
+======================================================================
+
+CHUNK 75
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002547
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) Where the goodwill of a firm is sold after dissolution, a partner may carry on a business
+competing with that of the buyer and he may advertise such business, but, subject to agreement between
+him and the buyer, he may not—
+(a) use the firm name,
+(c) represent himself as carrying on the business of the firm, or
+(c) solicit the custom of persons wh
+
+======================================================================
+
+CHUNK 76
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002567
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(3) Any partner may, upon the sale of the goodwill of a firm, make an agreement with the buyer that
+such partner will not carry on any business similar to that of the firm within a specified period or within
+specified local limits, and, notwithstanding anything contained in section 27 of the Indian Contract Act,
+1872 (9 of 1872), such agreement shall 
+
+======================================================================
+
+CHUNK 77
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter VII — REGISTRATION OF FIRMS
+  section_number      : 56
+  section_title       : Power to exempt from application of this Chapter.—The1[State Government of any S
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002578
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter VII — REGISTRATION OF FIRMS | Section 56
+
+CHAPTER VII
+REGISTRATION OF FIRMS
+56. Power to exempt from application of this Chapter.—The1[State Government of any State]
+may, by notification in the Official Gazette, direct that the provisions of this Chapter shall not apply to
+2[that State] or to any part thereof specified in the notification.
+57. Appointment
+
+======================================================================
+
+CHUNK 78
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002607
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) Every Registrar shall be deemed to be a public servant within the meaning of section 21 of the
+Indian Penal Code (45 of 1860).
+STATE AMENDMENT
+Goa, Daman and Diu
+In exercise of power conferred under sub-section (1) of Section 57 of the Indian Partnership
+Act, 1932 (IX of 1932) (hereinafter referred to as the Act), the Government of Goa, in superse
+
+======================================================================
+
+CHUNK 79
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002620
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+and duties of the Registrar under the Act within the jurisdiction mentioned in Column No. III of the
+table below:–
+Sr. Designation of Officer Jurisdiction
+No.
+I II III
+
+======================================================================
+
+CHUNK 80
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : Civil Registrar-cum-Sub-Registrar, Pernem Pernem Taluka
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002634
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 1
+
+1. Civil Registrar-cum-Sub-Registrar, Pernem Pernem Taluka
+2. Jt. Civil Registrar-cum-Sub-Registrar-I, Bardez Bardez Taluka
+3. Civil Registrar-cum-Sub-Registrar, Bicholim Bicholim Taluka
+4. Civil Registrar-cum-Sub-Registrar, Sattari Sattari Taluka
+5. Jt. Civil Registrar-cum-Sub-Registrar-I, Tiswadi Tiswadi Taluka
+6. Jt. Civil Registrar-cum-Sub-Regis
+
+======================================================================
+
+CHUNK 81
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 10
+  section_title       : Civil Registrar-cum-Sub-Registrar, Quepem Quepem Taluka
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002646
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 10
+
+10. Civil Registrar-cum-Sub-Registrar, Quepem Quepem Taluka
+11. Civil Registrar-cum-Sub-Registrar, Sanguem Sanguem Taluka
+12. Civil Registrar-cum-Sub-Registrar, Canacona Canacona Taluka
+This Notification shall come into force with immediate effect.
+(Published in the Official Gazette Series I No. 49(Extraordinary) dated 7-3-2019) (w.e.f. 8/42/2018-
+
+
+======================================================================
+
+CHUNK 82
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 58
+  section_title       : Application for registration.—(1) The registration of a firm may be effected at
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002659
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 58
+
+58. Application for registration.—(1) The registration of a firm may be effected at any time by
+sending by post or delivering to the Registrar of the area in which any place of business of the firm is
+situated or proposed to be situated, a statement in the prescribed form and accompanied by the prescribed
+fee, stating—
+(a) the firm name,
+(b) the pl
+
+======================================================================
+
+CHUNK 83
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002672
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(e) the names in full and permanent addresses of the partners, and
+(f) the duration of the firm.
+The statement shall be signed by all the partners, or by their agents specially authorised in thisbehalf.
+
+======================================================================
+
+CHUNK 84
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002699
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+“Crown”, “Emperor”, “Empress”, “Empire”, “Imperial”, “King”, “Queen”, “Royal”, orwords
+expressing or implying the sanction, approval or patronage of1*** Government 2***,except 3[when
+the State Government] signifies 4[its] consent to the use of such words as part of the firm name by
+order in writing 5***.
+STATE AMENDMENT
+Goa, Daman and Diu
+The Governme
+
+======================================================================
+
+CHUNK 85
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002717
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+This Order shall come into force with effect from the 1st day of April, 2017.
+(Published in the Official Gazette Series I No. 52 (Extraordinary-2) dated 31-3-2017) (w.e.f. 8-5-2017-
+LD(Estt.) (C)/407 dated 31-3-2017)
+Uttarakhand
+Substitution of section 58.—In the Indian Partnership Act, 1932, (hereinafter referred to as the
+Principal Act) section 58 s
+
+======================================================================
+
+CHUNK 86
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 58
+  section_title       : Application for registration.—(1) The registration of a firm may be effected at
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002730
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 58
+
+58. Application for registration.—(1) The registration of a firm may be effected at any time by
+uploading on the website following statement in the prescribed online form and accompanied with
+prescribed fees to the Registrar of the area in which any place of business of the firm is situated or
+proposed to be situated, stating.—
+(a) the firm name,
+(
+
+======================================================================
+
+CHUNK 87
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002743
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(e) the names in full and permanent addresses of the partners, and
+(f) the duration of the film.
+The statement shall be digitally signed by all the partners or by their agents specially authorized
+in this behalf.
+
+======================================================================
+
+CHUNK 88
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002771
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) The applicant, signing the statement shall also upload to the website, verifying the statement
+recorded in the online format mentioned in sub-section (1), verifying it in the affidavit certified by the
+Notary on the non-judicial stamp paper of Rs. 10/.
+(3) The desired enclosed shall also be uploaded on website, by the applicant.
+(4) A firm name sh
+
+======================================================================
+
+CHUNK 89
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002781
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(5) The prescribed fee of registration shall be submitted online after the online approval given by the
+Registrar.
+
+======================================================================
+
+CHUNK 90
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : The words “the Crown or the Central Government or any Provincial” omitted by the
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002793
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 1
+
+1. The words “the Crown or the Central Government or any Provincial” omitted by the A. O. 1950. The words “the
+CentralGovernment or any Provincial Government or the Crown Representative” were subs. by the A. O. 1937 for “the G. of I.
+or a L. G.”
+2. The words “or the Crown Representative” omitted by the A.O. 1948.
+3. Subs. by the A.O. 1937, for “when
+
+======================================================================
+
+CHUNK 91
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 5
+  section_title       : The words “under the hand of one of the Secretaries to the G. of I.” omitted, ib
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002806
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 5
+
+5. The words “under the hand of one of the Secretaries to the G. of I.” omitted, ibid.
+15
+
+(6) After submitting the prescribed registration fee the digitally signed registration certificate may be
+downloaded from the website by the applicant.
+[Vide Uttarakhand Act 5 of 2019, s. 2]
+Rajasthan
+Amendment of section 58, Central Act IX of 1932.—For sub-se
+
+======================================================================
+
+CHUNK 92
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002833
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(4) Except with the previous sanction in writing of the State Government, no firm shall be
+registered by a name which contains any of the following words, namely:-
+(a) 'Union', 'State', 'President', 'Republic' or any word expressing or implying the sanction,
+approval or patronage of the Central or any State Government ; and
+(b) 'Municipal', 'Chartered
+
+======================================================================
+
+CHUNK 93
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 59
+  section_title       : Registration.—Where the Registrar is satisfied that the provisions of section 58
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002847
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 59
+
+59. Registration.—Where the Registrar is satisfied that the provisions of section 58 have been duly
+complied with, he shall record an entry of the statement in a register called the Register of Firms, and
+shall file the statement.
+STATE AMENDMENTS
+Karnataka
+Amendment of section 59A.—In section 59A of the Indian Partnership Act, 1932 (Central Act IX
+
+======================================================================
+
+CHUNK 94
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002872
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+Act, 1956 (Central Act 37 of 1956)” shall be substituted.
+[Vide Karnataka Act 19 of 1961, s. 2]
+Maharashtra
+Amendment of section 59A-1 of IX of 1932.-In section 59A-1 of the Indian Partnership Act, 1932
+(IX of 1932), in its application to the State of Maharashtra (hereinafter referred to as "the principal Act"),
+for the words "one hundred rupees" the 
+
+======================================================================
+
+CHUNK 95
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002896
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+accepted and processed Online only without requiring the applicant to submit a physical copy of the
+application or associated supporting documentation including executed deed of Partnership. The
+department staff (all Sub-Registrar Officers) are hereby instructed to process application through the
+online mode only.
+Further, it is also mandated that all
+
+======================================================================
+
+CHUNK 96
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002913
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+This issues in supersession to earlier Notification of even number dated 11-12-2018 and all the
+Partnership Firms registration initiated under Online Partnership Registration Web
+Application/Website (https://partnership.goa.gov.in).
+(Published in the Official Gazette Series I No. 49(Extraordinary) dated 7-3-2019) (w.e.f. 8/8/2018-
+LD(Estt)/470 dated 7
+
+======================================================================
+
+CHUNK 97
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 60
+  section_title       : Recording of alterations in firm name and principal place of business.—(1) When
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002927
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 60
+
+60. Recording of alterations in firm name and principal place of business.—(1) When an
+alteration is made in the firm name or in the location of the principal place of business of a registered
+firm, a statement may be sent to the Registrar accompanied by the prescribed fee, specifying the
+alteration, and signed and verified in the manner required u
+
+======================================================================
+
+CHUNK 98
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 61
+  section_title       : Noting of closing and opening of branches.—When a registered firm discontinues b
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002940
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 61
+
+61. Noting of closing and opening of branches.—When a registered firm discontinues business at
+any place or begins to carry or business at any place, such place not being its principal place of business,
+any partner or agent of the firm may send intimation thereof to the Registrar, who shall make a note of
+such intimation in the entry relating to t
+
+======================================================================
+
+CHUNK 99
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 62
+  section_title       : Noting of changes in names and addresses of partners.—When anypartner in a regis
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002950
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 62
+
+62. Noting of changes in names and addresses of partners.—When anypartner in a registered firm
+alters his name or permanent address, an intimation of the alteration may be sent by any partner or agent
+of the firm to the Registrar, who shall deal with it in the manner provided in section 61.
+
+======================================================================
+
+CHUNK 100
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 63
+  section_title       : Recording of changes in and dissolution of a firm. Recording of withdrawal of a
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002965
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 63
+
+63. Recording of changes in and dissolution of a firm. Recording of withdrawal of a minor.—(1)
+When a change occurs in the constitution of a registered firm any incoming, continuing or
+outgoingpartner, and when a registered firm is dissolved any person who was a partner immediately
+before the dissolution, or the agent of any such partner or person 
+
+======================================================================
+
+CHUNK 101
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002983
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) When a minor who has been admitted to the benefits of partnership in a firm attains majority and
+elects to become or not to become a partner, and the firm is then a registered firm, he, or his agent
+specially authorised in this behalf, may give notice to the Registrar that he has or has not become a
+partner, and the Registrar shall deal with the n
+
+======================================================================
+
+CHUNK 102
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 64
+  section_title       : Rectification of mistakes.—(1) The Registrar shill have power at all times to re
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.002996
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 64
+
+64. Rectification of mistakes.—(1) The Registrar shill have power at all times to rectify any mistake
+in order to bring the entry in the Register of Firms relating to any firm into conformity with the
+documents relating to that firm filed under this Chapter.
+(2) On application made by all the parties who have signed any document relating to a firm 
+
+======================================================================
+
+CHUNK 103
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 65
+  section_title       : Amendment of Register by order of Court.—A Court deciding any matter relating to
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003010
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 65
+
+65. Amendment of Register by order of Court.—A Court deciding any matter relating to a
+registered firm may direct that the Registrar shall make any amendment in the entry in the Register of
+Firms relating to such firm which is consequential upon its decision; and the Registrar shall amend the
+entry accordingly.
+66. Inspection of Register and filed 
+
+======================================================================
+
+CHUNK 104
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 67
+  section_title       : Grant of copies.—The Registrar shall on application furnish to any person, on pa
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003023
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 67
+
+67. Grant of copies.—The Registrar shall on application furnish to any person, on payment of such
+fee as may be prescribed, a copy, certified under his hand, of any entry or portion thereof in the Register
+of Firms.
+17
+
+STATE AMENDMENT
+Uttarakhand
+Substituted of section 67.—In Principal Act, section 67 shall be substituted as follow, namely:--
+67. 
+
+======================================================================
+
+CHUNK 105
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 68
+  section_title       : Rules of evidence.—(1) Any statement, intimation or notice recorded or noted in
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003038
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 68
+
+68. Rules of evidence.—(1) Any statement, intimation or notice recorded or noted in the Register of
+Firms shall, as against any person by whom or on whose behalf such statement, intimation or notice was
+signed, be conclusive proof of any fact therein stated.
+(2) A certified copy of an entry relating to a firm in the Register of Firms may be produce
+
+======================================================================
+
+CHUNK 106
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 68
+  section_title       : Rules of Evidence:--(1) Any statement, intimation or notice recorded or noted in
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003049
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 68
+
+68. Rules of Evidence:--(1) Any statement, intimation or notice recorded or noted in the register
+of Firms shall, as against any person by whom or on whose behalf such statement, intimation or
+notice was digitally signed, be conclusive proof of any fact therein stated.
+[Vide Uttarakhand Act 5 of 2019, s. 4]
+
+======================================================================
+
+CHUNK 107
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 69
+  section_title       : Effect of non-registration.—(1) No suit to enforce a right arising from a contra
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003062
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 69
+
+69. Effect of non-registration.—(1) No suit to enforce a right arising from a contract or conferred by
+this Act shall be institutes in any Court by or on behalf of any person suing as a partner in a firm against
+the firm or any person alleged to be or to have been a partner in the firm unless the firm is registered and
+the person suing is or has be
+
+======================================================================
+
+CHUNK 108
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003086
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(3) The provisions of sub-sections (1) and (2) shall apply also to a claim of set-off or other proceeding
+to enforce a right arising from a contract, but shall not affect—
+(a) the enforcement of any right to sue for the dissolution of a firm or for accounts of a dissolved
+firm, or a ay right or power to realise the property of a dissolved firm, or
+(b)
+
+======================================================================
+
+CHUNK 109
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter d — oes not apply, or
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003104
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter d — oes not apply, or | Section
+
+(4) This section shall not apply—
+(a) to firms or to partners in firms which have no place of business in 1[the territories to which
+this Act extends], or whose places of business in 2[the said territories] are situated in areas to which,
+by notification under 3[section 56], this Chapter does not apply, or
+
+======================================================================
+
+CHUNK 110
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003127
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(b) to any suit or claim of set-off not exceeding one hundred rupees in value which, in the
+Presidency-towns, is not of a kind specified in section 19 of the Presidency Small Cause Courts Act,
+1882 (15 of 1882), or, outside the Presidency-towns, is not of a kind specified in the Second Schedule
+to the Provincial Small Cause Courts Act, 1887 (9 of 1887
+
+======================================================================
+
+CHUNK 111
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : Subs. by Act 3 of 1951, s. 3 and the Schedule, for “Part A States and Part C Sta
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003136
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 1
+
+1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for “Part A States and Part C States”.
+2. Subs. by s. 3 and the Schedule, ibid.,for “such States”.
+
+======================================================================
+
+CHUNK 112
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 3
+  section_title       : Subs. by Act 24 of 1934, s. 2 and the First Schedule, for “section 55”.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003145
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 3
+
+3. Subs. by Act 24 of 1934, s. 2 and the First Schedule, for “section 55”.
+18
+
+======================================================================
+
+CHUNK 113
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003171
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+STATE AMENDMENT
+Maharashtra
+Substitution of section 69A of IX of 1932.--For section 69A of the principal Act, the following
+section shall be substituted, namely:--
+"69A. Charges for delay in compliance of section 60, 61, 62 or 63.--If any statement, intimation or
+notice under section 60, 61, 62 or as the case may be, 63, in respect of any registered f
+
+======================================================================
+
+CHUNK 114
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003182
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+date of expiry of the period specified in that section and the date of making the payment.”.
+[Vide Maharashtra Act 16 of 2018, s. 3]
+
+======================================================================
+
+CHUNK 115
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter c — ontaining any particular which he knows to be false or
+  section_number      : 70
+  section_title       : Penalty for furnishing false particulars.—Any person who signs any statement, am
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003193
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter c — ontaining any particular which he knows to be false or | Section 70
+
+70. Penalty for furnishing false particulars.—Any person who signs any statement, amending
+statement, notice or intimation under this Chapter containing any particular which he knows to be false or
+does not believe to be true, or containing particulars which he knows to be incomplete
+
+======================================================================
+
+CHUNK 116
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 71
+  section_title       : Power to make roles.— (1) The 1[State Government] 2[may by notification in the O
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003205
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 71
+
+71. Power to make roles.— (1) The 1[State Government] 2[may by notification in the Official
+Gazette make rules] prescribing the fees which shall accompany documents sent to the Registrar of Firms,
+or which shall be payable for the inspection of documents in the custody of the Registrar of Firms, or for
+copies from the Register of Firms:
+Provided th
+
+======================================================================
+
+CHUNK 117
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003231
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(2) The State Government may 3[also] make rules—
+(a)prescribing the form of statement submitted under section 58, and of the verification thereof;
+(b) requiring statements, intimations and notices under sections 60, 61, 62 and 63 to be in
+prescribed form,and prescribing the form thereof;
+(c) prescribing the form of the Register of Firms, and the mode 
+
+======================================================================
+
+CHUNK 118
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003247
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(f) prescribing conditions for the inspection of original documents;
+(g) regulating the grant of copies;
+(h) regulating the elimination of registers and documents;
+•
+(i) providing for the maintenance and form of an index to the Register of Firms; and
+(j) generally, to carry out the purposes of this Chapter.
+
+======================================================================
+
+CHUNK 119
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003261
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(3) All rules made under this section shall be subject to the condition of previous publication.
+4[(4) Every rule made by the State Government under this section shall be laid, as soon as it is made,
+before the State Legislature.]
+
+======================================================================
+
+CHUNK 120
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : Chapter VIII — SUPPLEMENTAL
+  section_number      : 72
+  section_title       : Mode of giving public notice.—A public notice under this Act is given—
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003272
+
+CONTENT:
+The Indian Partnership Act, 1932 | Chapter VIII — SUPPLEMENTAL | Section 72
+
+CHAPTER VIII
+SUPPLEMENTAL
+72. Mode of giving public notice.—A public notice under this Act is given—
+(a) where it relates to the retirement or expulsion of a partner from a registered firm, or to the
+dissolution of a registered firm, or to the election to become or not to become a partner in a registered
+firm by a person 
+
+======================================================================
+
+CHUNK 121
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 3
+  section_title       : Ins. by the A.O. 1937.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003286
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 3
+
+3. Ins. by the A.O. 1937.
+4. Ins. by Act 20 of 1983, s. 2 and Schedule (w.e.f. 15-3-1984).
+19
+
+notice to the Registrar of Firms under section 63, and by publication in the Official Gazette and in at
+least one vernacular newspaper circulating in the district where the firm to which it relates has its
+place or principal place of business, and
+(b) in a
+
+======================================================================
+
+CHUNK 122
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 74
+  section_title       : Savings.—Nothing in this Act or any repeal effected thereby shall affect or be d
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003300
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 74
+
+74. Savings.—Nothing in this Act or any repeal effected thereby shall affect or be deemed to affect—
+(a) any right, title, interest, obligation or liability already acquired, accrued or incurred before the
+commencement of this Act, or
+(b) any legal proceeding or remedy in respect of any such right, title, interest, obligation or
+liability, or anyth
+
+======================================================================
+
+CHUNK 123
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003326
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+SCHEDULE I
+MAXIMUM FEES
+[See sub-section (1) of section 71.]
+Document or act in respect of which
+Maximum fee
+the fee is payable
+Statement under section 58………………………... Three rupees.
+Statement under section 60………………………... One rupee.
+Intimation under section 61………………………... One rupee.
+Intimation under section 62 ……………………….. One rupee.
+Notice under section
+
+======================================================================
+
+CHUNK 124
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003345
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+Inspection of documents relating to a firm Eight annas for the inspection
+under sub-section (2) of section 66…….………….. of all documents relating to onefirm.
+Four annas for each hundred
+Copies from the Register of Firms
+words of part thereof.
+STATE AMENDMENTS
+Karnataka
+Amendment of Schedule I.—In schedule I to the Indian Partnership Act, 1932 (Central 
+
+======================================================================
+
+CHUNK 125
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003371
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(1) for the words “Three rupees” and “Four annas”, where they occur, the words “one hundred
+rupees”, and “one rupees”, shall respectively be substituted;
+(2) for the words “One rupee” appearing against “Statement under section 60”, the words, “fifty
+rupees”, shall be substituted;
+(3) for the words “One rupee” appearing against “Intimation under sectio
+
+======================================================================
+
+CHUNK 126
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003384
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(5) for the words, “Eight annas”, appearing against “Inspection of documents relating to a firm under
+sub-section (2) of section 66”, the words “Ten rupees” shall be substituted.
+[Vide Karnataka Act 1 of 1987, s. 2].
+21
+
+======================================================================
+
+CHUNK 127
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003409
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+STATE AMENDMENT
+Kerala
+Substitution of new Schedule for Schedule I.-In the Indian Partnership Act, 1932 (Central Act 9 of
+1932), for Schedule I, the following Schedule shall be substituted, namely
+“SCHEDULEI
+MaximumFees
+[See sub-section (1) of section 71]
+Document or act in respect of which the fee is Maximum fee
+payable
+Statement under section 58 Fiv
+
+======================================================================
+
+CHUNK 128
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003421
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+Application udner section 64 Two hundred rupees
+Inspection of the Register of Firms under sub-section Fifty Rupees for inspecting one volumn of
+
+======================================================================
+
+CHUNK 129
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003447
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(1) of section 66 theRegister.
+Inspection of documents relating to a firm under sub- One hundred rupees for the inspection of all
+section (2) of section 66 documents relating to one firm.
+Copies from the Register of Firms One hundred rupees for each hundred words
+or a part thereof.”
+[Vide Kerala Act 32 of 2013, s. 2]
+Kerala
+Substitution of new Schedul
+
+======================================================================
+
+CHUNK 130
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003464
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+(1) of section 66 Register
+Inspection of documents relating to a firm under sub- Two rupees for the inspection of all
+section (2) of section 66 documents relating to one firm
+Copies from the Register of Firms Fifty paise for each hundred words or part
+thereof.”
+[Vide kerala Act 25 of 1973, s. 2]
+22
+
+======================================================================
+
+CHUNK 131
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003483
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+Rajasthan
+Substitution of Schedule I to the Central Act IX of 1932. – In Schedule I of Indian Partnership Act,
+1932 (Central Act IX of 1932), for Schedule I, as existing in the application thereof to the State of
+Rajasthan, the following shall be substituted, namely:-
+"SCHEDULE-I
+Maximum Fees
+[See sub-section (1) of Section 71]
+Document or Act in resp
+
+======================================================================
+
+CHUNK 132
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : Statement under Section 58 Hundred Rupees
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003496
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 1
+
+1. Statement under Section 58 Hundred Rupees
+2. Statement Under Section 60 Thirty Rupees
+3. Intimation Under Section 61 Thirty Rupees
+4. Intimation Under Section 62 Thirty Rupees
+5. Notice Under Section 63 Thirty Rupees
+6. Application Under Section 64 Thirty Rupees
+7. Inspection of the Register of Firms Under Twenty Ruppes for inspection of one
+Sub-
+
+======================================================================
+
+CHUNK 133
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 9
+  section_title       : Copies from the Register of Firms Six Rupees for each hundred words or
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003511
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 9
+
+9. Copies from the Register of Firms Six Rupees for each hundred words or
+part thereof.”
+[Vide Rajasthan Act 8 of 1996, s. 2]
+Substitution of new Schedule for Schedule I to Central Act IX of 1932.— For Schedule I to the
+principal Act, the following Schedule shall be substituted, namely:-
+23
+
+"SCHEDULE I
+Maximum Fees.
+(See sub-section (1) of section 
+
+======================================================================
+
+CHUNK 134
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 6
+  section_title       : Application under section 64. Five rupees.
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003522
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 6
+
+6. Application under section 64. Five rupees.
+7. Inspection of the register of firms Two rupees, for inspecting
+under sub-section (1) of section 66. one volume of Register.
+8. Inspection of documents relating to a firm Two rupees for inspection
+under Sub-section (2) of section 66. of all documents relating
+to one firm.
+
+======================================================================
+
+CHUNK 135
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 9
+  section_title       : Copies from the register of firms . Two rupees for each
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003536
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 9
+
+9. Copies from the register of firms . Two rupees for each
+hundred words or part thereof.”
+[Vide Rajasthan Act 10 of 1971, s. 2]
+Substitution of Schedule I to the Central Act IX of 1932.-In Schedule I of Indian Partnership Act,
+1932 (Central Act IX of 1932), for Schedule I, as existion in the application thereof to the State of
+Rajasthan, the follow
+
+======================================================================
+
+CHUNK 136
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 3
+  section_title       : Intimation under section 61 One hundred rupees
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003545
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 3
+
+3. Intimation under section 61 One hundred rupees
+4. Intimation under section 62 One hundred rupees
+5. Notice under section 63 One hundred rupees
+24
+
+======================================================================
+
+CHUNK 137
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 6
+  section_title       : Application under section 64 One hundred rupees
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003557
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 6
+
+6. Application under section 64 One hundred rupees
+7. Inspection of the Register of firms under sub-section (1) of One hundred rupees for
+section 66 inspection of one volume of
+Register
+8. Inspection of documents relating to a firm under sub- One hundred rupees for
+section (2) of section 66 inspection of all documents
+relating to one firm
+
+======================================================================
+
+CHUNK 138
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 9
+  section_title       : Copies from the Register of firms Fifteen rupees for each hundred
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003575
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section 9
+
+9. Copies from the Register of firms Fifteen rupees for each hundred
+words or part thereof."
+[Vide Rajasthan Act 7 of 2007, s. 2]
+Gujarat
+Substituted of Schedule of I of 9 of 1932.—In the Indian Partnership Act, 1932 (9 of 1932), in its
+application
+“SHEDULE I
+MAXIMUM FEES
+(See sub-section (1) of section 71)
+Document or act in respect of which the fe
+
+======================================================================
+
+CHUNK 139
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003606
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+Application under section 64 One hundred fifty rupees
+Inspection of the Register of Firms Fifty rupees for inspecting one
+under sub-section /1) of section 66 volume of the register
+Inspection of documents relating to a Fifty rupees for inspection of all
+firm under sub-section /2) of section 66 documents relating to one firm
+Copies from the Register of
+
+======================================================================
+
+CHUNK 140
+----------------------------------------
+METADATA:
+  act_name            : The Indian Partnership Act, 1932
+  year_enacted        : 1932
+  last_amended        : 
+  legal_domain        : partnership, agency, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, Insolvency and Bankruptcy Code, 2016, SEBI Act, 1992, Arbitration and Conciliation Act, 1996
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This act governs the formation, operation, and dissolution of partnerships in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : indian_partnership_act_1932.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:37:00.003621
+
+CONTENT:
+The Indian Partnership Act, 1932 |  | Section
+
+SCHEDULE II—[Enactments Repealed.] Rep. by Repealing Act, 1938 (1 of 1938), s. 2 and the
+Schedule.
+______
+26
+
+======================================================================
+

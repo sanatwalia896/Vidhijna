@@ -1,0 +1,3804 @@
+FILE:         contract_law_explained.txt
+NAMESPACE:    vidhijna-legal
+INGESTED AT:  2026-03-22T15:51:07.235880
+TOTAL CHUNKS: 118
+======================================================================
+
+CHUNK 1
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233444
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+﻿The Project Gutenberg eBook of Punch, or the London Charivari, Volume 107, September 29, 1894
+    
+This eBook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with
+
+======================================================================
+
+CHUNK 2
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233548
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Author: Various
+
+
+        
+Release date: August 31, 2014 [eBook #46738]
+                Most recently updated: October 24, 2024
+
+Language: English
+
+Other information and formats: www.gutenberg.org/ebooks/46738
+
+Credits: Produced by Punch, or the London Charivari, Malcolm Farmer,
+        Wayne Hammond and the Online Distributed Proofreading Team
+        at ht
+
+======================================================================
+
+CHUNK 3
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233563
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+*       *       *       *       *
+
+ROBERT'S PICTER.
+
+By some stordinary mistake on the part of some wery hemenent taker of
+Poortraits, I was last week requested for to go to him and set for my
+Picter.
+
+[Illustration]
+
+======================================================================
+
+CHUNK 4
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233581
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+He told me in his letter that his reason for wanting me to set to him
+was, becoz he wanted to have the Picters of all the Members of the
+Copperation, and of course they wood not be complete without mine, for
+tho of course he knew that I was not a real Common Counseller, still, he
+thort that I had left sitch a mark among them by my ten years constant
+service 
+
+======================================================================
+
+CHUNK 5
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233599
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+up the Reer! I remembers werry well when the other City Picter was
+printed, about a year ago, when the LORD MARE'S three Footmen, all in
+their werry hansumest uniforms, was placed exactly in the front, and all
+being fine hansum fellers, as they undowtedly is, they were thort to
+have taken the shine out of the hole Picter, but that was in course
+quite a diffr
+
+======================================================================
+
+CHUNK 6
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233618
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Sum few of the werry hansumest of the hole Court as has bin and got
+taken already, has bin and stuck theirselves up in the Reading Room, and
+werry proud they is of their apperience, and BROWN and Me has got sum of
+the Atendents to let us go in before the Members comes, and see em
+privately. BROWN says as how as he's quite sure as there must be sum
+mistake ab
+
+======================================================================
+
+CHUNK 7
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233637
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+*       *       *       *       *
+
+I had my chance of going yesterday, and werry kind the Gennelman wos who
+took me, and he took me three times, to make sure of me. He said as I
+was a werry good Setter, and that everybody woud know who I was by my
+likenesses in _Punch_, and lots of peeple woud like to git my Picter, as
+it was a werry good likeness.
+
+ ROBERT.
+
+======================================================================
+
+CHUNK 8
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233654
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+*       *       *       *       *
+
+[Illustration: MAKING THINGS SMOOTH.
+
+_Keeper (to Sportsmen, who have just fired all four barrels without
+touching a feather)._ "DEARY ME! UNCOMMON STRONG ON THE WING BIRDS IS,
+GENTLEMEN! 'STONISHING AMOUNT O' SHOT THEY CARRIES AWAY WITH 'EM TO BE
+SURE!"]
+
+       *       *       *       *       *
+
+THE "AUTOMATIC" CONSCIENCE
+
+======================================================================
+
+CHUNK 9
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233663
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+The machine can't cop or blow!
+  Automatics do not know.
+  If I pop a "Frenchy" in,
+  Or a lump of brass or tin,
+  Who's to tell that I do _not_
+  Put a penny in the slot?
+
+======================================================================
+
+CHUNK 10
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233682
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+*       *       *       *       *
+
+IN THE PRESS.--_The Cruelty of the Jap._ By the Author of _The Kindness
+of the Celestial_.
+
+       *       *       *       *       *
+
+A LITTLE FLIRTATION.
+
+    SCENE--_The "Gothenburg Arms," under new (Municipal) Management,
+    licensed for the sale of liquors for the public profit only._
+    Mr. G., _an elderly but cheerf
+
+======================================================================
+
+CHUNK 11
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233700
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Mr. G. (aside)._ Aha! there she is, looking smart as fresh paint!
+(_Aloud._) Good morning, Miss JOSEY! How are you, my dear?
+
+_Miss Joe._ Ah, tha-anks. _I_'m all right.
+
+_Mr. G._ Which you look it indeed! Just a glass of the usual, my dear,
+_if_ you please.
+
+_Miss Joe (drawing it)._ Oh, I thought you'd turned total abstainer or
+something.
+
+_Mr. G._ Dear no!
+
+======================================================================
+
+CHUNK 12
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233718
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Miss Joe. Me_ raspy, indeed! Well, you _do_ take the cake!
+
+You've been awfully down on the Bungs for a long time, have you and your
+friends, that Miss HARCOURT and such.
+
+_Mr. G._ Don't call her my friend, if you please, dear Miss JOSEY.
+
+_Miss Joe._ Oh, come!--I say!--this is a trifle _too_ much!
+
+Were not you and that LAWSON, and others, fair pals; Local
+
+======================================================================
+
+CHUNK 13
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233737
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Of escape from predicament truly contemptible--only fair promise of real
+advance.
+
+_So_ glad to see you so active in aid of it!
+
+_Miss Joe (coquettishly). Oh_, Mr. G.! if Miss H. could but hear----!
+
+_Mr. G. (pettishly)._ Bother Miss H.! Local Option's her fad, and I'm
+friendly, of course, to it, only, my dear,
+
+The mere limitation of numbers--her idol and P
+
+======================================================================
+
+CHUNK 14
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233757
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Mr. G._ "Charge, CHESTER, charge!" is my Marmion-motto. LAWSON and
+DAWSON may kick up a row,
+
+But I back you and the Gothenburg system, Miss JOE, and of course I can
+own to it--_now_!
+
+_Miss Joe._ Well, I feel flattered! But oh, _poor_ Miss H.
+
+_Mr. G. Entre nous_, my dear JOE, Local Option, _per se_, Is just an
+Imposture!!!
+
+_Miss H. (who has entered unper
+
+======================================================================
+
+CHUNK 15
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233776
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+*       *       *       *       *
+
+[Illustration:
+
+A LITTLE FLIRTATION.
+
+_Mr. G._ "YES, MISS, I ENTIRELY AGREE WITH YOU. 'LOCAL OPTION'
+IS--IS--UM--MORE OR LESS OF AN IMPOSTURE."
+
+_Miss Harcourt (horrified, appearing in the doorway)._ "OH! MR. G.! MR.
+G.!!"
+
+    ["... Local option ... if pretending to the honour of a remedy,
+    is little better than an impo
+
+======================================================================
+
+CHUNK 16
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233789
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+PART XIII.--WHAT'S IN A NAME?
+
+    SCENE XXII.--_At the Supper-table in the Housekeeper's Room._ Mrs.
+    POMFRET _and_ TREDWELL _are at the head and foot of the table
+    respectively_. UNDERSHELL _is between_ Mrs. POMFRET _and_ Miss
+    PHILLIPSON. _The Steward's Room Boy waits._
+
+_Tredwell._ I don't see Mr. ADAMS here this evening, Mrs. POMFRET.
+What's th
+
+======================================================================
+
+CHUNK 17
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233803
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Mrs. Pomfret._ Why, he asked to be excused to-night, Mr. TREDWELL. You
+see some of the visitors' coachmen are putting up their horses here, and
+he's helping Mr. CHECKLEY entertain them. (_To_ UNDERSHELL.) Mr. ADAMS
+is our Stud-Groom, and him and Mr. CHECKLEY, the 'ed coachman, are very
+friendly just now. ADAMS is very clever with his horses, I believe, and
+
+
+======================================================================
+
+CHUNK 18
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233817
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Undershell (mystified)._ I--I'm exceedingly sorry to have missed him,
+Ma'am. (_To himself._) Is the Stud-Groom _literary_, I wonder?... Ah,
+no, I remember now; I allowed Miss PHILLIPSON to conclude that my tastes
+were equestrian. Perhaps it's just as well the Stud-Groom _isn't_ here!
+
+_Mrs. Pomfr._ Well, he _may_ drop in later on. I shouldn't be surprised
+i
+
+======================================================================
+
+CHUNK 19
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233836
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Mrs. Pomfr._ I've known stranger things than _that_ happen. Why, only
+the other day, a gentleman came into this very room, as it might be
+yourself, and it struck me he was looking very hard at me, and by-and-by
+he says, "You don't recollect _me_, Ma'am, but I know _you_ very well,"
+says he. So I said to him, "You certainly have the advantage of me at
+presen
+
+======================================================================
+
+CHUNK 20
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233845
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+it, Ma'am," says he. Then it flashed across me who it was--"Mr.
+POCKLINGTON!!!" says I. Which it _were_. And him own man to the Duke of
+DUMBLESHIRE! Which was what made it so very nice and 'andsome of him to
+remember me all that time.
+
+======================================================================
+
+CHUNK 21
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233860
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Und. (perfunctorily)._ It must have been most gratifying, Ma'am. (_To
+himself._) I hope this old lady hasn't any more anecdotes of this highly
+interesting nature. I mustn't neglect Miss PHILLIPSON--especially as I
+haven't very long to stay here.
+
+    [_He consults his watch stealthily._
+
+_Miss Phillipson (observing the action)._ I'm sorry you find it so slo
+
+======================================================================
+
+CHUNK 22
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233876
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+[_She pouts._
+
+_Und. (to himself)._ I can't let this poor girl think me a brute! But I
+must be careful not to go too far. (_To her, in an undertone which he
+tries to render unemotional._) Don't misunderstand me like that. If I
+looked at my watch, it was merely to count the minutes that are left. In
+one short half hour I must go--I must pass out of your life,
+
+======================================================================
+
+CHUNK 23
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233895
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Phill. (bending her head with a gratified little giggle)._ I declare
+you're beginning all that _again_. I never _did_ see such a cure as you
+are.
+
+_Und. (to himself, displeased)._ I wish she could bring herself to take
+me a little more seriously. I can _not_ consider it a compliment to be
+called a "cure"--whatever that is.
+
+_Steptoe (considering it time to 
+
+======================================================================
+
+CHUNK 24
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233912
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Phill. (demurely)._ He was being rather sentimental just then, Mr.
+STEPTOE, as it happens. Not that he can't sparkle, when he likes. I'm
+sure if you'd heard how he went on in the fly!
+
+_Steptoe (with malice)._ Not having been privileged to be present,
+perhaps our friend here could recollect a few of the best and repeat
+them.
+
+_Miss Dolman._ Do, Mr. UNDERSHE
+
+======================================================================
+
+CHUNK 25
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233930
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Phill._ Oh, it was nothing of _that_ sort, Mr. STEPTOE! _I_'ve no
+objection to repeat what he said. He called me a little green something
+or other. No; he said _that_ in the train, though. But he would have it
+that the old cab-horse was a magic steed, and the fly an enchanted
+chariot; and I don't know what all. (_As nobody smiles._) It sounded
+awfully funny
+
+======================================================================
+
+CHUNK 26
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233945
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Und. (to himself, writhing)._ I gave her credit for more sense. To make
+me publicly ridiculous like this!
+
+    [_He sulks._
+
+_Miss Stickler_ (_to_ M. RIDEVOS, _who suddenly rises_). MOSSOO, you're
+not _going_! Why, whatever's the matter?
+
+_M. Ridevos._ Pairmeet zat I make my depart. I am cot at ze art.
+
+    [_General outcry and sensation._
+
+_Mrs. Pomfr. (co
+
+======================================================================
+
+CHUNK 27
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233963
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_M. Rid._ It is for zat I do not remmain! Zey 'ave not toch him; my
+pyramide, result of a genius stupend, énorme! to zem he is nossing; zey
+retturn him to crash me! To-morrow I demmand zat Miladi accept my
+demission. _Ici je souffre trop!_
+
+    [_He leaves the room precipitately._
+
+_Miss Stick. (offering to rise)._ It _does_ seem to have upset him!
+Shall I g
+
+======================================================================
+
+CHUNK 28
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233980
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Tred. (philosophically)._ That's the worst of 'aving to do with
+Frenchmen; they're so apt to beyave with a sutting childishness
+that--(_checking himself_)--I really ask your pardon, Mamsell, I quite
+forgot you was of his nationality; though it ain't to be wondered at,
+I'm sure, for you might pass for an Englishwoman almost anywhere!
+
+_Mlle. Chiffon._ As you
+
+======================================================================
+
+CHUNK 29
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.233996
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Phill._ Her ladyship is pretty generous with them to most people, Mr.
+TREDWELL. I'm sure I'd have left her long ago, if it wasn't for Lady
+MAISIE--who _is_ a lady, if you like!
+
+_Tred._ She don't favour her ma, I will say _that_ for her. By the way,
+who is the party they brought down with them? a youngish looking
+chap--seemed a bit out of his helement, when
+
+======================================================================
+
+CHUNK 30
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234011
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Tred._ Why, he give it to me, I know, when I enounced him; but it's
+gone clean out of my head again. He's got the Verney Chamber, I know
+_that_ much; but what _was_ his name again? I shall forget my own next.
+
+_Und. (involuntarily)._ In the Verney Chamber? Then the name must be
+SPURRELL!
+
+_Phill. (starting)._ SPURRELL! Why, _I_ used to---- But of course it
+
+
+======================================================================
+
+CHUNK 31
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234020
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Und._ Why, the fact is, I happened to find out that--(_here he receives
+an admonitory drive in the back from the_ Boy)--that his name _was_
+SPURRELL. (_To himself._) I wish this infernal Boy wouldn't be so
+officious; but perhaps he's right!
+
+======================================================================
+
+CHUNK 32
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234038
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Tred._ Ho, indeed! Well, _another_ time, Mr. HUNDERSHELL, if you
+require information about parties staying with Us, p'r'aps you'll be
+good enough to apply to me personally, instead of picking it up in some
+'ole and corner fashion. (UNDERSHELL _controls his indignation with
+difficulty_.) To return to the individual in question, Miss PHILLIPSON,
+I should have
+
+======================================================================
+
+CHUNK 33
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234055
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Stept._ It strikes me he's more of a sporting character, TREDWELL. I
+know when I was circulating with the cigarettes, and so on, in the hall
+just now, he was telling the Captain some anecdote about an old
+steeplechaser that was faked up to win a Selling Handicap, and it
+tickled me to that extent I could hardly hold the spirit-lamp steady!
+
+_Tred._ I may be 
+
+======================================================================
+
+CHUNK 34
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234070
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Und. (excitedly)._ Pink and silver! Might I ask--was it a volume of
+poetry, called--er--_Andromeda_?
+
+_Tred. (crushingly)._ That I did not take the liberty of inquiring, Sir,
+as you might be aware if you was a little more familiar with the
+hetiquette of good Serciety.
+
+    [UNDERSHELL _collapses_; Mr. ADAMS _enters, and steps into the
+    chair vacated by t
+
+======================================================================
+
+CHUNK 35
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234088
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Und. (to himself)._ To think that they may be discussing my book in the
+drawing-room at this very moment, while I--I---- (_He chokes._) Ah, it
+won't bear thinking of! I must--I _will_ get out of this cursed place! I
+have stood this too long as it is! But I won't go till I have seen this
+fellow SPURRELL, and made him give me back my things. What's the
+time?.
+
+======================================================================
+
+CHUNK 36
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234105
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Adams._ So you're off to-night, Sir, are you? Well, I'd rather ha'
+shown you _Deerfoot_ by daylight, myself; but there, I dessay that won't
+make much difference to _you_, so long as you _do_ see the 'orse?
+
+_Und. (to himself)._ So _Deerfoot's_ a _horse_! One of the features of
+Wyvern, I suppose; they seem very anxious I shouldn't miss it. _I_ don't
+want to 
+
+======================================================================
+
+CHUNK 37
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234125
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_Adams._ Right, Sir; you get your 'at and coat, and come along with me,
+and you shall see him at once.
+
+    [UNDERSHELL _takes a hasty farewell of_ Miss PHILLIPSON _and the
+    company generally--none of whom attempts to detain him--and follows
+    his guide_. _As the door closes upon them, he hears a burst of
+    stifled merriment, amidst which_ Miss PHILLI
+
+======================================================================
+
+CHUNK 38
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234140
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+*       *       *       *       *
+
+[Illustration: ENHANCED VALUE.
+
+_'Arry._ "WHAT SORT OF A JOB'S THAT YOU'VE GOT AT BABEL BUILDINGS, ALF?"
+
+_Alf._ "JOLLY 'ARD; ALL THE MESSAGES AND PARCELS FROM THE TOP OF THE
+'OUSE TO THE BASEMENT GO THROUGH ME; AND I'M ONLY GETTING THIRTY BOB A
+WEEK!"
+
+_'Arry._ "TELL YER WHAT, OLD MAN, YOU'D COMMAND DOUBLE THE MONEY IF YOU
+
+======================================================================
+
+CHUNK 39
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234158
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+SIR,--I have seen some letters in the _Daily Graphic_ on the above
+subject. A much more curious thing happened to me on April 1, 1887, at
+twenty-five minutes past ten in the morning. I dropped a pin about four
+yards from the south-western corner of the Marble Arch. It is almost
+incredible that exactly three years later I picked up a pin, at 4.17 in
+the after
+
+======================================================================
+
+CHUNK 40
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234166
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+forced to the conclusion that it was _not_ the same pin. Had it been, I
+should have found it five and a half inches further north. The question
+now is, whose pin was it?--Your obedient servant,
+
+======================================================================
+
+CHUNK 41
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234185
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+SCIENTIFIC INVESTIGATOR.
+
+DEAR SIR,--Some weeks ago I rode outside an omnibus from Piccadilly
+Circus to Charing Cross. Getting down hastily, when I found that it went
+on to Westminster instead of the City, I left behind a large grey parrot
+in a cage, a siphon of soda-water, and a St. Bernard dog. Yesterday,
+when I climbed on to an omnibus following the same 
+
+======================================================================
+
+CHUNK 42
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234359
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Yours obediently,
+
+ CONSTANT READER.
+
+DEAR MR. PUNCH,--Last evening I went out to dinner, and put my one
+latch-key in my pocket. Marvellous to relate, on my return home at three
+A.M., I took it, as I thought, from my pocket, and found that it had
+become two!
+
+  Yours faithfully,
+
+  BOOSEY TITE.
+
+       *       *       *       *       *
+
+[Illustration: "EHEU 
+
+======================================================================
+
+CHUNK 43
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234370
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+*       *       *       *       *
+
+JAP THE GIANT-KILLER.
+
+(_Fragment of a Tale of New Japan as told around a Fire-Brazier in Dai
+Nippon._)
+
+       *       *       *       *       *
+
+======================================================================
+
+CHUNK 44
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234388
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Once upon a time in the Happy Dragon-fly shaped Land of the Rising
+Sun there lived a little hero named JAP. Small he was, but valiant as
+TAKÉ-NO-UCHI-NO-SUKUNÉ himself of the long life and many-syllabled
+name. He was a dead hand at dragon slaying, and had killed more tigers
+than HADÉSU. He could exorcise Oni like one o'clock, these demons or
+imps having an e
+
+======================================================================
+
+CHUNK 45
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234398
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+the name of the great new goddess of whom JAP was a votary. From her he
+had received the gift of a new "sword of sharpness," which would not
+only, like the gift of the triple-headed Cornish giant, "cut through
+anything," but would make all enemies cut _like_ anything.
+
+======================================================================
+
+CHUNK 46
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234419
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Little JAP, having acquired this wonderful sword, compared with which
+that which NITTA threw into the sea was a mere oyster-knife, was
+naturally desirous of using it. He kept it as sharp as that of the
+great demon-queller SHŌ-KI; but the demons he quelled with it were
+the great obstructive ogres known as Kon-serva-tism, Fogi-ism and
+Pre-ju-dice. JAP gave tho
+
+======================================================================
+
+CHUNK 47
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234434
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+would have aroused the envy of CADMUS, and given JASON a high-toned
+job. As to that terrible wild-fowl, the Ho-ho bird, with "the head
+of a pheasant, the beak of a swallow, the neck of a tortoise, and
+the outward semblance of a dragon," JAP, with his "gun of swiftness"
+(another gift of his favourite goddess) knocked the Ho-hos over right
+and left, as though 
+
+======================================================================
+
+CHUNK 48
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234443
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+But JAP, in time, grew tired of the common or cherry-garden Ho-ho, and
+aweary of such small sport as mere dragons and demons could furnish. He
+yearned like an Anglo-Indian Shikari for big game!
+
+======================================================================
+
+CHUNK 49
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234460
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Now there was an ugly, but enormous giant, fierce-looking as
+Kaminari, the Thunder-god, old as Urashima, the Kami-no-kuni _Rip
+Van Winkle_, strong as Asaina Saburō, the Dai Nippon Hercules, big
+as Fusi-yama, "the matchless mountain," rich as the Treasure Ship,
+laden with Ta-kara-mono (or "Precious Things"), stubborn, stolid,
+and unprogressive as Kamé, the ha
+
+======================================================================
+
+CHUNK 50
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234478
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Now Little JAP hated Big JON-NI, and Big JON-NI disdained Little JAP,
+as indeed he disdained everybody else save his conceited and colossal
+self. JAP curled his lip at JON-NI; JON-NI put out his tongue at JAP
+like a China figure; when the duodecimo hero bit his thumb at the
+elephantine Celestial, the elephantine Celestial cocked a snook at
+the duodecimo hero
+
+======================================================================
+
+CHUNK 51
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234487
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Some of his more timid friends tried to dissuade him. "Beware, JAP,"
+they cried, "this Chinese Blunderbore is too big for thee!" "Pooh!"
+retorted the undaunted JAP. "Remember
+
+  ----'the valiant Cornishman
+  Who slew the giant Cormoran.'
+
+======================================================================
+
+CHUNK 52
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234505
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+----'the valiant Cornishman
+  Who slew the giant Cormoran.'
+
+Am I not as big as JACK now, and as fit to play the Giant-killer as he?
+Too big? Why, the overgrown monster is like the Buddhist Daruma, who,
+'arriving in China in the sixth century, at once went into a state of
+abstraction, which extended over nine years, during which time he never
+moved; and as a
+
+======================================================================
+
+CHUNK 53
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234524
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+*       *       *       *       *
+
+His admiring friends dubbed him "JAP the Giant-Killer" at once. And,
+indeed, when he "went for" that clumsy Colossus, who in physical
+proportions out-Chang'd CHANG himself, the result of the first round,
+in which the swaggersome JON-NI was fairly beaten to his knees, seemed
+to justify the title. But giants are not usually "
+
+======================================================================
+
+CHUNK 54
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234542
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Bowl me no more: bat's fate and ball's is seal'd.
+    I strove to make my thousand, all in vain:
+    Like a great river ran the ceaseless rain,
+  And spoiled the wickets. Lo, I leave the field
+                           Bowl me no more!
+
+       *       *       *       *       *
+
+A DAY'S RIDE, A LAW'S ROMANCE.
+
+(_A Story of the Long Vacation._)
+
+"MR. BRIEFLES
+
+======================================================================
+
+CHUNK 55
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234553
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Referring to PORTINGTON, I found that my diary was clear for the day
+specified, and I expressed my willingness to carry out my client's
+instructions.
+
+"I must know at once," continued the gentleman, "because I desire to
+bring the matter before the Vacation Judge on an originating summons. I
+need scarcely add, that you will get the fullest particulars from th
+
+======================================================================
+
+CHUNK 56
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234570
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Although rather imperfectly instructed, I determined to visit East
+Babbleton. The usual sources of railway information led me to believe
+that the place was six or seven miles distant from Nearvices in
+Guiltshire. I determined to go to Nearvices, taking with me my two
+lads (home for the holidays), GEORGE LEWIS HERSCHELL and EDWARD CLARKE
+RUSSELL. Before now I
+
+======================================================================
+
+CHUNK 57
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234581
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+who talked about "duck" and "roots" for a quarter of a day, arrived
+at Nearvices at eleven o'clock. I made at once for the Red Lion, the
+principal hotel in the town. My sons followed me, eager for breakfast.
+Until then, they had satisfied their appetite by the stealthy
+consumption of about half-a-pound of a sweetmeat that is, I believe,
+known as Japanese Alm
+
+======================================================================
+
+CHUNK 58
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234598
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+The "Red Lion" was in a state of great commotion. There were people
+in high hats at the door, people in high hats looking out of the
+coffee-room window, people in high hats thronging the hall. With some
+trouble my lads and I got our breakfast, then I asked for the ostler.
+He came to me after a pause and awaited my orders.
+
+"I want a trap to take me over to E
+
+======================================================================
+
+CHUNK 59
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234614
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+I was seriously annoyed, as the instructions of my client were explicit.
+
+"I really must get over," I said emphatically; "surely Miss SMITH can
+lend us one of her carriages. You might ask her future husband."
+
+"Can't do that. Sir," replied the ostler; "for we none of us know him.
+However, I'll see what can be done for you. Could you drive yourself
+over?"
+
+"O
+
+======================================================================
+
+CHUNK 60
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234631
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+The ostler eyed me rather sharply, and retired. I then thought it my
+duty to reprove my sons for their ill-timed levity, explaining that
+their tomfoolery might have caused the ostler to refuse to entrust his
+equipage to my care.
+
+"But you have never driven in your life?" said GEORGE LEWIS HERSCHELL.
+"Have you, Papa?"
+
+"I cannot say that I have," I replied, w
+
+======================================================================
+
+CHUNK 61
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234637
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+"It is not very showy, Sir," said the proprietor; "but I think it will
+last a dozen of miles or so."
+
+======================================================================
+
+CHUNK 62
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234653
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+It was a small dog-cart, which conjured up visions of the toy
+waggon-and-horse department in the Lowther Arcade. There was a horse in
+the shafts. The harness was imperfect, and the collar showed its straw.
+However, I took my seat, and the boys got up beside me. Then, amidst the
+good wishes of the wedding party watching our progress, I started. The
+horse imme
+
+======================================================================
+
+CHUNK 63
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234670
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+"If you boys laugh any more," I said, with the utmost severity, "I will
+turn you out and leave you."
+
+"But Papa, if mother could only see us!" cried the pair, and then they
+indulged in apparently unextinguishable bursts of merriment.
+
+I had no further time for remonstrance, as the brute of a horse, after
+beginning in a trot, had suddenly quickened its pace t
+
+======================================================================
+
+CHUNK 64
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234683
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+The dustman looked at me, at the horse, smiled, and answered in the
+affirmative. Seeing that we were now about to descend a hill, I got down
+and led the horse by its bridle. The brute resented the attention. So
+far as I could judge, without being an expert in horse-flesh, it seemed
+to me to be suffering from tooth-ache. It shook its head when I touched
+it, a
+
+======================================================================
+
+CHUNK 65
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234700
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Adopting my son's advice, I mounted the cart, and once again jerked the
+reins. The beast began at a trot, and then, as before, commenced a mad
+gallop. We rapidly left Nearvices behind us, and brought ourselves to a
+stop in front of a haystack.
+
+"You see," I said, "the brute is open to reason. It was stopped by an
+obstruction. Seeing the futility of further p
+
+======================================================================
+
+CHUNK 66
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234714
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+"Was that an accident?" I asked an old man who was lighting his pipe.
+The venerable individual paused, looked at the pipe, looked at the
+pieces of the cart, and looked at me. Then he rubbed the right side of
+his head with the palm of his right hand.
+
+"Well, yes, it was," he admitted, in an accent I cannot reproduce; but
+added, in a tone that suggested that m
+
+======================================================================
+
+CHUNK 67
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234725
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+This intelligence rather damped my ardour, and I immediately got off the
+cart and insisted upon leading the brute down the next hill. The animal
+protested, and shook its head. Remembering its possible tooth-ache, I
+treated it with increased courtesy, telling it to "Gee-up" and "be a
+good horse." I am sorry to say that the creature did not seem inclined
+to ac
+
+======================================================================
+
+CHUNK 68
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234741
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Having come to a level piece of road, I once more mounted into the
+Lowther Arcade dog-cart, and urged on my partially wild career. I had
+passed a four-winged post at cross roads, and had followed the sign
+pointing to "Babbleton." I had got safely up to a farm-house, having
+restrained _en route_ an inclination on the part of my horse to commit
+suicide by jump
+
+======================================================================
+
+CHUNK 69
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234756
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+"No, this is not the road, Master," she returned, in the same
+unapproachable dialect. "You ought to have borne to the left when you
+came to the cross-roads."
+
+Seeing that I had to go back, I seized each of the reins and called upon
+my beast of a horse to make an effort. The noble animal answered bravely
+to the call, and managed to turn round on a space of tu
+
+======================================================================
+
+CHUNK 70
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234769
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+"Well, that was a shave surely," said the dame of the cheery
+countenance; "when I saw your off wheel go up in the air and hang over
+the ditch I thought it would be all up with ye."
+
+Accepting the compliment with dignified geniality, I asked our fair
+critic if she could bait our horse.
+
+"Well, I can give him a handful of hay," said the lady; "but I would not
+
+
+======================================================================
+
+CHUNK 71
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234787
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Refreshed by the nourishment, our steed started again, and after
+retracing our steps and nearly upsetting a hay cart, and narrowly
+running down a pig, we reached East Babbleton in fairly good condition.
+I looked at my watch and found that we had done the six miles in two
+hours and a quarter. Having transacted my business, I now turned the
+nose of my steed ho
+
+======================================================================
+
+CHUNK 72
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234794
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+to the conclusion that we must get back as fast at we could, and when
+there was a difficulty, risk it. We entered our conveyance and started.
+
+======================================================================
+
+CHUNK 73
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234811
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+I shall never forget the experience. It was absolutely delightful.
+Giving _Flora_ (I came to the conclusion that my steed with the
+tooth-ache must have been called _Flora_) her head, I urged her to
+progress as rapidly as possible. The mare promptly answered to the call.
+I said "chick," and she started off at a mad gallop. We absolutely flew
+up-hill, down-hil
+
+======================================================================
+
+CHUNK 74
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234818
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+long since forgotten my nervousness, and had assumed an air that would
+have been becoming in an individual nicknamed (let us say) "down the
+road Billy."
+
+======================================================================
+
+CHUNK 75
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234836
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+I urged _Flora_ to "gee up," by suggesting that "five o'clock tea" was
+waiting for her on her arrival at Nearvices. My two sons, GEORGE LEWIS
+HERSCHELL and EDWARD CLARKE RUSSELL, also rendered valuable assistance
+by waving their straw hats, and singing comic songs with a vehemence
+that rendered the ballads undistinguishable from war ditties. As we
+entered Ne
+
+======================================================================
+
+CHUNK 76
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234848
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+renewed our acquaintance with the attractive lamp-post, we crossed the
+sharp curve of the familiar pavement, we collided against the monument
+to a worthy in the market-place, and drove up with a jerk in front of
+the "Red Lion." I looked again at my watch; we had done the six miles in
+twenty-two minutes. Considering the hills, dales, and obstructive
+milestone
+
+======================================================================
+
+CHUNK 77
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234866
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+"What, you have come back!" exclaimed the landlady of the "Red Lion."
+"Why, we never expected to see you."
+
+I found subsequently that the wedding party, after watching our
+departure, had taken bets about our probable return. The most popular
+wager seemed to be that we should reappear after midnight with a wheel,
+a bit of harness, and the whip, but without th
+
+======================================================================
+
+CHUNK 78
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234885
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+By the way, I may add in conclusion that the parish clerk of East
+Babbleton declared that he had never heard (until I mentioned it) of the
+Great Gooseberry Will Case. So I suppose that my client must have been
+wrong in his details.
+
+ _Pump-Handle Court,
+       September 22, 1894._
+
+ (_Signed_)
+     A. BRIEFLESS, JUNIOR.
+
+
+       *       *       *       *    
+
+======================================================================
+
+CHUNK 79
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234905
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+_His Nephew._ "WELL--AW--YOU SEE HE IS SUCH A CONFOUNDED IDIOT!"
+
+_The Colonel._ "BUT DID IT NEVER OCCUR TO YOU THAT IF HE _WEREN'T_ SUCH
+A CONFOUNDED IDIOT HE WOULD NEVER HAVE BEEN YOUR SERVANT?"]
+
+
+       *       *       *       *       *
+
+[Illustration: THE CUT DIRECT.
+
+SCENE--_A Norfolk Beach._
+
+_Mr. and Mrs. Wavely (returning to their tent)._ "AH, MR. M
+
+======================================================================
+
+CHUNK 80
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234920
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+*       *       *       *       *
+
+[Transcriber's Note:
+
+Inconsistent spelling and hyphenation are as in the original.]
+
+
+
+
+
+
+
+*** END OF THE PROJECT GUTENBERG EBOOK PUNCH, OR THE LONDON CHARIVARI, VOLUME 107, SEPTEMBER 29, 1894 ***
+
+
+    
+
+Updated editions will replace the previous one—the old editions will
+be renamed.
+
+======================================================================
+
+CHUNK 81
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234939
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to 
+
+======================================================================
+
+CHUNK 82
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234956
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks m
+
+======================================================================
+
+CHUNK 83
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234973
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG™ LICENSE
+
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the 
+
+======================================================================
+
+CHUNK 84
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.234991
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.A. By reading or using any part of this Project Gutenberg
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project
+
+======================================================================
+
+CHUNK 85
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235008
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. T
+
+======================================================================
+
+CHUNK 86
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235027
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are locate
+
+======================================================================
+
+CHUNK 87
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235041
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+that you will support the Project Gutenberg mission of promoting
+free access to electronic works by freely sharing Project Gutenberg
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attac
+
+======================================================================
+
+CHUNK 88
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235058
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating
+
+======================================================================
+
+CHUNK 89
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235072
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg License must appear
+prominently whenever any copy of a Project Gutenberg work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or 
+
+======================================================================
+
+CHUNK 90
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235087
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg™ License included with this eBook or online
+    at www.gutenberg.org. If you
+    are not located in the Unite
+
+======================================================================
+
+CHUNK 91
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235106
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.E.2. If an individual Project Gutenberg electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing a
+
+======================================================================
+
+CHUNK 92
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235122
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.E.3. If an individual Project Gutenberg electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg License for all works
+posted with the permission of t
+
+======================================================================
+
+CHUNK 93
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235132
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg License.
+
+======================================================================
+
+CHUNK 94
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235152
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the
+
+======================================================================
+
+CHUNK 95
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235160
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg License as specified in paragraph 1.E.1.
+
+======================================================================
+
+CHUNK 96
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235168
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+======================================================================
+
+CHUNK 97
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235175
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg electronic works
+provided that:
+
+======================================================================
+
+CHUNK 98
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235197
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+• You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+      
+
+======================================================================
+
+CHUNK 99
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235220
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    
+    • You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e
+
+======================================================================
+
+CHUNK 100
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235239
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+all use of and all access to other copies of Project Gutenberg™
+        works.
+    
+    • You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    
+    • You comply w
+
+======================================================================
+
+CHUNK 101
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235252
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+
+
+======================================================================
+
+CHUNK 102
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235271
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects
+
+======================================================================
+
+CHUNK 103
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235289
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, 
+
+======================================================================
+
+CHUNK 104
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235299
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+======================================================================
+
+CHUNK 105
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235317
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written e
+
+======================================================================
+
+CHUNK 106
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235325
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+======================================================================
+
+CHUNK 107
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235336
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+======================================================================
+
+CHUNK 108
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235350
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicabl
+
+======================================================================
+
+CHUNK 109
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235369
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from a
+
+======================================================================
+
+CHUNK 110
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235381
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Section 2. Information about the Mission of Project Gutenberg
+
+Project Gutenberg is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+======================================================================
+
+CHUNK 111
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235401
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg’s
+goals and ensuring that the Project Gutenberg collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Pro
+
+======================================================================
+
+CHUNK 112
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235417
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-
+
+======================================================================
+
+CHUNK 113
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235430
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+The Foundation’s business office is located at 41 Watchung Plaza #516,
+Montclair NJ 07042, USA, +1 (862) 621-9288. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+======================================================================
+
+CHUNK 114
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235444
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are parti
+
+======================================================================
+
+CHUNK 115
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235458
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received wr
+
+======================================================================
+
+CHUNK 116
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235477
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of do
+
+======================================================================
+
+CHUNK 117
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235494
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Section 5. General Information About Project Gutenberg electronic works
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg eBooks with only a loose network of
+volunteer support.
+
+Project Gutenber
+
+======================================================================
+
+CHUNK 118
+----------------------------------------
+METADATA:
+  act_name            : Indian Contract Act, 1872
+  year_enacted        : 1872
+  last_amended        : 
+  legal_domain        : contract, agency, commercial
+  related_acts        : 
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : Regulates the formation, performance and breach of contracts between parties in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : contract_law_explained.txt
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:51:07.235505
+
+CONTENT:
+Indian Contract Act, 1872 |  | Section
+
+Most people start at our website which has the main PG search
+facility: www.gutenberg.org.
+
+This website includes information about Project Gutenberg,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+======================================================================
+

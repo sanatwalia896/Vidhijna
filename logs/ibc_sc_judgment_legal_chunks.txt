@@ -1,0 +1,3508 @@
+FILE:         ibc_sc_judgment.pdf
+NAMESPACE:    vidhijna-legal
+INGESTED AT:  2026-03-22T15:36:35.714451
+TOTAL CHUNKS: 112
+======================================================================
+
+CHUNK 1
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 1
+  section_title       : The present appeals revolve around whether Section 14 of the
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.710832
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 1
+
+REPORTABLE
+IN THE SUPREME COURT OF INDIA
+CIVIL APPELLATE JURISDICTION
+CIVIL APPEAL NO. 3595 OF 2018
+STATE BANK OF INDIA … APPELLANT
+VERSUS
+V. RAMAKRISHNAN & ANR. … RESPONDENTS
+WITH
+CIVIL APPEAL NO. 4553 OF 2018
+J U D G M E N T
+R.F. NARIMAN, J.
+1. The present appeals revolve around whether Section 14 of the
+Insolvency and Bankruptcy Code, 2016, w
+
+======================================================================
+
+CHUNK 2
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 2
+  section_title       : The factual backdrop of the present appeals is that the
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.710914
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 2
+
+2. The factual backdrop of the present appeals is that the
+Respondent No.1 is the Managing Director of the corporate debtor,
+1
+
+namely, the Respondent No.2 Company, and also the personal guarantor
+in respect of credit facilities that had been availed from the Appellant.
+The Guarantee Agreement entered into between the Appellant and the
+Responden
+
+======================================================================
+
+CHUNK 3
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 3
+  section_title       : As the Respondent No.2 Company did not pay its debts in time,
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.710933
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 3
+
+3. As the Respondent No.2 Company did not pay its debts in time,
+the account of Respondent No.2 was classified as a non-performing
+asset on 26.07.2015. Consequent thereto, the Appellant issued a notice
+dated 04.08.2015 under Section 13(2) of the SARFAESI Act demanding
+an outstanding amount of Rs.61,13,28,785.48 from the Respondents
+within the st
+
+======================================================================
+
+CHUNK 4
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 4
+  section_title       : As matters stood thus, an application was filed by Respondent
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.710944
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 4
+
+4. As matters stood thus, an application was filed by Respondent
+No.2, the corporate debtor, under Section 10 of the Code on 20.05.2017
+to initiate the corporate insolvency resolution process against itself. On
+
+======================================================================
+
+CHUNK 5
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.710968
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+19.06.2017, this petition filed under Section 10 was admitted, followed by
+the moratorium that is imposed statutorily by Section 14 of the Code.
+While the said proceedings were pending, an interim application was
+filed by Respondent No.1 as personal guarantor to the corporate debtor,
+2
+
+in which Respondent No.1 took up the plea that Section 14 of 
+
+======================================================================
+
+CHUNK 6
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 5
+  section_title       : An appeal filed to the National Company Law Appellate Tribunal
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.710989
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 5
+
+18.09.2017, held that since under Section 31 of the Code, a Resolution
+Plan made thereunder would bind the personal guarantor as well, and
+since, after the creditor is proceeded against, the guarantor stands in the
+shoes of the creditor, Section 14 would apply in favour of the personal
+guarantor as well. The interim application filed by Responde
+
+======================================================================
+
+CHUNK 7
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711011
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+28.02.2018, the Appellate Tribunal relied upon Section 60(2) and (3) of
+the Code as well as Section 31 of the Code to find that the moratorium
+imposed under Section 14 would apply also to the personal guarantor.
+The reasoning was that since the personal guarantor can also be
+proceeded against, and forms part of a Resolution Plan which is binding
+o
+
+======================================================================
+
+CHUNK 8
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 6
+  section_title       : Shri Sanjay Kapur, learned counsel appearing on behalf of the
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711025
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 6
+
+6. Shri Sanjay Kapur, learned counsel appearing on behalf of the
+Appellant in C.A. No. 3595 of 2018, and Shri C.U. Singh, learned Senior
+Advocate appearing on behalf of Appellant in C.A. No. 4553 of 2018,
+both argued that the corporate debtor and personal guarantor are
+separate entities and that a corporate debtor undergoing insolvency
+proceedin
+
+======================================================================
+
+CHUNK 9
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711047
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+sued. For this purpose, they relied upon Section 128 of the Indian
+Contract Act, 1872. They also relied heavily upon the reasoning
+contained in a judgment by a Single Judge of the Bombay High Court in
+M/s. Sicom Investments and Finance Ltd. v. Rajesh Kumar Drolia
+and Anr.1 They then referred to Part III of the Code, and in particular, to
+Sections 
+
+======================================================================
+
+CHUNK 10
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711075
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+III, which contains a separate moratorium provision, namely, Sections 96
+and 101, both of which would attach only if a separate insolvency
+process were carried out as against the personal guarantor. Shri Singh,
+in particular, relied heavily upon the difference in language between
+Section 14 and Section 101. According to the learned senior counsel,
+
+======================================================================
+
+CHUNK 11
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711102
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+does not speak of a ‘debtor’ but speaks ‘in relation to the debt’ and is not
+only wider than Section 14, but would attach only if Part III proceedings
+were to be instituted against the personal guarantor. They also relied
+heavily upon the Amendment Ordinance dated 06.06.2018, by which
+Section 14(3) of the Code was substituted, including a surety i
+
+======================================================================
+
+CHUNK 12
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711114
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+shall be outside the scope of the moratorium imposed under the Code.
+The very impugned judgment in the present proceedings was referred to
+by the Insolvency Law Committee stating that such a broad interpretation
+5
+
+======================================================================
+
+CHUNK 13
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711128
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+of Section 14 would curtail significant rights of the creditor. They relied
+upon judgments which made it clear that clarificatory statutes, like this
+amendment, would have retrospective operation and that, therefore, in
+any case, the impugned judgment would have to be set aside.
+
+======================================================================
+
+CHUNK 14
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 7
+  section_title       : Learned counsel appearing on behalf of the Respondents first
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711140
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 7
+
+7. Learned counsel appearing on behalf of the Respondents first
+took shelter under Section 60(2) of the Code, as according to the learned
+counsel, the said Section precludes the bank from proceeding against
+the personal guarantor under SARFAESI or any other Act outside the
+Code. He relied upon the reasoning of the Tribunal and took shelter
+under
+
+======================================================================
+
+CHUNK 15
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711159
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+is pending adjudication in two forums, it is not permissible to proceed
+against the personal guarantor. A financial creditor cannot operate in a
+manner that imperils the value of the property of the personal debtor. He
+also relied strongly upon the Insolvency and Bankruptcy Code
+(Amendment) Act, 2018 which came into effect on 23.11.2017, by which,
+
+======================================================================
+
+CHUNK 16
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711183
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+upon the Statement of Objects of the Amendment Act, 2018, which was,
+inter alia, to extend the provisions of the Code to personal guarantors of
+corporate debtors, to further strengthen the corporate insolvency
+resolution process. He then relied upon certain statutory forms which are
+contained in the Insolvency and Bankruptcy (Application to Adjudi
+
+======================================================================
+
+CHUNK 17
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711198
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+personal guarantees have to be given in relation to the debts of the
+corporate debtor when an insolvency process is initiated against the
+corporate debtor. All this would show that since the personal guarantor is
+very much part of the overall process, the moratorium contained in
+Section 14 of the Code should apply to the personal guarantor as well
+
+======================================================================
+
+CHUNK 18
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 8
+  section_title       : We appointed Shri K.V. Viswanathan, learned Senior Advocate, to
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711208
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 8
+
+8. We appointed Shri K.V. Viswanathan, learned Senior Advocate, to
+assist us as Amicus Curiae in this matter. We thank him for the valuable
+assistance that he has rendered. He has pointed out that the whole idea
+of the Insolvency Code was that the history of debt recovery had shown
+that the earlier statutes were loaded heavily in favour of corpo
+
+======================================================================
+
+CHUNK 19
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711231
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+financial institutions had not been repaid. In particular, he pointed out
+Section 22 of the Sick Industrial Companies (Special Provisions) Act,
+1985, and stated that as a result of the said Section applying to
+guarantors as well, creditors could not proceed against guarantors as
+well after the company had been declared sick under the said Act,
+wit
+
+======================================================================
+
+CHUNK 20
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711249
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Section 14 of the Code was deliberate, and that the idea was that there
+should be no stay of proceedings against the guarantor while the
+corporate debtor is undergoing an insolvency proceeding. For this, he
+cited various judgments. He also relied upon the Amendment Act, 2018
+and stated that since the Act was to get over the appellate judgment in
+p
+
+======================================================================
+
+CHUNK 21
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 9
+  section_title       : Before dealing with the arguments of learned counsel on both
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711266
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 9
+
+9. Before dealing with the arguments of learned counsel on both
+sides, it is important at this stage to set out some of the provisions of the
+Code. One difficulty that we faced when hearing the matter was that
+different provisions of the Code were brought into force on different
+8
+
+dates, as Section 1(3) indicates. Also, certain important provis
+
+======================================================================
+
+CHUNK 22
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 10
+  section_title       : Section 2(e) of the Code, as originally enacted, reads as under:
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711279
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 10
+
+10. Section 2(e) of the Code, as originally enacted, reads as under:
+“2. Application.— The provisions of this Code shall
+apply to—
+xxx xxx xxx
+(e) partnership firms and individuals;
+xxx xxx xxx”
+By the Amendment Act, 2018, this Section was substituted as follows:
+“2. Application.— The provisions of this Code shall
+apply to—
+xxx xxx xxx
+(e) pers
+
+======================================================================
+
+CHUNK 23
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 11
+  section_title       : Section 3(7), (8) and (11) of the Code read as under:
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711292
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 11
+
+11. Section 3(7), (8) and (11) of the Code read as under:
+“3. Definitions.— In this Code, unless the context
+otherwise requires,—
+(7) “corporate person” means a company as defined
+in clause (20) of Section 2 of the Companies Act,
+9
+
+2013 (18 of 2013), a limited liability partnership, as
+defined in clause (n) of sub-section (1) of Section 2
+of t
+
+======================================================================
+
+CHUNK 24
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711310
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(8) “corporate debtor” means a corporate person
+who owes a debt to any person;”
+xxx xxx xxx
+“(11) “debt” means a liability or obligation in respect
+of a claim which is due from any person and
+includes a financial debt and operational debt;”
+
+======================================================================
+
+CHUNK 25
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 12
+  section_title       : Section 5(8)(i) of the Code reads as follows:
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711322
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 12
+
+12. Section 5(8)(i) of the Code reads as follows:
+“5. Definitions.— In this Part, unless the context
+otherwise requires,—
+xxx xxx xxx
+(8) “financial debt” means a debt along with interest,
+if any, which is disbursed against the consideration
+for the time value of money and includes—
+xxx xxx xxx
+(i) the amount of any liability in respect of any 
+
+======================================================================
+
+CHUNK 26
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711339
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(2) The supply of essential goods or services to the
+corporate debtor as may be specified shall not be
+terminated or suspended or interrupted during
+moratorium period.
+11
+
+(3) The provisions of sub-section (1) shall not apply
+to such transactions as may be notified by the
+Central Government in consultation with any
+financial sector regulator.
+
+======================================================================
+
+CHUNK 27
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711366
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(4) The order of moratorium shall have effect from
+the date of such order till the completion of the
+corporate insolvency resolution process:
+Provided that where at any time during the
+corporate insolvency resolution process period, if
+the Adjudicating Authority approves the resolution
+plan under sub-section (1) of Section 31 or passes
+an order fo
+
+======================================================================
+
+CHUNK 28
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711383
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+plan as approved by the committee of creditors
+under sub-section (4) of section 30 meets the
+requirements as referred to in sub-section (2) of
+Section 30, it shall by order approve the resolution
+plan which shall be binding on the corporate debtor
+and its employees, members, creditors, guarantors
+and other stakeholders involved in the resolution
+p
+
+======================================================================
+
+CHUNK 29
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711395
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(2) Where the Adjudicating Authority is satisfied that
+the resolution plan does not confirm to the
+requirements referred to in sub-section (1), it may,
+by an order, reject the resolution plan.
+
+======================================================================
+
+CHUNK 30
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711409
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(3) After the order of approval under sub-section (1),
+—
+(a) the moratorium order passed by the
+Adjudicating Authority under Section 14 shall
+cease to have effect; and
+12
+
+======================================================================
+
+CHUNK 31
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711427
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(2) Without prejudice to sub-section (1) and
+notwithstanding anything to the contrary contained
+in this Code, where a corporate insolvency
+resolution process or liquidation proceeding of a
+corporate debtor is pending before a National
+Company Law Tribunal, an application relating to the
+insolvency resolution or bankruptcy of a personal
+guarantor o
+
+======================================================================
+
+CHUNK 32
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711449
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(3) An insolvency resolution process or bankruptcy
+proceeding of a personal guarantor of the corporate
+debtor pending in any court or tribunal shall stand
+transferred to the Adjudicating Authority dealing with
+insolvency resolution process or liquidation
+proceeding of such corporate debtor.
+(4) The National Company Law Tribunal shall be
+vested wit
+
+======================================================================
+
+CHUNK 33
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711474
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(6) Notwithstanding anything contained in the
+Limitation Act, 1963 (36 of 1963) or in any other law
+for the time being in force, in computing the period
+of limitation specified for any suit or application by or
+against a corporate debtor for which an order of
+moratorium has been made under this Part, the
+period during which such moratorium is in p
+
+======================================================================
+
+CHUNK 34
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711487
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(2) Where the application has been made in relation
+to a firm, the interim-moratorium under sub-section
+(1) shall operate against all the partners of the firm
+as on the date of the application.
+
+======================================================================
+
+CHUNK 35
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711510
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(3) The provisions of sub-section (1) shall not apply
+to such transactions as may be notified by the
+Central Government in consultation with any
+financial sector regulator.”
+xxx xxx xxx
+“101. Moratorium.— (1) When the application is
+admitted under Section 100, a moratorium shall
+commence in relation to all the debts and shall
+cease to have effect 
+
+======================================================================
+
+CHUNK 36
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711539
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(4) The provisions of this section shall not apply to
+such transactions as may be notified by the Central
+Government in consultation with any financial sector
+regulator.”
+xxx xxx xxx
+“238. Provisions of this Code to override other
+laws.— The provisions of this Code shall have
+effect, notwithstanding anything inconsistent
+therewith contained in any
+
+======================================================================
+
+CHUNK 37
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711551
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+or procedure or existing usage, custom,
+privilege, restriction or exemption shall not be
+affected, notwithstanding that the same
+respectively may have been in any manner
+affirmed or recognised or derived by, in, or from,
+the repealed enactments;
+
+======================================================================
+
+CHUNK 38
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711577
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(3) The mention of particular matters in sub-section
+(2) shall not be held to prejudice the general
+application of Section 6 of the General Clauses Act,
+1897 (10 of 1897) with regard to the effect of repeal
+of the repealed enactments or provisions of the
+enactments mentioned in the Schedule.”
+xxx xxx xxx
+“249. Amendments of Act, 51 of 1993.— The
+R
+
+======================================================================
+
+CHUNK 39
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 15
+  section_title       : The first important thing that needs to be noticed is that, as has
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711819
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 15
+
+15. The first important thing that needs to be noticed is that, as has
+been stated earlier in this judgment, Part III of the Code has not yet been
+brought into force. This part is entitled “Insolvency Resolution and
+Bankruptcy for Individuals and Partnership Firms”. The repealing
+provision, namely Section 243, which repeals the Presidency Towns
+
+======================================================================
+
+CHUNK 40
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711834
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Recovery Tribunals under that Act can exercise the jurisdiction of the
+Adjudicating Authority conferred by the Code, has also not been brought
+into force.
+
+======================================================================
+
+CHUNK 41
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 16
+  section_title       : Under Part II of the Code, which deals with “Insolvency Resolution
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711845
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 16
+
+16. Under Part II of the Code, which deals with “Insolvency Resolution
+and Liquidation for Corporate Persons”, a financial creditor or a corporate
+18
+
+debtor may make an application to initiate this process. Once initiated,
+the Adjudicating Authority, after admission of such an application, shall by
+order, declare a moratorium for the purposes 
+
+======================================================================
+
+CHUNK 42
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 17
+  section_title       : Section 14 refers to four matters that may be prohibited once the
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711861
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 17
+
+17. Section 14 refers to four matters that may be prohibited once the
+moratorium comes into effect. In each of the matters referred to, be it
+institution or continuation of proceedings, the transferring, encumbering
+or alienating of assets, action to recover security interest, or recovery of
+property by an owner which is in possession of the co
+
+======================================================================
+
+CHUNK 43
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711876
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+therefore, leads to the conclusion that the moratorium referred to in
+Section 14 can have no manner of application to personal guarantors of
+a corporate debtor.
+
+======================================================================
+
+CHUNK 44
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 18
+  section_title       : However, Sections 2(e) and Section 60 are strongly relied upon by
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711886
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 18
+
+18. However, Sections 2(e) and Section 60 are strongly relied upon by
+learned counsel for the Respondents as, according to them, the Code
+will apply to personal guarantors of corporate debtors, and by Section
+19
+
+60, proceedings against such personal guarantors will show that such
+moratorium extends to the guarantor as well.
+
+======================================================================
+
+CHUNK 45
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 19
+  section_title       : We are afraid that such arguments have to be turned down on a
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711899
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 19
+
+19. We are afraid that such arguments have to be turned down on a
+careful reading of the Sections relied upon. Section 60 of the Code, in
+sub-section (1) thereof, refers to insolvency resolution and liquidation for
+both corporate debtors and personal guarantors, the Adjudicating
+Authority for which shall be the National Company Law Tribunal, ha
+
+======================================================================
+
+CHUNK 46
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711923
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+resolution processes against corporate debtors. So far as personal
+guarantors are concerned, we have seen that Part III has not been
+brought into force, and neither has Section 243, which repeals the
+Presidency-Towns Insolvency Act, 1909 and the Provincial Insolvency
+Act, 1920. The net result of this is that so far as individual personal
+guarantor
+
+======================================================================
+
+CHUNK 47
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711938
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+and further, that the provisions relating to insolvency resolution and
+bankruptcy for individuals and partnerships as contained in Part III of the
+Code are yet to be notified. Hence, it was advised that stakeholders who
+intend to pursue their insolvency cases may approach the appropriate
+authority/court under the existing enactments, instead of ap
+
+======================================================================
+
+CHUNK 48
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 20
+  section_title       : It is for this reason that sub-section (2) of Section 60 speaks of an
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711953
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 20
+
+20. It is for this reason that sub-section (2) of Section 60 speaks of an
+application relating to the “bankruptcy” of a personal guarantor of a
+corporate debtor and states that any such bankruptcy proceedings shall
+be filed only before the National Company Law Tribunal. The argument
+of the learned counsel on behalf of the Respondents that “bank
+
+======================================================================
+
+CHUNK 49
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711970
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+bankruptcy proceeding of a personal guarantor of the corporate debtor
+pending in any Court or Tribunal, which shall stand transferred to the
+Adjudicating Authority dealing with the insolvency resolution process or
+liquidation proceedings of such corporate debtor. An “Adjudicating
+21
+
+======================================================================
+
+CHUNK 50
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711980
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Authority”, defined under Section 5(1) of the Code, means the National
+Company Law Tribunal constituted under the Companies Act, 2013.
+
+======================================================================
+
+CHUNK 51
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 21
+  section_title       : The scheme of Section 60(2) and (3) is thus clear – the moment
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.711994
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 21
+
+21. The scheme of Section 60(2) and (3) is thus clear – the moment
+there is a proceeding against the corporate debtor pending under the
+2016 Code, any bankruptcy proceeding against the individual personal
+guarantor will, if already initiated before the proceeding against the
+corporate debtor, be transferred to the National Company Law Tribunal
+
+
+======================================================================
+
+CHUNK 52
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712019
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Insolvency Act, 1920, as the case may be. It is clear that sub-section (4),
+which states that the Tribunal shall be vested with all the powers of the
+Debt Recovery Tribunal, as contemplated under Part III of this Code, for
+the purposes of sub-section (2), would not take effect, as the Debt
+Recovery Tribunal has not yet been empowered to hear bankr
+
+======================================================================
+
+CHUNK 53
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712038
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+proceedings, has also not been brought into force. It is thus clear that
+Section 2(e), which was brought into force on 23.11.2017 would, when it
+refers to the application of the Code to a personal guarantor of a
+corporate debtor, apply only for the limited purpose contained in Section
+60(2) and (3), as stated hereinabove. This is what is meant by
+
+
+======================================================================
+
+CHUNK 54
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 22
+  section_title       : Section 31 of the Act was also strongly relied upon by the
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712053
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 22
+
+22. Section 31 of the Act was also strongly relied upon by the
+Respondents. This Section only states that once a Resolution Plan, as
+approved by the Committee of Creditors, takes effect, it shall be binding
+on the corporate debtor as well as the guarantor. This is for the reason
+that otherwise, under Section 133 of the Indian Contract Act, 1872
+
+======================================================================
+
+CHUNK 55
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712069
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+provisions as to payments to be made by such guarantor. This is perhaps
+the reason that Annexure VI(e) to Form 6 contained in the Rules and
+Regulation 36(2) referred to above, require information as to personal
+guarantees that have been given in relation to the debts of the corporate
+23
+
+======================================================================
+
+CHUNK 56
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712084
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+debtor. Far from supporting the stand of the Respondents, it is clear that
+in point of fact, Section 31 is one more factor in favour of a personal
+guarantor having to pay for debts due without any moratorium applying
+to save him.
+
+======================================================================
+
+CHUNK 57
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 23
+  section_title       : We are also of the opinion that Sections 96 and 101, when
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712098
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 23
+
+23. We are also of the opinion that Sections 96 and 101, when
+contrasted with Section 14, would show that Section 14 cannot possibly
+apply to a personal guarantor. When an application is filed under Part III,
+an interim-moratorium or a moratorium is applicable in respect of any
+debt due. First and foremost, this is a separate moratorium, applic
+
+======================================================================
+
+CHUNK 58
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712121
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+of Section 14 in that pending legal proceedings in respect of the debt and
+not the debtor are stayed. The difference in language between Sections
+14 and 101 is for a reason. Section 14 refers only to debts due by
+corporate debtors, who are limited liability companies, and it is clear that
+in the vast majority of cases, personal guarantees are give
+
+======================================================================
+
+CHUNK 59
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712146
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Section 14 is not applied to them. However, insofar as firms and
+individuals are concerned, guarantees are given in respect of individual
+debts by persons who have unlimited liability to pay them. And such
+guarantors may be complete strangers to the debtor – often it could be a
+personal friend. It is for this reason that the moratorium mentioned i
+
+======================================================================
+
+CHUNK 60
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712176
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+even though Sections 96 and 101 have not yet been brought into force.
+This is for the reason, as has been held in State of Kerala and Ors. v.
+Mar Appraem Kuri Co. Ltd. and Anr., (2012) 7 SCC 106, that a law
+‘made’ by the Legislature is a law on the statute book even though it may
+not have been brought into force. The said judgment states:
+“79. The
+
+======================================================================
+
+CHUNK 61
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712192
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Thus, Parliament need not wait for the law made by
+the State Legislature with the President's assent to be
+brought into force as it can repeal, amend, vary or add
+to the assented State law no sooner it is made or
+enacted. We see no justification for inhibiting
+Parliament from repealing, amending or varying any
+State legislation, which has received
+
+======================================================================
+
+CHUNK 62
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712208
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+assent, overriding within the State's territory, an earlier
+parliamentary enactment in the concurrent sphere,
+before it is brought into force. Parliament can repeal,
+amend, or vary such State law no sooner it is assented
+to by the President and that it need not wait till such
+assented-to State law is brought into force. This view
+finds support in 
+
+======================================================================
+
+CHUNK 63
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 80
+  section_title       : Lastly, the definitions of the expressions “laws in
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712222
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 80
+
+80. Lastly, the definitions of the expressions “laws in
+force” in Article 13(3)(b) and Article 372(3) Explanation
+I and “existing law” in Article 366(10) show that the
+laws in force include laws passed or made by a
+legislature before the commencement of the
+Constitution and not repealed, notwithstanding that
+any such law may not be in operation
+
+======================================================================
+
+CHUNK 64
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712236
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Article 254, unless it is enforced. The expression
+“existing law” finds place in Article 254. In Edward
+Mills Co. Ltd. v. State of Ajmer [AIR 1955 SC 25], this
+Court has held that there is no difference between an
+“existing law” and a “law in force”.
+
+======================================================================
+
+CHUNK 65
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 81
+  section_title       : Applying the tests enumerated hereinabove, we
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712251
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 81
+
+81. Applying the tests enumerated hereinabove, we
+hold that the Kerala Chitties Act, 1975 became void on
+the making of the Chit Funds Act, 1982 on 19-8-1982,
+[when it received the assent of the President and got
+published in the Official Gazette] as the Central 1982
+Act intended to cover the entire field with regard to the
+conduct of the chits 
+
+======================================================================
+
+CHUNK 66
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712262
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(Central) Chit Funds Act, 1982 occupied the entire field
+as envisaged in Article 254(1) of the Constitution.”
+
+======================================================================
+
+CHUNK 67
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 24
+  section_title       : Thus, for the purpose of interpretation, it is certainly open for us to
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712270
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 24
+
+24. Thus, for the purpose of interpretation, it is certainly open for us to
+contrast Section 14 with Sections 96 and 101, as Sections 96 and 101
+are laws made by the Legislature, even though they have not yet been
+brought into force.
+
+======================================================================
+
+CHUNK 68
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 25
+  section_title       : As argued by Shri Viswanathan, the historical background of the
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712284
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 25
+
+25. As argued by Shri Viswanathan, the historical background of the
+Code now needs to be looked at. Section 22 of the Sick Industrial
+Companies (Special Provisions) Act, 1985 reads as follows:
+“22. Suspension of legal proceedings, contracts,
+etc.—(1) Where in respect of an industrial company,
+an inquiry under Section 16 is pending or any
+scheme
+
+======================================================================
+
+CHUNK 69
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712294
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+industrial company] shall lie or be proceeded with
+further, except with the consent of the Board or, as
+the case may be, the Appellate Authority.
+
+======================================================================
+
+CHUNK 70
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712319
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(2) Where the management of the sick industrial
+company is taken over or changed [in pursuance of
+any scheme sanctioned under Section 18]
+notwithstanding anything contained in the
+Companies Act, 1956 (1 of 1956), or any other law
+or in the memorandum and articles of association of
+such company or any instrument having effect under
+the said Act or 
+
+======================================================================
+
+CHUNK 71
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712343
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(3) [Where an inquiry under Section 16 is pending or
+any scheme referred to in Section 17 is under
+preparation or during the period] of consideration of
+any scheme under Section 18 or where any such
+scheme is sanctioned thereunder, for due
+implementation of the scheme, the Board may by
+order declare with respect to the sick industrial
+company conc
+
+======================================================================
+
+CHUNK 72
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712358
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+immediately before the date of such order, shall
+remain suspended or that all or any of the rights,
+privileges, obligations and liabilities accruing or
+arising thereunder before the said date, shall remain
+suspended or shall be enforceable with such
+adaptations and in such manner as may be
+specified by the Board:
+28
+
+======================================================================
+
+CHUNK 73
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712370
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Provided that such declaration shall not be made for
+a period exceeding two years which may be
+extended by one year at a time so, however, that the
+total period shall not exceed seven years in the
+aggregate.
+
+======================================================================
+
+CHUNK 74
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712390
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(4) Any declaration made under sub-section (3) with
+respect to a sick industrial company shall have
+effect notwithstanding anything contained in the
+Companies Act, 1956 (1 of 1956), or any other law,
+the memorandum and articles of association of the
+company or any instrument having effect under the
+said Act or other law or any agreement or any
+dec
+
+======================================================================
+
+CHUNK 75
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712402
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(5) In computing the period of limitation for the
+enforcement of any right, privilege, obligation or
+liability, the period during which it or the remedy for
+the enforcement thereof remains suspended under
+this section shall be excluded.
+29
+
+======================================================================
+
+CHUNK 76
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712427
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+It will be clear from a reading of sub-section (1) thereof that suits for the
+enforcement of any guarantee in respect of loans or advances granted to
+the industrial company, shall not lie or be proceeded with further, except
+with the consent of the Board or Appellate Authority. It may be noted that
+the Sick Industrial Companies (Special Provisions
+
+======================================================================
+
+CHUNK 77
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712454
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+“40. An interesting pointer to the direction Parliament
+has taken after enactment of the Securitisation and
+Reconstruction of Financial Assets and Enforcement
+of Security Interest Act, 2002 is also of some
+relevance in this context. The Eradi Committee
+Report relating to insolvency and winding up of
+companies dated 31-7-2000, observed that out of
+
+
+======================================================================
+
+CHUNK 78
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712471
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+These facts and figures speak for themselves and
+place a big question mark on the utility of the Sick
+Industrial Companies (Special Provisions) Act, 1985.
+The Committee further pointed out that effectiveness
+of the Sick Industrial Companies (Special
+Provisions) Act, 1985 as has been pointed out
+earlier, has been severely undermined by reason of
+th
+
+======================================================================
+
+CHUNK 79
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712485
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+cases by BIFR. (See Paras 5.8, 5.9 and 5.15 of the
+Report.) Consequently, the Committee
+recommended that the Sick Industrial Companies
+(Special Provisions) Act, 1985 be repealed and the
+provisions thereunder for revival and rehabilitation
+should be telescoped into the structure of the
+Companies Act, 1956 itself.
+
+======================================================================
+
+CHUNK 80
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 41
+  section_title       : Pursuant to the Eradi Committee Report, the
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712496
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 41
+
+41. Pursuant to the Eradi Committee Report, the
+Companies Act was amended in 2002 by providing
+for the constitution of a National Company Law
+Tribunal as a substitute for the Company Law
+Board, the High Court, BIFR and AAIFR. The Eradi
+Committee Report was further given effect to by
+inserting Sections 424-A to 424-H into the
+Companies Act, 1956
+
+======================================================================
+
+CHUNK 81
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 1985
+  section_title       : Interestingly, the Companies Amendment Act,
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712508
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 1985
+
+1985. Interestingly, the Companies Amendment Act,
+2002 omitted a provision similar to Section 22(1) of
+the Sick Industrial Companies (Special Provisions)
+Act, 1985. Consequently, creditors were given liberty
+to file suits or initiate other proceedings for recovery
+of dues despite pendency of proceedings for the
+revival or rehabilitation of si
+
+======================================================================
+
+CHUNK 82
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : Chapter 19 — consisting of Sections 253 to 269 dealing with
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712531
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 | Chapter 19 — consisting of Sections 253 to 269 dealing with | Section
+
+Companies Act, 1956, contains Chapter 19
+consisting of Sections 253 to 269 dealing with
+revival and rehabilitation of sick companies along
+the lines of Sections 424-A to 424-H of the amended
+Companies Act, 1956. Conspicuous by its absence
+is a provision akin to Section 22(1) of the Sick
+In
+
+======================================================================
+
+CHUNK 83
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712557
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Parliament veering around from wanting to protect
+sick industrial companies and rehabilitate them to
+giving credence to the public interest contained in
+the recovery of public monies owing to banks and
+financial institutions. These provisions also show
+that the aforesaid construction of the provisions of
+the Securitisation and Reconstruction of Fi
+
+======================================================================
+
+CHUNK 84
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712582
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+revived or rehabilitated. In fact, another interesting
+document is the Report on Trend and Progress of
+Banking in India 2011-2012 for the year ended 30-6-
+2012 submitted by Reserve Bank of India to the
+Central Government in terms of Section 36(2) of the
+Banking Regulation Act, 1949. In Table IV.14 the
+Report provides statistics regarding trends in
+
+======================================================================
+
+CHUNK 85
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712592
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+recovered through the Securitisation and
+Reconstruction of Financial Assets and Enforcement
+of Security Interest Act, 2002 during 2011-2012
+32
+
+======================================================================
+
+CHUNK 86
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712615
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+registered a decline compared to the previous year,
+but, even then, the amounts recovered under the
+said Act constituted 70% of the total amount
+recovered. The amounts recovered under the
+Recovery of Debts Due to Banks and Financial
+Institutions Act, 1993 constituted only 28%. All this
+would go to show that the amounts that public
+sector banks and
+
+======================================================================
+
+CHUNK 87
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712625
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+of Financial Assets and Enforcement of Security
+Interest Act, 2002 which Act alone seems to have
+worked to some extent at least.
+
+======================================================================
+
+CHUNK 88
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 44
+  section_title       : It will, thus, be seen that notwithstanding the non
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712637
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 44
+
+44. It will, thus, be seen that notwithstanding the non
+obstante clauses in Sections 22(1) and (4), read
+with Section 32, Section 22 of the Sick Industrial
+Companies (Special Provisions) Act, 1985 will have
+to give way to the measures taken under the
+Securitisation and Reconstruction of Financial
+Assets and Enforcement of Security Interest Act,
+
+======================================================================
+
+CHUNK 89
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712653
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+Provisions) Act, 1985.”
+(emphasis supplied)
+It is thus clear that for this reason also, it is obvious that Parliament,
+when it enacted Section 14, had this history in mind and specifically did
+not provide for any moratorium along the lines of Section 22 of the Sick
+33
+
+======================================================================
+
+CHUNK 90
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 26
+  section_title       : The reasoning of the Bombay High Court in the judgment of M/s.
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712661
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 26
+
+26. The reasoning of the Bombay High Court in the judgment of M/s.
+Sicom Investments and Finance Ltd. (supra) commends itself to us.
+The reasoning of the Allahabad High Court, on the other hand, does not.
+
+======================================================================
+
+CHUNK 91
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 27
+  section_title       : We now come to the argument that the amendment of 2018,
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712672
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 27
+
+27. We now come to the argument that the amendment of 2018,
+which makes it clear that Section 14(3), is now substituted to read that
+the provisions of sub-section (1) of Section 14 shall not apply to a surety
+in a contract of guarantee for corporate debtor. The amended Section
+reads as follows:
+“14. Moratorium.—
+xxx xxx xxx
+(3) The provisions o
+
+======================================================================
+
+CHUNK 92
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 28
+  section_title       : The Insolvency Law Committee, appointed by the Ministry of
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712682
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 28
+
+28. The Insolvency Law Committee, appointed by the Ministry of
+Corporate Affairs, by its Report dated 26.03.2018, made certain key
+recommendations, one of which was:
+34
+
+======================================================================
+
+CHUNK 93
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712709
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+“(iv) to clear the confusion regarding treatment of
+assets of guarantors of the corporate debtor vis-à-
+vis the moratorium on the assets of the corporate
+debtor, it has been recommended to clarify by way
+of an explanation that all assets of such guarantors
+to the corporate debtor shall be outside scope of
+moratorium imposed under the Code;”
+The Co
+
+======================================================================
+
+CHUNK 94
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712735
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+of moratorium regarding its application to third
+parties affected by the debt of the corporate debtor,
+like guarantors or sureties. While some courts have
+taken the view that Section 14 may be interpreted
+literally to mean that it only restricts actions against
+the assets of the corporate debtor, a few others
+have taken an interpretation that the 
+
+======================================================================
+
+CHUNK 95
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712753
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+enforcement of guarantee against personal
+guarantor to the debt. The rationale being that if a
+CRIP is going on against the corporate debtor, then
+the debt owed by the corporate debtor is not final till
+the resolution plan is approved, and thus the liability
+of the surety would also be unclear. The Court took
+the view that until debt of the corpor
+
+======================================================================
+
+CHUNK 96
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712768
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+triggered. The Committee deliberated and noted that
+this would meant that surety’s liabilities are put on
+hold if a CIRP is going on against the corporate
+debtor, and such an interpretation may lead to the
+contracts of guarantee being infructuous, and not
+serving the purpose for which they have been
+entered into.
+
+======================================================================
+
+CHUNK 97
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712794
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+5.8 In State Bank of India v. V. Ramakrishnan and
+Veeson Energy Systems, NCLAT, New Delhi,
+Company Appeal (AT) (Insolvency) No. 213/2017
+[Date of decision – 28 February, 2018], the NCLAT
+took a broad interpretation of Section 14 and held
+that it would bar proceedings or actions against
+sureties. While doing so, it did not refer to any of the
+above
+
+======================================================================
+
+CHUNK 98
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712817
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+5.9 A contract of guarantee is between the creditor,
+the principal debtor and the surety, where under the
+creditor has a remedy in relation to his debt against
+both the principal debtor and the surety [National
+Project Construction Corporation Limited v. Sandhu
+and Co., AIR 1990 P&H 300]. The surety here may
+be a corporate or a natural person and 
+
+======================================================================
+
+CHUNK 99
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712831
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+or both, in no particular sequence [Chokalinga
+Chettiar v. Dandayunthapani Chattiar, AIR 1928
+Mad 1262]. Though this may be limited by the terms
+of the contract of guarantee, the general principle of
+such contracts is that the liability of the principal
+debtor and the surety is co-extensive and is joint
+36
+
+======================================================================
+
+CHUNK 100
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712849
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+and several [Bank of Bihar v. Damodar Prasad, AIR
+1969 SC 297]. The Committee noted that this
+characteristic of such contracts i.e. of having remedy
+against both the surety and the corporate debtor,
+without the obligation to exhaust the remedy against
+one of the parties before proceeding against the
+other, is of utmost important for the creditor a
+
+======================================================================
+
+CHUNK 101
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712874
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+5.10 The Committee further noted that a literal
+interpretation of Section 14 is prudent, and a
+broader interpretation may not be necessary in the
+above context. The assets of the surety are
+separate from those of the corporate debtor, and
+proceedings against the corporate debtor may not
+be seriously impacted by the actions against assets
+of third 
+
+======================================================================
+
+CHUNK 102
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712886
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+principles of guarantee require being respected
+even during a moratorium and an alternate
+interpretation may not have been the intention of the
+Code, as is clear from a plain reading of Section 14.
+
+======================================================================
+
+CHUNK 103
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712906
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+5.11 Further, since many guarantees for loans of
+corporates are given by its promoters in the form of
+personal guarantees, if there is a stay on actions
+against their assets during a CIRP, such promoters
+(who are also corporate applicants) may file
+frivolous applications to merely take advantage of
+the stay and guard their assets. In the judgments
+
+======================================================================
+
+CHUNK 104
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712922
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+The Committee concluded that Section 14 does not
+intend to bar actions against assets of guarantors to
+the debts of the corporate debtor and recommended
+that an explanation to clarify this may be inserted in
+Section 14 of the Code. The scope of the
+moratorium may be restricted to the assets of the
+corporate debtor only.”
+
+======================================================================
+
+CHUNK 105
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 29
+  section_title       : The Report of the said Committee makes it clear that the object of
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712931
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 29
+
+29. The Report of the said Committee makes it clear that the object of
+the amendment was to clarify and set at rest what the Committee
+thought was an overbroad interpretation of Section 14. That such
+clarificatory amendment is retrospective in nature, would be clear from
+the following judgments:
+
+======================================================================
+
+CHUNK 106
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712958
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+(i) CIT v. Shelly Products, (2003) 5 SCC 461:
+“38. It was submitted that after 1-4-1989, in case the
+assessment is annulled the assessee is entitled to
+refund only of the amount, if any, of the tax paid in
+excess of the tax chargeable on the total income
+returned by the assessee. But before the
+amendment came into effect the position in law was
+qu
+
+======================================================================
+
+CHUNK 107
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712972
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+submitted that this Court in CIT v. Chittor Electric
+Supply Corpn [(1995) 2 SCC 430 : (1995) 212 ITR
+404] has held that proviso (a) to Section 240 is
+declaratory and, therefore, proviso (b) should also
+be held to be declaratory. In our view that is not the
+correct position in law. Where the proviso consists of
+38
+
+======================================================================
+
+CHUNK 108
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.712996
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+two parts, one part may be declaratory but the other
+part may not be so. Therefore, merely because one
+part of the proviso has been held to be declaratory it
+does not follow that the second part of the proviso is
+also declaratory. However, the view that we have
+taken supports the stand of the Revenue that
+proviso (b) to Section 240 is also declara
+
+======================================================================
+
+CHUNK 109
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.713020
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+provision. It, therefore, follows that proviso (b) to
+Section 240 is also declaratory. It seeks to clarify the
+law so as to remove doubts leading to the courts
+giving conflicting decisions, and in several cases
+directing the Revenue to refund the entire amount of
+income tax paid by the assessee where the
+Revenue was not in a position to frame a fr
+
+======================================================================
+
+CHUNK 110
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.713045
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+error in the interpretation of statute. It only seeks to
+clear the meaning of a provision of the principal Act
+and make explicit that which was already implicit.”
+(ii) CIT v. Vatika Township, (2015) 1 SCC 1:
+“32. Let us sharpen the discussion a little more. We
+may note that under certain circumstances, a
+particular amendment can be treated as clar
+
+======================================================================
+
+CHUNK 111
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.713054
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section
+
+The above summing up is factually based on the
+judgments of this Court as well as English
+decisions.”
+
+======================================================================
+
+CHUNK 112
+----------------------------------------
+METADATA:
+  act_name            : Insolvency and Bankruptcy Code, 2016
+  year_enacted        : 2016
+  last_amended        : 
+  legal_domain        : insolvency, bankruptcy, commercial
+  related_acts        : Indian Contract Act, 1872, Companies Act, 2013, SEBI Act, 1992
+  importance          : high
+  doc_type            : code
+  jurisdiction        : India
+  doc_summary         : Regulates insolvency and bankruptcy proceedings in India, providing a framework for resolving financial distress and promoting corporate restructuring.
+  chapter             : 
+  section_number      : 30
+  section_title       : For all these reasons, we are of the view that the impugned
+  source              : ibc_sc_judgment.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:36:35.713063
+
+CONTENT:
+Insolvency and Bankruptcy Code, 2016 |  | Section 30
+
+30. For all these reasons, we are of the view that the impugned
+judgment of the Tribunal has to be set aside. The appeals are
+accordingly allowed.
+……………………………..J.
+(R.F. Nariman)
+……………………………..J.
+(Indu Malhotra)
+New Delhi;
+August 14, 2018.
+41
+
+======================================================================
+

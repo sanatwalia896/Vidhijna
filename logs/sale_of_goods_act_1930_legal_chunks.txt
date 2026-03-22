@@ -1,0 +1,2948 @@
+FILE:         sale_of_goods_act_1930.pdf
+NAMESPACE:    vidhijna-legal
+INGESTED AT:  2026-03-22T15:48:15.363145
+TOTAL CHUNKS: 100
+======================================================================
+
+CHUNK 1
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : Chapter III — EFFECTS OF THE CONTRACT
+  section_number      : 18
+  section_title       : Goods must be ascertained.
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358285
+
+CONTENT:
+The Sale of Goods Act, 1930 | Chapter III — EFFECTS OF THE CONTRACT | Section 18
+
+CHAPTER III
+EFFECTS OF THE CONTRACT
+Transfer of property as between seller and buyer
+18. Goods must be ascertained.
+19. Property passes when intended to pass.
+20. Specific goods in a deliverable state.
+1
+
+SECTIONS
+21. Specific goods to be put into a deliverable state.
+22. Specific goods in a deliverable state, when t
+
+======================================================================
+
+CHUNK 2
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 27
+  section_title       : Sale by person not the owner.
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358437
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 27
+
+27. Sale by person not the owner.
+28. Sale by one of joint owners.
+29. Sale by person in possession under voidable contract.
+30. Seller or buyer in possession after sale.
+
+======================================================================
+
+CHUNK 3
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : Chapter VII — MISCELLANEOUS
+  section_number      : 62
+  section_title       : Exclusion of implied terms and conditions.
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358466
+
+CONTENT:
+The Sale of Goods Act, 1930 | Chapter VII — MISCELLANEOUS | Section 62
+
+CHAPTER VII
+MISCELLANEOUS
+62. Exclusion of implied terms and conditions.
+63. Reasonable time a question of fact.
+64. Auction sale.
+64A. In contracts of sale, amount of increased or decreased taxes to be added or deducted.
+65. [Repealed.].
+66. Savings.
+3
+
+THE SALE OF GOODS ACT, 1930
+ACT NO. 3 OF 19301
+[15th March, 1930.]
+An Act
+
+======================================================================
+
+CHUNK 4
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : Chapter I — PRELIMINARY
+  section_number      : 1
+  section_title       : Short title, extent and commencement.—(1) This Act may be called the 2*** Sale o
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358487
+
+CONTENT:
+The Sale of Goods Act, 1930 | Chapter I — PRELIMINARY | Section 1
+
+CHAPTER I
+PRELIMINARY
+1. Short title, extent and commencement.—(1) This Act may be called the 2*** Sale of Goods Act,
+1930.
+3[(2) It extends to the whole of India 4***.]
+(3) It shall come into force on the 1st day of July, 1930.
+
+======================================================================
+
+CHUNK 5
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 2
+  section_title       : Definitions.—In this Act, unless there is anything repugnant in the subject or c
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358507
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 2
+
+2. Definitions.—In this Act, unless there is anything repugnant in the subject or context,—
+(1) “buyer” means a person who buys or agrees to buy goods;
+(2) “delivery” means voluntary transfer of possession from one person to another;
+(3) goods are said to be in a “deliverable state” when they are in such state that the buyer would
+under the contract be b
+
+======================================================================
+
+CHUNK 6
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358549
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(4) “document of title to goods” includes a bill of lading, dockwarrant, warehouse keeper’s
+certificate, wharfingers’ certificate, railway receipt, 5[multimodal transport document,] warrant or
+order for the delivery of goods and any other document used in the ordinary course of business as
+proof of the possession or control of goods, or authorising or purp
+
+======================================================================
+
+CHUNK 7
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358582
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(7) “goods” means every kind of moveable property other than actionable claims and money; and
+includes stock and shares, growing crops, grass, and things attached to or forming part of the land
+which are agreed to be severed before sale or under the contract of sale;
+(8) a person is said to be “insolvent” who has ceased to pay his debts in the ordinary cou
+
+======================================================================
+
+CHUNK 8
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358608
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(9) “mercantile agent” means a mercantile agent having in the customary course of business as
+such agent authority either to sell goods, or to consign goods for the purposes of sale, or to buy goods,
+or to raise money on the security of goods;
+(10) “price” means the money consideration for a sale of goods;
+
+======================================================================
+
+CHUNK 9
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : The Act has been extended to Berar by Act 4 of 1941, to Dadra and Nagar Haveli b
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358630
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 1
+
+1. The Act has been extended to Berar by Act 4 of 1941, to Dadra and Nagar Haveli by Reg. 6 of 1963, s. 2 and the First
+Schedule (w.e.f. 1-7-1965); to Goa, Daman and Diu by Reg. 11 of 1963, s. 3 and the Schedule; to Pondicherry by the
+Pondicherry (Extension of Laws) Act, 1968, s. 3 and Schedule; to Lakshadweep by Reg. 8 of 1965, s. 3 and the Schedule
+(w.
+
+======================================================================
+
+CHUNK 10
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 3
+  section_title       : Subs. by the A.O. 1950, for sub-section (2).
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358646
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 3
+
+3. Subs. by the A.O. 1950, for sub-section (2).
+4. The words “except the State of Jammu and Kashmir” omitted by Act 34 of 2019, s. 95 and the Fifth Schedule
+(w.e.f. 31-10-2019)..
+
+======================================================================
+
+CHUNK 11
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 5
+  section_title       : Ins. by Act 28 of 1993, s. 31 and the Schedule, Part III.
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358666
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 5
+
+5. Ins. by Act 28 of 1993, s. 31 and the Schedule, Part III.
+4
+
+(11) “property” means the general property in goods, and not merely a special property;
+(12) “quality of goods” includes their state or condition;
+(13) “seller” means a person who sells or agrees to sell goods;
+(14) “specific goods” means goods identified and agreed upon at the time a contra
+
+======================================================================
+
+CHUNK 12
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 3
+  section_title       : Application of provisions of Act 9 of 1872.—The unrepealed provisions of the Ind
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358683
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 3
+
+3. Application of provisions of Act 9 of 1872.—The unrepealed provisions of the Indian Contract
+Act, 1872, save in so far as they are inconsistent with the express provisions of this Act, shall continue to
+apply to contracts for the sale of goods.
+
+======================================================================
+
+CHUNK 13
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 4
+  section_title       : Sale and agreement to sell.—(1) A contract of sale of goods is a contract whereb
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358704
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 4
+
+4. Sale and agreement to sell.—(1) A contract of sale of goods is a contract whereby the seller
+transfers or agrees to transfer the property in goods to the buyer for a price. There may be a contract of
+sale between one part-owner and another.
+(2) A contract of sale may be absolute or conditional.
+(3) Where under a contract of sale the property in the go
+
+======================================================================
+
+CHUNK 14
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358726
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(4) An agreement to, sell becomes a sale when the time elapses or the conditions are fulfilled subject
+to which the property in the goods is to be transferred.
+Formalities of the contract
+
+======================================================================
+
+CHUNK 15
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 5
+  section_title       : Contract of sale how made.—(1) A contract of sale is made by an offer to buy or
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358747
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 5
+
+5. Contract of sale how made.—(1) A contract of sale is made by an offer to buy or sell goods for a
+price and the acceptance of such offer. The contract may provide for the immediate delivery of the goods
+or immediate payment of the price or both, or for the delivery or payment by instalments, or that the
+delivery or payment or both shall be postponed.
+(
+
+======================================================================
+
+CHUNK 16
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 6
+  section_title       : Existing or future goods.—(1) The goods which form the subject of a contract of
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358766
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 6
+
+6. Existing or future goods.—(1) The goods which form the subject of a contract of sale may be
+either existing goods, owned or possessed by the seller, or future goods.
+(2) There may be a contract for the sale of goods the acquisition of which by the seller depends upon
+a contingency which may or may not happen.
+(3) Where by a contract of sale the seller
+
+======================================================================
+
+CHUNK 17
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 7
+  section_title       : Goods perishing before making of contract. — Where there is a contract for the s
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358789
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 7
+
+7. Goods perishing before making of contract. — Where there is a contract for the sale of specific
+goods, the contract is void if the goods without the knowledge of the seller have, at the time when the
+contract was made, perished or become so damaged as no longer to answer to their description in the
+contract.
+8. Goods perishing before sale but after ag
+
+======================================================================
+
+CHUNK 18
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 9
+  section_title       : Ascertainment of price.—(1) The price in a contract of sale may be fixed by the
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358808
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 9
+
+9. Ascertainment of price.—(1) The price in a contract of sale may be fixed by the contract or may
+be left to be fixed in manner thereby agreed or may be determined by the course of dealing between the
+parties.
+(2) Where the price is not determined in accordance with the foregoing provisions, the buyer shall
+pay the seller a reasonable price. What is a r
+
+======================================================================
+
+CHUNK 19
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 10
+  section_title       : Agreement to sell at valuation.—(1) Where there is an agreement to sell goods on
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358829
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 10
+
+10. Agreement to sell at valuation.—(1) Where there is an agreement to sell goods on the terms that
+the price is to be fixed by the valuation of a third party and such third party cannot or does not make such
+valuation, the agreement is thereby avoided:
+Provided that, if the goods or any part thereof have been delivered to, and appropriated by, the buye
+
+======================================================================
+
+CHUNK 20
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 11
+  section_title       : Stipulations as to time.—Unless a different intention appears from the terms of
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358846
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 11
+
+11. Stipulations as to time.—Unless a different intention appears from the terms of the contract,
+stipulations as to time of payment arc not deemed to be of the essence of a contract of sale. Whether any
+other Stipulation as to time is of the essence of the contract or not depends on the terms of the contract.
+
+======================================================================
+
+CHUNK 21
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 12
+  section_title       : Condition and warranty.—(1) A stipulation in a contract of sale with reference t
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358866
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 12
+
+12. Condition and warranty.—(1) A stipulation in a contract of sale with reference to goods which
+are the subject thereof may be a condition or a warranty.
+(2) A condition is a stipulation essential to the main purpose of the contract, the breach of which
+gives rise to a right to treat the contract as repudiated.
+(3) A warranty is a stipulation collater
+
+======================================================================
+
+CHUNK 22
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358887
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(4) Whether a stipulation in a contract of sale is a condition or a warranty depends in each case on the
+construction of the contract. A stipulation may be a condition, though called a warranty in the contract.
+
+======================================================================
+
+CHUNK 23
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 13
+  section_title       : When condition to be treated as warranty.— (1) Where a contract of sale is subje
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358909
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 13
+
+13. When condition to be treated as warranty.— (1) Where a contract of sale is subject to any
+condition to be fulfilled by the seller, the buyer may waive the condition or elect to treat
+the breach of the condition as a breach of warranty and not as a ground for treating the contract as
+repudiated.
+(2) Where a contract of sale is not severable and the b
+
+======================================================================
+
+CHUNK 24
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358928
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(3) Nothing in this section shall affect the case of any condition or warranty fulfilment of which is
+excused by law by reason of impossibility or otherwise.
+
+======================================================================
+
+CHUNK 25
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 14
+  section_title       : Implied undertaking as to title, etc.—In a contract of sale, unless the circumst
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358946
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 14
+
+14. Implied undertaking as to title, etc.—In a contract of sale, unless the circumstances of the
+contract are such as to show a different intention, there is—
+(a) an implied condition on the part of the seller that, in the case of a sale, he has a right to sell the
+goods and that, in the case of an agreement to sell, he will have a right to sell the goo
+
+======================================================================
+
+CHUNK 26
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : The words “or where the contract is for specific goods the property in which has
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358964
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 1
+
+1. The words “or where the contract is for specific goods the property in which has passed to the buyer,” omitted by Act 33 of
+1963, s. 3 (w.e.f. 22-9-1963).
+6
+
+(c) an implied warranty that the goods shall be free from any charge or encumbrance in favour of
+any third party not declared or known to the buyer before or at the time when the contract is made
+
+======================================================================
+
+CHUNK 27
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 15
+  section_title       : Sale by description.—Where there is a contract for the sale of goods by descript
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358981
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 15
+
+15. Sale by description.—Where there is a contract for the sale of goods by description, there is an
+implied condition that the goods shall correspond with the description; and, if the sale is by sample as
+well as by description, it is not sufficient that the bulk of the goods corresponds with the sample if the
+goods do not also correspond with the desc
+
+======================================================================
+
+CHUNK 28
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 16
+  section_title       : Implied conditions as to quality or fitness.—Subject to the provisions of this A
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.358998
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 16
+
+16. Implied conditions as to quality or fitness.—Subject to the provisions of this Act and of any
+other law for the time being in force, there is no implied warranty or condition as to the quality or fitness
+for any particular purpose of goods supplied under a contract of sale, except as follows:—
+
+======================================================================
+
+CHUNK 29
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359037
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(1) Where the buyer, expressly or by implication, makes known to the seller the particular
+purpose for which the goods are required, so as to show that the buyer relies on the seller’s skill or
+judgment, and the goods are of a description which it is in the course of the seller’s business to supply
+(whether he is the manufacturer or producer or not), there
+
+======================================================================
+
+CHUNK 30
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359076
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) Where goods are bought by description from a seller who deals in goods of that description
+(whether he is the manufacturer or producer or not), there is an implied condition that the goods shall
+be of merchantable quality:
+Provided that, if the buyer has examined the goods, there shall be no implied condition as regards
+defects which such examination o
+
+======================================================================
+
+CHUNK 31
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 17
+  section_title       : Sale by sample.— (1) A contract of sale is a contract for sale by sample where t
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359096
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 17
+
+17. Sale by sample.— (1) A contract of sale is a contract for sale by sample where there is a term in
+the contract, express or implied, to that effect.
+(2) In the case of a contract for sale by sample there is an implied condition—
+(a) that the bulk shall correspond with the sample in quality;
+(b) that the buyer shall have a reasonable opportunity of co
+
+======================================================================
+
+CHUNK 32
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : Chapter III — EFFECTS OF THE CONTRACT
+  section_number      : 18
+  section_title       : Goods must be ascertained.— Where there is a contract for the sale of unascertai
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359115
+
+CONTENT:
+The Sale of Goods Act, 1930 | Chapter III — EFFECTS OF THE CONTRACT | Section 18
+
+CHAPTER III
+EFFECTS OF THE CONTRACT
+Transfer of property as between seller and buyer
+18. Goods must be ascertained.— Where there is a contract for the sale of unascertained goods, no
+property in the goods is transferred to the buyer unless and until the goods are ascertained.
+
+======================================================================
+
+CHUNK 33
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 19
+  section_title       : Property passes when intended to pass.— (1) Where there is a contract for the sa
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359137
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 19
+
+19. Property passes when intended to pass.— (1) Where there is a contract for the sale of specific
+or ascertained goods the property in them is transferred to the buyer at such time as the parties to the
+contract intend it to he transferred.
+(2) For the purpose of ascertaining the intention of the parties regard shall be had to the terms of the
+contract
+
+======================================================================
+
+CHUNK 34
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 20
+  section_title       : Specific goods in a deliverable state.— Where there is an unconditional contract
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359160
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 20
+
+20. Specific goods in a deliverable state.— Where there is an unconditional contract for the sale of
+specific goods in a deliverable state, the property in the goods passes to the buyer when the contract is
+made, and it is immaterial whether the time of payment of the price or the time of delivery of the goods,
+or both, is postponed.
+21. Specific goods 
+
+======================================================================
+
+CHUNK 35
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 22
+  section_title       : Specific goods in a deliverable state, when the seller has to do anything theret
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359179
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 22
+
+22. Specific goods in a deliverable state, when the seller has to do anything thereto in order to
+ascertain price.—Where there is a contract for the sale of specific goods in a deliverable state, but the
+seller is bound to weigh, measure, test or do some other act or thing with reference to the goods for the
+purpose of ascertaining the price, the proper
+
+======================================================================
+
+CHUNK 36
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 23
+  section_title       : Sale of unascertained goods and appropriation.—(1) Where there is a contract for
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359200
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 23
+
+23. Sale of unascertained goods and appropriation.—(1) Where there is a contract for the sale of
+unascertained or future goods by description and goods of that description and in a deliverable state are
+unconditionally appropriated to the contract, either by the seller with the assent of the buyer or by the
+buyer with the assent of the seller, the prope
+
+======================================================================
+
+CHUNK 37
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359222
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+buyer or to a carrier or other bailee (whether named by the buyer or not) for the purpose of transmission
+to the buyer, and does not reserve the right of disposal, he is deemed to have unconditionally appropriated
+the goods to the contract.
+
+======================================================================
+
+CHUNK 38
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 24
+  section_title       : Goods sent on approval or “on sale or return”.—When goods are delivered to the b
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359244
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 24
+
+24. Goods sent on approval or “on sale or return”.—When goods are delivered to the buyer on
+approval or “on sale or return” or other similar terms, the property therein passes to the buyer—
+(a) when he signifies his approval or acceptance to the seller or does any other act adopting the
+transaction;
+(b) if he does not signify his approval or acceptance 
+
+======================================================================
+
+CHUNK 39
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 25
+  section_title       : Reservation of right of disposal.—(1) Where there is a contract for the sale of
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359266
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 25
+
+25. Reservation of right of disposal.—(1) Where there is a contract for the sale of specific goods or
+where goods are subsequently appropriated to the contract, the seller may, by the terms of the contract or
+appropriation, reserve the right of disposal of the goods until certain conditions are fulfilled. In such case,
+notwithstanding the delivery of th
+
+======================================================================
+
+CHUNK 40
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359286
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+the bill of lading or railway receipt, as the case may be, the goods are deliverable to the order of the seller
+or his agent, the seller is prima facie deemed to reserve the right of disposal.
+
+======================================================================
+
+CHUNK 41
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359326
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(3) Where the seller of goods draws on the buyer for the price and transmits to the buyer the bill of
+exchange together with the bill of lading or, as the case may be, the railway receipt, to secure acceptance
+or payment of the bill of exchange, the buyer is bound to return the bill of lading or the railway receipt if
+he does not honour the bill of exchang
+
+======================================================================
+
+CHUNK 42
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 26
+  section_title       : Risk prima facie passes with property.—Unless otherwise agreed, the goods remain
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359344
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 26
+
+26. Risk prima facie passes with property.—Unless otherwise agreed, the goods remain at the
+seller’s risk until the property therein is transferred to the buyer, but when the property therein is
+transferred to the buyer, the goods are at the buyer’s risk whether delivery has been made or not:
+
+======================================================================
+
+CHUNK 43
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : Subs by Act 33 of 1963, s. 4, for sub-sections (2) and (3) (w.e.f. 22-9-1963).
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359363
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 1
+
+1. Subs by Act 33 of 1963, s. 4, for sub-sections (2) and (3) (w.e.f. 22-9-1963).
+8
+
+Provided that, where delivery has been delayed through the fault of either buyer or seller, the goods
+are at the risk of the party in fault as regards any loss which might not have occurred but for such fault:
+Provided also that nothing in this section shall affect the d
+
+======================================================================
+
+CHUNK 44
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 27
+  section_title       : Sale by person not the owner.—Subject to the provisions of this Act and of any o
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359385
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 27
+
+27. Sale by person not the owner.—Subject to the provisions of this Act and of any other law for the
+time being in force, where goods are sold by a person who is not the owner thereof and who does not sell
+them under the authority or with the consent of the owner, the buyer acquires no better title to the goods
+than the seller had, unless the owner of t
+
+======================================================================
+
+CHUNK 45
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359408
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+business of a mercantile agent, shall be as valid as if he were expressly authorised by the owner of the
+goods to make the same; provided that the buyer acts in good faith and has not at the time of the contract
+of sale notice that the seller has not authority to sell.
+
+======================================================================
+
+CHUNK 46
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 28
+  section_title       : Sale by one of joint owners.— If one of several joint owners of goods has the so
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359467
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 28
+
+28. Sale by one of joint owners.— If one of several joint owners of goods has the sole possession of
+them by permission of the co-owners, the property in the goods is transferred to any person who buys
+them of such joint owner in good faith and has not at the time of the contract of sale notice that the seller
+has not authority to sell.
+
+======================================================================
+
+CHUNK 47
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 29
+  section_title       : Sale by person in possession under voidable contract.—When the seller of goods h
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359500
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 29
+
+29. Sale by person in possession under voidable contract.—When the seller of goods has obtained
+possession thereof under a contract voidable under section 19 or section 19A of the Indian Contract Act,
+1872 (9 of 1872), but the contract has not been rescinded at the time of the sale, the buyer acquires a good
+title to the goods, provided he buys them in 
+
+======================================================================
+
+CHUNK 48
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 30
+  section_title       : Seller or buyer in possession after sale.—(1) Where a person, having sold goods,
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359522
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 30
+
+30. Seller or buyer in possession after sale.—(1) Where a person, having sold goods, continues or is
+in possession of the goods or of the documents of title to the goods, the delivery or transfer by that person
+or by a mercantile agent acting for him, of the goods or documents of title under any sale, pledge or other
+disposition thereof to any person re
+
+======================================================================
+
+CHUNK 49
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359557
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) Where a person, having bought or agreed to buy goods, obtains, with the consent of the seller,
+possession of the goods or the documents of title to the goods, the delivery or transfer by that person or by
+a mercantile agent acting for him, of the goods or documents of title under any sale, pledge or other
+disposition thereof to any person receiving the
+
+======================================================================
+
+CHUNK 50
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : Chapter IV — PERFORMANCE OF THE CONTRACT
+  section_number      : 31
+  section_title       : Duties, of seller and buyer.— It is the duty to the seller to deliver the goods
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359575
+
+CONTENT:
+The Sale of Goods Act, 1930 | Chapter IV — PERFORMANCE OF THE CONTRACT | Section 31
+
+CHAPTER IV
+PERFORMANCE OF THE CONTRACT
+31. Duties, of seller and buyer.— It is the duty to the seller to deliver the goods and of the buyer to
+accept and pay for them, in accordance with the terms of the contract of sale.
+32. Payment and delivery are concurrent conditions.—Unless otherwise agreed, delivery of the
+
+
+======================================================================
+
+CHUNK 51
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 33
+  section_title       : Delivery.—Delivery of goods sold may be made by doing anything which the parties
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359597
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 33
+
+33. Delivery.—Delivery of goods sold may be made by doing anything which the parties agree shall
+be treated as delivery or which has the effect of putting the goods in the possession of the buyer or of any
+person authorised to hold them on his behalf.
+34. Effect of part delivery.—A delivery of part of goods, in progress of the delivery of the whole,
+has
+
+======================================================================
+
+CHUNK 52
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 35
+  section_title       : Buyer to apply for delivery.— Apart from any express contract, the seller of goo
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359613
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 35
+
+35. Buyer to apply for delivery.— Apart from any express contract, the seller of goods is not bound
+to delivery them until the buyer applies for delivery.
+
+======================================================================
+
+CHUNK 53
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 36
+  section_title       : Rules as to delivery.— (1) Whether it is for the buyer to take possession of the
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359635
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 36
+
+36. Rules as to delivery.— (1) Whether it is for the buyer to take possession of the goods or for the
+seller to send them to the buyer is a question depending in each case on the contract, express or implied,
+between the parties. Apart from any such contract, goods sold are to be delivered at the place at which
+they are at the time of the sale, and good
+
+======================================================================
+
+CHUNK 54
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359676
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) Where under the contract of sale the seller is bound to send the goods to the buyer, but no time
+for sending them is fixed, the seller is bound to send them within a reasonable time.
+(3) Where the goods at the time of sale are in the possession of a third person, there is no delivery by
+seller to buyer unless and until such third person acknowledges to
+
+======================================================================
+
+CHUNK 55
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359694
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(5) Unless otherwise agreed, the expenses of and incidental to putting the goods into a deliverable
+state shall be borne by the seller.
+
+======================================================================
+
+CHUNK 56
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 37
+  section_title       : Delivery of wrong quantity.—(1) Where the seller delivers to the buyer a quantit
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359715
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 37
+
+37. Delivery of wrong quantity.—(1) Where the seller delivers to the buyer a quantity of goods less
+than he contracted to sell, the buyer may reject them, but it the buyer accepts the goods so delivered he
+shall pay for them at the contract rate.
+(2) Where the seller delivers to the buyer a quantity of goods larger than he contracted to sell, the
+buyer 
+
+======================================================================
+
+CHUNK 57
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359740
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(3) Where the seller delivers to the buyer the goods he contracted to sell mixed with goods of a
+different description not included in the contract, the buyer may accept the goods which are in accordance
+with the contract and reject the rest, or may reject the whole.
+(4) The provisions of this section are subject to any usage of trade, special agreement or
+
+======================================================================
+
+CHUNK 58
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 38
+  section_title       : Instalment deliveries.—(1) Unless otherwise agreed, the buyer of goods is not bo
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359752
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 38
+
+38. Instalment deliveries.—(1) Unless otherwise agreed, the buyer of goods is not bound to accept
+delivery thereof by instalments.
+
+======================================================================
+
+CHUNK 59
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359785
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) Where there is a contract for the sale of goods to be delivered by stated instalments which are to
+be separately paid for, and the seller makes no delivery or defective delivery in respect of one or more
+instalments, or the buyer neglects or refuses to take delivery of or pay for one or more instalments, it is a
+question in each case depending on the t
+
+======================================================================
+
+CHUNK 60
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 39
+  section_title       : Delivery to carrier or wharfinger.—(1) Where, in pursuance of a contract of sale
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359801
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 39
+
+39. Delivery to carrier or wharfinger.—(1) Where, in pursuance of a contract of sale, the seller is
+authorised or required to send the goods to the buyer, delivery of the goods to a carrier, whether named by
+the buyer or not, for the purpose of transmission to the buyer, or delivery of the goods to a wharfinger for
+safe custody, is prima facie deemed to
+
+======================================================================
+
+CHUNK 61
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359831
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) Unless otherwise authorised by the buyer, the seller shall make such contract with the carrier or
+wharfinger on behalf of the buyer as may be reasonable having regard to the nature of the goods and the
+other circumstances of the case. If the seller omits so to do, and the goods are lost or damaged in course
+10
+
+of transit or whilst in the custody of th
+
+======================================================================
+
+CHUNK 62
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359854
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(3) Unless otherwise agreed, where goods are sent by the seller to the buyer by a route involving sea
+transit, in curcumstances in which it is usual to insure, the seller shall give such notice to the buyer as
+may enable him to insure them during their sea transit, and if the seller fails so to do, the goods shall be
+deemed to be at his risk during such se
+
+======================================================================
+
+CHUNK 63
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 40
+  section_title       : Risk where goods are delivered at distant place.—Where the seller of goods agree
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359869
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 40
+
+40. Risk where goods are delivered at distant place.—Where the seller of goods agrees to deliver
+them at his own risk at a place other than that where they are when sold, the buyer shall, nevertheless,
+unless otherwise agreed, take any risk of deterioration in the goods necessarily incident to the course of
+transit.
+
+======================================================================
+
+CHUNK 64
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 41
+  section_title       : Buyer’s right of examining the goods.—(1) Where goods are delivered to the buyer
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359887
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 41
+
+41. Buyer’s right of examining the goods.—(1) Where goods are delivered to the buyer which he
+has not previously examined, he is not deemed to have accepted them unless and until he has had a
+reasonable opportunity of examining them for the purpose of ascertaining whether they are in conformity
+with the contract.
+(2) Unless otherwise agreed, when the se
+
+======================================================================
+
+CHUNK 65
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 42
+  section_title       : Acceptance.—The buyer is deemed to have accepted the goods when he intimates to
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359907
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 42
+
+42. Acceptance.—The buyer is deemed to have accepted the goods when he intimates to the seller
+that he has accepted them, or when the goods have been delivered to him and he does any act in relation
+to them which is inconsistent with the ownership of the seller, or when, after the lapse of a reasonable
+time, he retains the goods without intimating to th
+
+======================================================================
+
+CHUNK 66
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 44
+  section_title       : Liability of buyer for neglecting or refusing delivery of goods.—When the seller
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359925
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 44
+
+44. Liability of buyer for neglecting or refusing delivery of goods.—When the seller is ready and
+willing to deliver the goods and requests the buyer to take delivery, and the buyer does not within a
+reasonable time after such request take delivery of the goods, he is liable to the seller for any loss
+occasioned by his neglect or refusal to take deliver
+
+======================================================================
+
+CHUNK 67
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 45
+  section_title       : “Unpaid seller” defined.—(1) The seller of goods is deemed to be an “unpaid sell
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359946
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 45
+
+45. “Unpaid seller” defined.—(1) The seller of goods is deemed to be an “unpaid seller” within the
+meaning of this Act—
+(a) when the whole of the price has not been paid or tendered;
+(b) when a bill of exchange or other negotiable instrument has been received as conditional
+payment, and the condition on which it was received has not been fulfilled by re
+
+======================================================================
+
+CHUNK 68
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 46
+  section_title       : Unpaid seller’s sights.—(1) Subject to the provisions of this Act and of any law
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359963
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 46
+
+46. Unpaid seller’s sights.—(1) Subject to the provisions of this Act and of any law for the time
+being in force, notwithstanding that the property in the goods may have passed to the buyer, the unpaid
+seller of goods, as such, has by implication of law—
+(a) a lien on the goods for the price while he is in possession of them;
+11
+
+(b) in case of the inso
+
+======================================================================
+
+CHUNK 69
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.359984
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) Where the property in goods has not passed to the buyer, the unpaid seller has, in addition to his
+other remedies, a right of withholding delivery similar to and co-extensive with his rights of lien and
+stoppage in transit where the property has passed to the buyer.
+Unpaid seller’s lien
+
+======================================================================
+
+CHUNK 70
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 47
+  section_title       : Seller’s lien.—(1) Subject to the provisions of this Act, the unpaid seller of g
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360001
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 47
+
+47. Seller’s lien.—(1) Subject to the provisions of this Act, the unpaid seller of goods who is in
+possession of them is entitled to retain possession of them until payment or tender of the price in the
+following cases, namely:—
+(a) where the goods have been sold without any stipulation as to credit;
+(b) where the goods have been sold on credit, but the
+
+======================================================================
+
+CHUNK 71
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 48
+  section_title       : Part delivery.—Where an unpaid seller has made part delivery of the goods, he ma
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360015
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 48
+
+48. Part delivery.—Where an unpaid seller has made part delivery of the goods, he may exercise his
+right of lien on the remainder, unless such part delivery has been made under such circumstances as to
+show an agreement to waive the lien.
+
+======================================================================
+
+CHUNK 72
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 49
+  section_title       : Termination of lien.—(1) The unpaid seller of goods loses his lien thereon—
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360032
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 49
+
+49. Termination of lien.—(1) The unpaid seller of goods loses his lien thereon—
+(a) when he delivers the goods to a carrier or other bailee for the purpose of transmission to the
+buyer without reserving the right of disposal of the goods;
+(b) when the buyer or his agent lawfully obtains possession of the goods;
+(c) by waiver thereof.
+(2) The unpaid sell
+
+======================================================================
+
+CHUNK 73
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 50
+  section_title       : Right of stoppage in transit.—Subject to the provisions of this Act, when the bu
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360048
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 50
+
+50. Right of stoppage in transit.—Subject to the provisions of this Act, when the buyer of goods
+becomes insolvent, the unpaid seller who has parted with the possession of the goods has the right of
+stopping them in transit, that is to say, he may resume possession of the goods as long as they are in the
+course of transit, and may retain them until paym
+
+======================================================================
+
+CHUNK 74
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 51
+  section_title       : Duration of transit.—(1) Goods are deemed to be in course of transit from the ti
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360064
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 51
+
+51. Duration of transit.—(1) Goods are deemed to be in course of transit from the time when they
+are delivered to a carrier or other bailee for the purpose of transmission to the buyer, until the buyer or his
+agent in that behalf takes delivery of them from such carrier or other bailee.
+(2) If the buyer or his agent in that behalf obtains delivery of th
+
+======================================================================
+
+CHUNK 75
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360094
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(3) If, after the arrival of the goods at the appointed destination, the carrier or other bailee
+acknowledges to the buyer or his agent that he holds the goods on his behalf and continues in possession
+of them as bailee for the buyer or his agent, the transit is at an end and it is immaterial that a further
+destination for the goods may have been indicated
+
+======================================================================
+
+CHUNK 76
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360130
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(5) When goods are delivered to a ship chartered by the buyer, it is a question depending on the
+circumstances of the particular case, whether they are in the possession of the master as a carrier or as
+agent of the buyer.
+12
+
+(6) Where the carrier or other bailee wrongfully refuses to deliver the goods to the buyer or his agent
+in that behalf, the transit
+
+======================================================================
+
+CHUNK 77
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 52
+  section_title       : How stoppage in transit is effected.—(1) The unpaid sellermay exercise his right
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360148
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 52
+
+52. How stoppage in transit is effected.—(1) The unpaid sellermay exercise his right of stoppage in
+transit either by taking actual possession of the goods, or by giving notice of his claim to the carrier or
+other bailee in whose possession the goods are. Such notice may be given either to the person in actual
+possession of the goods or to his principal
+
+======================================================================
+
+CHUNK 78
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360172
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) When notice of stoppage in transit is given by the seller to the carrier or other bailee in possession
+of the goods, he shall re-deliver the goods to, or according to the directions of, the seller. The expenses of
+such re-delivery shall be borne by the seller.
+Transfer by buyer and seller
+
+======================================================================
+
+CHUNK 79
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 53
+  section_title       : Effect of sub-sale or pledge by buyer.—(1) Subject to the provisions of this Act
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360589
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 53
+
+53. Effect of sub-sale or pledge by buyer.—(1) Subject to the provisions of this Act, the unpaid
+seller’s right of lien or stoppage in transit is not affected by any sale or other disposition of the goods
+which the buyer may have made, unless the seller has assented thereto:
+Provided that where a document of title to goods has been issued or lawfully tr
+
+======================================================================
+
+CHUNK 80
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360611
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+way of pledge or other disposition for value, the unpaid seller’s right of lien or stoppage is transit can
+only be exercised subject to the rights of the transferee.
+
+======================================================================
+
+CHUNK 81
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360633
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) Where the transfer is by way of pledge, the unpaid seller may require the pledgee to have the
+amount secured by the pledge satisfied in the first instance, as far as possible, out of any other goods or
+securities of the buyer in the hands of the pledgee and available against the buyer
+
+======================================================================
+
+CHUNK 82
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 54
+  section_title       : Sale not generally rescinded by lien or stoppage in transit.—(1) Subject to the
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360647
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 54
+
+54. Sale not generally rescinded by lien or stoppage in transit.—(1) Subject to the provisions of
+this section, a contract of sale is not rescinded by the mere exercise by an unpaid seller of his right of lien
+or stoppage in transit.
+
+======================================================================
+
+CHUNK 83
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360680
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) Where the goods are of a perishable nature, or where the unpaid seller who has exercised his right
+of lien or stoppage in transit gives notice to the buyer of his intention to re-sell, the unpaid seller may, if
+the buyer does not within a reasonable time pay or tender the price, re-sell the goods within a reasonable
+time and recover from the original b
+
+======================================================================
+
+CHUNK 84
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360709
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(3) Where an unpaid seller who has exercised his right of lien or stoppage in transit re-sells the goods,
+the buyer acquires a good title thereto as against the original buyer, notwithstanding that no notice of the
+re-sale has been given to the original buyer.
+(4) Where the seller expressly reserves a right of re-sale in case the buyer should make default,
+
+======================================================================
+
+CHUNK 85
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : Chapter VI — SUITS FOR BREACH OF THE CONTRACT
+  section_number      : 55
+  section_title       : Suit for price.—(1) Where under a contract of sale the property in the goods has
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360724
+
+CONTENT:
+The Sale of Goods Act, 1930 | Chapter VI — SUITS FOR BREACH OF THE CONTRACT | Section 55
+
+CHAPTER VI
+SUITS FOR BREACH OF THE CONTRACT
+55. Suit for price.—(1) Where under a contract of sale the property in the goods has passed to the
+buyer and the buyer wrongfully neglects or refuses to pay for the goods according to the terms of the
+contract, the seller may sue him for the price of the goods.
+13
+
+
+
+======================================================================
+
+CHUNK 86
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 56
+  section_title       : Damages for non-acceptance.—Where the buyer wrongfully neglects or refuses to ac
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360740
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 56
+
+56. Damages for non-acceptance.—Where the buyer wrongfully neglects or refuses to accept and
+pay for the goods, the seller may sue him for damages for non-acceptance.
+57. Damages for non-delivery.—Where the seller wrongfully neglects or refuses to deliver the
+goods to the buyer, the buyer may sue the seller for damages for non-delivery.
+
+======================================================================
+
+CHUNK 87
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : Chapter II — of the Specific Relief Act, 1877
+  section_number      : 58
+  section_title       : Specific performance.—Subject to the provisions of Chapter II of the Specific Re
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360754
+
+CONTENT:
+The Sale of Goods Act, 1930 | Chapter II — of the Specific Relief Act, 1877 | Section 58
+
+58. Specific performance.—Subject to the provisions of Chapter II of the Specific Relief Act, 1877
+(1 of 1877), in any suit for breach of contract to deliver specific or ascertained goods, the Court may, if it
+thinks fit, on the application of the plaintiff, by its decree direct that the contract shall be per
+
+======================================================================
+
+CHUNK 88
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 59
+  section_title       : Remedy for breach of warranty.—(1) Where there is a breach of warranty by file s
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360774
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 59
+
+59. Remedy for breach of warranty.—(1) Where there is a breach of warranty by file seller, or
+where the buyer elects or is compelled to treat any breach of a condition on the part of the seller as a
+breach of warranty, the buyer is not by reason only of such breach of warranty entitled to reject the goods;
+but he may—
+(a) set up against the seller the b
+
+======================================================================
+
+CHUNK 89
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 60
+  section_title       : Repudiation of contract before due date.—Where either party to a contract of sal
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360788
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 60
+
+60. Repudiation of contract before due date.—Where either party to a contract of sale repudiates
+the contract before the date of delivery, the other may either treat the contract as subsisting and wait till
+the date of delivery, or he may treat the contract as rescinded and sue for damages for the breach.
+
+======================================================================
+
+CHUNK 90
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 61
+  section_title       : Interest by way of damages and special damages.—(1) Nothing in this Act shall af
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360802
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 61
+
+61. Interest by way of damages and special damages.—(1) Nothing in this Act shall affect the right
+of the seller or the buyer to recover interest or special damages in any case where by law interest or
+special damages may be recoverable, or to recover the money paid where the consideration for the
+payment of it has failed.
+
+======================================================================
+
+CHUNK 91
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360829
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) In the absence of a contract to the contrary, the Court may award interest at such rate as it thinks
+fit on the amount of the price—
+(a) to the seller in a suit by him for the amount of the price— from the date of the tender of the
+goods or from the date on which the price was payable;
+(b) to the buyer in a suit by him for the refund of the price in a 
+
+======================================================================
+
+CHUNK 92
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : Chapter VII — MISCELLANEOUS
+  section_number      : 62
+  section_title       : Exclusion of implied terms and conditions.—Where any right, duty or liability wo
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360843
+
+CONTENT:
+The Sale of Goods Act, 1930 | Chapter VII — MISCELLANEOUS | Section 62
+
+CHAPTER VII
+MISCELLANEOUS
+62. Exclusion of implied terms and conditions.—Where any right, duty or liability would arise
+under a contract of sale by implication of law, it may be negatived or varied by express agreement or by
+the course of dealing between the parties, or by usage, if the usage is such as to bind both parties to
+
+======================================================================
+
+CHUNK 93
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 64
+  section_title       : Auction sale. —In the case of a sale by auction—
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360861
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 64
+
+64. Auction sale. —In the case of a sale by auction—
+(1) Where goods are put up for sale in lots, each lot is prima facie deemed to be the subject of a
+separate contract of sale;
+(2) the sale is complete when the auctioneer announces its completion by the fall of the hammer
+or in other customary manner; and, until such announcement is made, any bidder m
+
+======================================================================
+
+CHUNK 94
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360896
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(4) where the sale is not notified to be subject to a right to bid on behalf of the seller, it shall not
+be lawful for the seller to bid himself or to employ any person to bid at such sale, or for the auctioneer
+knowingly to take any bid from the seller or any such person; and any sale contravening this rule may
+be treated as fraudulent by the buyer;
+(5) t
+
+======================================================================
+
+CHUNK 95
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360925
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(1) Unless a different intention appears from the terms of the contract, in the event of any tax of the nature
+described in sub-section (2) being imposed, increased, decreased or remitted in respect of any goods after
+the making of any contract for the sale or purchase of such goods without stipulation as to the payment of
+tax where tax was not chargeable 
+
+======================================================================
+
+CHUNK 96
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360948
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(a) if such imposition or increase so takes effect that the tax or increased tax, as the case may be,
+or any part of such tax is paid or is payable, the seller may add so much to the contract price as will
+be equivalent to the amount paid or payable in respect of such tax or increase of tax, and he shall be
+entitled to be paid and to sue for and recover su
+
+======================================================================
+
+CHUNK 97
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360971
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(b) if such decrease or remission so takes effect that the decreased tax only, or no tax, as the case
+may be, is paid or is payable, the buyer may deduct so much from the contract price as will be
+equivalent to the decrease of tax or remitted tax, and he shall not be liable to pay, or be sued for, or in
+respect of, such deduction.
+
+======================================================================
+
+CHUNK 98
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 
+  section_title       : 
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.360986
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section
+
+(2) The provisions of sub-section (1) apply to the following taxes, namely:—
+(a) any duty of customs or excise on goods;
+(b) any tax on the sale or purchase of goods.]
+
+======================================================================
+
+CHUNK 99
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 65
+  section_title       : [Repeal.] Rep. by the Repealing Act, 1938 (1 of 1938), s. 2 and Sch.
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.361006
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 65
+
+65. [Repeal.] Rep. by the Repealing Act, 1938 (1 of 1938), s. 2 and Sch.
+66. Savings.—(1) Nothing in this Act or in any repeal effected thereby shall affect or be deemed to
+affect—
+(a) any right, title, interest, obligation or liability already acquired, accrued or incurred before the
+commencement of this Act, or
+(b) any legal proceedings or remedy in r
+
+======================================================================
+
+CHUNK 100
+----------------------------------------
+METADATA:
+  act_name            : The Sale of Goods Act, 1930
+  year_enacted        : 1930
+  last_amended        : 
+  legal_domain        : commercial, contract
+  related_acts        : Indian Contract Act, 1872, Transfer of Property Act, 1882, Specific Relief Act, 1963, Indian Partnership Act, 1932
+  importance          : high
+  doc_type            : act
+  jurisdiction        : India
+  doc_summary         : This Act governs the sale of goods and the rights and obligations of buyers and sellers in India.
+  chapter             : 
+  section_number      : 1
+  section_title       : Subs. by Act 33 of 1963, s. 5, for section 64A (w.e.f. 22-9-1963). Earlier it wa
+  source              : sale_of_goods_act_1930.pdf
+  namespace           : vidhijna-legal
+  ingested_at         : 2026-03-22T15:48:15.361023
+
+CONTENT:
+The Sale of Goods Act, 1930 |  | Section 1
+
+1. Subs. by Act 33 of 1963, s. 5, for section 64A (w.e.f. 22-9-1963). Earlier it was inserted by Act 41 of 1940, s 2.
+15
+
+(2) The rules of insolvency relating to contracts for the sale of goods shall continue to apply thereto,
+notwithstanding anything contained in this Act.
+(3) The provisions of this Act relating to contracts of sale do not apply to any 
+
+======================================================================
+

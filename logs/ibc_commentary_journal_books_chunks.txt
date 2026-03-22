@@ -1,0 +1,1168 @@
+FILE:         ibc_commentary_journal.pdf
+NAMESPACE:    vidhijna-books
+INGESTED AT:  2026-03-22T19:12:45.910653
+TOTAL CHUNKS: 40
+======================================================================
+
+CHUNK 1
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 1
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.907843
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+International Journal of Law
+International Journal of Law
+ISSN: 2455-2194
+Impact Factor: RJIF 5.12
+www.lawjournals.org
+Volume 3; Issue 6; November 2017; Page No. 58-61
+The insolvency and bankruptcy code, 2016: Insolvency professional agency
+1 Nakul Sharma, 2 Dr. Rahul Vyas
+1 Student 2nd Year LL.B. Pacific School of Law, PAHE
+
+======================================================================
+
+CHUNK 2
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908218
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+is straddled with humongous NPAs in the financial sector and the twin balance-sheet deficit problem is plaguing the banking sector
+no end. It’s one of the largest legal move in the country’s war to clean up around $117 billion of stressed assets in the economy.
+In this situation the IBC, 2016 provides for resolution in a tim
+
+======================================================================
+
+CHUNK 3
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908300
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+Adjudicating Authority and tackles laws of 100-year vintage like the The Presidency Towns Insolvency Act, 1909 and Sick
+Industrial Companies (Special Provisions) Repeal Act, 2003.
+The present paper is a commentary on the Insolvency Professional Agency framework that is the bulwark of the IBC in terms of
+the procedural and re
+
+======================================================================
+
+CHUNK 4
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908370
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+Keywords: insolvency professional agency, bankruptcy, stressed assets, NPAs
+Introduction registered entities. Members in Board- 10 (including
+It is the bankruptcy law of India which strengthens the Ministers of Finance and Law and the Reserve Bank of
+existing laws by developing a single law for insolvency and India).
+bankrup
+
+======================================================================
+
+CHUNK 5
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908437
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+Sabha on May 05, 2016. The code received ascent of the
+President of India on May 28, 2016… What is Insolvency?
+The code was passed by parliament in May, 2016 and became Insolvency is when an individual or organization is unable to
+effective in Dec, 2016. It repealed The Presidency Towns meet its outstanding financial debt to
+
+======================================================================
+
+CHUNK 6
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908502
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+Provisions) Repeal Act, 2003. lie against the insolvent and its assets will be sold to pay off
+The first final insolvency resolution order under the the outstanding debts.
+Insolvency and Bankruptcy Code, 2016 was passed by
+National Company Law Tribunal (NCLT) in the case of What is Bankruptcy?
+Synergies-Dooray Automotive Ltd
+
+======================================================================
+
+CHUNK 7
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908569
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+Key Features ‘bankrupt’, the court is responsible to liquidate the personal
+ The code has separate insolvency process: for individuals, property of the insolvent and hand it out to its creditors. It
+companies and partnership firms. The process of provides a fresh lease of life to the insolvent.
+insolvency can be initiated b
+
+======================================================================
+
+CHUNK 8
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908631
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+extended by 90 days. For companies with assets of less corporates by secured or unsecured creditors. The NCLT has
+than Rs. 1crore – 90 days, this may be extended by 45 to decide in 14 days either to accept or reject such plea for
+days. insolvency. When the plea is accepted, the tribunal appoints
+ Adjudicating Authority: The
+
+======================================================================
+
+CHUNK 9
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908693
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+Partnership Firms. Debt Recovery Tribunal – Individuals board of directors stands suspended, and the promoters does
+and Partnership firms. not stay in management of the company.
+ Insolvency Regulator: The code establishes the Insolvency For insolvency resolution of individuals and partnerships,
+and Bankruptcy Board of India
+
+======================================================================
+
+CHUNK 10
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908754
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+International Journal of Law
+person can be liquidated but an individual cannot. He has to reasonable time, before the Board in person, or through his
+be declared bankrupt. If the default is above Rs.1000 (may be authorized representative for clarifications required for
+increased up to Rs.1 lakh by the Government, by notifica
+
+======================================================================
+
+CHUNK 11
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908817
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+from the Board. DRT shall within 14 days admit or reject the 1. An insolvency professional must maintain integrity by
+application. DRT shall issue public notice inviting claims being honest, straightforward, and forthright in all
+from all creditors within 21 days of such notice. Creditors professional relationships.
+shall re
+
+======================================================================
+
+CHUNK 12
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908873
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+repayment plan shall be binding on creditors and debtor. If the in any action that would bring disrepute to the profession.
+DRT rejects the repayment plan, then bankruptcy proceeding 3. An insolvency professional must act with objectivity in his
+can be initiated. professional dealings by ensuring that his decisions are
+made 
+
+======================================================================
+
+CHUNK 13
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : Chapter II — of Insolvency and Bankruptcy Board of India connected to the insolvency proceedi
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908908
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency | Chapter II — of Insolvency and Bankruptcy Board of India connected to the insolvency proceedi
+
+Chapter II of Insolvency and Bankruptcy Board of India connected to the insolvency proceedings or not.
+(Insolvency Professionals) Regulations, 2016 describes the 4. An insolvency professional appointed as an interim
+Insolvency Exa
+
+======================================================================
+
+CHUNK 14
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908939
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+practical skills of individuals in the subjects of insolvency and permit any relative to do so. Independence and Impartiality
+bankruptcy. 5. An insolvency professional must maintain complete
+
+======================================================================
+
+CHUNK 15
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : Chapter III — and V of Insolvency and Bankruptcy Board of independence in his professional rel
+  topic_number        : 1.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.908963
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency | Chapter III — and V of Insolvency and Bankruptcy Board of independence in his professional rel
+
+Chapter III and V of Insolvency and Bankruptcy Board of independence in his professional relationships and should
+India (Insolvency Professionals) Regulations, 2016 describes conduct the insolvency resolution, liquidation or
+bank
+
+======================================================================
+
+CHUNK 16
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 2.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909012
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+2. Should be a resident of India. assets of a debtor during liquidation or bankruptcy process,
+3. Should qualify as per other norms of the code. he must ensure that he or his relatives do not knowingly
+4. Should not be convicted by any court for contempt for a acquire any such assets, whether directly or indirectly
+punishabl
+
+======================================================================
+
+CHUNK 17
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 5.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909034
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+5. Should not be insolvent declared by any court. or bankruptcy process and the approval of the Board has
+6. Should be of sound mind. been obtained in the matter.
+
+======================================================================
+
+CHUNK 18
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 6.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909078
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+6. Should be of sound mind. been obtained in the matter.
+7. Should be a fit and proper person (integrity, reputation and 7. An insolvency professional shall not take up an assignment
+character). under the Code if he, any of his relatives, any of the
+partners or directors of the insolvency professional entity
+Qualifications a
+
+======================================================================
+
+CHUNK 19
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 1.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909110
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+1. Has cleared the National Insolvency Examination. not independent, in terms of the Regulations related to the
+2. Has passed the NIE, and has 15 years of experience in processes under the Code, in relation to the corporate
+management after Bachelors Degree. person/ debtor and its related parties.
+
+======================================================================
+
+CHUNK 20
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 3.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909155
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+3. Has passed the NIE and has 10 years of experience as- 8. An insolvency professional shall disclose the existence of
+a. CA any pecuniary or personal relationship with any of the
+b. CS stakeholders entitled to distribution under sections 53 or
+c. Cost accountant 178 of the Code, and the concerned corporate
+d. Advocate perso
+
+======================================================================
+
+CHUNK 21
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 1.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909201
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+1. An individual enrolled with an insolvency professional appointment, as applicable.
+agency as a professional member may make an application 9. An insolvency professional shall not influence the decision
+to the Board in Form A of the Second Schedule to these or the work of the committee of creditors or debtor, or
+Regulation
+
+======================================================================
+
+CHUNK 22
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 2.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909246
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+2. The Board shall acknowledge an application made under or cause any undue preference for any other persons for
+this Regulation within seven days of its receipt. undue or unlawful gains and shall not adopt any illegal or
+3. The Board may require the applicant to submit, within improper means to achieve any malafide objectiv
+
+======================================================================
+
+CHUNK 23
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 4.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909278
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+4. The Board may require the applicant to appear, within professional knowledge and skills to render competent
+59
+
+International Journal of Law
+professional service.Representation of correct facts and his certificate of membership with the insolvency
+correcting misapprehensions. professional agency with which he is registere
+
+======================================================================
+
+CHUNK 24
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 11.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909318
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+11. An insolvency professional must inform such persons 24. An insolvency professional must not conduct business
+under the Code as may be required, of a misapprehension which in the opinion of the Board is inconsistent with the
+or wrongful consideration of a fact of which he becomes reputation of the profession. Remuneration
+
+======================================================================
+
+CHUNK 25
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 12.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909355
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+12. An insolvency professional must not conceal any material remuneration which is charged in a transparent manner, is
+information or knowingly make a misleading statement reasonable reflection of the work necessarily and properly
+tithe Board, the Adjudicating Authority or any stakeholder, undertaken, and is not inconsistent
+
+======================================================================
+
+CHUNK 26
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 13.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909406
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+13. An insolvency professional must adhere to the time limits 26. An insolvency professional shall not accept any fees or
+prescribed in the Code and the rules, regulations and charges other than those which are disclosed to and
+guidelines there under for insolvency resolution, approved by the persons fixing his remuneration.
+
+======================================================================
+
+CHUNK 27
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909433
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+with all stakeholders involved for the timely discharge of or costs of the bankruptcy process, as applicable, to all
+his duties. relevant stakeholders, and must endeavour to ensure that
+
+======================================================================
+
+CHUNK 28
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 14.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909466
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+14. An insolvency professional must not act with mala fide or such costs are not unreasonable. Gifts and hospitality.
+be negligent while performing his functions and duties 28. An insolvency professional, or his relative must not accept
+under the Code. Information management. gifts or hospitality which undermines or affects 
+
+======================================================================
+
+CHUNK 29
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 15.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909513
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+15. An insolvency professional must make efforts to ensure independence as an insolvency professional.
+that all communication to the stakeholders, whether in the 29. An insolvency professional shall not offer gifts or
+form of notices, reports, updates, directions, or hospitality or a financial or any other advantage to a pub
+
+======================================================================
+
+CHUNK 30
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 16.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909563
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+16. An insolvency professional must ensure that he maintains
+written contemporaneous records for any decision taken, Particulars of Insolvency Professional Registered under
+the reasons for taking the decision, and the information Regulation 7 read with Regulation 5 of Insolvency and
+and evidence in support of such decision. 
+
+======================================================================
+
+CHUNK 31
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 17.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909601
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+17. An insolvency professional must not make any private Name of IP – Mr. Devendra Singh (ICSI Insolvency
+communication with any of the stakeholders unless Professional Agency).
+required by the Code, rules, regulations and guidelines Place – Delhi.
+there under, or orders of the Adjudicating Authority. 2. Registration No. - I
+
+======================================================================
+
+CHUNK 32
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 18.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909636
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+18. An insolvency professional must appear, co-operate and be 17/10002
+available for inspections and investigations carried out by Name of IP – Mr. Satyendra Prasad Khorania (ICSI
+the Board, any person authorized by the Board or the Insolvency Professional Agency).
+insolvency professional agency with which he is enrolled. Pl
+
+======================================================================
+
+CHUNK 33
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 19.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909683
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+19. An insolvency professional must provide all information 3. Registration No. - IBBI/IPA-001/IPP00002/2016-
+and records as may be required by the Board or the 17/10010
+insolvency professional agency with which he is enrolled. Name of IP – Mr. Anil Katia (The Indian Institute of
+20. An insolvency professional must be availa
+
+======================================================================
+
+CHUNK 34
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 21.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909732
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+21. An insolvency professional must ensure that The Governing Body Insolvency Board
+confidentiality of the information relating to the Chairperson – Dr. M.S. Sahoo
+insolvency resolution process, liquidation or bankruptcy Whole time members – Ms. Suman Saxena (WTM [Research
+process, as the case may be, is maintained at all ti
+
+======================================================================
+
+CHUNK 35
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909762
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+information with the consent of the relevant parties or Wing]),
+required by law. Occupation, employability and Dr. Ms. MukulitaVijayawargiya (WTM [Administrative Law
+restrictions. Wing]).
+
+======================================================================
+
+CHUNK 36
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 22.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909792
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+22. An insolvency professional must refrain from accepting Ex-officio members – Dr. Shashank Saksena (Adviser [capital
+too many assignments, if he is unlikely to be able to devote markets], Department of Economic Affairs, Ministry of
+adequate time to each of his assignments. Finance),
+
+======================================================================
+
+CHUNK 37
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 23.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909816
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+23. An insolvency professional must not engage in any Sh. Amardeep Singh Bhatia (Joint Secretary, Ministry of
+employment, except when he has temporarily surrendered Corporate Affairs).
+60
+
+======================================================================
+
+CHUNK 38
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909883
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+International Journal of Law
+Conclusion
+When the RBI dropped a bomb on June 13, 2017 by ordering
+banks to take the top-12 defaulters to bankruptcy codes, a
+positive outcome of this came when bank lost all hopes of
+business – the first time there was strong negotiations between
+banks and borrowers. A small step towards the gr
+
+======================================================================
+
+CHUNK 39
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909923
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+The new insolvency and bankruptcy procedure which brings a
+procedure within a defined time to recover from defaulters
+unlike the past non-mandatory and translucent ways from the
+past and it is very laborious without the proper Insolvency
+Resolution Professional (Agency / Agents).
+References
+
+======================================================================
+
+CHUNK 40
+----------------------------------------
+METADATA:
+  book_title          : The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+  authors             : Nakul Sharma, Dr. Rahul Vyas
+  publisher           : International Journal of Law
+  book_type           : commentary
+  covers_acts         : Insolvency and Bankruptcy Code, 2016
+  legal_domain        : commercial, insolvency, bankruptcy
+  book_purpose        : To provide a commentary on the Insolvency Professional Agency framework under the Insolvency and Bankruptcy Code, 2016.
+  difficulty          : intermediate
+  importance          : high
+  reasoning_focus     : application
+  chapter             : 
+  topic_number        : 1.
+  source              : ibc_commentary_journal.pdf
+  namespace           : vidhijna-books
+  ingested_at         : 2026-03-22T19:12:45.909964
+
+CONTENT:
+The Insolvency and Bankruptcy Code, 2016: Insolvency Professional Agency
+
+1. Lok Sabha passes bill to fast track debt recovery, The
+Economic Times, 2016.
+2. Insolvency and Bankruptcy Code (PDF). Gazette of India.
+Retrieved, 2016.
+3. Notification (PDF). E-Gazette. Gazette of India.
+Retrieved, 2016.
+4. NCLT ok ays first insolvency resolution scheme under
+IBC, Live Mint, 2017.
+5. Legislative Brief of
+
+======================================================================
+
