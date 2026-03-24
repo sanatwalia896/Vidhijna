@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidhijna — Indian Business Law AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- File drop overlay -->
+    <div class="drop-overlay" id="drop-overlay">
+        <div class="drop-card">
+            <div class="drop-scales">⚖</div>
+            <div class="drop-title">Drop your legal document</div>
+            <div class="drop-formats">PDF · DOCX · PNG · JPG · TIFF</div>
+        </div>
+    </div>
+
+    <div class="shell" id="shell">
+
+        <!-- ══ SIDEBAR ══ -->
+        <aside class="sidebar" id="sidebar">
+
+            <!-- Brand -->
+            <div class="sb-brand">
+                <div class="brand-emblem">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 3L3 8.5V15.5L12 21L21 15.5V8.5L12 3Z" stroke="currentColor" stroke-width="1.5"
+                            stroke-linejoin="round" />
+                        <path d="M12 3V21M3 8.5L21 15.5M21 8.5L3 15.5" stroke="currentColor" stroke-width="1"
+                            opacity="0.5" />
+                    </svg>
+                </div>
+                <div class="brand-copy">
+                    <span class="brand-name">Vidhijna</span>
+                    <span class="brand-tagline">Indian Business Law AI</span>
+                </div>
+                <button class="sb-toggle" id="sb-toggle" title="Toggle sidebar">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                        <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mode nav -->
+            <nav class="sb-nav">
+                <div class="sb-label">Agent Mode</div>
+                <div class="mode-nav" id="mode-nav">
+                    <button class="mode-item active" data-mode="auto">
+                        <span class="mi-glyph">✦</span>
+                        <div class="mi-text">
+                            <span class="mi-name">Auto</span>
+                            <span class="mi-hint">AI picks best agent</span>
+                        </div>
+                    </button>
+                    <button class="mode-item" data-mode="research">
+                        <span class="mi-glyph">◎</span>
+                        <div class="mi-text">
+                            <span class="mi-name">Deep Research</span>
+                            <span class="mi-hint">Multi-source analysis</span>
+                        </div>
+                    </button>
+                    <button class="mode-item" data-mode="chat">
+                        <span class="mi-glyph">◇</span>
+                        <div class="mi-text">
+                            <span class="mi-name">Legal Chat</span>
+                            <span class="mi-hint">Quick Q&amp;A with memory</span>
+                        </div>
+                    </button>
+                    <button class="mode-item" data-mode="document">
+                        <span class="mi-glyph">▭</span>
+                        <div class="mi-text">
+                            <span class="mi-name">Document AI</span>
+                            <span class="mi-hint">Analyse contracts</span>
+                        </div>
+                    </button>
+                    <button class="mode-item" data-mode="draft">
+                        <span class="mi-glyph">✎</span>
+                        <div class="mi-text">
+                            <span class="mi-name">Draft Maker</span>
+                            <span class="mi-hint">Generate legal documents</span>
+                        </div>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Research depth control -->
+            <div class="sb-section hidden" id="sb-research">
+                <div class="sb-label">Research Depth</div>
+                <div class="depth-control">
+                    <div class="depth-row">
+                        <span class="depth-label">Reflection loops</span>
+                        <span class="depth-val" id="depth-val">3</span>
+                    </div>
+                    <input type="range" class="depth-slider" id="depth-slider" min="1" max="7" value="3">
+                    <div class="depth-presets">
+                        <button class="dp-btn" data-v="1">Quick</button>
+                        <button class="dp-btn active" data-v="3">Standard</button>
+                        <button class="dp-btn" data-v="5">Deep</button>
+                        <button class="dp-btn" data-v="7">Max</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Draft type control -->
+            <div class="sb-section hidden" id="sb-draft">
+                <div class="sb-label">Document Type</div>
+                <select class="sb-select" id="draft-type-select">
+                    <option value="nda">Non-Disclosure Agreement</option>
+                    <option value="service_agreement">Service Agreement</option>
+                    <option value="employment">Employment Contract</option>
+                    <option value="lease">Lease Agreement</option>
+                    <option value="legal_notice">Legal Notice</option>
+                    <option value="cease_desist">Cease &amp; Desist</option>
+                    <option value="nclt_petition">NCLT Petition</option>
+                    <option value="arbitration_notice">Arbitration Notice</option>
+                    <option value="consumer_complaint">Consumer Complaint</option>
+                    <option value="reply_notice">Reply to Notice</option>
+                </select>
+            </div>
+
+            <!-- Thread history -->
+            <div class="sb-section sb-threads">
+                <div class="sb-label">Recent Threads</div>
+                <div class="thread-list" id="thread-list">
+                    <div class="thread-empty">No conversations yet</div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="sb-foot">
+                <div class="sb-status-dot" id="sb-status-dot"></div>
+                <div class="sb-status-text" id="sb-status-text">Connecting…</div>
+            </div>
+
+        </aside>
+
+        <!-- ══ MAIN ══ -->
+        <main class="main" id="main">
+
+            <!-- Topbar -->
+            <header class="topbar">
+                <div class="tb-left">
+                    <div class="mode-badge" id="mode-badge">
+                        <span id="mb-glyph">✦</span>
+                        <span id="mb-label">Auto · AI Supervisor</span>
+                    </div>
+                    <div class="tb-thread" id="tb-thread">New Thread</div>
+                </div>
+                <div class="tb-right">
+                    <div class="loop-badge hidden" id="loop-badge">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" stroke="currentColor"
+                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3 3v5h5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <span id="loop-badge-label">3 loops</span>
+                    </div>
+                    <button class="btn-new" id="btn-new">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" />
+                        </svg>
+                        New Thread
+                    </button>
+                </div>
+            </header>
+
+            <!-- Workspace -->
+            <div class="workspace">
+
+                <!-- VIEW: WELCOME -->
+                <section class="view view-welcome active" id="view-welcome">
+                    <div class="welcome-scroll">
+                        <div class="welcome-inner" id="welcome-inner">
+                            <!-- JS renders this -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- VIEW: CHAT -->
+                <section class="view view-chat hidden" id="view-chat">
+                    <div class="chat-area" id="chat-area">
+                        <div class="chat-messages" id="chat-messages"></div>
+
+                        <!-- Research stream terminal -->
+                        <div class="rt hidden" id="rt">
+                            <div class="rt-head">
+                                <div class="rt-pulse"></div>
+                                <span class="rt-title">Agent Activity</span>
+                                <span class="rt-phase" id="rt-phase">Initializing</span>
+                                <button class="rt-min" id="rt-min">−</button>
+                            </div>
+                            <div class="rt-body" id="rt-body"></div>
+                        </div>
+                    </div>
+
+                    <!-- Side panel -->
+                    <div class="side-panel hidden" id="side-panel">
+                        <div class="sp-head">
+                            <div class="sp-tabs">
+                                <button class="sp-tab active" data-tab="findings">Findings</button>
+                                <button class="sp-tab" data-tab="entities">Entities</button>
+                                <button class="sp-tab" data-tab="sources">Sources</button>
+                            </div>
+                            <button class="sp-close" id="sp-close">✕</button>
+                        </div>
+                        <div class="sp-body">
+                            <div class="sp-panel active" id="sp-findings">
+                                <div class="sp-empty"><span class="sp-empty-glyph">◎</span>
+                                    <p>Research findings will appear here as the agent works</p>
+                                </div>
+                            </div>
+                            <div class="sp-panel hidden" id="sp-entities">
+                                <div class="sp-empty"><span class="sp-empty-glyph">▦</span>
+                                    <p>Extracted statutes, cases, and legal entities</p>
+                                </div>
+                            </div>
+                            <div class="sp-panel hidden" id="sp-sources">
+                                <div class="sp-empty"><span class="sp-empty-glyph">▤</span>
+                                    <p>Citations and source documents</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- VIEW: DOCUMENT -->
+                <section class="view view-document hidden" id="view-document">
+                    <div class="doc-shell">
+
+                        <!-- Upload state -->
+                        <div class="doc-upload" id="doc-upload">
+                            <label class="doc-drop" for="file-input" id="doc-drop">
+                                <div class="dd-inner">
+                                    <div class="dd-glyph">▭</div>
+                                    <div class="dd-title">Drop your legal document</div>
+                                    <div class="dd-sub">or <span class="dd-link">browse to upload</span></div>
+                                    <div class="dd-formats">
+                                        <span>PDF</span><span>DOCX</span><span>PNG</span><span>TIFF</span>
+                                    </div>
+                                </div>
+                            </label>
+                            <input type="file" id="file-input" hidden accept=".pdf,.docx,.png,.jpg,.jpeg,.tiff">
+                        </div>
+
+                        <!-- Analysis state -->
+                        <div class="doc-analysis hidden" id="doc-analysis">
+                            <div class="doc-chat-col">
+                                <div class="doc-file-bar" id="doc-file-bar">
+                                    <!-- file info injected by JS -->
+                                </div>
+                                <div class="doc-messages" id="doc-messages"></div>
+                                <div class="doc-risk-bar" id="doc-risk-bar"></div>
+                                <div class="doc-input-wrap">
+                                    <textarea id="doc-query" placeholder="Ask about this document…" rows="1"></textarea>
+                                    <button class="send-btn" id="doc-send">
+                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
+                                            <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="doc-info-col">
+                                <div class="doc-info-tabs">
+                                    <button class="di-tab active" data-dtab="risks">⚠ Risks</button>
+                                    <button class="di-tab" data-dtab="clauses">§ Clauses</button>
+                                    <button class="di-tab" data-dtab="acts">⚖ Acts</button>
+                                </div>
+                                <div class="di-panel active" id="dt-risks">
+                                    <div class="di-empty">Risk flags will appear here after analysis</div>
+                                </div>
+                                <div class="di-panel hidden" id="dt-clauses">
+                                    <div class="di-empty">Key clauses will be extracted here</div>
+                                </div>
+                                <div class="di-panel hidden" id="dt-acts">
+                                    <div class="di-empty">Applicable acts will be identified here</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- VIEW: DRAFT -->
+                <section class="view view-draft hidden" id="view-draft">
+                    <div class="draft-shell">
+                        <div class="draft-form-col" id="draft-form-col">
+                            <div class="df-header">
+                                <div class="df-title">Legal Document Generator</div>
+                                <div class="df-sub">Select template · Fill details · Generate</div>
+                            </div>
+                            <div class="df-templates" id="df-templates">
+                                <button class="df-tpl active" data-draft="nda">NDA</button>
+                                <button class="df-tpl" data-draft="service_agreement">Service</button>
+                                <button class="df-tpl" data-draft="employment">Employment</button>
+                                <button class="df-tpl" data-draft="lease">Lease</button>
+                                <button class="df-tpl" data-draft="legal_notice">Notice</button>
+                                <button class="df-tpl" data-draft="nclt_petition">NCLT</button>
+                                <button class="df-tpl" data-draft="arbitration_notice">Arbitration</button>
+                            </div>
+                            <div class="df-fields">
+                                <div class="df-field">
+                                    <label>Party A</label>
+                                    <input type="text" id="df-party-a" placeholder="First party name">
+                                </div>
+                                <div class="df-field">
+                                    <label>Party B</label>
+                                    <input type="text" id="df-party-b" placeholder="Second party name">
+                                </div>
+                                <div class="df-field">
+                                    <label>Additional instructions</label>
+                                    <textarea id="df-instructions"
+                                        placeholder="Specific clauses, terms, jurisdiction details…"
+                                        rows="4"></textarea>
+                                </div>
+                                <button class="btn-generate" id="btn-generate">
+                                    <span>Generate Document</span>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="draft-preview-col" id="draft-preview-col">
+                            <div class="dp-header">
+                                <span class="dp-title" id="dp-title">Document Preview</span>
+                                <div class="dp-actions">
+                                    <button class="dp-act" id="dp-copy">Copy</button>
+                                    <button class="dp-act dp-act-primary" id="dp-download">↓ Download</button>
+                                </div>
+                            </div>
+                            <div class="dp-content" id="dp-content">
+                                <div class="dp-empty">
+                                    <div class="dp-empty-glyph">✎</div>
+                                    <p>Your generated document will appear here</p>
+                                </div>
+                            </div>
+                            <div class="dp-status" id="dp-status"></div>
+                        </div>
+                    </div>
+                </section>
+
+            </div><!-- /workspace -->
+
+            <!-- Global input -->
+            <div class="input-dock" id="input-dock">
+                <div class="input-wrap">
+                    <textarea id="user-input" placeholder="Ask about Indian business law…" rows="1"></textarea>
+                    <div class="input-actions">
+                        <span class="input-hint">↵ send · ⇧↵ newline</span>
+                        <button class="send-btn" id="send-btn">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
+                                <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div><!-- /shell -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

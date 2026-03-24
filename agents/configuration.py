@@ -68,11 +68,39 @@ class Configuration:
     pinecone_region: str = os.environ.get("PINECONE_REGION", "us-east-1")
     ns_legal: str = "vidhijna-legal"
     ns_books: str = "vidhijna-books"
-    retrieval_top_k_legal: int = int(os.environ.get("RETRIEVAL_TOP_K_LEGAL", "6"))
-    retrieval_top_k_books: int = int(os.environ.get("RETRIEVAL_TOP_K_BOOKS", "4"))
+# Bump these — need more candidates for reranker to work on
+    retrieval_top_k_legal: int = int(os.environ.get("RETRIEVAL_TOP_K_LEGAL", "20"))   # was 6
+    retrieval_top_k_books: int = int(os.environ.get("RETRIEVAL_TOP_K_BOOKS", "10"))   # was 4
+
+# After reranking, how many to keep
+    rerank_top_n_legal: int = int(os.environ.get("RERANK_TOP_N_LEGAL", "6"))
+    rerank_top_n_books: int = int(os.environ.get("RERANK_TOP_N_BOOKS", "4"))
+
     retrieval_score_threshold: float = float(
-        os.environ.get("RETRIEVAL_SCORE_THRESHOLD", "0.5")
+    os.environ.get("RETRIEVAL_SCORE_THRESHOLD", "0.4")
     )
+
+# Authority weights — applied post-retrieval as score multipliers
+    authority_weights: dict = field(default_factory=lambda: {
+    "doc_type": {
+        "act":          1.3,
+        "constitution": 1.3,
+        "code":         1.2,
+        "regulation":   1.1,
+    },
+    "importance": {
+        "high":   1.1,
+        "medium": 1.0,
+        "low":    0.9,
+    },
+    "book_type": {
+        "commentary":          1.2,
+        "case_digest":         1.15,
+        "bare_act_explanation":1.1,
+        "textbook":            1.0,
+        "study_notes":         0.9,
+    }   
+    })
 
     # ── Tavily search ─────────────────────────────────────────────────────────
     search_api: SearchAPI = SearchAPI(
@@ -116,6 +144,22 @@ class Configuration:
     # ── Research agent ────────────────────────────────────────────────────────
     max_reflection_loops: int = int(os.environ.get("MAX_REFLECTION_LOOPS", "3"))
     max_web_queries: int = int(os.environ.get("MAX_WEB_QUERIES", "3"))
+    # Complexity-driven loop limits
+# Supervisor sets complexity_score → this maps to max loops
+    complexity_loop_map: dict = field(default_factory=lambda: {
+        "low":    1,   # simple definition query → 1 loop max
+        "medium": 2,   # standard research → 2 loops
+        "high":   3,   # multi-party, cross-act, factual scenario → 3 loops
+        })
+
+# Filter confidence threshold
+# LLM must signal confidence >= this to apply a metadata filter
+# Below this → filter is dropped, full namespace search runs
+    filter_confidence_threshold: float = float(
+        os.environ.get("FILTER_CONFIDENCE_THRESHOLD", "0.8")
+    )
+
+
 
     # ── Chat agent ────────────────────────────────────────────────────────────
     enable_memory: bool = os.environ.get("ENABLE_MEMORY", "true").lower() in (
@@ -173,19 +217,33 @@ class Configuration:
     ) -> "Configuration":
         configurable = config.get("configurable", {}) if config else {}
         values: Dict[str, Any] = {}
+
+        # Build a defaults instance so default_factory fields resolve properly
+        defaults = cls()
+
         for f in fields(cls):
-            env_val = os.environ.get(f.name.upper())
-            value   = configurable.get(f.name, env_val or getattr(cls, f.name, None))
+            # Check configurable first, then env var, then instance default
+            if f.name in configurable:
+                value = configurable[f.name]
+            else:
+                env_val = os.environ.get(f.name.upper())
+                if env_val is not None:
+                    value = env_val
+                else:
+                    value = getattr(defaults, f.name)
+
+            # Type coercion
             if f.type == "bool":
                 value = str(value).lower() in ("true", "1", "t")
             elif f.type == "int":
                 try: value = int(value)
-                except (TypeError, ValueError): value = getattr(cls, f.name, 0)
+                except (TypeError, ValueError): value = getattr(defaults, f.name)
             elif f.type == "float":
                 try: value = float(value)
-                except (TypeError, ValueError): value = getattr(cls, f.name, 0.0)
+                except (TypeError, ValueError): value = getattr(defaults, f.name)
             elif f.type == "SearchAPI": value = SearchAPI(value)
             elif f.type == "ResearchMode": value = ResearchMode(value)
+
             values[f.name] = value
         return cls(**values)
 
@@ -233,3 +291,27 @@ class Configuration:
         if missing and self.dev_mode:
             import warnings
             warnings.warn(f"Missing config (dev_mode): {missing}", stacklevel=2)
+    
+    def get_max_loops_for_complexity(self, complexity: str) -> int:
+        """Return max reflection loops based on query complexity."""
+        return self.complexity_loop_map.get(complexity, self.max_reflection_loops)
+
+    def build_pinecone_filter(self, filter_dict: dict) -> dict:
+        """
+        Convert flat filter dict to Pinecone $and/$eq syntax.
+        Skips empty/None values automatically.
+        
+        Input:  {"act_name": "Indian Contract Act, 1872", "doc_type": "act"}
+        Output: {"$and": [{"act_name": {"$eq": "..."}}, {"doc_type": {"$eq": "act"}}]}
+        """
+        conditions = [
+            {k: {"$eq": v}}
+            for k, v in filter_dict.items()
+            if v
+        ]
+        if not conditions:
+            return {}
+        if len(conditions) == 1:
+            return conditions[0]
+        return {"$and": conditions}
+

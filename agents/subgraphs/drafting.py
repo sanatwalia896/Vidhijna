@@ -5,8 +5,6 @@ Nodes:
   validate_inputs → retrieve_act_sections → draft → review
 """
 
-import json
-
 from langchain_core.messages import SystemMessage
 from langchain_core.runnables import RunnableConfig
 from langchain_groq import ChatGroq
@@ -16,6 +14,8 @@ from agents.state import VidhijnaState
 from agents.configuration import Configuration
 from agents.prompts import DRAFT_PROMPT
 from agents.tools.retrieval import retrieve_legal, format_chunks
+from agents.tools.drafting_tools import get_relevant_acts, get_standard_clauses, validate_draft_completeness
+from agents.utils import clean_thinking_tags
 
 
 def _llm(model: str, temperature: float = 0.2):
@@ -54,22 +54,10 @@ def retrieve_act_sections(state: VidhijnaState, config: RunnableConfig) -> dict:
 
     cfg = Configuration.from_runnable_config(config)
 
-    # Map draft types to relevant acts
-    act_queries = {
-        "nda":                "non-disclosure agreement confidentiality Indian Contract Act",
-        "service_agreement":  "service contract agreement Indian Contract Act",
-        "employment":         "employment contract India labour law",
-        "sale_deed":          "sale deed property Transfer of Property Act",
-        "lease":              "lease agreement Transfer of Property Act",
-        "legal_notice":       "legal notice demand Indian Contract Act breach",
-        "cease_desist":       "cease desist intellectual property trademark",
-        "reply_notice":       "reply to legal notice Indian Contract Act",
-        "nclt_petition":      "NCLT petition Companies Act IBC",
-        "consumer_complaint": "consumer complaint Consumer Protection Act",
-        "arbitration_notice": "arbitration notice Arbitration Conciliation Act",
-    }
+    # Build retrieval query from the structured act map in drafting_tools
+    relevant_acts = get_relevant_acts(state.draft_type)
+    query = f"{state.draft_type.replace('_', ' ')} {' '.join(relevant_acts)} India"
 
-    query = act_queries.get(state.draft_type, f"{state.draft_type} India contract law")
     matches = retrieve_legal(query=query, top_k=5,
                              score_threshold=cfg.retrieval_score_threshold)
     return {"legal_chunks": matches}
@@ -98,7 +86,7 @@ def draft_document(state: VidhijnaState, config: RunnableConfig) -> dict:
         jurisdiction=cfg.default_jurisdiction,
     ))])
 
-    draft_text = result.content
+    draft_text = clean_thinking_tags(result.content)
 
     return {
         "draft_output":  draft_text,
@@ -109,17 +97,30 @@ def draft_document(state: VidhijnaState, config: RunnableConfig) -> dict:
 
 
 def review_draft(state: VidhijnaState, config: RunnableConfig) -> dict:
-    """Quick review pass — check for missing standard clauses."""
+    """Review pass — check for missing standard clauses using structured checklist."""
     if state.error or not state.draft_output:
         return {}
 
     cfg = Configuration.from_runnable_config(config)
     llm = _llm(cfg.groq_model, temperature=0.1)
 
+    # Run deterministic clause check first
+    missing = validate_draft_completeness(state.draft_output, state.draft_type)
+    expected = get_standard_clauses(state.draft_type)
+
+    missing_section = ""
+    if missing:
+        missing_list = "\n".join(f"- {c}" for c in missing)
+        missing_section = f"\n\nMISSING CLAUSES detected by automated check:\n{missing_list}"
+
     prompt = f"""Review this {state.draft_type} draft for completeness.
 
+Standard clauses expected for this document type:
+{chr(10).join(f'- {c}' for c in expected) if expected else 'No specific checklist available.'}
+{missing_section}
+
 Check for:
-1. All standard clauses present
+1. All standard clauses listed above are present and substantive
 2. No contradictory terms
 3. Proper legal language
 4. Jurisdiction and governing law specified
@@ -134,10 +135,11 @@ Otherwise append "## Review: Draft is complete and legally sound."
 Return the full draft with review notes appended."""
 
     result = llm.invoke([SystemMessage(content=prompt)])
+    reviewed = clean_thinking_tags(result.content)
 
     return {
-        "draft_output":   result.content,
-        "final_response": result.content,
+        "draft_output":   reviewed,
+        "final_response": reviewed,
     }
 
 

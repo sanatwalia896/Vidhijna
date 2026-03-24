@@ -100,13 +100,26 @@ class VidhijnaState:
 
     # ── Intent & routing ──────────────────────────────────────────────────────
     intent: str = field(default="")   # "chat"|"research"|"document"|"draft"
-    mode: str = field(default="research")  # "chat"|"research"
+    mode: str = field(default="research") 
+    complexity_score: str = field(default="medium") 
+
+# "chat"|"research"
 
     # ── Query processing ──────────────────────────────────────────────────────
+ 
     rewritten_query: str = field(default="")
-    retrieval_filters: dict = field(default_factory=dict)
-    target_namespaces: list = field(default_factory=list)
 
+    # Single general filter (backwards compat) — supervisor writes this
+    retrieval_filters: dict = field(default_factory=dict)
+
+    # Track-specific filters — reflection + query nodes write these
+    legal_filters: dict = field(default_factory=dict)
+    # e.g. {"act_name": "Indian Contract Act, 1872", "doc_type": "act", "legal_domain": "contract"}
+
+    books_filters: dict = field(default_factory=dict)
+    # e.g. {"reasoning_focus": "application", "book_type": "commentary"}
+
+    target_namespaces: list = field(default_factory=list)
     # ── Tavily fetch signals ───────────────────────────────────────────────────
     # Supervisor populates based on:
     #   1. Query topics matching VECTOR_STORE_GAPS
@@ -127,22 +140,39 @@ class VidhijnaState:
     book_chunks: Annotated[list, operator.add] = field(default_factory=list)
     web_results: Annotated[list, operator.add] = field(default_factory=list)
     sources_gathered: Annotated[list, operator.add] = field(default_factory=list)
+    legal_rerank_scores: dict = field(default_factory=dict)
+    books_rerank_scores: dict = field(default_factory=dict)
+
+
 
     # ── Summaries ─────────────────────────────────────────────────────────────
     legal_summary: str = field(default="")
     books_summary: str = field(default="")
     web_summary: str = field(default="")
     running_summary: str = field(default="")
-
-    # ── Reflection & loop control ─────────────────────────────────────────────
+# ── Reflection & loop control ─────────────────────────────────────────────────
     knowledge_gaps: list = field(default_factory=list)
+
+# Old — single mixed list (keep for backwards compat)
     followup_queries: Annotated[list, operator.add] = field(default_factory=list)
+
+# New — three typed query tracks (reflection writes, retrieval nodes read)
+    legal_followup_query: str = field(default="")
+# What specific provision / section is still missing from legal namespace
+
+    books_followup_query: str = field(default="")
+# What interpretation / principle / application is still unclear from books
+
+    web_followup_query: str = field(default="")
+# What recent judgment / amendment / circular needs web fetch
+
     reflection_loop_count: int = field(default=0)
     web_search_loop_count: int = field(default=0)
     vector_loop_count: int = field(default=0)
 
     # ── Document handling ─────────────────────────────────────────────────────
-    uploaded_file_text: str = field(default="")
+    uploaded_file_bytes: bytes = field(default=b"")   # raw file upload
+    uploaded_file_text: str = field(default="")        # extracted text (OCR or pre-extracted)
     uploaded_file_type: str = field(default="")
     uploaded_file_name: str = field(default="")
     document_analysis: dict = field(default_factory=dict)
@@ -170,6 +200,9 @@ class VidhijnaState:
     error: str = field(default="")
     error_node: str = field(default="")
 
+    # ── UX & Logging ──────────────────────────────────────────────────────────
+    status_log: Annotated[list[str], operator.add] = field(default_factory=list)
+
 
 # ── Input / Output ────────────────────────────────────────────────────────────
 
@@ -178,6 +211,7 @@ class VidhijnaInput:
     query: str = field(default="")
     thread_id: str = field(default="default")
     mode: str = field(default="research")
+    uploaded_file_bytes: bytes = field(default=b"")
     uploaded_file_text: str = field(default="")
     uploaded_file_name: str = field(default="")
     uploaded_file_type: str = field(default="")

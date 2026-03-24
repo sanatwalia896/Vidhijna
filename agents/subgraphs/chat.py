@@ -14,6 +14,7 @@ from agents.state import VidhijnaState
 from agents.configuration import Configuration
 from agents.prompts import CHAT_PROMPT
 from agents.tools.retrieval import retrieve_legal, format_chunks
+from agents.utils import clean_thinking_tags, extract_json_from_text
 
 
 def _llm(model: str, temperature: float = 0.2):
@@ -24,7 +25,7 @@ def retrieve_for_chat(state: VidhijnaState, config: RunnableConfig) -> dict:
     cfg = Configuration.from_runnable_config(config)
     matches = retrieve_legal(
         query=state.rewritten_query or state.query,
-        top_k=4,
+        top_k=cfg.retrieval_top_k_legal,
         score_threshold=cfg.retrieval_score_threshold,
     )
     return {"legal_chunks": matches}

@@ -1,401 +1,193 @@
+# utils.py — Shared utilities for Vidhijna v2
+# Only contains functions actually used by the new stack.
+# FAISS, Ollama, Perplexity, DuckDuckGo have been removed.
 
 import re
+from typing import Optional
 
-def clean_repeated_tokens(text):
-    # Remove repeated digits like "20202020"
-    text = re.sub(r'(\d{2,})\1+', r'\1', text)
-    # Remove repeated letters like "aaaaaaa"
-    text = re.sub(r'(.)\1{4,}', r'\1', text)
-    # Remove repeated phrases
-    text = re.sub(r'(\b\w+\b)( \1\b)+', r'\1', text)
+
+# ── Text cleaning ──────────────────────────────────────────────────────────────
+
+def clean_thinking_tags(text: str) -> str:
+    """Remove <think>...</think> tags that some models output."""
+    while "<think>" in text and "</think>" in text:
+        s = text.find("<think>")
+        e = text.find("</think>") + len("</think>")
+        text = text[:s] + text[e:]
     return text.strip()
 
-# utils.py
-import os
-import json
-import requests
-from typing import Dict, Any, List, Optional
-from langsmith import traceable
-from tavily import TavilyClient
-from duckduckgo_search import DDGS
-from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_core.documents import Document
-from agents.configuration import Configuration
-from langchain_ollama import OllamaEmbeddings
-from langchain_ollama.llms import OllamaLLM
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from agents.state import SummaryState
 
-
-def load_faiss_retriever(path: str) -> FAISS:
+def clean_repeated_tokens(text: str) -> str:
     """
-    Load a FAISS vector store from a local path.
-
-    Args:
-        path (str): Path to the FAISS index
-
-    Returns:
-        FAISS: The loaded FAISS vector store
+    Remove hallucination artifacts — repeated digits, letters, phrases.
+    Useful when LLM output has degenerated repetition.
     """
-    embeddings = OllamaEmbeddings(
-        model="all-minilm:33m"
-    )  # Same model used for indexing
-    return FAISS.load_local(path, embeddings, allow_dangerous_deserialization=True)
+    text = re.sub(r'(\d{2,})\1+', r'\1', text)       # repeated digits
+    text = re.sub(r'(.)\1{4,}', r'\1', text)           # repeated chars
+    text = re.sub(r'(\b\w+\b)( \1\b)+', r'\1', text)  # repeated words
+    return text.strip()
+
+
+# ── Source deduplication ───────────────────────────────────────────────────────
+
+def deduplicate_sources(sources: list[dict]) -> list[dict]:
+    """
+    Deduplicate a list of sources by URL.
+    Keeps the first occurrence of each URL.
+
+    Works with both:
+      - Tavily results: {"url": ..., "title": ..., "content": ...}
+      - Pinecone matches: {"id": ..., "score": ..., "metadata": {...}}
+    """
+    seen_urls = set()
+    unique = []
+
+    for source in sources:
+        # Handle Tavily-style results
+        if isinstance(source, dict) and "url" in source:
+            url = source["url"]
+            if url and url not in seen_urls:
+                seen_urls.add(url)
+                unique.append(source)
+
+        # Handle Pinecone-style matches
+        elif isinstance(source, dict) and "metadata" in source:
+            url = source["metadata"].get("url", source.get("id", ""))
+            if url and url not in seen_urls:
+                seen_urls.add(url)
+                unique.append(source)
+            elif not url:
+                unique.append(source)  # no URL — keep it
+
+        else:
+            unique.append(source)
+
+    return unique
 
 
 def deduplicate_and_format_sources(
-    search_response, max_tokens_per_source, include_raw_content=False
-):
+    sources: list[dict],
+    max_tokens_per_source: int = 2000,
+    include_raw_content: bool = False,
+) -> str:
     """
-    Formats a search response or list of vector store documents with deduplication.
-    Supports both:
-        - Dict with 'results' key from search APIs
-        - List of vector store Documents
+    Deduplicate sources and format them into a readable string for the LLM.
+
+    Supports:
+      - Tavily results (dict with url, title, content, raw_content)
+      - Pinecone matches (dict with metadata containing url, act_name etc.)
 
     Args:
-        search_response (dict or list): Search results or Langchain Documents
-        max_tokens_per_source (int): Approximate token limit for raw content
-        include_raw_content (bool): Whether to include full raw content
+        sources:               List of source dicts
+        max_tokens_per_source: Approx token limit per source (chars = tokens * 4)
+        include_raw_content:   Whether to include full raw content
 
     Returns:
-        str: Formatted source output
+        Formatted string ready to pass to LLM as context
     """
-    sources_list = []
+    deduped = deduplicate_sources(sources)
+    if not deduped:
+        return "No sources found."
 
-    # Normalize input
-    if isinstance(search_response, dict) and "results" in search_response:
-        sources_list = search_response["results"]
-    elif isinstance(search_response, list):
-        for item in search_response:
-            if isinstance(item, dict) and "results" in item:
-                sources_list.extend(item["results"])
-            else:
-                sources_list.append(item)  # Could be a Langchain Document
-    else:
-        raise ValueError(
-            "Input must be dict with 'results' or list of results/Documents."
-        )
+    parts = []
+    char_limit = max_tokens_per_source * 4
 
-    # Deduplicate by URL
-    unique_sources = {}
-    for source in sources_list:
-        # Handle both raw dict and Langchain Document
-        if hasattr(source, "metadata"):  # Langchain Document
-            metadata = source.metadata
-            url = metadata.get("url", "no-url")
-            title = metadata.get("title", "Untitled")
-            content = source.page_content
-            raw_content = metadata.get("raw_content", "")
-        else:  # Search API style dict
-            url = source.get("url", "no-url")
+    for i, source in enumerate(deduped, 1):
+        # ── Tavily-style source ──
+        if "url" in source:
+            title   = source.get("title", "Untitled")
+            url     = source.get("url", "")
+            content = source.get("content", "")[:char_limit]
+            raw     = source.get("raw_content", "") or ""
+
+            block = f"Source {i}: {title}\nURL: {url}\nContent: {content}"
+            if include_raw_content and raw:
+                if len(raw) > char_limit:
+                    raw = raw[:char_limit] + "... [truncated]"
+                block += f"\nFull content: {raw}"
+
+        # ── Pinecone-style source ──
+        elif "metadata" in source:
+            meta    = source["metadata"]
+            act     = meta.get("act_name", "")
+            sec     = meta.get("section_number", "")
+            title   = meta.get("section_title", meta.get("title", "Legal provision"))
+            url     = meta.get("url", "")
+            content = meta.get("text", meta.get("summary", ""))[:char_limit]
+            ref     = f"{act} — Section {sec}" if act and sec else act or title
+
+            block = f"Source {i}: {ref}\n"
+            if url:
+                block += f"URL: {url}\n"
+            block += f"Content: {content}"
+
+        else:
+            block = f"Source {i}: {str(source)[:char_limit]}"
+
+        parts.append(block)
+
+    return "\n\n===\n\n".join(parts)
+
+
+def format_sources_as_bullets(sources: list[dict]) -> str:
+    """
+    Format sources as a simple bullet list for citations.
+    Used in response_formatter to append to final answers.
+    """
+    deduped = deduplicate_sources(sources)
+    lines = []
+
+    for source in deduped:
+        if "url" in source:
             title = source.get("title", "Untitled")
-            content = source.get("content", "")
-            raw_content = source.get("raw_content", "")
+            url   = source.get("url", "")
+            lines.append(f"• {title} — {url}" if url else f"• {title}")
 
-        if url not in unique_sources:
-            unique_sources[url] = {
-                "url": url,
-                "title": title,
-                "content": content,
-                "raw_content": raw_content,
-            }
+        elif "metadata" in source:
+            meta  = source["metadata"]
+            act   = meta.get("act_name", "")
+            sec   = meta.get("section_number", "")
+            ref   = f"{act} — Section {sec}" if act and sec else act or "Legal provision"
+            lines.append(f"• {ref}")
 
-    # Format output
-    formatted_text = "Sources:\n\n"
-    for i, source in enumerate(unique_sources.values(), 1):
-        formatted_text += f"Source {i}. {source['title']}:\n===\n"
-        formatted_text += f"URL: {source['url']}\n===\n"
-        formatted_text += (
-            f"Most relevant content from source: {source['content']}\n===\n"
-        )
-
-        if include_raw_content:
-            char_limit = max_tokens_per_source * 4
-            raw_content = source.get("raw_content", "") or ""
-            if len(raw_content) > char_limit:
-                raw_content = raw_content[:char_limit] + "... [truncated]"
-            formatted_text += f"Full source content limited to {max_tokens_per_source} tokens: {raw_content}\n\n"
-
-    return formatted_text.strip()
+    return "\n".join(lines) if lines else ""
 
 
-def format_sources(search_results):
-    """Format search results or vector documents into a bullet-point list of sources.
+# ── Misc helpers ───────────────────────────────────────────────────────────────
 
-    Args:
-        search_results (dict or list): Either:
-            - A dict with 'results' key (from Tavily/DuckDuckGo/etc.)
-            - A list of Langchain Documents (from FAISS/Qdrant/etc.)
+def truncate_text(text: str, max_chars: int = 6000) -> str:
+    """Truncate text to max_chars, breaking at word boundary."""
+    if len(text) <= max_chars:
+        return text
+    truncated = text[:max_chars]
+    last_space = truncated.rfind(" ")
+    return (truncated[:last_space] if last_space > 0 else truncated) + "..."
 
-    Returns:
-        str: Formatted string with sources and their URLs
+
+def extract_json_from_text(text: str) -> Optional[dict]:
     """
-    formatted_lines = []
-
-    if isinstance(search_results, dict) and "results" in search_results:
-        for source in search_results["results"]:
-            formatted_lines.append(
-                f"* {source.get('title', 'Untitled')} : {source.get('url', 'No URL')}"
-            )
-    elif isinstance(search_results, list):
-        for doc in search_results:
-            if hasattr(doc, "metadata"):
-                metadata = doc.metadata
-                title = metadata.get("title", "Untitled")
-                url = metadata.get("url", "No URL")
-                formatted_lines.append(f"* {title} : {url}")
-            elif isinstance(doc, dict):
-                title = doc.get("title", "Untitled")
-                url = doc.get("url", "No URL")
-                formatted_lines.append(f"* {title} : {url}")
-            else:
-                formatted_lines.append(f"* Unknown format document")
-    else:
-        raise ValueError("Expected dict with 'results' or list of Documents.")
-
-    return "\n".join(formatted_lines)
-
-
-@traceable
-def duckduckgo_search(
-    query: str, max_results: int = 3, fetch_full_page: bool = False
-) -> Dict[str, List[Dict[str, str]]]:
-    """Search the web using DuckDuckGo.
-
-    Args:
-        query (str): The search query to execute
-        max_results (int): Maximum number of results to return
-        fetch_full_page (bool): Whether to fetch full page content
-
-    Returns:
-        dict: Search response containing:
-            - results (list): List of search result dictionaries, each containing:
-                - title (str): Title of the search result
-                - url (str): URL of the search result
-                - content (str): Snippet/summary of the content
-                - raw_content (str): Full page content if fetch_full_page is True
+    Try to extract JSON from LLM output that may have markdown fences.
+    Returns parsed dict or None if parsing fails.
     """
-    try:
-        with DDGS() as ddgs:
-            results = []
-            search_results = list(ddgs.text(query, max_results=max_results))
+    import json
+    text = clean_thinking_tags(text).strip()
 
-            for r in search_results:
-                url = r.get("href")
-                title = r.get("title")
-                content = r.get("body")
-
-                if not all([url, title, content]):
-                    print(f"Warning: Incomplete result from DuckDuckGo: {r}")
-                    continue
-
-                raw_content = content
-                if fetch_full_page:
-                    try:
-                        # Try to fetch the full page content
-                        import urllib.request
-                        from bs4 import BeautifulSoup
-
-                        headers = {
-                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-                        }
-                        req = urllib.request.Request(url, headers=headers)
-                        response = urllib.request.urlopen(req, timeout=10)
-                        html = response.read()
-                        soup = BeautifulSoup(html, "html.parser")
-                        # Remove scripts and styles to get cleaner text
-                        for script in soup(["script", "style"]):
-                            script.extract()
-                        raw_content = soup.get_text(separator="\n", strip=True)
-
-                    except Exception as e:
-                        print(
-                            f"Warning: Failed to fetch full page content for {url}: {str(e)}"
-                        )
-
-                # Add result to list
-                result = {
-                    "title": title,
-                    "url": url,
-                    "content": content,
-                    "raw_content": raw_content,
-                }
-                results.append(result)
-
-            return {"results": results}
-    except Exception as e:
-        print(f"Error in DuckDuckGo search: {str(e)}")
-        print(f"Full error details: {type(e).__name__}")
-        return {"results": []}
-
-
-@traceable
-def tavily_search(query, include_raw_content=True, max_results=3):
-    """Search the web using the Tavily API.
-
-    Args:
-        query (str): The search query to execute
-        include_raw_content (bool): Whether to include the raw_content from Tavily
-        max_results (int): Maximum number of results to return
-
-    Returns:
-        dict: Search response containing:
-            - results (list): List of search result dictionaries
-    """
-    api_key = os.getenv("TAVILY_API_KEY")
-    if not api_key:
-        raise ValueError("TAVILY_API_KEY environment variable is not set")
+    # Strip markdown fences
+    if text.startswith("```"):
+        parts = text.split("```")
+        text = parts[1] if len(parts) > 1 else parts[0]
+        if text.startswith("json"):
+            text = text[4:]
+    text = text.strip()
 
     try:
-        tavily_client = TavilyClient(api_key=api_key)
-        return tavily_client.search(
-            query, max_results=max_results, include_raw_content=include_raw_content
-        )
-    except Exception as e:
-        print(f"Error in Tavily search: {str(e)}")
-        return {"results": []}
-
-
-@traceable
-def perplexity_search(query: str, perplexity_search_loop_count: int) -> Dict[str, Any]:
-    """Search the web using the Perplexity API.
-
-    Args:
-        query (str): The search query to execute
-        perplexity_search_loop_count (int): The loop step for perplexity search (starts at 0)
-
-    Returns:
-        dict: Search response containing:
-            - results (list): List of search result dictionaries
-    """
-    api_key = os.getenv("PERPLEXITY_API_KEY")
-    if not api_key:
-        raise ValueError("PERPLEXITY_API_KEY environment variable is not set")
-
-    headers = {
-        "accept": "application/json",
-        "content-type": "application/json",
-        "Authorization": f"Bearer {api_key}",
-    }
-
-    payload = {
-        "model": "sonar-pro",
-        "messages": [
-            {
-                "role": "system",
-                "content": "Search the web and provide factual information with sources.",
-            },
-            {"role": "user", "content": query},
-        ],
-    }
-
-    try:
-        response = requests.post(
-            "https://api.perplexity.ai/chat/completions",
-            headers=headers,
-            json=payload,
-            timeout=30,
-        )
-        response.raise_for_status()  # Raise exception for bad status codes
-
-        # Parse the response
-        data = response.json()
-        content = data["choices"][0]["message"]["content"]
-
-        # Perplexity returns a list of citations for a single search result
-        citations = data.get("citations", ["https://perplexity.ai"])
-
-        # Return first citation with full content, others just as references
-        results = [
-            {
-                "title": f"Perplexity Search {perplexity_search_loop_count + 1}, Source 1",
-                "url": citations[0] if citations else "https://perplexity.ai",
-                "content": content,
-                "raw_content": content,
-            }
-        ]
-
-        # Add additional citations without duplicating content
-        for i, citation in enumerate(citations[1:], start=2):
-            results.append(
-                {
-                    "title": f"Perplexity Search {perplexity_search_loop_count + 1}, Source {i}",
-                    "url": citation,
-                    "content": "See above for full content",
-                    "raw_content": None,
-                }
-            )
-
-        return {"results": results}
-    except Exception as e:
-        print(f"Error in Perplexity search: {str(e)}")
-        return {"results": []}
-
-
-from typing import Dict, List, Optional
-from langchain_core.documents import Document
-from agents.configuration import Configuration
-from agents.utils import load_faiss_retriever
-
-
-def retrieve_from_laws_and_cases(
-    query: str,
-    config: Optional[Configuration] = None,
-    similarity_threshold: float = 0.7,  # Add a threshold parameter
-    max_docs: int = 5,  # Optional: Limit the maximum number of documents
-) -> Dict[str, List[Document]]:
-    """
-    Perform retrieval from both laws and cases FAISS vector stores, filtering by similarity score.
-
-    Args:
-        query (str): The user's query
-        config (Configuration): The Configuration object to get paths from
-        similarity_threshold (float): Minimum similarity score for documents to be included (0 to 1)
-        max_docs (int): Maximum number of documents to retrieve per retriever
-
-    Returns:
-        dict: {
-            "laws": [List of Documents from laws vector store],
-            "cases": [List of Documents from cases vector store]
-        }
-    """
-    if config is None:
-        config = Configuration()  # Fallback to default config
-
-    laws_docs = []
-    cases_docs = []
-
-    try:
-        # Load laws retriever
-        laws_retriever = load_faiss_retriever(config.laws_faiss_path)
-        # Retrieve documents with similarity scores
-        laws_results = laws_retriever.similarity_search_with_score(query, k=max_docs)
-        # Filter documents based on similarity threshold
-        laws_docs = [
-            doc
-            for doc, score in laws_results
-            if score
-            >= similarity_threshold  # Assuming score is normalized between 0 and 1
-        ]
-    except Exception as e:
-        print(f"Error retrieving laws: {str(e)}")
-        laws_docs = []
-
-    try:
-        # Load cases retriever
-        cases_retriever = load_faiss_retriever(config.cases_faiss_path)
-        # Retrieve documents with similarity scores
-        cases_results = cases_retriever.similarity_search_with_score(query, k=max_docs)
-        # Filter documents based on similarity threshold
-        cases_docs = [
-            doc
-            for doc, score in cases_results
-            if score
-            >= similarity_threshold  # Assuming score is normalized between 0 and 1
-        ]
-    except Exception as e:
-        print(f"Error retrieving cases: {str(e)}")
-        cases_docs = []
-
-    return {"laws": laws_docs, "cases": cases_docs}
+        return json.loads(text)
+    except json.JSONDecodeError:
+        # Try to find JSON object within the text
+        match = re.search(r'\{.*\}', text, re.DOTALL)
+        if match:
+            try:
+                return json.loads(match.group(0))
+            except json.JSONDecodeError:
+                return None
+    return None

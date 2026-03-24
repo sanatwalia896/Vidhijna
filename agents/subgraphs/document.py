@@ -5,8 +5,6 @@ Nodes:
   extract_text → analyse_document → retrieve_relevant_law → flag_risks
 """
 
-import json
-
 from langchain_core.messages import SystemMessage
 from langchain_core.runnables import RunnableConfig
 from langchain_groq import ChatGroq
@@ -16,6 +14,8 @@ from agents.state import VidhijnaState
 from agents.configuration import Configuration
 from agents.prompts import DOCUMENT_ANALYSIS_PROMPT
 from agents.tools.retrieval import retrieve_legal, format_chunks
+from agents.tools.ocr import extract_text, detect_document_type
+from agents.utils import clean_thinking_tags, extract_json_from_text
 
 
 def _llm(model: str, temperature: float = 0.1, json_mode: bool = False):
@@ -26,12 +26,29 @@ def _llm(model: str, temperature: float = 0.1, json_mode: bool = False):
 
 
 def validate_document(state: VidhijnaState, config: RunnableConfig) -> dict:
-    """Check document is present and extract basic info."""
+    """Extract text via OCR if needed, then validate document is present."""
+    # If we have raw bytes but no extracted text yet, run OCR
+    if not state.uploaded_file_text and state.uploaded_file_bytes:
+        filename = state.uploaded_file_name or "document.pdf"
+        text, file_type = extract_text(state.uploaded_file_bytes, filename)
+        if not text:
+            return {
+                "error":          "Could not extract text from uploaded file",
+                "final_response": f"Failed to extract text from '{filename}'. Please check the file format.",
+            }
+        doc_type = detect_document_type(text, filename)
+        return {
+            "uploaded_file_text": text,
+            "uploaded_file_type": file_type,
+            "document_analysis":  {"detected_doc_type": doc_type},
+        }
+
     if not state.uploaded_file_text:
         return {
             "error":          "No document uploaded",
             "final_response": "Please upload a document to analyse.",
         }
+
     file_type = state.uploaded_file_type or "unknown"
     return {"uploaded_file_type": file_type}
 
@@ -49,9 +66,10 @@ def analyse_document(state: VidhijnaState, config: RunnableConfig) -> dict:
         query=state.query or "Provide a full analysis of this document.",
     ))])
 
+    cleaned = clean_thinking_tags(result.content)
     return {
-        "final_response":    result.content,
-        "document_analysis": {"raw_analysis": result.content},
+        "final_response":    cleaned,
+        "document_analysis": {"raw_analysis": cleaned},
     }
 
 
@@ -92,16 +110,15 @@ Document analysis:
 
 Return JSON: {{"risk_flags": [], "missing_clauses": [], "non_compliant": []}}"""
 
-    try:
-        result = llm.invoke([SystemMessage(content=prompt)])
-        data = json.loads(result.content)
+    result = llm.invoke([SystemMessage(content=prompt)])
+    data = extract_json_from_text(result.content)
+    if data:
         flags = data.get("risk_flags", []) + data.get("non_compliant", [])
         return {
             "risk_flags":       flags,
             "extracted_clauses": data.get("missing_clauses", []),
         }
-    except Exception:
-        return {}
+    return {}
 
 
 def build_document_graph():

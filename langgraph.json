@@ -1,11 +1,15 @@
 {
   "python_version": "3.11",
   "dependencies": [
-    "langchain_ollama",
     "langchain_core",
+    "langchain-groq",
+    "langchain-huggingface",
     "langgraph",
+    "tavily-python",
+    "pinecone-client",
+    "python-dotenv",
     "typing_extensions",
-    "faiss-cpu",
+    "pdfplumber",
     "."
   ],
   "graphs": {
