@@ -1,314 +1,281 @@
-# Vidhijna
+# Vidhijna ⚖️
 
-Vidhijna is a Python-based application designed to assist users in conducting comprehensive legal research on Indian law, inspired by and adapted from the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher) by LangChain AI. It takes a user-defined legal problem, generates optimized search queries, retrieves relevant information from legal databases and web sources, summarizes findings, and produces a cohesive legal analysis. Additionally, the project includes a model evaluation component to assess the performance of various Grok models on legal queries using OPIK metrics. The system leverages vector stores for legal documents, web search APIs, language models, and Streamlit for visualization of evaluation results.
+**AI-powered Indian Business Law Research Assistant**
 
-## Table of Contents
+Vidhijna is a multi-agent legal AI system built for Indian commercial law. It routes user queries to specialist agents — research, chat, document analysis, or legal drafting — using a LangGraph supervisor graph backed by Groq LLMs, Pinecone vector search, and Tavily web search.
 
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Workflow](#workflow)
-- [Model Evaluation](#model-evaluation)
-- [Screenshots](#screenshots)
-- [Configuration](#configuration)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+---
 
-## Overview
+## What It Does
 
-The Legal Research Assistant automates the process of legal research by:
+| Mode | Description |
+|---|---|
+| 🔬 **Deep Research** | Multi-source legal research with a reflection loop — statutory provisions + commentary + live web |
+| 💬 **Legal Chat** | Conversational Q&A with memory, grounded in retrieved legal context |
+| 📄 **Document Analysis** | Upload a contract, judgment, or notice — get clause extraction, risk flags, and compliance checks |
+| ✍️ **Legal Drafting** | Generate NDAs, service agreements, legal notices, NCLT petitions, arbitration notices, and more |
+| ✨ **Auto (Supervisor)** | The supervisor classifies intent and routes to the right agent automatically |
 
-1. Rewriting user queries into precise, legally-focused search terms suitable for Indian legal databases (e.g., Manupatra, Indian Kanoon, SCC Online) and web search engines.
-2. Retrieving relevant documents from pre-indexed FAISS vector stores containing Indian laws and case law.
-3. Performing web searches using APIs like DuckDuckGo, Tavily, or Perplexity to gather additional context, with the web research component adapted from the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher).
-4. Summarizing and combining results from vector stores and web searches into a coherent legal analysis.
-5. Reflecting on the research to identify gaps and generate follow-up queries, iterating until sufficient information is gathered.
-6. Producing a final legal analysis with citations, recommendations, and structured formatting.
+---
 
-Additionally, the project includes a model evaluation module (`models_score_checker.py`) that evaluates different Grok models on legal queries using OPIK metrics such as Hallucination Score, Relevance Score, Correctness Score, Context Utilization, and Context Precision. The results are visualized using Streamlit, providing insights into model performance.
+## Architecture
 
-The system is built using a modular state graph (`langgraph`) to manage the research workflow, ensuring scalability and maintainability.
+```
+User Query
+    │
+    ▼
+┌─────────────┐
+│  Supervisor  │  — classifies intent, rewrites query, generates Tavily signals
+└──────┬───────┘
+       │
+       ├──► research_agent  ──► [generate_query → propose_plan → parallel retrieval
+       │                          → summarize → combine → extract_entities → reflect → loop/finalize]
+       │
+       ├──► chat_agent      ──► [retrieve → answer]
+       │
+       ├──► document_agent  ──► [validate → analyse → retrieve_law → flag_risks]
+       │
+       └──► draft_agent     ──► [validate_inputs → retrieve_law → draft → review]
+                │
+                ▼
+        response_formatter  ──► citations + legal disclaimer
+                │
+                ▼
+            Final Response (streamed via SSE)
+```
 
-## Features
+The graph is compiled with `MemorySaver` so conversation history persists per `thread_id` across turns.
 
-- **Query Rewriting**: Generates concise, legally-focused search queries tailored for Indian legal research.
-- **Dual-Source Retrieval**: Retrieves documents from FAISS vector stores (laws and cases) and web searches.
-- **Summarization**: Produces professional legal summaries with clear sections, citations, and analysis of statutes, case law, and legal principles.
-- **Reflection and Iteration**: Identifies gaps in research and generates follow-up queries to deepen analysis.
-- **Configurable Search**: Supports multiple web search APIs (DuckDuckGo, Tavily, Perplexity) and customizable research loops.
-- **Legal Entity Extraction**: Identifies statutes, cases, jurisdictions, and other key legal entities for comprehensive analysis.
-- **Final Analysis**: Combines all research into a structured legal report with practical recommendations.
-- **Model Evaluation**: Evaluates Grok models on legal queries using OPIK metrics, with results visualized in a Streamlit app.
-- **Visualization**: Displays model performance metrics (e.g., Correctness, Relevance, Context Utilization) in bar charts for easy comparison.
+---
+
+## Tech Stack
+
+| Component | Technology |
+|---|---|
+| Agent orchestration | [LangGraph](https://github.com/langchain-ai/langgraph) |
+| LLMs | Groq (`llama-3.3-70b-versatile` for research, `llama-3.1-8b-instant` for chat/supervisor) |
+| Vector store | Pinecone (dual namespace: `vidhijna-legal` + `vidhijna-books`) |
+| Embeddings | `sentence-transformers/all-MiniLM-L6-v2` via HuggingFace |
+| Web search | Tavily (targeted at Indian legal domains) |
+| OCR | pdfplumber + pytesseract |
+| Backend | FastAPI with SSE streaming |
+| Frontend | Vanilla HTML/CSS/JS |
+
+---
 
 ## Project Structure
 
-The project consists of the following main files:
-
-- **`state.py`**: Defines the `SummaryState`, `SummaryStateInput`, and `SummaryStateOutput` dataclasses to manage the state of the research process, including research topic, search queries, results, and summaries.
-- **`prompts.py`**: Contains prompt templates for query rewriting, summarization, and reflection, ensuring legal accuracy and relevance for Indian law.
-- **`configuration.py`**: Manages configuration settings, including search API selection, vector store paths, and LLM parameters, with environment variable support.
-- **`graph.py`**: Implements the state graph using `langgraph`, defining nodes (e.g., query generation, retrieval, summarization) and edges for the research workflow.
-- **`utils.py`**: Provides utility functions for loading FAISS vector stores, performing web searches (adapted from Local Deep Researcher), deduplicating sources, and formatting results.
-- **`models_score_checker.py`**: Implements a Streamlit app to evaluate Grok models on legal queries using OPIK metrics, with visualization of results.
-
-## Installation
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/your-repo/legal-research-assistant.git
-   cd legal-research-assistant
-   ```
-
-2. **Set Up a Virtual Environment**:
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install Dependencies**:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set Environment Variables**:
-   Create a `.env` file in the project root and configure the following:
-
-   ```bash
-   MAX_WEB_RESEARCH_LOOPS=3
-   MAX_VECTOR_RESEARCH_LOOPS=1
-   SEARCH_DEPTH=3
-   OLLAMA_MODEL=gemma3:1b
-   OLLAMA_BASE_URL=http://localhost:11434/
-   SEARCH_API=duckduckgo
-   FETCH_FULL_PAGE=False
-   LAWS_FAISS_PATH=/path/to/laws_index
-   CASES_FAISS_PATH=/path/to/cases_index
-   TAVILY_API_KEY=your_tavily_api_key
-   PERPLEXITY_API_KEY=your_perplexity_api_key
-   DEV_MODE=True
-   DEBUG_MODE=True
-   LOG_DIR=logs
-   ```
-
-5. **Set Up FAISS Vector Stores**:
-   Ensure FAISS indexes for laws and cases are available at the paths specified in `LAWS_FAISS_PATH` and `CASES_FAISS_PATH`. These should be pre-indexed with legal documents using the `all-minilm:33m` embedding model.
-
-6. **Run Ollama LLM**:
-   Ensure an Ollama server is running locally or at the specified `OLLAMA_BASE_URL` with the configured model (e.g., `gemma3:1b`).
-
-## Usage
-
-### Running the Legal Research Assistant
-
-1. **Run the Application**:
-   Execute the main script to start the research process:
-
-   ```bash
-   python main.py
-   ```
-
-2. **Provide a Research Topic**:
-   Input a legal problem or topic (e.g., "Legal remedies for dowry-related abuse in India"). The system will:
-
-   - Rewrite the query for optimal search.
-   - Retrieve relevant laws and cases from FAISS vector stores.
-   - Perform web searches using the configured API (e.g., DuckDuckGo), leveraging techniques inspired by the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher).
-   - Summarize and combine results.
-   - Reflect on gaps and iterate if needed.
-   - Generate a final legal analysis.
-
-3. **Output**:
-   The system outputs a structured legal report in the `running_summary` field, including web and vector store summaries, citations, and recommendations.
-
-### Running the Model Evaluator
-
-1. **Run the Streamlit App**:
-   Launch the Streamlit app to evaluate Grok models:
-
-   ```bash
-   streamlit run models_score_checker.py
-   ```
-
-2. **Evaluate Models**:
-
-   - Select models to evaluate from the list (e.g., `llama-3.3-70b-versatile`, `llama-guard-3-8b`).
-   - Choose test queries or add a custom query (e.g., "What are the key provisions of the Indian Contract Act regarding breach of contract?").
-   - Click "Run Evaluations" to compute OPIK metrics for each model-query pair.
-
-3. **View Results**:
-   - The app displays a table of results, including metrics like Correctness Score, Relevance Score, and Hallucination Score.
-   - A bar chart visualizes the performance of each model across different metrics.
-   - Results can be exported as a CSV file.
-
-## Workflow
-
-The research process follows these steps, managed by the state graph in `graph.py`:
-
-1. **Query Generation** (`generate_query`):
-
-   - Takes the user’s research topic and generates a legally-focused search query using the `legal_query_rewriter_instructions` prompt.
-   - Output: A JSON object with the query, legal aspect, and rationale.
-
-2. **Vector Store Retrieval** (`retrieve_from_vector_stores`):
-
-   - Queries FAISS vector stores for laws and cases using the generated query.
-   - Filters results by similarity threshold (default: 0.7) and limits to a maximum number of documents (default: 5).
-
-3. **Web Research** (`web_research`):
-
-   - Performs web searches using the configured API (DuckDuckGo, Tavily, or Perplexity), with implementation inspired by the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher).
-   - Deduplicates and formats results, optionally fetching full page content.
-
-4. **Summarization**:
-
-   - **Vector Summarization** (`summarize_vectors`): Summarizes retrieved laws and cases into a cohesive legal summary.
-   - **Web Summarization** (`summarize_legal_sources`): Summarizes web search results, integrating with existing summaries if available.
-   - **Combined Summarization** (`combine_summaries`): Merges vector and web summaries into a comprehensive report.
-
-5. **Reflection** (`reflect_on_legal_research`):
-
-   - Analyzes summaries for gaps or unclear areas.
-   - Generates a follow-up query to deepen research if needed.
-
-6. **Routing** (`route_research`):
-
-   - If the maximum web research loops (`MAX_WEB_RESEARCH_LOOPS`) are reached, routes to finalization.
-   - Otherwise, routes to another web research iteration with the new query.
-
-7. **Finalization** (`finalize_legal_summary`):
-   - Combines all research into a final legal analysis with citations and recommendations.
-   - Outputs the result in `running_summary`.
-
-## Model Evaluation
-
-The `models_score_checker.py` script provides a Streamlit-based interface to evaluate Grok models on legal queries using OPIK metrics. The evaluation process includes:
-
-1. **Model Selection**:
-
-   - Users can select from a list of Grok models, such as `llama-3.3-70b-versatile`, `llama-guard-3-8b`, and `allam-2-7b`.
-
-2. **Query Selection**:
-
-   - Predefined legal queries are available, such as "What are the key provisions of the Indian Contract Act regarding breach of contract?".
-   - Users can also add custom queries.
-
-3. **Evaluation Metrics**:
-
-   - **Hallucination Score**: Measures the extent of incorrect or fabricated information in the response.
-   - **Relevance Score**: Assesses how relevant the response is to the query.
-   - **Correctness Score**: Evaluates the factual accuracy of the response.
-   - **Context Utilization**: Measures how well the model uses the provided context.
-   - **Context Precision**: Assesses the precision of the context used in the response.
-   - **Average Score**: Computes the average of the above metrics (adjusted for Hallucination Score).
-
-4. **Visualization**:
-
-   - Results are displayed in a table and a bar chart, comparing models across the OPIK metrics.
-   - The bar chart shows scores for Correctness, Relevance, Context Utilization, Context Precision, and Average Score for each model.
-
-5. **Export**:
-   - Results can be downloaded as a CSV file for further analysis.
-
-## Screenshots
-
-### LangGraph Development Server
-
-Below is a screenshot of the LangGraph development server, showing the state graph used to manage the legal research workflow:
-
-![LangGraph Development Server](assets/langgraph_dev_server_0.png)
-![LangGraph Development Server](assets/langgraph_dev_server_1.png)
-![LangGraph Development Server](assets/langgraph_dev_server_2.png)
-![LangGraph Development Server](assets/langgraph_dev_server_3.png)
-![LangGraph Development Server](assets/langgraph_dev_server_4.png)
-![LangGraph Development Server](assets/langgraph_dev_server_5.png)
-
-### Streamlit frontend
-
-This screenshot the frontend of my project , I have used streamlit for making this frontend
-![Streamlit frontend](assets/streamlit_app_1.png)
-![Streamlit frontend](assets/streamlit_app_2.png)
-
-### Streamlit Model Evaluator - Results Summary Tab
-
-This screenshot shows the "Results Summary" tab, displaying a bar chart of model performance across OPIK metrics:
-
-![Streamlit Results Summary](assets/evalaution_1.png)
-![Streamlit Results Summary](assets/evalauation_2.png)
-![Streamlit Results Summary](assets/evaluation3.png)
-
-_Caption: The "Results Summary" tab visualizes model performance with a bar chart, comparing Correctness, Relevance, Context Utilization, Context Precision, and Average Score._
-
-## Configuration
-
-The `configuration.py` file allows customization of:
-
-- **Research Loops**: `MAX_WEB_RESEARCH_LOOPS` (default: 3), `MAX_VECTOR_RESEARCH_LOOPS` (default: 1).
-- **Search Depth**: Number of web queries per loop (`SEARCH_DEPTH`, default: 3).
-- **LLM Settings**: Model name (`OLLAMA_MODEL`, default: `gemma3:1b`) and server URL (`OLLAMA_BASE_URL`).
-- **Search API**: Options include `duckduckgo`, `tavily`, or `perplexity` (`SEARCH_API`).
-- **Vector Store Paths**: Paths to FAISS indexes for laws and cases (`LAWS_FAISS_PATH`, `CASES_FAISS_PATH`).
-- **Developer Toggles**: Enable/disable `DEV_MODE` and `DEBUG_MODE` for logging and testing.
-
-Set these via environment variables or a `RunnableConfig` object.
-
-## Dependencies
-
-- **Python**: 3.8+
-- **langchain**: For document retrieval and text splitting.
-- **langchain_ollama**: For LLM and embedding integration with Ollama.
-- **langgraph**: For managing the state graph workflow.
-- **tavily-python**: For Tavily search API (optional).
-- **duckduckgo-search**: For DuckDuckGo search.
-- **requests**: For Perplexity API calls.
-- **beautifulsoup4**: For web scraping in DuckDuckGo full-page fetch.
-- **faiss-cpu**: For vector store operations.
-- **python-dotenv**: For environment variable management.
-- **streamlit**: For the model evaluation interface.
-- **pandas**: For data manipulation in the evaluator.
-- **matplotlib**: For visualizing evaluation results.
-
-Install dependencies using:
-
-```bash
-pip install langchain langchain_ollama langgraph tavily-python duckduckgo-search requests beautifulsoup4 faiss-cpu python-dotenv streamlit pandas matplotlib
+```
+.
+├── agents/
+│   ├── graph.py              # Main supervisor graph — entry point
+│   ├── state.py              # VidhijnaState, TavilyFetchSignal, I/O types
+│   ├── configuration.py      # Central config — models, Pinecone, Tavily, weights
+│   ├── prompts.py            # All LLM prompts for every agent
+│   ├── utils.py              # Shared utilities — dedup, JSON extraction, text cleaning
+│   │
+│   ├── subgraphs/
+│   │   ├── research.py       # Deep research pipeline with reflection loop
+│   │   ├── chat.py           # Conversational agent with memory
+│   │   ├── document.py       # Document analysis — OCR, clause extraction, risk flags
+│   │   └── drafting.py       # Legal document drafting
+│   │
+│   └── tools/
+│       ├── retrieval.py      # Pinecone dual-namespace retriever with authority weighting
+│       ├── search.py         # Tavily web search
+│       ├── ocr.py            # PDF/image/docx text extraction
+│       └── drafting_tools.py # Standard clause libraries, act maps, draft validation
+│
+├── backend/
+│   └── main.py               # FastAPI server — streaming SSE endpoints
+│
+└── frontend/
+    ├── index.html
+    ├── script.js
+    └── style.css
 ```
 
-## Contributing
+---
 
-Contributions are welcome! To contribute:
+## Setup
 
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature`).
-3. Commit changes (`git commit -m 'Add your feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
+### 1. Clone and install dependencies
 
-Please ensure code follows PEP 8 standards and includes tests for new functionality.
+```bash
+git clone https://github.com/sanatwalia896/Vidhijna.git
+cd Vidhijna
+git checkout staging
+pip install -r requirements.txt
+```
 
-## License
+### 2. Configure environment variables
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+Create a `.env` file in the project root:
 
-# Contributers:
+```env
+# LLMs
+GROQ_API_KEY=your_groq_api_key
 
-<ol>
-   <li>
-      <a href="https://github.com/sanatwalia896">Sanat Walia</a>
-   </li>
-   <li>
-      <a href="https://github.com/tanmay-vig">Tanmay Vig</a>
-   </li>
+# Embeddings
+HUGGINGFACE_TOKEN=your_hf_token
 
-</ol>
+# Vector store
+PINECONE_API_KEY=your_pinecone_api_key
+PINECONE_INDEX_NAME=vidhijana-indexes
+PINECONE_REGION=us-east-1
 
-## Acknowledgments
+# Web search
+TAVILY_API_KEY=your_tavily_api_key
 
-This project was inspired by and builds upon the [Local Deep Researcher](https://github.com/langchain-ai/local-deep-researcher) by LangChain AI. The web research functionality, particularly the integration of multiple search APIs (DuckDuckGo, Tavily, Perplexity) and the deduplication and formatting of search results, is adapted from their work. We extend our gratitude to the LangChain AI team for their open-source contributions, which provided a foundation for the web research component of this project.
+# Optional overrides
+GROQ_MODEL=llama-3.1-8b-instant
+RESEARCH_MODEL=llama-3.3-70b-versatile
+CHAT_MODEL=llama-3.1-8b-instant
+SUPERVISOR_MODEL=llama-3.1-8b-instant
+MAX_REFLECTION_LOOPS=3
+DEV_MODE=true
+```
+
+### 3. Run the server
+
+```bash
+python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+The frontend is served at `http://localhost:8000/app`.
+
+---
+
+## API Reference
+
+### `POST /chat`
+
+Run the multi-agent pipeline. Streams events via SSE.
+
+```json
+{
+  "query": "What are the director's fiduciary duties under the Companies Act 2013?",
+  "thread_id": "t_abc123",
+  "mode": "auto",
+  "reflection_loops": 3
+}
+```
+
+**`mode` options:** `auto` | `research` | `chat` | `document` | `draft`
+
+### `POST /upload`
+
+Upload a document for analysis. Accepts `multipart/form-data` with fields `file`, `thread_id`, and `query`.
+
+Max file size: 20MB. Supported formats: PDF, PNG, JPG, JPEG, TIFF, DOCX.
+
+### `GET /threads`
+
+List all active conversation threads with message counts.
+
+### `DELETE /threads/{thread_id}`
+
+Delete a conversation thread.
+
+### `GET /modes`
+
+Returns available modes and supported draft types for the frontend.
+
+### `GET /health`
+
+Returns system health status and flags any missing API keys.
+
+---
+
+## Streaming Events (SSE)
+
+The `/chat` and `/upload` endpoints stream real-time events. Each event has a `type` field:
+
+| Event | Description |
+|---|---|
+| `status` | Agent progress message (e.g. "Searching statutory provisions...") |
+| `node_start` | A graph node has started executing |
+| `research_card` | Flash card — act found, commentary excerpt, or summary |
+| `risk_flag` | A risk identified in an uploaded document |
+| `citations` | Source citations accumulated so far |
+| `draft_preview` | Preview of the draft being generated |
+| `final` | Complete final response with citations and entities |
+| `error` | An error occurred |
+
+---
+
+## Research Pipeline (Deep Dive)
+
+The research subgraph runs a full reflection loop:
+
+1. **`generate_query`** — rewrites the user query for Pinecone retrieval
+2. **`propose_plan`** — generates a research plan (acts to check, domains, complexity)
+3. **Parallel retrieval:**
+   - `retrieve_legal` → `vidhijna-legal` namespace (statutes, acts, provisions)
+   - `retrieve_books` → `vidhijna-books` namespace (commentary, case digests)
+   - `web_search` → Tavily (cases, regulations, circulars, recent judgments)
+4. **`summarize_vectors`** — summarizes statutory + commentary chunks
+5. **`summarize_web`** — summarizes web results
+6. **`combine`** — merges all summaries into a running research doc
+7. **`extract_entities`** — extracts statutes, cases, courts, parties, dates
+8. **`reflect`** — checks for knowledge gaps and generates follow-up queries
+9. **Loop** back to retrieval if gaps found (up to `MAX_REFLECTION_LOOPS`)
+10. **`finalize`** — generates the structured final report
+
+### Authority Weighting
+
+Retrieved chunks are scored by cosine similarity then multiplied by authority weights:
+
+| Category | Weight |
+|---|---|
+| Constitution / Act | 1.3× |
+| Code | 1.2× |
+| Regulation | 1.1× |
+| Commentary | 1.2× |
+| Case digest | 1.15× |
+
+### Tavily Auto-Trigger
+
+Topics not well covered in the vector store (GST, RBI circulars, SEBI notifications, RERA, patents, etc.) automatically trigger a Tavily web search targeting the relevant government domains.
+
+---
+
+## Supported Draft Types
+
+| Draft Type | Key Acts Referenced |
+|---|---|
+| NDA | Indian Contract Act, 1872 |
+| Service Agreement | Indian Contract Act 1872, Specific Relief Act 1963 |
+| Employment Contract | Indian Contract Act, 1872 |
+| Sale Deed | Transfer of Property Act 1882, Sale of Goods Act 1930 |
+| Lease Agreement | Transfer of Property Act 1882, Indian Contract Act 1872 |
+| Legal Notice | Indian Contract Act 1872, Limitation Act 1963 |
+| Cease & Desist | Trade Marks Act 1999, Copyright Act 1957 |
+| NCLT Petition | Companies Act 2013, IBC 2016 |
+| Consumer Complaint | Consumer Protection Act, 2019 |
+| Arbitration Notice | Arbitration and Conciliation Act, 1996 |
+
+---
+
+## Configuration Reference
+
+All settings can be overridden via environment variables or a `RunnableConfig` passed to LangGraph. Key options:
+
+| Variable | Default | Description |
+|---|---|---|
+| `GROQ_MODEL` | `llama-3.1-8b-instant` | Default LLM for document/draft agents |
+| `RESEARCH_MODEL` | `llama-3.3-70b-versatile` | LLM for research agent |
+| `MAX_REFLECTION_LOOPS` | `3` | Max research reflection iterations |
+| `RETRIEVAL_TOP_K_LEGAL` | `20` | Pinecone candidates before reranking (legal) |
+| `RERANK_TOP_N_LEGAL` | `6` | Final chunks kept after reranking (legal) |
+| `RETRIEVAL_SCORE_THRESHOLD` | `0.4` | Min cosine similarity to include a chunk |
+| `FILTER_CONFIDENCE_THRESHOLD` | `0.8` | Min LLM confidence to apply metadata filter |
+| `TAVILY_MAX_RESULTS` | `5` | Max Tavily results per search |
+| `MAX_FILE_SIZE_MB` | `20` | Max document upload size |
+| `DEV_MODE` | `true` | Suppress errors on missing API keys |
+
+---
+
+## Disclaimer
+
+> ⚠️ Vidhijna generates AI-assisted legal information for research purposes only. It does not constitute legal advice. Always consult a qualified lawyer before taking legal action.
