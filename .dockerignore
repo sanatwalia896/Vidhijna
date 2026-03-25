@@ -3,6 +3,14 @@ node_modules
 bower_components
 vendor
 
+# Ignore virtual environments
+venv
+.venv
+env
+
+# Ignore frontend (served separately or not needed in container)
+frontend/
+
 # Ignore logs and temporary files
 *.log
 *.tmp
