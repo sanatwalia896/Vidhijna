@@ -1,10 +1,3 @@
-"""
-subgraphs/document.py — Document analysis subgraph
-
-Nodes:
-  extract_text → analyse_document → retrieve_relevant_law → flag_risks
-"""
-
 from langchain_core.messages import SystemMessage
 from langchain_core.runnables import RunnableConfig
 from langchain_groq import ChatGroq
@@ -26,96 +19,98 @@ def _llm(model: str, temperature: float = 0.1, json_mode: bool = False):
 
 
 def validate_document(state: VidhijnaState, config: RunnableConfig) -> dict:
-    """Extract text via OCR if needed, then validate document is present."""
-    # If we have raw bytes but no extracted text yet, run OCR
+    """Extract text via OCR and PURGE raw bytes to save RAM."""
+    
+    # Check if we need to run OCR
     if not state.uploaded_file_text and state.uploaded_file_bytes:
         filename = state.uploaded_file_name or "document.pdf"
+        print(f"[GRAPH] Running OCR on {filename}...")
+        
         text, file_type = extract_text(state.uploaded_file_bytes, filename)
+        
         if not text:
             return {
-                "error":          "Could not extract text from uploaded file",
-                "final_response": f"Failed to extract text from '{filename}'. Please check the file format.",
+                "error": "Could not extract text from uploaded file",
+                "final_response": f"Failed to extract text from '{filename}'.",
+                "uploaded_file_bytes": None # Drop bytes even on failure
             }
+            
         doc_type = detect_document_type(text, filename)
+        print(f"[GRAPH] OCR Success. Detected type: {doc_type}. Purging bytes from RAM.")
+        
+        # KEY CHANGE: We return the text but set bytes to None to free memory
         return {
             "uploaded_file_text": text,
             "uploaded_file_type": file_type,
-            "document_analysis":  {"detected_doc_type": doc_type},
+            "uploaded_file_bytes": None, # <--- THE RAM SAVER
+            "document_analysis": {"detected_doc_type": doc_type},
         }
 
     if not state.uploaded_file_text:
         return {
-            "error":          "No document uploaded",
+            "error": "No document uploaded",
             "final_response": "Please upload a document to analyse.",
         }
 
-    file_type = state.uploaded_file_type or "unknown"
-    return {"uploaded_file_type": file_type}
+    return {"uploaded_file_type": state.uploaded_file_type or "unknown"}
 
 
 def analyse_document(state: VidhijnaState, config: RunnableConfig) -> dict:
-    """Full document analysis — clauses, obligations, risks."""
-    if state.error:
-        return {}
+    """Analyse document content using optimized text chunks."""
+    if state.error: return {}
 
     cfg = Configuration.from_runnable_config(config)
     llm = _llm(cfg.groq_model)
 
+    # We only take the first 8000 characters to ensure we stay under token/RAM limits
+    context_text = state.uploaded_file_text[:8000]
+    
     result = llm.invoke([SystemMessage(content=DOCUMENT_ANALYSIS_PROMPT.format(
-        document_text=state.uploaded_file_text[:8000],
+        document_text=context_text,
         query=state.query or "Provide a full analysis of this document.",
     ))])
 
     cleaned = clean_thinking_tags(result.content)
     return {
-        "final_response":    cleaned,
+        "final_response": cleaned,
         "document_analysis": {"raw_analysis": cleaned},
     }
 
 
 def retrieve_relevant_law(state: VidhijnaState, config: RunnableConfig) -> dict:
-    """Find relevant legal sections from Pinecone based on document content."""
-    if state.error:
-        return {}
+    """Find legal context from Pinecone."""
+    if state.error: return {}
 
-    cfg = Configuration.from_runnable_config(config)
+    # Use a small snippet for retrieval to keep embedding calls light
+    query_snippet = state.uploaded_file_text[:500]
     matches = retrieve_legal(
-        query=state.uploaded_file_text[:500],
+        query=query_snippet,
         top_k=5,
-        score_threshold=cfg.retrieval_score_threshold,
     )
     return {"legal_chunks": matches}
 
 
 def flag_risks(state: VidhijnaState, config: RunnableConfig) -> dict:
-    """Extract specific risk flags and missing clauses."""
-    if state.error or not state.legal_chunks:
-        return {}
+    """Extract JSON risks with memory-safe formatting."""
+    if state.error or not state.legal_chunks: return {}
 
     cfg = Configuration.from_runnable_config(config)
     llm = _llm(cfg.groq_model, json_mode=True)
 
     relevant_law = format_chunks(state.legal_chunks)
+    doc_summary = state.document_analysis.get("raw_analysis", "")[:2000]
 
-    prompt = f"""Based on the document analysis and relevant law, identify:
-1. Risk flags — unfair or unusual clauses
-2. Missing clauses — standard clauses absent from this document
-3. Non-compliant clauses — clauses that may violate applicable law
-
-Relevant law found:
-{relevant_law[:2000]}
-
-Document analysis:
-{state.document_analysis.get("raw_analysis", "")[:2000]}
-
+    prompt = f"""Identify legal risks based on the analysis.
+Relevant law: {relevant_law[:1500]}
+Doc Summary: {doc_summary}
 Return JSON: {{"risk_flags": [], "missing_clauses": [], "non_compliant": []}}"""
 
     result = llm.invoke([SystemMessage(content=prompt)])
     data = extract_json_from_text(result.content)
+    
     if data:
-        flags = data.get("risk_flags", []) + data.get("non_compliant", [])
         return {
-            "risk_flags":       flags,
+            "risk_flags": data.get("risk_flags", []) + data.get("non_compliant", []),
             "extracted_clauses": data.get("missing_clauses", []),
         }
     return {}
@@ -123,19 +118,16 @@ Return JSON: {{"risk_flags": [], "missing_clauses": [], "non_compliant": []}}"""
 
 def build_document_graph():
     b = StateGraph(VidhijnaState)
-
     b.add_node("validate",      validate_document)
     b.add_node("analyse",       analyse_document)
     b.add_node("retrieve_law",  retrieve_relevant_law)
     b.add_node("flag_risks",    flag_risks)
 
-    b.add_edge(START,        "validate")
-    b.add_edge("validate",   "analyse")
-    b.add_edge("analyse",    "retrieve_law")
+    b.add_edge(START, "validate")
+    b.add_edge("validate", "analyse")
+    b.add_edge("analyse", "retrieve_law")
     b.add_edge("retrieve_law", "flag_risks")
     b.add_edge("flag_risks", END)
-
     return b.compile()
-
 
 document_graph = build_document_graph()
