@@ -19,7 +19,7 @@ from agents.utils import clean_thinking_tags
 
 
 def _llm(model: str, temperature: float = 0.2):
-    return ChatGroq(model=model, temperature=temperature)
+    return ChatGroq(model=model, temperature=temperature, max_retries=2)
 
 
 def validate_inputs(state: VidhijnaState, config: RunnableConfig) -> dict:

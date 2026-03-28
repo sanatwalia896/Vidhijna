@@ -18,7 +18,7 @@ from agents.utils import clean_thinking_tags, extract_json_from_text
 
 
 def _llm(model: str, temperature: float = 0.2):
-    return ChatGroq(model=model, temperature=temperature)
+    return ChatGroq(model=model, temperature=temperature, max_retries=2)
 
 
 def retrieve_for_chat(state: VidhijnaState, config: RunnableConfig) -> dict:

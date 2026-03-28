@@ -1,5 +1,6 @@
 """
 Vidhijna FastAPI Backend — Production-grade legal AI server
+Optimized for Always Free Tier (512MB RAM)
 Streams real-time agent activity, legal entities, risk flags, and final reports.
 """
 
@@ -8,6 +9,8 @@ import sys
 import json
 import uuid
 import traceback
+import asyncio
+import gc
 from datetime import datetime
 from typing import AsyncGenerator, Dict, Any
 
@@ -25,7 +28,6 @@ from dotenv import load_dotenv
 load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"))
 
 from agents.graph import graph
-from agents.state import VidhijnaInput
 
 # ── App Setup ─────────────────────────────────────────────────────────────────
 
@@ -48,8 +50,10 @@ frontend_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__fi
 if os.path.isdir(frontend_dir):
     app.mount("/app", StaticFiles(directory=frontend_dir, html=True), name="frontend")
 
-# ── In-memory thread store ────────────────────────────────────────────────────
+# ── Traffic & Memory Control ──────────────────────────────────────────────────
 
+# Limit to 2 concurrent heavy tasks to prevent OOM on 512MB RAM
+process_limiter = asyncio.Semaphore(2)
 threads_store: Dict[str, Dict[str, Any]] = {}
 
 # ── Models ────────────────────────────────────────────────────────────────────
@@ -60,7 +64,7 @@ class ChatRequest(BaseModel):
     mode: str = "auto"
     draft_type: str = ""
     draft_inputs: dict = {}
-    reflection_loops: int = Field(default=3, ge=1, le=7, description="Number of reflection iterations for deep research")
+    reflection_loops: int = Field(default=3, ge=1, le=5, description="Number of reflection iterations for deep research")
 
 class ThreadInfo(BaseModel):
     thread_id: str
@@ -136,6 +140,8 @@ NODE_LABELS = {
     "reflect":           "🤔 Checking for knowledge gaps...",
     "finalize":          "📊 Generating final research report...",
     "response_formatter":"✨ Formatting response...",
+    "validate":          "🔍 Validating and OCRing document...",
+    "analyse":           "🧠 Performing deep clause analysis...",
 }
 
 ENTITY_ICONS = {
@@ -296,6 +302,11 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
             "mode": input_data.get("mode", "auto"),
             "thread_id": thread_id,
         })
+    finally:
+        # Free uploaded file bytes and reclaim memory (critical for 512MB RAM)
+        if "uploaded_file_bytes" in input_data:
+            input_data["uploaded_file_bytes"] = None
+        gc.collect()
 
 # ── Endpoints ─────────────────────────────────────────────────────────────────
 
@@ -329,6 +340,13 @@ async def upload_document(
     thread_id: str = Form(default_factory=lambda: f"t_{uuid.uuid4().hex[:12]}"),
     query: str = Form(""),
 ):
+    # Reject early if both processing slots are busy (prevent OOM)
+    if process_limiter.locked():
+        return JSONResponse(
+            status_code=429,
+            content={"message": "System busy processing documents. Please try again in a minute."},
+        )
+
     try:
         content = await file.read()
         if not content:
@@ -344,8 +362,18 @@ async def upload_document(
             "uploaded_file_type": file.content_type or "",
             "mode": "document",
         }
+
+        async def guarded_stream():
+            async with process_limiter:
+                async for event in run_agent_stream(input_data, thread_id):
+                    yield event
+            # Explicitly free file bytes after streaming completes
+            nonlocal content
+            del content
+            gc.collect()
+
         return StreamingResponse(
-            run_agent_stream(input_data, thread_id),
+            guarded_stream(),
             media_type="text/event-stream",
             headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
         )

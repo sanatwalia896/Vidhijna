@@ -38,7 +38,7 @@ from agents.utils import clean_thinking_tags, deduplicate_and_format_sources, ex
 
 
 def _llm(model: str, temperature: float = 0.1, json_mode: bool = False):
-    kwargs = dict(model=model, temperature=temperature)
+    kwargs = dict(model=model, temperature=temperature, max_retries=2)
     if json_mode:
         kwargs["model_kwargs"] = {"response_format": {"type": "json_object"}}
     return ChatGroq(**kwargs)
