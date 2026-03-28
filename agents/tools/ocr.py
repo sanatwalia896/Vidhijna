@@ -1,37 +1,28 @@
-"""
-tools/ocr.py — Document text extraction
-
-Handles:
-  - Text PDFs      → pdfplumber
-  - Scanned PDFs   → ChatGroq vision LLM (page-by-page)
-  - Images         → ChatGroq vision LLM
-  - DOCX           → python-docx
-"""
-
 import base64
 import io
+import gc
+import time
 from pathlib import Path
-
 
 def extract_text_from_pdf(file_bytes: bytes) -> str:
     """Extract text from a text-based PDF using pdfplumber."""
     try:
         import pdfplumber
+        print(f"[OCR] Starting text extraction with pdfplumber...")
         with pdfplumber.open(io.BytesIO(file_bytes)) as pdf:
             pages = []
-            for page in pdf.pages:
+            for i, page in enumerate(pdf.pages):
                 text = page.extract_text() or ""
                 pages.append(text.strip())
+                if i % 5 == 0: print(f"[OCR] Read {i+1} text pages...")
         return "\n\n".join(p for p in pages if p)
     except Exception as e:
         print(f"[OCR] pdfplumber failed: {e}")
         return ""
 
-
-def extract_text_from_image(file_bytes: bytes, mime_type: str = "image/png") -> str:
+def extract_text_from_image(file_bytes: bytes, mime_type: str = "image/jpeg") -> str:
     """Extract text from a scanned image using ChatGroq vision LLM."""
     return _extract_text_via_vision_llm(file_bytes, mime_type)
-
 
 def extract_text_from_docx(file_bytes: bytes) -> str:
     """Extract text from a .docx file."""
@@ -43,44 +34,36 @@ def extract_text_from_docx(file_bytes: bytes) -> str:
         print(f"[OCR] docx extraction failed: {e}")
         return ""
 
-
 def extract_text(file_bytes: bytes, filename: str) -> tuple[str, str]:
-    """
-    Auto-detect file type and extract text.
-    Returns (extracted_text, detected_file_type).
-    """
+    """Auto-detect file type and extract text with memory logging."""
     ext = Path(filename).suffix.lower()
+    start_time = time.time()
+    print(f"\n[OCR START] Processing: {filename} ({len(file_bytes)/1024:.1f} KB)")
 
     if ext == ".pdf":
         text = extract_text_from_pdf(file_bytes)
-        # If PDF extraction got very little text, fall back to vision LLM (scanned PDF)
+        # Fallback for scanned PDFs
         if len(text.split()) < 50:
-            print("[OCR] Low text from pdfplumber — attempting vision LLM OCR")
+            print("[OCR] Low text count detected. Switching to Vision LLM (Scanned PDF Mode)...")
             text = _ocr_pdf_pages(file_bytes) or text
-        return text, "pdf"
+        res = text, "pdf"
 
     elif ext in (".png", ".jpg", ".jpeg", ".tiff", ".bmp"):
-        _mime_map = {
-            ".png": "image/png",
-            ".jpg": "image/jpeg",
-            ".jpeg": "image/jpeg",
-            ".tiff": "image/tiff",
-            ".bmp": "image/bmp",
-        }
-        return extract_text_from_image(file_bytes, _mime_map.get(ext, "image/png")), "image"
+        res = extract_text_from_image(file_bytes, "image/jpeg"), "image"
 
     elif ext == ".docx":
-        return extract_text_from_docx(file_bytes), "docx"
+        res = extract_text_from_docx(file_bytes), "docx"
 
     elif ext == ".txt":
-        return file_bytes.decode("utf-8", errors="ignore"), "txt"
-
+        res = file_bytes.decode("utf-8", errors="ignore"), "txt"
     else:
-        return "", "unknown"
+        res = "", "unknown"
 
+    print(f"[OCR END] Completed in {time.time() - start_time:.2f}s\n")
+    return res
 
-def _extract_text_via_vision_llm(image_bytes: bytes, mime_type: str = "image/png") -> str:
-    """Send an image to ChatGroq vision model and return extracted text."""
+def _extract_text_via_vision_llm(image_bytes: bytes, mime_type: str = "image/jpeg") -> str:
+    """Send image to Groq. Uses JPEG to keep payload small."""
     try:
         from langchain_groq import ChatGroq
         from langchain_core.messages import HumanMessage
@@ -90,61 +73,51 @@ def _extract_text_via_vision_llm(image_bytes: bytes, mime_type: str = "image/png
 
         llm = ChatGroq(model="llama-3.2-11b-vision-preview", temperature=0)
         message = HumanMessage(content=[
-            {
-                "type": "image_url",
-                "image_url": {"url": data_url},
-            },
-            {
-                "type": "text",
-                "text": (
-                    "Extract all text from this image exactly as it appears. "
-                    "Return only the extracted text with no commentary or explanation."
-                ),
-            },
+            {"type": "image_url", "image_url": {"url": data_url}},
+            {"type": "text", "text": "Extract all text from this image. Return only text."}
         ])
         response = llm.invoke([message])
         return response.content or ""
     except Exception as e:
-        print(f"[OCR] Vision LLM extraction failed: {e}")
+        print(f"[OCR] Vision LLM error: {e}")
         return ""
-
 
 def _ocr_pdf_pages(file_bytes: bytes) -> str:
-    """Convert each PDF page to an image and extract text via vision LLM."""
+    """Memory-optimized PDF scanning."""
     try:
         import pdfplumber
-
         pages_text = []
+        
         with pdfplumber.open(io.BytesIO(file_bytes)) as pdf:
+            total = len(pdf.pages)
             for i, page in enumerate(pdf.pages):
-                img = page.to_image(resolution=200).original
-                # Convert PIL image to PNG bytes
+                print(f"[OCR] Processing Page {i+1}/{total}...")
+                
+                # OPTIMIZATION: 150 DPI JPEG (much lighter than 200 DPI PNG)
+                img = page.to_image(resolution=150).original
                 buf = io.BytesIO()
-                img.save(buf, format="PNG")
+                img.save(buf, format="JPEG", quality=80)
+                
                 page_bytes = buf.getvalue()
-                print(f"[OCR] Processing page {i + 1} via vision LLM")
-                text = _extract_text_via_vision_llm(page_bytes, "image/png")
+                text = _extract_text_via_vision_llm(page_bytes, "image/jpeg")
                 pages_text.append(text)
+                
+                # MEMORY PURGE: Explicitly clear image objects
+                buf.close()
+                del img
+                del page_bytes
+                gc.collect() # Force free RAM
+                
         return "\n\n".join(pages_text)
     except Exception as e:
-        print(f"[OCR] PDF vision OCR failed: {e}")
+        print(f"[OCR] PDF Vision failed: {e}")
         return ""
 
-
 def detect_document_type(text: str, filename: str) -> str:
-    """
-    Classify uploaded document type for routing.
-    Returns: "contract" | "judgment" | "notice" | "act" | "other"
-    """
-    text_lower = text[:1000].lower()
-    filename_lower = filename.lower()
-
-    if any(w in text_lower for w in ["agreement", "contract", "parties", "whereas", "hereinafter"]):
-        return "contract"
-    if any(w in text_lower for w in ["judgment", "order", "petitioner", "respondent", "coram"]):
-        return "judgment"
-    if any(w in text_lower for w in ["notice", "demand", "take notice", "legal notice"]):
-        return "notice"
-    if any(w in text_lower for w in ["act no.", "be it enacted", "short title", "extent"]):
-        return "act"
+    """Classify document type based on content keywords."""
+    text_lower = text[:1500].lower()
+    if any(w in text_lower for w in ["agreement", "contract", "whereas"]): return "contract"
+    if any(w in text_lower for w in ["judgment", "order", "petitioner"]): return "judgment"
+    if any(w in text_lower for w in ["notice", "demand", "legal notice"]): return "notice"
+    if any(w in text_lower for w in ["act no.", "enacted"]): return "act"
     return "other"
