@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip \
  && pip install --no-cache-dir -r requirements.txt \
- && pip install --no-cache-dir  langchain-huggingface \
+ && pip install --no-cache-dir --no-deps langchain-huggingface \
  && pip install --no-cache-dir huggingface-hub
 
 # ── Application code ──────────────────────────────────────────────────────────
