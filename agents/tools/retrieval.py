@@ -19,6 +19,7 @@ def _get_clients():
         # FIX: Use HuggingFaceEndpointEmbeddings
         # This class correctly handles the serverless API response format
         _embeddings = HuggingFaceEndpointEmbeddings(
+            huggingfacehub_api_token=os.environ.get("HUGGINGFACE_TOKEN"),
             model="sentence-transformers/all-MiniLM-L6-v2",
             task="feature-extraction",
             huggingfacehub_api_token=os.environ["HUGGINGFACE_TOKEN"],
