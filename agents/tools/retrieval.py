@@ -26,7 +26,7 @@ def _get_clients():
         _pc = Pinecone(api_key=os.environ["PINECONE_API_KEY"])
         _index = _pc.Index(os.environ.get("PINECONE_INDEX_NAME", "vidhijana-indexes"))
         _embeddings = HuggingFaceEndpointEmbeddings(
-            model="sentence-transformers/all-MiniLM-L6-v2",
+            model="https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2",
             task="feature-extraction",
             huggingfacehub_api_token=os.environ["HUGGINGFACE_TOKEN"],
         )

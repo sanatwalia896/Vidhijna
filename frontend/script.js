@@ -6,7 +6,7 @@
 
 "use strict";
 
-const API = "http://localhost:8000";
+const API = "https://vidhijna-api-122979848414.us-central1.run.app/";
 
 // ── State ─────────────────────────────────────────────────────────────────────
 const S = {
