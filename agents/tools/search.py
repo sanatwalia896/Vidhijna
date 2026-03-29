@@ -48,7 +48,9 @@ def tavily_search(
 
 
 def format_web_results(results: list[dict]) -> str:
-    """Format Tavily results for LLM context."""
+    """Format Tavily results for LLM context.
+    Kept tight (~400 tokens total) to stay within free-tier TPM limits."""
     if not results:
         return "No web results found."
-    return deduplicate_and_format_sources(results, max_tokens_per_source=2000)
+    # max_tokens_per_source=150 → ~600 chars per source × 3 results ≈ 400 tokens
+    return deduplicate_and_format_sources(results[:2], max_tokens_per_source=150)

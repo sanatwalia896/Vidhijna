@@ -9,11 +9,22 @@ from typing import Optional
 # ── Text cleaning ──────────────────────────────────────────────────────────────
 
 def clean_thinking_tags(text: str) -> str:
-    """Remove <think>...</think> tags that some models output."""
-    while "<think>" in text and "</think>" in text:
-        s = text.find("<think>")
-        e = text.find("</think>") + len("</think>")
-        text = text[:s] + text[e:]
+    """
+    Strip reasoning blocks and extract content from output wrappers.
+    Handles openai/gpt-oss-20b (and similar reasoning models) which may use:
+      - <think>...</think> or <thinking>...</thinking> for reasoning
+      - <output>...</output> or <answer>...</answer> for the final response
+    """
+    # Strip all reasoning blocks (discard — these are internal CoT)
+    text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
+    text = re.sub(r'<thinking>.*?</thinking>', '', text, flags=re.DOTALL)
+
+    # If the model wrapped the answer in output/answer tags, extract that content
+    for tag in ('output', 'answer', 'response'):
+        m = re.search(rf'<{tag}>(.*?)</{tag}>', text, re.DOTALL)
+        if m:
+            return m.group(1).strip()
+
     return text.strip()
 
 

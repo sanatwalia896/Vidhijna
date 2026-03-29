@@ -58,13 +58,6 @@ def supervisor(state: VidhijnaState, config: RunnableConfig) -> dict:
     """
     cfg = Configuration.from_runnable_config(config)
 
-    # Use the fast 8B model — classification doesn't need heavy reasoning
-    llm = ChatGroq(
-        model=cfg.supervisor_model,
-        temperature=0.1,
-        model_kwargs={"response_format": {"type": "json_object"}},
-    )
-
     # Build a short summary of recent conversation for context
     recent   = state.messages[-6:] if state.messages else []
     history  = " | ".join(f"{m.type}: {m.content[:80]}" for m in recent) or "None"
@@ -75,16 +68,43 @@ def supervisor(state: VidhijnaState, config: RunnableConfig) -> dict:
     user_mode = state.mode or ""
     valid_intents = {"chat", "research", "document", "draft"}
 
-    result = llm.invoke([SystemMessage(content=SUPERVISOR_PROMPT.format(
+    prompt_text = SUPERVISOR_PROMPT.format(
         query=state.query,
         user_mode=user_mode if user_mode in valid_intents else "auto",
         history_summary=history,
         has_file=has_file,
         has_prior_research=has_prior,
-    ))])
+    )
 
-    # Parse supervisor output
-    data = extract_json_from_text(result.content)
+    data = None
+
+    # Try with JSON mode first (faster, more reliable when it works)
+    try:
+        llm = ChatGroq(
+            model=cfg.supervisor_model,
+            temperature=0.1,
+            model_kwargs={"response_format": {"type": "json_object"}},
+            max_retries=1,
+        )
+        result = llm.invoke([SystemMessage(content=prompt_text)])
+        data = extract_json_from_text(result.content)
+    except Exception:
+        pass  # Fall through to non-JSON-mode retry
+
+    # Fallback: retry without strict JSON mode, parse manually
+    if not data:
+        try:
+            llm_fallback = ChatGroq(
+                model=cfg.supervisor_model,
+                temperature=0.1,
+                max_retries=1,
+            )
+            result = llm_fallback.invoke([SystemMessage(content=prompt_text)])
+            data = extract_json_from_text(result.content)
+        except Exception:
+            pass
+
+    # Final safe default if both attempts failed
     if not data:
         data = {
             "intent":            "research",

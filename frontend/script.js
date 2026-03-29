@@ -74,7 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
     bindDocView();
     bindMainInput();
     setMode("auto");
-    healthCheck();
 });
 
 // ── Mode switching ────────────────────────────────────────────────────────────
@@ -984,7 +983,7 @@ function renderThreadList() {
     });
 }
 
-// ── Health check ──────────────────────────────────────────────────────────────
+// ── Health check (runs once on demand, no polling) ───────────────────────────
 async function healthCheck() {
     const dot = $("#sb-status-dot");
     const label = $("#sb-status-text");
@@ -997,7 +996,6 @@ async function healthCheck() {
         dot?.classList.add("offline"); dot?.classList.remove("online");
         if (label) label.textContent = "Backend offline";
     }
-    setTimeout(healthCheck, 30_000);
 }
 
 // ── Misc helpers ──────────────────────────────────────────────────────────────

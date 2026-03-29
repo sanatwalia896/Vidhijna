@@ -247,22 +247,28 @@ Commentary found: {books_summary}
 Web research found: {web_summary}
 
 <FORMAT>
-Return ONLY valid JSON:
+Return ONLY valid JSON — generate a TARGETED followup query for each source type:
 {{
   "has_gaps": true,
   "gaps": [
     "specific gap 1 — e.g., No case law found on director liability post-2019 amendment",
     "specific gap 2 — e.g., SEBI circular on insider trading not retrieved"
   ],
-  "followup_queries": [
-    "targeted retrieval query to fill gap 1",
-    "targeted retrieval query to fill gap 2"
-  ],
+  "legal_followup_query": "targeted query for the statutory provisions namespace — focus on missing sections/acts",
+  "books_followup_query": "targeted query for the commentary namespace — focus on missing interpretations/principles",
+  "web_followup_query": "targeted query for web search — focus on missing case law/circulars/recent updates",
   "tavily_needed": true,
   "tavily_query": "specific web search query for the most critical gap",
   "tavily_fetch_type": "case|regulation|recent|notification|general",
   "confidence": "high|medium|low"
 }}
+
+IMPORTANT:
+- Each followup query must be DIFFERENT and target a DIFFERENT angle of the gap.
+- legal_followup_query → what STATUTE or SECTION is missing
+- books_followup_query → what INTERPRETATION or PRINCIPLE is unclear
+- web_followup_query → what RECENT JUDGMENT or CIRCULAR is needed
+- If a source type has no gaps, set its followup query to an empty string.
 </FORMAT>
 """
 

@@ -17,6 +17,7 @@ class GroqModel(str, Enum):
     LLAMA_8B  = "llama-3.1-8b-instant"
     LLAMA_70B = "llama-3.3-70b-versatile"
     LLAMA_3B  = "llama-3.2-3b-preview"
+    OPENAI_20B = "openai/gpt-oss-20b"
 
 
 class ResearchMode(str, Enum):
@@ -50,7 +51,7 @@ class Configuration:
 
     # ── LLM — one model per agent ─────────────────────────────────────────────
     groq_model: str = os.environ.get("GROQ_MODEL", GroqModel.LLAMA_8B.value)
-    research_model: str = os.environ.get("RESEARCH_MODEL", GroqModel.LLAMA_70B.value)
+    research_model: str = os.environ.get("RESEARCH_MODEL", GroqModel.OPENAI_20B.value)
     chat_model: str = os.environ.get("CHAT_MODEL", GroqModel.LLAMA_8B.value)
     supervisor_model: str = os.environ.get("SUPERVISOR_MODEL", GroqModel.LLAMA_8B.value)
     groq_api_key: str = os.environ.get("GROQ_API_KEY", "")
@@ -68,13 +69,13 @@ class Configuration:
     pinecone_region: str = os.environ.get("PINECONE_REGION", "us-east-1")
     ns_legal: str = "vidhijna-legal"
     ns_books: str = "vidhijna-books"
-# Bump these — need more candidates for reranker to work on
-    retrieval_top_k_legal: int = int(os.environ.get("RETRIEVAL_TOP_K_LEGAL", "20"))   # was 6
-    retrieval_top_k_books: int = int(os.environ.get("RETRIEVAL_TOP_K_BOOKS", "10"))   # was 4
+# Fetch candidates for reranking (Pinecone query)
+    retrieval_top_k_legal: int = int(os.environ.get("RETRIEVAL_TOP_K_LEGAL", "12"))
+    retrieval_top_k_books: int = int(os.environ.get("RETRIEVAL_TOP_K_BOOKS", "8"))
 
-# After reranking, how many to keep
-    rerank_top_n_legal: int = int(os.environ.get("RERANK_TOP_N_LEGAL", "6"))
-    rerank_top_n_books: int = int(os.environ.get("RERANK_TOP_N_BOOKS", "4"))
+# After reranking, how many to keep (sent to LLM)
+    rerank_top_n_legal: int = int(os.environ.get("RERANK_TOP_N_LEGAL", "4"))
+    rerank_top_n_books: int = int(os.environ.get("RERANK_TOP_N_BOOKS", "3"))
 
     retrieval_score_threshold: float = float(
     os.environ.get("RETRIEVAL_SCORE_THRESHOLD", "0.4")
@@ -110,7 +111,7 @@ class Configuration:
     fetch_full_page: bool = os.environ.get("FETCH_FULL_PAGE", "false").lower() in (
         "true", "1", "t"
     )
-    tavily_max_results: int = int(os.environ.get("TAVILY_MAX_RESULTS", "5"))
+    tavily_max_results: int = int(os.environ.get("TAVILY_MAX_RESULTS", "3"))
     tavily_search_depth: str = os.environ.get("TAVILY_SEARCH_DEPTH", "advanced")
 
     # Domains per fetch type

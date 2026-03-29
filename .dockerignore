@@ -1,50 +1,32 @@
-# Ignore node_modules and other dependency directories
-node_modules
-bower_components
-vendor
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
 
-# Ignore virtual environments
-venv
-.venv
-env
-
-# Ignore frontend (served separately or not needed in container)
-frontend/
-
-# Ignore logs and temporary files
-*.log
-*.tmp
-*.swp
-
-# Ignore .env files and other environment files
+# Secrets — NEVER bake into image; pass at runtime via Cloud Run env vars
 .env
+*.env
 .env.*
-*.local
 
-# Ignore git-related files
-.git
-.gitignore
+# Dev/tooling
+.git/
+.github/
+.vscode/
+.idea/
+*.md
 
-# Ignore Docker-related files and configs
-.dockerignore
+# Not needed at runtime
+vector_store_creation/
+data_collection/
+deploy/
+logs/
+queries.txt
+digest.txt
 docker-compose.yml
+langgraph.json
 
-# Ignore build and cache directories
-dist
-build
-.cache
-__pycache__
-
-# Ignore IDE and editor configurations
-.vscode
-.idea
-*.sublime-project
-*.sublime-workspace
-.DS_Store  # macOS-specific
-
-# Ignore test and coverage files
-coverage
-*.coverage
-*.test.js
-*.spec.js
-tests
+# Virtual envs
+venv/
+.venv/
+env/
