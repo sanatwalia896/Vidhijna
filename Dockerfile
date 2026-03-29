@@ -4,11 +4,13 @@ FROM python:3.11-slim
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PYTHONPATH=/app \
-    PORT=8080 
+    MALLOC_TRIM_THRESHOLD_=65536
 
 WORKDIR /app
 
 # ── System deps ───────────────────────────────────────────────────────────────
+# poppler-utils  → pdfplumber page rendering
+# libglib2.0-0   → Pillow JPEG support
 RUN apt-get update && apt-get install -y --no-install-recommends \
         poppler-utils \
         libglib2.0-0 \
@@ -17,20 +19,26 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # ── Python deps ───────────────────────────────────────────────────────────────
 COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt \
-    # Install these normally to ensure all sub-dependencies match
-    && pip install --no-cache-dir langchain-huggingface huggingface-hub
+ && pip install --no-cache-dir -r requirements.txt \
+ && pip install --no-cache-dir  langchain-huggingface \
+ && pip install --no-cache-dir huggingface-hub
 
 # ── Application code ──────────────────────────────────────────────────────────
-# Copy everything needed for the app to run
 COPY agents/   ./agents/
 COPY backend/  ./backend/
 
 # ── Non-root user ─────────────────────────────────────────────────────────────
-RUN useradd -m appuser \
-    && chown -R appuser:appuser /app
+RUN useradd --no-create-home --shell /bin/false appuser \
+ && chown -R appuser:appuser /app
 USER appuser
 
+# ── Port ──────────────────────────────────────────────────────────────────────
+EXPOSE 8000
+
 # ── Start ─────────────────────────────────────────────────────────────────────
-# We use the $PORT variable so Cloud Run can tell the app where to listen
-CMD uvicorn backend.main:app --host 0.0.0.0 --port $PORT --workers 1 --log-level info
+CMD ["uvicorn", "backend.main:app", \
+     "--host", "0.0.0.0", \
+     "--port", "8000", \
+     "--workers", "1", \
+     "--timeout-keep-alive", "65", \
+     "--log-level", "warning"]
