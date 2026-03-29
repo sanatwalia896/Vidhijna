@@ -3,39 +3,39 @@ name: Build & Deploy to Cloud Run
 on:
   push:
     branches:
-      - main
+      - staging          # triggers on every push to staging
 
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-  REGION: asia-south1                          # Mumbai — lowest latency for India
-  REPOSITORY: vidhijna                         # Artifact Registry repo name
-  SERVICE: vidhijna-api                        # Cloud Run service name
-  IMAGE: asia-south1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/vidhijna/api
+  REGION: us-central1                          # US central for always free tier a
+  SERVICE: vidhijna-api                         # Cloud Run service name
+  IMAGE: gcr.io/${{ secrets.GCP_PROJECT_ID }}/vidhijna-api
 
 jobs:
   deploy:
     name: Build and Deploy
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write                          # Required for Workload Identity Federation
+    runs-on: ubuntu-latest                      # Linux AMD64 — correct arch for Cloud Run
 
     steps:
+      # ── 1. Checkout code ────────────────────────────────────────────────────
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Authenticate to Google Cloud (Workload Identity Federation)
+      # ── 2. Authenticate with GCP using Service Account Key ──────────────────
+      - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
         with:
-          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
-          service_account: ${{ secrets.WIF_SERVICE_ACCOUNT }}
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
 
+      # ── 3. Set up gcloud CLI ─────────────────────────────────────────────────
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v2
 
-      - name: Configure Docker for Artifact Registry
-        run: gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev --quiet
+      # ── 4. Configure Docker to push to GCR ──────────────────────────────────
+      - name: Configure Docker for GCR
+        run: gcloud auth configure-docker --quiet
 
+      # ── 5. Build Docker image (ubuntu runner = linux/amd64 natively) ─────────
       - name: Build Docker image
         run: |
           docker build \
@@ -43,11 +43,13 @@ jobs:
             --tag ${{ env.IMAGE }}:latest \
             .
 
-      - name: Push image to Artifact Registry
+      # ── 6. Push to Google Container Registry ─────────────────────────────────
+      - name: Push image to GCR
         run: |
           docker push ${{ env.IMAGE }}:${{ github.sha }}
           docker push ${{ env.IMAGE }}:latest
 
+      # ── 7. Deploy to Cloud Run ───────────────────────────────────────────────
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy ${{ env.SERVICE }} \
@@ -56,8 +58,21 @@ jobs:
             --platform managed \
             --allow-unauthenticated \
             --min-instances 0 \
-            --max-instances 10 \
+            --max-instances 2 \
             --memory 512Mi \
             --cpu 1 \
             --port 8000 \
-            --set-env-vars "GROQ_API_KEY=${{ secrets.GROQ_API_KEY }},PINECONE_API_KEY=${{ secrets.PINECONE_API_KEY }},TAVILY_API_KEY=${{ secrets.TAVILY_API_KEY }}"
+            --timeout 300 \
+            --set-env-vars "\
+            GROQ_API_KEY=${{ secrets.GROQ_API_KEY }},\
+            HUGGINGFACE_TOKEN=${{ secrets.HUGGINGFACE_TOKEN }},\
+            PINECONE_API_KEY=${{ secrets.PINECONE_API_KEY }},\
+            PINECONE_INDEX_NAME=${{ secrets.PINECONE_INDEX_NAME }},\
+            TAVILY_API_KEY=${{ secrets.TAVILY_API_KEY }}"
+
+      # ── 8. Print the deployed URL ────────────────────────────────────────────
+      - name: Show deployed URL
+        run: |
+          gcloud run services describe ${{ env.SERVICE }} \
+            --region ${{ env.REGION }} \
+            --format "value(status.url)"
