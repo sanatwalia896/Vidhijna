@@ -591,18 +591,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const sbToggle = $("#sb-toggle");
     const mobMenu = $("#mob-menu");
 
-    const isMobile = () => window.innerWidth < 768;
+    const isMobile = () => window.innerWidth <= 767;
 
     function openMobileSidebar() {
         sidebar?.classList.add("mob-open");
         backdrop?.classList.add("active");
-        document.body.style.overflow = "hidden";
     }
 
     function closeMobileSidebar() {
         sidebar?.classList.remove("mob-open");
         backdrop?.classList.remove("active");
-        document.body.style.overflow = "";
     }
 
     // Desktop: collapse/expand sidebar
