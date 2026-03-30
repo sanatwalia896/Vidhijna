@@ -67,9 +67,10 @@
     --shd-inset: inset 0 1px 0 rgba(255,255,255,0.04);
 
     /* Layout */
-    --sb-w: 272px;
-    --topbar-h: 54px;
-    --dock-h: 96px;
+    --sb-w: 18vw;
+    --sb-w-min: 220px;
+    --topbar-h: 3.5rem;
+    --dock-h: 6rem;
 
     /* Accent aliases */
     --accent: var(--brass-500);
@@ -163,7 +164,7 @@ body {
 
 /* ── Sidebar ────────────────────────────────────────────────── */
 .sidebar {
-    width: var(--sb-w); flex-shrink: 0;
+    width: clamp(var(--sb-w-min), var(--sb-w), 300px); flex-shrink: 0;
     background: var(--surf-1);
     border-right: 1px solid var(--border);
     display: flex; flex-direction: column;
@@ -1236,3 +1237,123 @@ body {
 /* ── Utilities ──────────────────────────────────────────────── */
 .hidden { display: none !important; }
 .flex { display: flex !important; }
+
+/* ══════════════════════════════════════════════════════════════
+   RESPONSIVE — Mobile & Tablet
+   ══════════════════════════════════════════════════════════════ */
+
+/* Mobile hamburger — hidden on desktop */
+.mob-menu-btn {
+    display: none;
+    background: none; border: none; cursor: pointer;
+    color: var(--ivory-300); padding: 6px;
+    border-radius: var(--r-sm);
+    transition: color var(--t);
+    flex-shrink: 0;
+}
+.mob-menu-btn:hover { color: var(--ivory-0); }
+
+/* Sidebar backdrop — mobile only */
+.sb-backdrop {
+    display: none;
+    position: fixed; inset: 0; z-index: 39;
+    background: rgba(15, 14, 12, 0.7);
+    backdrop-filter: blur(4px);
+    opacity: 0; transition: opacity var(--t) var(--ease);
+}
+.sb-backdrop.active { opacity: 1; }
+
+/* ── Desktop sidebar collapse (sb-toggle) ───────────────────── */
+.sidebar.collapsed {
+    width: 4vw;
+    min-width: 3.5rem;
+}
+.sidebar.collapsed .brand-copy,
+.sidebar.collapsed .sb-label,
+.sidebar.collapsed .mi-text,
+.sidebar.collapsed .mi-hint,
+.sidebar.collapsed .sb-section,
+.sidebar.collapsed .sb-threads,
+.sidebar.collapsed .sb-status-text {
+    display: none;
+}
+.sidebar.collapsed .sb-brand { justify-content: center; padding: 1.25rem 0.75rem; }
+.sidebar.collapsed .sb-toggle { margin-left: 0; }
+.sidebar.collapsed .sb-nav { padding: 0.875rem 0.5rem; }
+.sidebar.collapsed .mode-item { justify-content: center; padding: 0.625rem; }
+.sidebar.collapsed .mi-icon { margin: 0; }
+.sidebar.collapsed .sb-foot { justify-content: center; padding: 0.875rem 0.75rem; }
+
+/* ── Mobile  (< 48em = ~768px) ──────────────────────────────── */
+@media (max-width: 48em) {
+    /* Show hamburger, hide desktop toggle */
+    .mob-menu-btn { display: flex; align-items: center; justify-content: center; }
+    .sb-toggle { display: none; }
+
+    /* Sidebar becomes a full-height overlay, 80% screen width */
+    .sidebar {
+        position: fixed; top: 0; left: 0; height: 100%;
+        z-index: 40;
+        transform: translateX(-100%);
+        transition: transform var(--t) var(--ease);
+        width: 80vw !important;
+        max-width: 22rem;
+        box-shadow: var(--shd-xl);
+    }
+    .sidebar.mob-open { transform: translateX(0); }
+    .sb-backdrop { display: block; }
+
+    /* Main takes full width */
+    .shell { overflow: visible; }
+
+    /* Topbar — proportional padding */
+    .topbar { padding: 0 3vw; }
+    .tb-thread { display: none; }
+
+    /* Input dock */
+    .input-dock { padding: 2vw 3vw 5vw; }
+    .input-wrap { border-radius: var(--r-lg); }
+
+    /* Chat messages */
+    .chat-messages { padding: 4vw; }
+
+    /* Welcome screen — two columns */
+    .wc-cards { grid-template-columns: 1fr 1fr !important; }
+    .wc-stats { grid-template-columns: 1fr 1fr !important; }
+
+    /* Side panel — full overlay */
+    .side-panel {
+        position: fixed; inset: 0; top: var(--topbar-h);
+        z-index: 35; border-radius: 0;
+        border-left: none;
+        border-top: 1px solid var(--border);
+    }
+
+    /* Draft — stack columns */
+    .draft-shell { flex-direction: column !important; }
+    .draft-form-col, .draft-preview-col { width: 100% !important; min-width: unset !important; }
+
+    /* Doc analysis — stack columns */
+    .doc-analysis { flex-direction: column !important; }
+    .doc-chat-col, .doc-info-col { width: 100% !important; min-width: unset !important; }
+    .doc-info-col { max-height: 40vh; }
+}
+
+/* ── Very small (< 26em = ~416px) ───────────────────────────── */
+@media (max-width: 26em) {
+    .wc-cards { grid-template-columns: 1fr !important; }
+    .wc-stats { grid-template-columns: 1fr 1fr !important; }
+    .topbar { padding: 0 2.5vw; }
+    .mode-badge { font-size: 0.66rem; padding: 0.3rem 0.6rem; }
+}
+
+/* ── Tablet (48em–64em = ~768px–1024px) ─────────────────────── */
+@media (min-width: 48em) and (max-width: 64em) {
+    :root {
+        --sb-w: 22vw;
+        --sb-w-min: 200px;
+    }
+    .wc-cards { grid-template-columns: repeat(2, 1fr) !important; }
+    .wc-stats { grid-template-columns: repeat(2, 1fr) !important; }
+    .chat-messages { padding: 2.5vw; }
+}

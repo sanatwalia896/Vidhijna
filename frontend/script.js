@@ -584,6 +584,53 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+// ── Sidebar toggle (desktop collapse + mobile overlay) ────────
+document.addEventListener("DOMContentLoaded", () => {
+    const sidebar = $("#sidebar");
+    const backdrop = $("#sb-backdrop");
+    const sbToggle = $("#sb-toggle");
+    const mobMenu = $("#mob-menu");
+
+    const isMobile = () => window.innerWidth < 768;
+
+    function openMobileSidebar() {
+        sidebar?.classList.add("mob-open");
+        backdrop?.classList.add("active");
+        document.body.style.overflow = "hidden";
+    }
+
+    function closeMobileSidebar() {
+        sidebar?.classList.remove("mob-open");
+        backdrop?.classList.remove("active");
+        document.body.style.overflow = "";
+    }
+
+    // Desktop: collapse/expand sidebar
+    sbToggle?.addEventListener("click", () => {
+        if (!isMobile()) {
+            sidebar?.classList.toggle("collapsed");
+        }
+    });
+
+    // Mobile: open sidebar
+    mobMenu?.addEventListener("click", openMobileSidebar);
+
+    // Mobile: close sidebar via backdrop
+    backdrop?.addEventListener("click", closeMobileSidebar);
+
+    // Close mobile sidebar when a mode is selected
+    document.querySelectorAll(".mode-item").forEach(item => {
+        item.addEventListener("click", () => {
+            if (isMobile()) closeMobileSidebar();
+        });
+    });
+
+    // Reset on resize
+    window.addEventListener("resize", () => {
+        if (!isMobile()) closeMobileSidebar();
+    });
+});
+
 // ── Side panel ────────────────────────────────────────────────────────────────
 function bindSidePanel() {
     $$(".sp-tab").forEach(tab => {
