@@ -1,13 +1,12 @@
 /**
- * Vidhijna v2 — Frontend Controller
- * Handles: mode switching, SSE streaming, research terminal,
- *          file upload, drafting, side panel, thread memory
+ * Vidhijna v3 — Frontend Controller
+ * Card-panel dashboard design with lawyer theme
  */
 
 "use strict";
 
-const API = "https://vidhijna-api-122979848414.us-central1.run.app";
-// const API = "http://localhost:8000";
+// const API = "https://vidhijna-api-122979848414.us-central1.run.app";
+const API = "http://localhost:8000";
 
 // ── State ─────────────────────────────────────────────────────────────────────
 const S = {
@@ -83,26 +82,19 @@ function setMode(m) {
     const cfg = MODES[m];
     document.body.setAttribute("data-mode", m);
 
-    // Sidebar highlight
     $$(".mode-item").forEach(b => b.classList.toggle("active", b.dataset.mode === m));
 
-    // Topbar badge
     $("#mb-glyph").textContent = cfg.glyph;
     $("#mb-label").textContent = cfg.label;
 
-    // Show/hide sidebar panels
     toggle("#sb-research", m === "research");
     toggle("#sb-draft", m === "draft");
     toggle("#loop-badge", m === "research");
-
-    // Global input visible for text modes
     toggle("#input-dock", m === "auto" || m === "chat" || m === "research");
 
-    // Update placeholder
     const inp = $("#user-input");
     if (inp) inp.placeholder = cfg.hint;
 
-    // View routing
     if (m === "document") {
         showView("document");
     } else if (m === "draft") {
@@ -133,7 +125,9 @@ function toggle(sel, show) {
     if (el) el.classList.toggle("hidden", !show);
 }
 
-// ── Welcome screens ───────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+// WELCOME SCREENS — Card-panel dashboard layout
+// ══════════════════════════════════════════════════════════════════════════════
 function renderWelcome(m) {
     const inner = $("#welcome-inner");
     if (!inner) return;
@@ -146,6 +140,16 @@ function renderWelcome(m) {
             const mswitch = el.dataset.mswitch;
             if (mswitch) { setMode(mswitch); return; }
             sendMessage(el.dataset.q);
+        });
+    });
+    // Staggered card entrance animation
+    inner.querySelectorAll(".wc-card, .wc-stat, .wc-chip").forEach((el, i) => {
+        el.style.opacity = "0";
+        el.style.transform = "translateY(16px)";
+        el.style.transition = `opacity 0.4s ease ${i * 0.06}s, transform 0.4s ease ${i * 0.06}s`;
+        requestAnimationFrame(() => {
+            el.style.opacity = "1";
+            el.style.transform = "translateY(0)";
         });
     });
 }
@@ -162,9 +166,9 @@ function buildWelcomeAuto() {
             { n: "IBC·SEBI", l: "Commercial Law" },
         ],
         cards: [
-            { g: "◎", title: "Deep Research", desc: "Multi-source analysis with reflection loops", q: "What are directors' fiduciary duties under Companies Act 2013?" },
-            { g: "▭", title: "Document AI", desc: "Upload contracts, get risk analysis", q: "", ms: "document" },
-            { g: "✎", title: "Draft Maker", desc: "Generate NDAs, notices, petitions", q: "", ms: "draft" },
+            { icon: "◎", title: "Deep Research", desc: "Multi-source analysis with reflection loops for thorough legal research", q: "What are directors' fiduciary duties under Companies Act 2013?", action: "Start Research" },
+            { icon: "▭", title: "Document AI", desc: "Upload contracts & agreements for instant risk analysis and clause extraction", q: "", ms: "document", action: "Upload Doc" },
+            { icon: "✎", title: "Draft Maker", desc: "Generate NDAs, notices, petitions and other legal documents from templates", q: "", ms: "draft", action: "Draft Now" },
         ],
         chips: [
             { l: "Directors' Duties", q: "What are the directors' duties under Companies Act 2013?" },
@@ -188,9 +192,9 @@ function buildWelcomeResearch() {
             { n: "3×", l: "Default Loops" },
         ],
         cards: [
-            { g: "§", title: "Statutory Analysis", desc: "Section-by-section breakdown of any Indian Act", q: "Explain Section 7 of the Insolvency and Bankruptcy Code 2016" },
-            { g: "⚖", title: "Case Law Research", desc: "Supreme Court and High Court judgments", q: "Key Supreme Court judgments on director liability under Companies Act" },
-            { g: "◉", title: "Regulatory Updates", desc: "SEBI, RBI, MCA — live circulars and notifications", q: "Latest SEBI regulations on insider trading 2024" },
+            { icon: "§", title: "Statutory Analysis", desc: "Section-by-section breakdown of any Indian Act with cross-references", q: "Explain Section 7 of the Insolvency and Bankruptcy Code 2016", action: "Analyze" },
+            { icon: "⚖", title: "Case Law Research", desc: "Supreme Court and High Court judgments with ratio decidendi", q: "Key Supreme Court judgments on director liability under Companies Act", action: "Research" },
+            { icon: "◉", title: "Regulatory Updates", desc: "SEBI, RBI, MCA — live circulars and notifications", q: "Latest SEBI regulations on insider trading 2024", action: "Search" },
         ],
         chips: [
             { l: "IBC Section 7", q: "Explain Section 7 financial creditor petition under IBC 2016" },
@@ -214,9 +218,9 @@ function buildWelcomeChat() {
             { n: "All Acts", l: "Commercial Law" },
         ],
         cards: [
-            { g: "◇", title: "Corporate Law", desc: "Companies, directors, shareholders, winding up", q: "What is the difference between a private and public limited company in India?" },
-            { g: "◈", title: "Contract Law", desc: "Enforceability, breach, remedies, damages", q: "Is a verbal contract legally binding under Indian law?" },
-            { g: "◉", title: "Quick Facts", desc: "Compliance deadlines, penalties, procedural steps", q: "What is the penalty for late GST filing in India?" },
+            { icon: "◇", title: "Corporate Law", desc: "Companies, directors, shareholders, winding up — all your corporate queries", q: "What is the difference between a private and public limited company in India?", action: "Ask Now" },
+            { icon: "◈", title: "Contract Law", desc: "Enforceability, breach, remedies, damages and specific performance", q: "Is a verbal contract legally binding under Indian law?", action: "Ask Now" },
+            { icon: "◉", title: "Quick Facts", desc: "Compliance deadlines, penalties, procedural steps and filing requirements", q: "What is the penalty for late GST filing in India?", action: "Ask Now" },
         ],
         chips: [
             { l: "Verbal Contract", q: "Is a verbal contract legally binding in India?" },
@@ -238,16 +242,26 @@ function makeWelcome({ eyebrow, headline, sub, stats, cards, chips }) {
 
     const statsEl = stats ? `
         <div class="wc-stats">
-            ${stats.map(s => `<div class="wc-stat"><span class="wc-stat-n">${s.n}</span><span class="wc-stat-l">${s.l}</span></div>`).join("")}
+            ${stats.map(s => `
+                <div class="wc-stat">
+                    <span class="wc-stat-n">${s.n}</span>
+                    <span class="wc-stat-l">${s.l}</span>
+                </div>`).join("")}
         </div>` : "";
 
     const cardsEl = `
         <div class="wc-cards">
             ${cards.map(c => `
                 <button class="wc-card" data-q="${esc(c.q)}" ${c.ms ? `data-mswitch="${c.ms}"` : ""}>
-                    <div class="wc-card-g">${c.g}</div>
-                    <div class="wc-card-title">${c.title}</div>
-                    <div class="wc-card-desc">${c.desc}</div>
+                    <div class="wc-card-top">
+                        <div class="wc-card-icon">${c.icon}</div>
+                        <div class="wc-card-title">${c.title}</div>
+                        <div class="wc-card-desc">${c.desc}</div>
+                    </div>
+                    <div class="wc-card-bottom">
+                        <span class="wc-card-bottom-label">${c.action || "Explore"}</span>
+                        <span class="wc-card-bottom-arrow">→</span>
+                    </div>
                 </button>`).join("")}
         </div>`;
 
@@ -348,7 +362,6 @@ async function sendMessage(override = null) {
         });
 
         if (!res.ok) throw new Error(`Server error ${res.status}`);
-
         await consumeSSE(res, aiEl, isResearch);
 
     } catch (err) {
@@ -388,7 +401,6 @@ async function consumeSSE(res, msgEl, isResearch) {
 
 function handleEvt(evt, msgEl, isResearch) {
     switch (evt.type) {
-
         case "status":
             if (isResearch && evt.content) rtLog("p-supervisor", "INFO", evt.content);
             if (!msgEl.dataset.hasContent) setLoadingMsg(msgEl, evt.content || "Working…");
@@ -492,7 +504,7 @@ function setMsgContent(el, text) {
 function setLoadingMsg(el, text) {
     if (!el || el.dataset.hasContent) return;
     const b = el.querySelector(".msg-bubble");
-    if (b) b.innerHTML = `<span style="color:var(--ink-400);font-style:italic;font-size:0.88rem">${esc(text)}</span><span class="typing-cursor"></span>`;
+    if (b) b.innerHTML = `<span style="color:var(--ivory-400);font-style:italic;font-size:0.88rem">${esc(text)}</span><span class="typing-cursor"></span>`;
 }
 
 function appendToken(el, tok) {
@@ -585,12 +597,8 @@ function bindSidePanel() {
     $("#sp-close")?.addEventListener("click", closeSidePanel);
 }
 
-function openSidePanel() {
-    $("#side-panel")?.classList.remove("hidden");
-}
-function closeSidePanel() {
-    $("#side-panel")?.classList.add("hidden");
-}
+function openSidePanel() { $("#side-panel")?.classList.remove("hidden"); }
+function closeSidePanel() { $("#side-panel")?.classList.add("hidden"); }
 function clearSidePanel() {
     const f = $("#sp-findings");
     const e = $("#sp-entities");
@@ -651,7 +659,6 @@ function bindDocView() {
     drop?.addEventListener("dragleave", () => drop.classList.remove("dragover"));
     drop?.addEventListener("drop", e => { e.preventDefault(); drop.classList.remove("dragover"); if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]); });
 
-    // Doc info tabs
     $$(".di-tab").forEach(tab => {
         tab.addEventListener("click", () => {
             $$(".di-tab").forEach(t => t.classList.remove("active"));
@@ -661,7 +668,6 @@ function bindDocView() {
         });
     });
 
-    // Doc input send
     const docInp = $("#doc-query");
     const docBtn = $("#doc-send");
     docBtn?.addEventListener("click", () => sendDocMsg());
@@ -678,7 +684,6 @@ function handleFile(file) {
     S.file = file;
     S.fileName = file.name;
 
-    // Switch to document mode + analysis view
     if (S.mode !== "document") setMode("document");
 
     const upload = $("#doc-upload");
@@ -686,7 +691,6 @@ function handleFile(file) {
     if (upload) upload.classList.add("hidden");
     if (analysis) { analysis.classList.remove("hidden"); analysis.classList.add("flex"); }
 
-    // File info bar
     const bar = $("#doc-file-bar");
     if (bar) {
         bar.innerHTML = `
@@ -697,7 +701,6 @@ function handleFile(file) {
             </div>`;
     }
 
-    // Auto-analyse
     setTimeout(() => sendDocMsg("Analyse this document for risks, key clauses, obligations, and compliance issues under Indian law."), 300);
 }
 
@@ -771,7 +774,6 @@ function bindDraftView() {
 
     $("#btn-generate")?.addEventListener("click", generateDraft);
 
-    // Copy
     $("#dp-copy")?.addEventListener("click", () => {
         const body = $("#dp-content");
         if (body) navigator.clipboard.writeText(body.innerText);
@@ -781,7 +783,6 @@ function bindDraftView() {
         setTimeout(() => { btn.textContent = orig; }, 2000);
     });
 
-    // Download
     $("#dp-download")?.addEventListener("click", () => {
         const body = $("#dp-content");
         if (!body) return;
@@ -809,12 +810,10 @@ async function generateDraft() {
     if (title) title.textContent = draftLabel(S.draftType);
     if (status) status.textContent = "Generating…";
 
-    // Skeleton
     if (content) {
         content.innerHTML = `<div class="draft-skel">${[90, 72, 85, 65, 92, 78, 88, 60].map((w, i) =>
             `<div class="skel-line" style="width:${w}%;animation-delay:${i * 0.08}s"></div>`
-        ).join("")
-            }</div>`;
+        ).join("")}</div>`;
     }
 
     S.streaming = true;
@@ -885,7 +884,6 @@ function bindFileUpload() {
 // ── Drag and drop ─────────────────────────────────────────────────────────────
 function bindDragDrop() {
     const overlay = $("#drop-overlay");
-
     document.addEventListener("dragenter", e => {
         e.preventDefault(); S.dragDepth++;
         overlay?.classList.add("active");
@@ -923,11 +921,9 @@ function newThread() {
     if (rtBody) rtBody.innerHTML = "";
     $("#rt")?.classList.add("hidden");
 
-    // Reset doc view
     $("#doc-upload")?.classList.remove("hidden");
     $("#doc-analysis")?.classList.add("hidden");
 
-    // Reset draft
     const dpc = $("#dp-content");
     if (dpc) dpc.innerHTML = `<div class="dp-empty"><div class="dp-empty-glyph">✎</div><p>Your generated document will appear here</p></div>`;
 
@@ -984,7 +980,7 @@ function renderThreadList() {
     });
 }
 
-// ── Health check (runs once on demand, no polling) ───────────────────────────
+// ── Health check ──────────────────────────────────────────────────────────────
 async function healthCheck() {
     const dot = $("#sb-status-dot");
     const label = $("#sb-status-text");
