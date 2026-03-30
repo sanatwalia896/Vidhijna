@@ -1,3 +1,5 @@
+
+
 FROM python:3.11-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -6,26 +8,31 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-# System dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
         poppler-utils \
         libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
-# Python dependencies - REMOVED --no-deps for stability
 COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
-RUN pip install --no-cache-dir --no-deps langchain-huggingface
+# Bake FastEmbed model — download directly to final location
+RUN python -c "\
+from fastembed import TextEmbedding; \
+TextEmbedding(model_name='BAAI/bge-small-en-v1.5', cache_dir='/app/fastembed_cache')"
 
 COPY agents/   ./agents/
 COPY backend/  ./backend/
 
-# Create a proper home directory for the user so HF models can download
 RUN useradd -m appuser \
     && chown -R appuser:appuser /app
 USER appuser
 
-# Use the dynamic PORT variable
-CMD uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1
+# --timeout-keep-alive 75 is critical — keeps SSE research streams alive
+# without it uvicorn defaults to 5s and Cloud Run kills long streams
+CMD uvicorn backend.main:app \
+    --host 0.0.0.0 \
+    --port ${PORT:-8000} \
+    --workers 1 \
+    --timeout-keep-alive 75

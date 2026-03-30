@@ -12,8 +12,8 @@ Flow per document:
 One LLM call per document. No per-chunk LLM. Fast.
 
 Run:
-  python vector_store_creation/legal_ingest_v2.py --file data/legal_docs/indian_contract_act_1872.pdf
-  python vector_store_creation/legal_ingest_v2.py
+  python vector_store_creation/legal_ingest.py --file data/legal_docs/indian_contract_act_1872.pdf
+  python vector_store_creation/legal_ingest.py
 """
 
 import os
@@ -30,8 +30,7 @@ from groq import Groq
 from dotenv import load_dotenv
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_huggingface import HuggingFaceEndpointEmbeddings
-from langchain_pinecone import PineconeVectorStore
+from fastembed import TextEmbedding
 from pinecone import Pinecone, ServerlessSpec
 
 load_dotenv()
@@ -39,7 +38,7 @@ load_dotenv()
 # ── Config ─────────────────────────────────────────────────────────────────────
 
 GROQ_MODEL      = "llama-3.1-8b-instant"
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 PINECONE_INDEX  = os.getenv("PINECONE_INDEX_NAME", "vidhijana-indexes")
 NS_LEGAL        = "vidhijna-legal"
 LOG_DIR         = Path("logs")
@@ -70,11 +69,14 @@ KNOWN_ACTS = [
 
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-embeddings = HuggingFaceEndpointEmbeddings(
-    model=EMBEDDING_MODEL,
-    task="feature-extraction",
-    huggingfacehub_api_token=os.getenv("HUGGINGFACE_TOKEN"),
+# FastEmbed — local ONNX model, no API key, no torch, no HuggingFace API calls
+# Downloads once to ~/.cache/fastembed on first run, cached after that
+print("Loading embedding model (downloads on first run)...")
+fe_model = TextEmbedding(
+    model_name=EMBEDDING_MODEL,
+    cache_dir=os.path.expanduser("~/.cache/fastembed"),
 )
+print(f"Embedding model ready: {EMBEDDING_MODEL}")
 
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 if not pc.has_index(PINECONE_INDEX):
@@ -84,8 +86,7 @@ if not pc.has_index(PINECONE_INDEX):
         metric="cosine",
         spec=ServerlessSpec(cloud="aws", region="us-east-1"),
     )
-index        = pc.Index(PINECONE_INDEX)
-vector_store = PineconeVectorStore(index=index, embedding=embeddings)
+index = pc.Index(PINECONE_INDEX)
 
 # Hierarchical separators — respects legal document structure
 # Tries to split at highest level first, falls back down
@@ -141,7 +142,6 @@ def extract_full_text(file_path: Path) -> tuple[str, str]:
             pages.append(text.strip())
 
     full_text   = "\n\n".join(pages)
-    # TOC is usually in first 3 pages
     toc_preview = "\n\n".join(pages[:3])
     return toc_preview, full_text
 
@@ -259,7 +259,6 @@ def hierarchical_split(full_text: str) -> list[str]:
 
 # ── Step 4: Extract position metadata from chunk text ──────────────────────────
 
-# Regex patterns for extracting position in legal hierarchy
 CHAPTER_PAT    = re.compile(r"CHAPTER\s+([IVXLCDM\d]+)\s*[-—]?\s*(.{0,80})", re.IGNORECASE)
 SECTION_PAT    = re.compile(r"(?:^|\n)\s*(\d+[A-Z]?)\.\s+([^\n]{0,80})", re.MULTILINE)
 SUBSECTION_PAT = re.compile(r"\((\d+)\)")
@@ -273,12 +272,10 @@ def extract_position_metadata(chunk_text: str) -> dict:
         "section_title":  "",
     }
 
-    # Chapter
     ch_match = CHAPTER_PAT.search(chunk_text)
     if ch_match:
         meta["chapter"] = f"Chapter {ch_match.group(1)} — {ch_match.group(2).strip()}"[:100]
 
-    # Section number + title (first match in chunk)
     sec_match = SECTION_PAT.search(chunk_text)
     if sec_match:
         meta["section_number"] = sec_match.group(1)
@@ -296,11 +293,8 @@ def build_documents(
 ) -> list[Document]:
     docs = []
     for chunk_text in chunks:
-        # Position metadata from regex — no LLM needed
         position = extract_position_metadata(chunk_text)
 
-        # Full content = doc summary context + chunk text
-        # This helps embedding understand context even for short chunks
         context_line = f"{doc_meta.get('act_name', '')} | {position.get('chapter', '')} | Section {position.get('section_number', '')}".strip(" |")
         full_content = f"{context_line}\n\n{chunk_text}" if context_line.replace("|","").strip() else chunk_text
 
@@ -319,6 +313,8 @@ def build_documents(
             "chapter":        position.get("chapter", ""),
             "section_number": position.get("section_number", ""),
             "section_title":  position.get("section_title", ""),
+            # Text stored in metadata for retrieval
+            "text":           chunk_text[:1000],
             # Housekeeping
             "source":         file_path.name,
             "namespace":      NS_LEGAL,
@@ -357,13 +353,26 @@ def upsert(docs: list[Document]):
     if not docs:
         print("  No chunks to upsert")
         return
-    # Batch into 100s for Pinecone
+
     batch_size = 100
     for i in range(0, len(docs), batch_size):
-        batch = docs[i:i+batch_size]
-        uuids = [str(uuid4()) for _ in batch]
-        vector_store.add_documents(documents=batch, ids=uuids, namespace=NS_LEGAL)
-        print(f"  Upserted batch {i//batch_size + 1} ({len(batch)} chunks)")
+        batch   = docs[i:i + batch_size]
+        texts   = [d.page_content for d in batch]
+
+        # Embed locally via FastEmbed — fast, no API calls
+        vectors = list(fe_model.embed(texts))
+
+        to_upsert = [
+            {
+                "id":       str(uuid4()),
+                "values":   v.tolist(),
+                "metadata": d.metadata,
+            }
+            for v, d in zip(vectors, batch)
+        ]
+
+        index.upsert(vectors=to_upsert, namespace=NS_LEGAL)
+        print(f"  Upserted batch {i // batch_size + 1} ({len(batch)} chunks)")
         time.sleep(1)
 
 
@@ -384,7 +393,7 @@ def process_file(file_path: Path):
 
     # Step 2 — ONE LLM call for doc metadata
     doc_meta = generate_doc_metadata(file_path, toc_text)
-    time.sleep(2)  # brief pause after LLM call
+    time.sleep(2)
 
     # Step 3 — Hierarchical split
     chunks = hierarchical_split(full_text)
@@ -400,15 +409,14 @@ def process_file(file_path: Path):
     # Step 7 — Upsert
     upsert(docs)
 
-    # Mark as done
     save_checkpoint(file_path)
     print(f"  Done: {file_path.name}")
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--file",    help="Process a single file")
-    parser.add_argument("--reprocess", action="store_true",
+    parser.add_argument("--file",       help="Process a single file")
+    parser.add_argument("--reprocess",  action="store_true",
                         help="Reprocess even if checkpoint exists")
     args = parser.parse_args()
 
@@ -427,17 +435,17 @@ def main():
             files.extend(sorted(p.glob("*.txt")))
 
     print(f"Found {len(files)} legal files\n")
-    done  = sum(1 for f in files if is_done(f))
+    done = sum(1 for f in files if is_done(f))
     print(f"Already done: {done} / {len(files)}")
-    print(f"To process:   {len(files)-done} / {len(files)}\n")
+    print(f"To process:   {len(files) - done} / {len(files)}\n")
 
     for f in files:
         process_file(f)
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("All legal docs processed!")
     print(f"Chunks in vidhijna-legal → check Pinecone dashboard")
-    print("="*60)
+    print("=" * 60)
 
 
 # ── Helpers ──────────────────────────────────────────────────────────────────────

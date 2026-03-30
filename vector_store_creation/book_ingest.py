@@ -18,8 +18,8 @@ Flow per book:
 One LLM call per book. No per-chunk LLM. Fast.
 
 Run:
-  python vector_store_creation/books_ingest.py --file data/legal_books/business_laws_study_notes.pdf
-  python vector_store_creation/books_ingest.py
+  python vector_store_creation/book_ingest.py --file data/legal_books/business_laws_study_notes.pdf
+  python vector_store_creation/book_ingest.py
 """
 
 import os
@@ -36,8 +36,7 @@ from groq import Groq
 from dotenv import load_dotenv
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_huggingface import HuggingFaceEndpointEmbeddings
-from langchain_pinecone import PineconeVectorStore
+from fastembed import TextEmbedding
 from pinecone import Pinecone, ServerlessSpec
 
 load_dotenv()
@@ -45,7 +44,7 @@ load_dotenv()
 # ── Config ──────────────────────────────────────────────────────────────────────
 
 GROQ_MODEL      = "llama-3.1-8b-instant"
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 PINECONE_INDEX  = os.getenv("PINECONE_INDEX_NAME", "vidhijana-indexes")
 NS_BOOKS        = "vidhijna-books"
 LOG_DIR         = Path("logs")
@@ -75,11 +74,14 @@ KNOWN_ACTS = [
 
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-embeddings = HuggingFaceEndpointEmbeddings(
-    model=EMBEDDING_MODEL,
-    task="feature-extraction",
-    huggingfacehub_api_token=os.getenv("HUGGINGFACE_TOKEN"),
+# FastEmbed — local ONNX model, no API key, no torch, no HuggingFace API calls
+# Downloads once to ~/.cache/fastembed on first run, cached after that
+print("Loading embedding model (downloads on first run)...")
+fe_model = TextEmbedding(
+    model_name=EMBEDDING_MODEL,
+    cache_dir=os.path.expanduser("~/.cache/fastembed"),
 )
+print(f"Embedding model ready: {EMBEDDING_MODEL}")
 
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 if not pc.has_index(PINECONE_INDEX):
@@ -89,11 +91,9 @@ if not pc.has_index(PINECONE_INDEX):
         metric="cosine",
         spec=ServerlessSpec(cloud="aws", region="us-east-1"),
     )
-index        = pc.Index(PINECONE_INDEX)
-vector_store = PineconeVectorStore(index=index, embedding=embeddings)
+index = pc.Index(PINECONE_INDEX)
 
 # Book-aware hierarchical splitter
-# Books split at chapter → section → topic → paragraph level
 splitter = RecursiveCharacterTextSplitter(
     chunk_size=600,
     chunk_overlap=100,
@@ -105,8 +105,8 @@ splitter = RecursiveCharacterTextSplitter(
         "\nMODULE ",
         "\nSECTION ",
         "\nSection ",
-        r"\n\d+\.\d+",     # numbered sections like "3.1", "3.2"
-        r"\n\d+\.",         # numbered topics like "1.", "2."
+        r"\n\d+\.\d+",
+        r"\n\d+\.",
         "\n\n",
         "\n",
         ". ",
@@ -145,8 +145,7 @@ def extract_text(file_path: Path) -> tuple[str, str]:
             text = page.extract_text() or ""
             pages.append(text.strip())
 
-    full_text = "\n\n".join(pages)
-    # Preface + TOC + first chapter = first 15% of pages or first 5000 chars
+    full_text     = "\n\n".join(pages)
     preview_pages = max(10, len(pages) // 7)
     preview_text  = "\n\n".join(pages[:preview_pages])
     return preview_text[:5000], full_text
@@ -248,7 +247,6 @@ def hierarchical_split(full_text: str) -> list[str]:
         c = c.strip()
         if len(c.split()) < 15:
             continue
-        # Skip TOC-style chunks
         lines = [l.strip() for l in c.split("\n") if l.strip()]
         if len(lines) > 6 and sum(1 for l in lines if len(l) < 50) / len(lines) > 0.8:
             continue
@@ -283,29 +281,30 @@ def build_documents(
     for chunk_text in chunks:
         position = extract_book_position(chunk_text)
 
-        # Context line for embedding quality
         context = f"{doc_meta.get('book_title', '')} | {position.get('chapter', '')}".strip(" |")
         full_content = f"{context}\n\n{chunk_text}" if context.replace("|","").strip() else chunk_text
 
         metadata = {
             # Document-level — from LLM (same for all chunks)
-            "book_title":       doc_meta.get("book_title", ""),
-            "authors":          doc_meta.get("authors", ""),
-            "publisher":        doc_meta.get("publisher", ""),
-            "book_type":        doc_meta.get("book_type", ""),
-            "covers_acts":      ", ".join(doc_meta.get("covers_acts", [])[:5]),
-            "legal_domain":     doc_meta.get("legal_domain", ""),
-            "book_purpose":     doc_meta.get("purpose", "")[:300],
-            "difficulty":       doc_meta.get("difficulty", "intermediate"),
-            "importance":       doc_meta.get("importance", "medium"),
-            "reasoning_focus":  doc_meta.get("reasoning_focus", "mixed"),
+            "book_title":      doc_meta.get("book_title", ""),
+            "authors":         doc_meta.get("authors", ""),
+            "publisher":       doc_meta.get("publisher", ""),
+            "book_type":       doc_meta.get("book_type", ""),
+            "covers_acts":     ", ".join(doc_meta.get("covers_acts", [])[:5]),
+            "legal_domain":    doc_meta.get("legal_domain", ""),
+            "book_purpose":    doc_meta.get("purpose", "")[:300],
+            "difficulty":      doc_meta.get("difficulty", "intermediate"),
+            "importance":      doc_meta.get("importance", "medium"),
+            "reasoning_focus": doc_meta.get("reasoning_focus", "mixed"),
             # Position from regex
-            "chapter":          position.get("chapter", ""),
-            "topic_number":     position.get("topic_number", ""),
+            "chapter":         position.get("chapter", ""),
+            "topic_number":    position.get("topic_number", ""),
+            # Text stored in metadata for retrieval
+            "text":            chunk_text[:1000],
             # Housekeeping
-            "source":           file_path.name,
-            "namespace":        NS_BOOKS,
-            "ingested_at":      datetime.now().isoformat(),
+            "source":          file_path.name,
+            "namespace":       NS_BOOKS,
+            "ingested_at":     datetime.now().isoformat(),
         }
 
         docs.append(Document(page_content=full_content, metadata=metadata))
@@ -340,11 +339,26 @@ def upsert(docs: list[Document]):
     if not docs:
         print("  No chunks to upsert")
         return
-    for i in range(0, len(docs), 100):
-        batch = docs[i:i+100]
-        uuids = [str(uuid4()) for _ in batch]
-        vector_store.add_documents(documents=batch, ids=uuids, namespace=NS_BOOKS)
-        print(f"  Upserted batch {i//100 + 1} ({len(batch)} chunks)")
+
+    batch_size = 100
+    for i in range(0, len(docs), batch_size):
+        batch   = docs[i:i + batch_size]
+        texts   = [d.page_content for d in batch]
+
+        # Embed locally via FastEmbed — fast, no API calls
+        vectors = list(fe_model.embed(texts))
+
+        to_upsert = [
+            {
+                "id":       str(uuid4()),
+                "values":   v.tolist(),
+                "metadata": d.metadata,
+            }
+            for v, d in zip(vectors, batch)
+        ]
+
+        index.upsert(vectors=to_upsert, namespace=NS_BOOKS)
+        print(f"  Upserted batch {i // batch_size + 1} ({len(batch)} chunks)")
         time.sleep(1)
 
 
@@ -359,19 +373,15 @@ def process_file(file_path: Path):
         print(f"  Already processed — skipping")
         return
 
-    # Step 1 — Extract
     preview_text, full_text = extract_text(file_path)
     print(f"  Full text: {len(full_text):,} chars")
 
-    # Step 2 — ONE LLM call for book metadata
     doc_meta = generate_book_metadata(file_path, preview_text)
     time.sleep(2)
 
-    # Step 3 — Hierarchical split
     chunks = hierarchical_split(full_text)
     print(f"  Chunks after split: {len(chunks)}")
 
-    # Step 4+5 — Build documents with metadata
     docs = build_documents(chunks, doc_meta, file_path)
     print(f"  Documents built: {len(docs)}")
     log_chunks(docs, file_path)
@@ -407,9 +417,9 @@ def main():
     for f in files:
         process_file(f)
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("All books processed!")
-    print("="*60)
+    print("=" * 60)
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────────
