@@ -8,8 +8,14 @@ _client = None
 
 def _get_client():
     global _client
-    if _client is None:
-        _client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
+    if _client is not None:
+        return _client
+
+    api_key = os.environ.get("TAVILY_API_KEY", "").strip()
+    if not api_key:
+        return None
+
+    _client = TavilyClient(api_key=api_key)
     return _client
 
 
@@ -25,6 +31,9 @@ def tavily_search(
     Returns list of {title, url, content, score}.
     """
     client = _get_client()
+    if client is None:
+        print("[Tavily] API key missing or empty, skipping web search.")
+        return []
 
     # Legal prefix for better results
     search_query = f"Indian law legal: {query}"
