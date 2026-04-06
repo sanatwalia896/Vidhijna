@@ -7,7 +7,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-  REGION: us-central1                          # US central for always free tier a
+  REGION: us-central1                          # US central for always free tier 
   SERVICE: vidhijna-api                         # Cloud Run service name
   IMAGE: gcr.io/${{ secrets.GCP_PROJECT_ID }}/vidhijna-api
 

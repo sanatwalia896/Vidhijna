@@ -7,6 +7,7 @@
 
 // const API = "https://vidhijna-api-122979848414.us-central1.run.app";
 const API = "https://vidhijna-api-122979848414.us-central1.run.app";
+// const API="http://localhost:8000";
 
 // ── State ─────────────────────────────────────────────────────────────────────
 const S = {
@@ -591,6 +592,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const sbToggle = $("#sb-toggle");
     const mobMenu = $("#mob-menu");
 
+    const spToggleBtn = $("#sp-toggle");
+
     const isMobile = () => window.innerWidth <= 767;
 
     function openMobileSidebar() {
@@ -612,6 +615,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Mobile: open sidebar
     mobMenu?.addEventListener("click", openMobileSidebar);
+
+    spToggleBtn?.addEventListener("click", () => {
+        const panel = $("#side-panel");
+        if (panel?.classList.contains("hidden")) {
+            openSidePanel();
+        } else {
+            closeSidePanel();
+        }
+    });
 
     // Mobile: close sidebar via backdrop
     backdrop?.addEventListener("click", closeMobileSidebar);
@@ -771,7 +783,11 @@ async function sendDocMsg(override = null) {
         form.append("thread_id", S.threadId);
         form.append("query", q);
 
-        const res = await fetch(`${API}/upload`, { method: "POST", body: form });
+        const res = await fetch(`${API}/upload`, {
+            method: "POST",
+            body: form,
+            signal: AbortSignal.timeout(120000), // 2 min — handles GCR cold start
+        });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         await consumeSSE(res, aiEl, false);
 
