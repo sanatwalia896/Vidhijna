@@ -12,7 +12,7 @@ Vidhijna is a multi-agent legal AI system built for Indian commercial law. It ro
 |---|---|
 | 🔬 **Deep Research** | Multi-source legal research with a reflection loop — statutory provisions + commentary + live web |
 | 💬 **Legal Chat** | Conversational Q&A with memory, grounded in retrieved legal context |
-| 📄 **Document Analysis** | Upload a contract, judgment, or notice — get clause extraction, risk flags, and compliance checks |
+| 📄 **Document Analysis** | Upload a contract, judgment, or notice — get clause extraction, risk flags, and compliance checks (now with Groq-powered OCR and automated garbage collection) |
 | ✍️ **Legal Drafting** | Generate NDAs, service agreements, legal notices, NCLT petitions, arbitration notices, and more |
 | ✨ **Auto (Supervisor)** | The supervisor classifies intent and routes to the right agent automatically |
 
@@ -55,11 +55,11 @@ The graph is compiled with `MemorySaver` so conversation history persists per `t
 | Agent orchestration | [LangGraph](https://github.com/langchain-ai/langgraph) |
 | LLMs | Groq (`llama-3.3-70b-versatile` for research, `llama-3.1-8b-instant` for chat/supervisor) |
 | Vector store | Pinecone (dual namespace: `vidhijna-legal` + `vidhijna-books`) |
-| Embeddings | `sentence-transformers/all-MiniLM-L6-v2` via HuggingFace |
+| Embeddings | fastembed (baked into Docker image) |
 | Web search | Tavily (targeted at Indian legal domains) |
-| OCR | pdfplumber + pytesseract |
-| Backend | FastAPI with SSE streaming |
-| Frontend | Vanilla HTML/CSS/JS |
+| OCR | Groq API |
+| Backend | FastAPI with SSE streaming (hosted on Google Cloud Run) |
+| Frontend | Vanilla HTML/CSS/JS (hosted on Vercel, mobile responsive) |
 
 ---
 
@@ -115,9 +115,6 @@ Create a `.env` file in the project root:
 ```env
 # LLMs
 GROQ_API_KEY=your_groq_api_key
-
-# Embeddings
-HUGGINGFACE_TOKEN=your_hf_token
 
 # Vector store
 PINECONE_API_KEY=your_pinecone_api_key
