@@ -143,6 +143,7 @@
 
 import os
 from typing import Optional
+from pathlib import Path
 from pinecone import Pinecone
 from fastembed import TextEmbedding
 from agents.utils import deduplicate_sources, truncate_text
@@ -150,6 +151,16 @@ from agents.utils import deduplicate_sources, truncate_text
 _pc = None
 _index = None
 _embeddings = None
+
+
+def _embedding_cache_dir() -> str:
+    """
+    Resolve a writable cache dir for fastembed.
+
+    Local runs should use /tmp. Docker can override with FASTEMBED_CACHE_DIR.
+    """
+    cache_dir = os.environ.get("FASTEMBED_CACHE_DIR", "/tmp/fastembed_cache").strip()
+    return cache_dir or "/tmp/fastembed_cache"
 
 def _get_clients():
     global _pc, _index, _embeddings
@@ -161,16 +172,29 @@ def _get_clients():
         # FastEmbed runs fully locally — no API key, no network calls, no torch
         # Model: BAAI/bge-small-en-v1.5 (~23 MB ONNX) — same 384-dim vectors
         # as sentence-transformers/all-MiniLM-L6-v2 used during ingestion
-        _embeddings = TextEmbedding(
-            model_name="BAAI/bge-small-en-v1.5",
-            cache_dir="/app/fastembed_cache",   # baked into image at build time
-        )
+        try:
+            _embeddings = TextEmbedding(
+                model_name="BAAI/bge-small-en-v1.5",
+                cache_dir=_embedding_cache_dir(),
+            )
+        except Exception:
+            # Last-resort fallback for environments with restricted filesystem rules.
+            fallback_dir = Path("/tmp/fastembed_cache")
+            fallback_dir.mkdir(parents=True, exist_ok=True)
+            _embeddings = TextEmbedding(
+                model_name="BAAI/bge-small-en-v1.5",
+                cache_dir=str(fallback_dir),
+            )
     return _index, _embeddings
 
 
 def _embed_query(text: str) -> list[float]:
     """Embed a single query string and return the vector."""
     _, embeddings = _get_clients()
+    if embeddings is None:
+        raise RuntimeError(
+            "FastEmbed embeddings failed to initialize. Set FASTEMBED_CACHE_DIR to a writable path."
+        )
     # fastembed returns a generator of numpy arrays
     vectors = list(embeddings.embed([text]))
     return vectors[0].tolist()

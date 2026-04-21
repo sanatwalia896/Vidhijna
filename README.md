@@ -133,6 +133,18 @@ MAX_REFLECTION_LOOPS=3
 DEV_MODE=true
 ```
 
+### Optional: Local observability
+
+To enable Langfuse tracing locally, add these variables to `.env`:
+
+```env
+LANGFUSE_PUBLIC_KEY=pk-lf-...
+LANGFUSE_SECRET_KEY=sk-lf-...
+LANGFUSE_HOST=http://localhost:3000
+```
+
+With those values present, Vidhijna emits traces, token usage, and node-level latency metadata without changing the streaming API or deployment path.
+
 ### 3. Run the server
 
 ```bash
@@ -140,6 +152,28 @@ python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 The frontend is served at `http://localhost:8000/app`.
+
+---
+
+## Observability
+
+See [OBSERVABILITY.md](/Users/sanat/Desktop/Assignments_applications/Vidhijna/OBSERVABILITY.md) for:
+
+- Langfuse setup
+- request-level metrics
+- per-role latency and token cost summaries
+- recommended screenshots for a portfolio or demo
+- the deep research trace to capture for best results
+
+## Evaluation
+
+Run the live Opik RAG eval from `tests/eval/rag_eval.py`:
+
+```bash
+OPIK_API_KEY=your_opik_api_key OPIK_HOST=https://www.comet.com/opik/api python3 tests/eval/rag_eval.py
+```
+
+The report is written to `eval_results/rag_eval_report.json`.
 
 ---
 

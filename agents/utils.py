@@ -39,6 +39,34 @@ def clean_repeated_tokens(text: str) -> str:
     return text.strip()
 
 
+def sanitize_legal_sections(text: str) -> str:
+    """
+    Remove obviously suspicious legal section dump patterns from answers.
+
+    This is a lightweight guardrail, not a substitute for legal validation.
+    """
+    if not text:
+        return text
+
+    # Remove long runs of sequential Companies Act sections that are usually hallucinated.
+    text = re.sub(
+        r"(Section\s+24[0-9A-Z]{1,2}\s*[-–]\s*Section\s+2[5-6][0-9A-Z]{1,2}.*?)(?=\n\n|\Z)",
+        "",
+        text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+
+    # Remove repeated section lists separated by commas that run far beyond the relevant issue.
+    text = re.sub(
+        r"(Section\s+2[4-9][0-9A-Z]{0,2}(?:\s*,\s*Section\s+2[4-9][0-9A-Z]{0,2}){5,})",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    return text.strip()
+
+
 # ── Source deduplication ───────────────────────────────────────────────────────
 
 def deduplicate_sources(sources: list[dict]) -> list[dict]:

@@ -23,6 +23,8 @@ python-dotenv>=1.0.0
 typing_extensions>=4.8.0
 requests>=2.31.0
 beautifulsoup4>=4.13.3
+langfuse>=2.0.0
+opik>=1.0.0
 
 # ── API ──────────────────────────────────────────────────────────────────────
 fastapi>=0.110.0

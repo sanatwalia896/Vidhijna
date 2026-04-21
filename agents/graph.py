@@ -16,7 +16,13 @@ Flow:
 Memory: MemorySaver persists conversation per thread_id across turns.
 """
 
-from typing import Literal
+import os
+from typing import Any, Optional, Literal
+
+try:
+    from langfuse import get_client
+except Exception:  # pragma: no cover - optional dependency
+    get_client = None
 
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from langchain_core.runnables import RunnableConfig
@@ -32,7 +38,7 @@ from agents.state import (
 )
 from agents.configuration import Configuration
 from agents.prompts import SUPERVISOR_PROMPT
-from agents.utils import clean_thinking_tags, extract_json_from_text
+from agents.utils import clean_thinking_tags, extract_json_from_text, sanitize_legal_sections
 
 # Import compiled subgraphs — each is its own StateGraph
 from agents.subgraphs.research import research_graph
@@ -41,6 +47,80 @@ from agents.subgraphs.document import document_graph
 from agents.subgraphs.drafting import drafting_graph
 
 load_dotenv()
+
+
+def _load_langfuse_handler() -> Optional[Any]:
+    """
+    Create a Langfuse callback handler only when all required env vars exist.
+
+    This keeps production behavior unchanged if Langfuse is not configured.
+    """
+    public_key = os.environ.get("LANGFUSE_PUBLIC_KEY", "").strip()
+    secret_key = os.environ.get("LANGFUSE_SECRET_KEY", "").strip()
+    host = os.environ.get("LANGFUSE_HOST", "").strip()
+
+    if not (public_key and secret_key and host):
+        return None
+
+    try:
+        from langfuse.langchain import CallbackHandler
+
+        # The SDK reads env vars; this handler remains opt-in.
+        if get_client is not None:
+            # Touch the singleton so bad credentials/host issues surface early.
+            get_client()
+        return CallbackHandler()
+    except Exception:
+        return None
+
+
+LANGFUSE_HANDLER = _load_langfuse_handler()
+
+def langfuse_status() -> dict[str, Any]:
+    return {
+        "enabled": LANGFUSE_HANDLER is not None,
+        "public_key_set": bool(os.environ.get("LANGFUSE_PUBLIC_KEY", "").strip()),
+        "secret_key_set": bool(os.environ.get("LANGFUSE_SECRET_KEY", "").strip()),
+        "host": os.environ.get("LANGFUSE_HOST", "").strip(),
+        "base_url": os.environ.get("LANGFUSE_BASE_URL", "").strip(),
+    }
+
+
+def build_runtime_config(
+    thread_id: str,
+    *,
+    request_id: str = "",
+    mode: str = "",
+    model_used: str = "",
+    user_id: str = "",
+    extra_callbacks: Optional[list[Any]] = None,
+) -> RunnableConfig:
+    """
+    Build a graph config that adds Langfuse tracing when enabled.
+    """
+    metadata = {
+        "langfuse_session_id": thread_id,
+        "langfuse_trace_id": request_id,
+        "thread_id": thread_id,
+        "mode": mode,
+        "model_used": model_used,
+    }
+    if user_id:
+        metadata["langfuse_user_id"] = user_id
+
+    config: RunnableConfig = {
+        "configurable": {"thread_id": thread_id},
+        "metadata": metadata,
+    }
+    tags = [tag for tag in [mode, thread_id, model_used] if tag]
+    callbacks = list(extra_callbacks or [])
+    if LANGFUSE_HANDLER is not None:
+        callbacks.insert(0, LANGFUSE_HANDLER)
+    if callbacks:
+        config["callbacks"] = callbacks
+    if tags:
+        config["tags"] = tags
+    return config
 
 
 # ── Node 1: Supervisor ────────────────────────────────────────────────────────
@@ -184,7 +264,7 @@ def response_formatter(state: VidhijnaState, config: RunnableConfig) -> dict:
     3. Appends the legal disclaimer
     """
     cfg      = Configuration.from_runnable_config(config)
-    response = state.final_response or state.running_summary or "No response generated."
+    response = sanitize_legal_sections(state.final_response or state.running_summary or "No response generated.")
 
     # Append citations
     if cfg.include_citations and state.citations:

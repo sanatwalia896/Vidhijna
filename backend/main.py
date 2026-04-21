@@ -28,6 +28,9 @@ from dotenv import load_dotenv
 load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"))
 
 from agents.graph import graph
+from agents.graph import build_runtime_config, langfuse_status
+from agents.metrics import METRICS_COLLECTOR
+from agents.configuration import Configuration
 
 # ── App Setup ─────────────────────────────────────────────────────────────────
 
@@ -36,6 +39,8 @@ app = FastAPI(
     description="Indian Business Law AI Assistant — Multi-Agent System",
     version="2.0.0",
 )
+
+print(f"[LANGFUSE] {langfuse_status()}")
 
 app.add_middleware(
     CORSMiddleware,
@@ -178,7 +183,23 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
       - "final"        : Complete final response
       - "error"        : Error messages
     """
-    config = {"configurable": {"thread_id": thread_id}}
+    request_id = f"req_{uuid.uuid4().hex[:16]}"
+    runtime_cfg = Configuration()
+    model_used = runtime_cfg.get_model_for_agent("research")
+    if input_data.get("mode") == "chat":
+        model_used = runtime_cfg.get_model_for_agent("chat")
+    elif input_data.get("mode") == "document":
+        model_used = runtime_cfg.get_model_for_agent("document")
+    elif input_data.get("mode") == "draft":
+        model_used = runtime_cfg.get_model_for_agent("draft")
+
+    config = build_runtime_config(
+        thread_id,
+        request_id=request_id,
+        mode=input_data.get("mode", "auto"),
+        model_used=model_used,
+        extra_callbacks=[METRICS_COLLECTOR],
+    )
     
     accumulated_entities = {}
     accumulated_citations = []
@@ -196,6 +217,8 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
 
     yield sse_event("status", {"content": "Initializing Vidhijna Multi-Agent System..."})
 
+    request_started = datetime.utcnow()
+    METRICS_COLLECTOR.begin_request(request_id)
     try:
         # astream yields {node_name: state_update_dict} for each completed node
         async for chunk in graph.astream(input_data, config, stream_mode="updates"):
@@ -303,6 +326,32 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
             "thread_id": thread_id,
         })
     finally:
+        request_latency_ms = (datetime.utcnow() - request_started).total_seconds() * 1000
+        summary = METRICS_COLLECTOR.build_request_summary(
+            request_id=request_id,
+            thread_id=thread_id,
+            mode=input_data.get("mode", "auto"),
+            reflection_loop_count=int(input_data.get("reflection_loops", 0) or 0),
+            latency_ms=request_latency_ms,
+            model=model_used,
+        )
+        METRICS_COLLECTOR.log_request_summary(summary)
+        try:
+            from langfuse import get_client
+            get_client().flush()
+        except Exception:
+            pass
+        if Configuration().dev_mode:
+            print(
+                "[METRICS] "
+                f"thread={thread_id} "
+                f"mode={summary['mode']} "
+                f"latency_ms={summary['latency_ms']} "
+                f"loops={summary['reflection_loop_count']} "
+                f"tokens={summary['total_tokens']} "
+                f"cost_usd={summary['cost_usd']} "
+                f"model={summary['model']}"
+            )
         # Free uploaded file bytes and reclaim memory (critical for 512MB RAM)
         if "uploaded_file_bytes" in input_data:
             input_data["uploaded_file_bytes"] = None
@@ -404,6 +453,15 @@ async def get_modes():
             {"id": "nclt_petition", "label": "NCLT Petition"},
             {"id": "arbitration_notice", "label": "Arbitration Notice"},
         ]
+    }
+
+
+@app.get("/metrics")
+async def metrics():
+    return {
+        "recent_requests": METRICS_COLLECTOR.request_summaries(),
+        "summary": METRICS_COLLECTOR.aggregate_summary(),
+        "p95_latency_ms": METRICS_COLLECTOR.latency_summary(),
     }
 
 # ── Main ──────────────────────────────────────────────────────────────────────

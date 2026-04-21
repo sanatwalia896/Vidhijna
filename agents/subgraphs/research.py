@@ -37,7 +37,7 @@ from agents.prompts import (
 )
 from agents.tools.retrieval import retrieve_legal, retrieve_books, format_chunks
 from agents.tools.search import tavily_search, format_web_results
-from agents.utils import clean_thinking_tags, extract_json_from_text
+from agents.utils import clean_thinking_tags, extract_json_from_text, sanitize_legal_sections
 
 
 def _llm(model: str, temperature: float = 0.1, json_mode: bool = False,
@@ -443,7 +443,7 @@ def finalize(state: VidhijnaState, config: RunnableConfig) -> dict:
         web_summary=state.web_summary or "No web results.",
     ))])
 
-    final_text = clean_thinking_tags(r_content)
+    final_text = sanitize_legal_sections(clean_thinking_tags(r_content))
 
     citations = []
     for chunk in (state.legal_chunks or [])[:5]:
