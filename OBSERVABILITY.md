@@ -129,29 +129,39 @@ Look for:
 Place these in the `images/` folder.
 
 ### 1. RAG Metrics Dashboard
-> **Placeholder:** `images/rag_metrics.png`
->
-> Show the aggregated RAG observability scores — retrieval_relevance, context_utilization, citation_coverage, faithfulness_proxy, source_diversity. This demonstrates retrieval quality tracking.
+![RAG Metrics Dashboard](./images/langfuse_rag_metrics.png)
+
+Show the aggregated RAG observability scores — retrieval_relevance, context_utilization, citation_coverage, faithfulness_proxy, source_diversity. This demonstrates retrieval quality tracking.
 
 ### 2. Trace Graph — Full Request
-> **Placeholder:** `images/trace_graph.png`
->
-> Show the full LangGraph trace for a deep research request. This is the single best screenshot for showing multi-agent orchestration end-to-end.
+![Trace Graph](./images/trace_grpah.png)
+
+Show the full LangGraph trace for a deep research request. This is the single best screenshot for showing multi-agent orchestration end-to-end.
 
 ### 3. Trace Content — Node Details
-> **Placeholder:** `images/trace_content.png`
->
-> Expand a trace to show what was traced — generation inputs, outputs, and intermediate state. Proves the agent's reasoning path is visible.
+![Trace Content](./images/trace_content.png)
+![Trace Content](./images/trace_content1.png)
+![Trace Content](./images/trace_content_2.png)
+
+Expand a trace to show what was traced — generation inputs, outputs, and intermediate state. Proves the agent's reasoning path is visible.
 
 ### 4. Trace Types — Generation / Agent / Chain
-> **Placeholder:** `images/trace_types.png`
->
-> Show the different span types in Langfuse — LLM generation spans, agent nodes, and chain edges. Demonstrates the structured nature of the trace.
+![Trace Generation](./images/trace_generation.png)
+![Trace Agent](./images/trace_agent.png)
+![Trace Chain](./images/trace_chain.png)
+
+Show the different span types in Langfuse — LLM generation spans, agent nodes, and chain edges. Demonstrates the structured nature of the trace.
 
 ### 5. Metrics Endpoint Response
-> **Placeholder:** `images/metrics_endpoint.png`
->
-> Show the `GET /metrics` JSON response with `summary.by_role`, `p95_latency_ms`, and RAG observability averages.
+![Metrics JSON](./images/metrics_json.png)
+![Metrics JSON](./images/metrics_json_2.png)
+
+Show the `GET /metrics` JSON response with `summary.by_role`, `p95_latency_ms`, and RAG observability averages.
+
+### Additional Trace Views
+![Trace Graph](./images/trace_grpah_.png)
+
+Additional view of the trace graph showing the full orchestration flow.
 
 ---
 
