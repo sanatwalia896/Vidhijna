@@ -273,6 +273,30 @@ All settings can be overridden via environment variables or a `RunnableConfig` p
 
 ---
 
+## Observability
+
+Vidhijna supports Langfuse tracing for debugging, cost analysis, and performance monitoring.
+
+**Observability code is on the `feat/langfuse_integration` branch. It is NOT deployed on staging.**
+
+The full findings — what we traced, what the numbers mean, and what to improve — are documented in [OBSERVABILITY.md](./OBSERVABILITY.md).
+
+The observability stack was built to answer three questions the staging system couldn't:
+
+1. **Which node is slow?** — The research pipeline has 10+ nodes. Without per-node latency tracking, bottleneck identification was guesswork.
+2. **Is retrieval actually working?** — Needed to know if chunks were relevant, if the model was using them, and if citations were being populated.
+3. **What does a request cost?** — Token counts and cost-per-role were completely invisible.
+
+**Key findings from tracing:**
+- `summarize_books` at **44.3s p95** — the single biggest latency bottleneck
+- `propose_plan` at **14.8s p95** — unexpectedly slow for a planning call
+- `citation_coverage = 0` — citations were never being tracked despite good retrieval relevance
+- `context_utilization = 0.19` — model was generating from memory, not from retrieved chunks
+
+Full analysis and improvement recommendations are in [OBSERVABILITY.md](./OBSERVABILITY.md).
+
+---
+
 ## Disclaimer
 
 > ⚠️ Vidhijna generates AI-assisted legal information for research purposes only. It does not constitute legal advice. Always consult a qualified lawyer before taking legal action.
