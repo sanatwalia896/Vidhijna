@@ -73,6 +73,7 @@ The graph is compiled with `MemorySaver` so conversation history persists per `t
 │   ├── configuration.py      # Central config — models, Pinecone, Tavily, weights
 │   ├── prompts.py            # All LLM prompts for every agent
 │   ├── utils.py              # Shared utilities — dedup, JSON extraction, text cleaning
+│   ├── metrics.py            # Metrics collector and RAG observability scoring
 │   │
 │   ├── subgraphs/
 │   │   ├── research.py       # Deep research pipeline with reflection loop
@@ -133,18 +134,6 @@ MAX_REFLECTION_LOOPS=3
 DEV_MODE=true
 ```
 
-### Optional: Local observability
-
-To enable Langfuse tracing locally, add these variables to `.env`:
-
-```env
-LANGFUSE_PUBLIC_KEY=pk-lf-...
-LANGFUSE_SECRET_KEY=sk-lf-...
-LANGFUSE_HOST=http://localhost:3000
-```
-
-With those values present, Vidhijna emits traces, token usage, and node-level latency metadata without changing the streaming API or deployment path.
-
 ### 3. Run the server
 
 ```bash
@@ -157,23 +146,53 @@ The frontend is served at `http://localhost:8000/app`.
 
 ## Observability
 
-See [OBSERVABILITY.md](/Users/sanat/Desktop/Assignments_applications/Vidhijna/OBSERVABILITY.md) for:
+Vidhijna supports Langfuse tracing for debugging, cost analysis, and performance monitoring.
 
-- Langfuse setup
-- request-level metrics
-- per-role latency and token cost summaries
-- recommended screenshots for a portfolio or demo
-- the deep research trace to capture for best results
+**Status: Observability is available locally. See the `feat/langfuse_integration` branch for the full implementation. It is NOT deployed online.**
 
-## Evaluation
+For setup instructions, metrics details, and recommended screenshots, see [OBSERVABILITY.md](./OBSERVABILITY.md).
 
-Run the live Opik RAG eval from `tests/eval/rag_eval.py`:
+### What Was Added (from `feat/langfuse_integration` branch)
 
-```bash
-OPIK_API_KEY=your_opik_api_key OPIK_HOST=https://www.comet.com/opik/api python3 tests/eval/rag_eval.py
-```
+On the `feat/langfuse_integration` branch, the following changes were made:
 
-The report is written to `eval_results/rag_eval_report.json`.
+#### 1. Langfuse Tracing Integration (`agents/graph.py`)
+- `langfuse.langchain.CallbackHandler` is loaded **opt-in only** when all required env vars are present
+- If any env var is missing, tracing silently skips — the system still runs normally
+- A `langfuse_status()` helper exposes whether tracing is enabled
+
+#### 2. Config Metadata (`agents/graph.py:build_runtime_config`)
+- Every graph run is tagged with: `thread_id`, `request_id`, `mode`, `model_used`
+- Session and trace IDs are passed through for proper grouping in Langfuse
+
+#### 3. Metrics Collector (`agents/metrics.py`)
+- `MetricsCollector` (implements `BaseCallbackHandler`) tracks:
+  - Per-LLM-call: prompt/completion/total tokens, latency ms, cost USD, tokens/sec
+  - Per-node: latency ms (with p95 per node)
+  - Per-request: full summary written to `metrics.jsonl`
+- `compute_rag_observability()` scores retrieval quality:
+  - `retrieval_relevance` — average normalized cosine similarity of retrieved chunks
+  - `context_utilization` — token overlap between answer and retrieved context
+  - `citation_coverage` — what fraction of retrieved sources are actually cited
+  - `faithfulness_proxy` — weighted combination of utilization + citation coverage
+  - `source_diversity` — ratio of unique sources to total chunks
+- `push_langfuse_rag_scores()` sends these scores to Langfuse as trace scores
+
+#### 4. Metrics Endpoint (`backend/main.py`)
+- `GET /metrics` returns: recent requests, per-role token/cost breakdown, p95 latencies, aggregated RAG scores
+
+### What You Get From Observability
+
+| Metric | What It Tells You |
+|---|---|
+| Token count + cost | Cost per request, per role, total spend |
+| Latency per node | Which part of the pipeline is slowest |
+| Latency p95 | Worst-case response time per node |
+| Tokens per second | LLM throughput efficiency |
+| Retrieval relevance | Are retrieved chunks actually similar to the query? |
+| Context utilization | Is the model actually using the retrieved context? |
+| Citation coverage | Are sources being used vs. ignored? |
+| Faithfulness proxy | Overall grounding quality of the answer |
 
 ---
 
@@ -215,6 +234,10 @@ Returns available modes and supported draft types for the frontend.
 ### `GET /health`
 
 Returns system health status and flags any missing API keys.
+
+### `GET /metrics`
+
+Returns recent request summaries, global usage counters, and aggregated RAG observability metrics.
 
 ---
 

@@ -184,6 +184,14 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
       - "error"        : Error messages
     """
     request_id = f"req_{uuid.uuid4().hex[:16]}"
+    langfuse_trace_id = ""
+    try:
+        from langfuse import get_client
+
+        # Generate a trace-id that is valid for score ingestion.
+        langfuse_trace_id = get_client().create_trace_id(seed=request_id)
+    except Exception:
+        langfuse_trace_id = ""
     runtime_cfg = Configuration()
     model_used = runtime_cfg.get_model_for_agent("research")
     if input_data.get("mode") == "chat":
@@ -196,6 +204,7 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
     config = build_runtime_config(
         thread_id,
         request_id=request_id,
+        langfuse_trace_id=langfuse_trace_id,
         mode=input_data.get("mode", "auto"),
         model_used=model_used,
         extra_callbacks=[METRICS_COLLECTOR],
@@ -203,6 +212,9 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
     
     accumulated_entities = {}
     accumulated_citations = []
+    accumulated_legal_chunks = []
+    accumulated_book_chunks = []
+    accumulated_web_results = []
     last_final_response = ""
     
     # Update thread store
@@ -271,6 +283,17 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
                     if new_cites:
                         yield sse_event("citations", {"items": new_cites})
 
+                # ── Capture retrieval context for observability ─────────
+                legal_chunks = update.get("legal_chunks")
+                if legal_chunks and isinstance(legal_chunks, list):
+                    accumulated_legal_chunks.extend(legal_chunks)
+                book_chunks = update.get("book_chunks")
+                if book_chunks and isinstance(book_chunks, list):
+                    accumulated_book_chunks.extend(book_chunks)
+                web_results = update.get("web_results")
+                if web_results and isinstance(web_results, list):
+                    accumulated_web_results.extend(web_results)
+
                 # ── Stream summaries as research cards ───────────────────
                 for skey, slabel, sicon in [
                     ("legal_summary", "Statutory Analysis", "⚖️"),
@@ -327,6 +350,19 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
         })
     finally:
         request_latency_ms = (datetime.utcnow() - request_started).total_seconds() * 1000
+        rag_observability = METRICS_COLLECTOR.compute_rag_observability(
+            query=input_data.get("query", ""),
+            final_response=last_final_response,
+            legal_chunks=accumulated_legal_chunks,
+            book_chunks=accumulated_book_chunks,
+            web_results=accumulated_web_results,
+            citations=accumulated_citations,
+            mode=input_data.get("mode", "auto"),
+        )
+        METRICS_COLLECTOR.push_langfuse_rag_scores(
+            trace_id=langfuse_trace_id,
+            rag_observability=rag_observability,
+        )
         summary = METRICS_COLLECTOR.build_request_summary(
             request_id=request_id,
             thread_id=thread_id,
@@ -334,6 +370,8 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
             reflection_loop_count=int(input_data.get("reflection_loops", 0) or 0),
             latency_ms=request_latency_ms,
             model=model_used,
+            rag_observability=rag_observability,
+            langfuse_trace_id=langfuse_trace_id,
         )
         METRICS_COLLECTOR.log_request_summary(summary)
         try:

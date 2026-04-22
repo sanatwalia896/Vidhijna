@@ -12,11 +12,11 @@ from __future__ import annotations
 import asyncio
 import json
 import os
+import re
 import time
 from collections import defaultdict, deque
 from dataclasses import dataclass, field
 from pathlib import Path
-from statistics import median
 from typing import Any, Deque, Dict, Optional
 
 from langchain_core.callbacks import BaseCallbackHandler
@@ -66,6 +66,52 @@ def _role_from_model(model: str) -> str:
     if "draft" in model_lower:
         return "draft"
     return "chat"
+
+
+_STOPWORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "been", "being", "by", "for", "from",
+    "has", "have", "he", "her", "his", "i", "if", "in", "into", "is", "it", "its",
+    "of", "on", "or", "our", "she", "that", "the", "their", "them", "there", "they",
+    "this", "to", "was", "we", "were", "will", "with", "you", "your", "under", "not",
+    "no", "can", "may", "must", "shall", "should",
+}
+
+
+def _clip01(value: float) -> float:
+    return max(0.0, min(1.0, float(value)))
+
+
+def _tokenize(text: str) -> set[str]:
+    if not text:
+        return set()
+    words = re.findall(r"[a-zA-Z][a-zA-Z0-9]{2,}", text.lower())
+    return {w for w in words if w not in _STOPWORDS}
+
+
+def _extract_chunk_text(chunk: dict) -> str:
+    meta = chunk.get("metadata", {}) if isinstance(chunk, dict) else {}
+    return str(
+        meta.get("text")
+        or meta.get("page_content")
+        or chunk.get("text", "")
+        or chunk.get("page_content", "")
+        or ""
+    )
+
+
+def _extract_chunk_source(chunk: dict) -> str:
+    meta = chunk.get("metadata", {}) if isinstance(chunk, dict) else {}
+    for key in ("source", "act_name", "book_name", "title", "url"):
+        value = str(meta.get(key, "") or "").strip()
+        if value:
+            return value
+    return str(chunk.get("id", "") or "unknown")
+
+
+def _normalize_similarity(score: float, threshold: float = 0.4) -> float:
+    if score <= threshold:
+        return 0.0
+    return _clip01((score - threshold) / max(1e-6, (1.0 - threshold)))
 
 
 @dataclass
@@ -180,6 +226,8 @@ class MetricsCollector(BaseCallbackHandler):
         tps_values = [float(row.get("tokens_per_second", 0) or 0) for row in llm_rows if float(row.get("tokens_per_second", 0) or 0) > 0]
         if tps_values:
             avg_tps = round(sum(tps_values) / len(tps_values), 3)
+        rag_rows = [row.get("rag_observability", {}) for row in request_rows if isinstance(row.get("rag_observability"), dict)]
+        rag_summary = self._aggregate_rag_rows(rag_rows)
         return {
             "request_count": len(request_rows),
             "llm_call_count": len(llm_rows),
@@ -189,6 +237,7 @@ class MetricsCollector(BaseCallbackHandler):
             "total_latency_ms": round(total_latency, 2),
             "by_model": self.model_breakdown(),
             "p95_latency_ms": self.latency_summary(),
+            "rag_observability": rag_summary,
         }
 
     def model_breakdown(self) -> dict[str, dict[str, float]]:
@@ -241,6 +290,8 @@ class MetricsCollector(BaseCallbackHandler):
         cost_usd: float = 0.0,
         latency_ms: float = 0.0,
         model: str = "",
+        rag_observability: Optional[dict] = None,
+        langfuse_trace_id: str = "",
     ) -> dict:
         window_start = self._request_windows.pop(request_id, None) if request_id else None
         llm_rows = []
@@ -262,6 +313,7 @@ class MetricsCollector(BaseCallbackHandler):
         return {
             "timestamp": time.time(),
             "request_id": request_id,
+            "langfuse_trace_id": langfuse_trace_id,
             "thread_id": thread_id,
             "mode": mode,
             "reflection_loop_count": reflection_loop_count,
@@ -272,6 +324,7 @@ class MetricsCollector(BaseCallbackHandler):
             "avg_tokens_per_second": avg_tps,
             "by_role": self._breakdown_rows(llm_rows),
             "p95_latency_ms": self.latency_summary(),
+            "rag_observability": rag_observability or {},
         }
 
     def _breakdown_rows(self, rows: list[dict]) -> dict[str, dict[str, float]]:
@@ -302,6 +355,108 @@ class MetricsCollector(BaseCallbackHandler):
                 item["avg_tokens_per_second"] = round(sum(tps_values) / len(tps_values), 3)
             item["cost_usd"] = round(item["cost_usd"], 6)
         return dict(breakdown)
+
+    def compute_rag_observability(
+        self,
+        *,
+        query: str,
+        final_response: str,
+        legal_chunks: list[dict],
+        book_chunks: list[dict],
+        web_results: list[dict],
+        citations: list[str],
+        mode: str,
+    ) -> dict:
+        all_chunks = list(legal_chunks or []) + list(book_chunks or [])
+        if mode not in {"research", "chat", "auto"}:
+            return {
+                "enabled": False,
+                "reason": f"mode={mode} has no RAG retrieval path",
+                "retrieved_chunks": len(all_chunks),
+                "web_results": len(web_results or []),
+            }
+
+        scores: list[float] = []
+        for chunk in all_chunks:
+            try:
+                scores.append(float(chunk.get("score", 0.0) or 0.0))
+            except Exception:
+                continue
+        relevance_values = [_normalize_similarity(s) for s in scores]
+        retrieval_relevance = (sum(relevance_values) / len(relevance_values)) if relevance_values else 0.0
+
+        retrieved_sources = {_extract_chunk_source(c) for c in all_chunks if isinstance(c, dict)}
+        cited_sources = {str(c).strip() for c in (citations or []) if str(c).strip()}
+        cited_retrieved = len(retrieved_sources.intersection(cited_sources))
+        citation_coverage = (cited_retrieved / len(retrieved_sources)) if retrieved_sources else 0.0
+
+        context_text = " ".join(_extract_chunk_text(c) for c in all_chunks)[:20000]
+        context_tokens = _tokenize(context_text)
+        answer_tokens = _tokenize(final_response)
+        overlap = len(answer_tokens.intersection(context_tokens))
+        context_utilization = (overlap / len(answer_tokens)) if answer_tokens else 0.0
+
+        faithfulness_proxy = (0.65 * context_utilization) + (0.35 * citation_coverage)
+        source_diversity = (len(retrieved_sources) / len(all_chunks)) if all_chunks else 0.0
+
+        return {
+            "enabled": True,
+            "retrieved_chunks": len(all_chunks),
+            "legal_chunks": len(legal_chunks or []),
+            "book_chunks": len(book_chunks or []),
+            "web_results": len(web_results or []),
+            "retrieval_relevance": round(_clip01(retrieval_relevance), 4),
+            "context_utilization": round(_clip01(context_utilization), 4),
+            "citation_coverage": round(_clip01(citation_coverage), 4),
+            "faithfulness_proxy": round(_clip01(faithfulness_proxy), 4),
+            "source_diversity": round(_clip01(source_diversity), 4),
+            "avg_vector_score": round(sum(scores) / len(scores), 4) if scores else 0.0,
+            "top_vector_score": round(max(scores), 4) if scores else 0.0,
+        }
+
+    def push_langfuse_rag_scores(self, *, trace_id: str, rag_observability: dict) -> None:
+        if not trace_id or not isinstance(rag_observability, dict) or not rag_observability.get("enabled"):
+            return
+        try:
+            from langfuse import get_client
+
+            langfuse = get_client()
+            metrics = {
+                "retrieval_relevance": rag_observability.get("retrieval_relevance"),
+                "context_utilization": rag_observability.get("context_utilization"),
+                "citation_coverage": rag_observability.get("citation_coverage"),
+                "faithfulness_proxy": rag_observability.get("faithfulness_proxy"),
+                "source_diversity": rag_observability.get("source_diversity"),
+            }
+            for name, value in metrics.items():
+                if value is None:
+                    continue
+                langfuse.create_score(
+                    trace_id=trace_id,
+                    name=name,
+                    value=float(value),
+                    data_type="NUMERIC",
+                    comment="Auto-ingested RAG observability score",
+                )
+        except Exception:
+            return
+
+    def _aggregate_rag_rows(self, rows: list[dict]) -> dict:
+        if not rows:
+            return {}
+
+        def _avg(key: str) -> float:
+            values = [float(r.get(key, 0.0) or 0.0) for r in rows if key in r]
+            return round(sum(values) / len(values), 4) if values else 0.0
+
+        return {
+            "sample_size": len(rows),
+            "avg_retrieval_relevance": _avg("retrieval_relevance"),
+            "avg_context_utilization": _avg("context_utilization"),
+            "avg_citation_coverage": _avg("citation_coverage"),
+            "avg_faithfulness_proxy": _avg("faithfulness_proxy"),
+            "avg_source_diversity": _avg("source_diversity"),
+        }
 
 
 METRICS_COLLECTOR = MetricsCollector(

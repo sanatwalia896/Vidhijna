@@ -1,150 +1,173 @@
 # Observability
 
-Vidhijna now includes request-level tracing, token and cost metrics, and per-role latency summaries. This file documents the observability stack that was added for debugging, demoing, and evaluating the system.
+Vidhijna includes request-level tracing, token and cost metrics, and per-role latency summaries via **Langfuse**. This document covers the observability stack.
+
+**Status: Not deployed online. Observability is available locally only.**
+
+---
 
 ## What Was Added
 
-- Langfuse tracing for the LangGraph pipeline
-- Trace grouping by `thread_id`
-- Trace metadata for:
-  - `mode`
-  - `model_used`
-  - request ID
-- Per-call LLM metrics:
-  - prompt tokens
-  - completion tokens
-  - total tokens
-  - tokens per second
-  - estimated cost
-- Request-level aggregation in `/metrics`
-- Per-role latency summaries:
-  - `supervisor`
-  - `chat`
-  - `research`
-  - `document`
-  - `draft`
-- Local metrics persistence in `metrics.jsonl`
+On the `feat/langfuse_integration` branch, the following changes were made:
 
-## Why It Matters
+### 1. Langfuse Tracing Integration (`agents/graph.py`)
+- `langfuse.langchain.CallbackHandler` is loaded **opt-in only** when all required env vars are present
+- If any env var is missing, tracing silently skips — the system still runs normally
+- A `langfuse_status()` helper exposes whether tracing is enabled
 
-This observability layer makes the system easier to:
+### 2. Config Metadata (`agents/graph.py:build_runtime_config`)
+- Every graph run is tagged with: `thread_id`, `request_id`, `mode`, `model_used`
+- Session and trace IDs are passed through for proper grouping in Langfuse
 
-- debug production failures
-- identify slow nodes
-- compare model usage across roles
-- estimate cost per request
-- validate RAG quality and reflection loop behavior
+### 3. Metrics Collector (`agents/metrics.py`)
+- `MetricsCollector` (implements `BaseCallbackHandler`) tracks:
+  - Per-LLM-call: prompt/completion/total tokens, latency ms, cost USD, tokens/sec
+  - Per-node: latency ms (with p95 per node)
+  - Per-request: full summary written to `metrics.jsonl`
+- `compute_rag_observability()` scores retrieval quality:
+  - `retrieval_relevance` — average normalized cosine similarity of retrieved chunks
+  - `context_utilization` — token overlap between answer and retrieved context
+  - `citation_coverage` — what fraction of retrieved sources are actually cited
+  - `faithfulness_proxy` — weighted combination of utilization + citation coverage
+  - `source_diversity` — ratio of unique sources to total chunks
+- `push_langfuse_rag_scores()` sends these scores to Langfuse as trace scores
 
-For a forward deployed engineer workflow, this is the difference between a working prototype and an operable system.
+### 4. Metrics Endpoint (`backend/main.py`)
+- `GET /metrics` returns: recent requests, per-role token/cost breakdown, p95 latencies, aggregated RAG scores
+
+---
+
+## What You Get From Observability
+
+| Metric | What It Tells You |
+|---|---|
+| Token count + cost | Cost per request, per role, total spend |
+| Latency per node | Which part of the pipeline is slowest |
+| Latency p95 | Worst-case response time per node |
+| Tokens per second | LLM throughput efficiency |
+| Retrieval relevance | Are retrieved chunks actually similar to the query? |
+| Context utilization | Is the model actually using the retrieved context? |
+| Citation coverage | Are sources being used vs. ignored? |
+| Faithfulness proxy | Overall grounding quality of the answer |
+
+---
 
 ## How To Run Locally
 
-1. Start Langfuse locally.
-2. Add the required env vars to `.env`:
-   - `LANGFUSE_PUBLIC_KEY`
-   - `LANGFUSE_SECRET_KEY`
-   - `LANGFUSE_HOST`
-   - `LANGFUSE_BASE_URL`
-3. Run the backend.
-4. Send a request in `research` mode.
-5. Open Langfuse and inspect the resulting trace.
+1. Start Langfuse locally (Docker or self-hosted)
+2. Add to `.env`:
+   ```
+   LANGFUSE_PUBLIC_KEY=pk-lf-...
+   LANGFUSE_SECRET_KEY=sk-lf-...
+   LANGFUSE_HOST=http://localhost:3000
+   LANGFUSE_BASE_URL=http://localhost:3000
+   ```
+3. Run the backend: `python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload`
+4. Send a request (deep research mode works best)
+5. Open Langfuse at `http://localhost:3000` and inspect the trace
+
+---
 
 ## What To Look For In Langfuse
 
-The strongest demo trace is a **deep research** request, not a simple chat request.
+The best demo trace is a **deep research** request, not a simple chat request.
 
 Look for:
 
-- one trace per user request
+- One trace per user request
 - `thread_id` session grouping
 - `mode = research`
-- supervisor routing span
-- research subgraph spans
-- multiple LLM generations
-- reflection loop iterations
-- token usage and latency per generation
+- Supervisor routing span
+- Research subgraph spans
+- Multiple LLM generations
+- Reflection loop iterations
+- Token usage and latency per generation
+
+---
 
 ## Metrics Endpoint
 
 `GET /metrics` returns:
 
-- `recent_requests`
-- `summary`
-- `p95_latency_ms`
-
-The `summary` block includes:
-
-- total request count
-- total LLM call count
-- total tokens
-- total cost in USD
-- average tokens per second
-- per-role breakdown
-- p95 latency by node
-
-## Opik RAG Evaluation
-
-The repository includes a live RAG eval runner at `tests/eval/rag_eval.py`.
-
-It evaluates Vidhijna on a legal dataset using Opik metrics:
-
-- `AnswerRelevance`
-- `Hallucination`
-- `ContextPrecision`
-- `ContextRecall`
-
-The eval writes a JSON report to:
-
-`eval_results/rag_eval_report.json`
-
-Run it with:
-
-```bash
-OPIK_API_KEY=... OPIK_HOST=... python3 tests/eval/rag_eval.py
+```json
+{
+  "recent_requests": [...],
+  "summary": {
+    "request_count": 0,
+    "llm_call_count": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "avg_tokens_per_second": 0,
+    "by_role": {
+      "supervisor": { "calls": 0, "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0, "cost_usd": 0 },
+      "research": { ... },
+      "chat": { ... },
+      "document": { ... },
+      "draft": { ... }
+    },
+    "rag_observability": {
+      "sample_size": 0,
+      "avg_retrieval_relevance": 0,
+      "avg_context_utilization": 0,
+      "avg_citation_coverage": 0,
+      "avg_faithfulness_proxy": 0,
+      "avg_source_diversity": 0
+    }
+  },
+  "p95_latency_ms": {
+    "supervisor": 0,
+    "research_agent": 0,
+    ...
+  }
+}
 ```
 
-This is the best artifact to show retrieval quality, grounding, and context usage.
+---
 
 ## Recommended Screenshots
 
-Add 4 to 6 screenshots in the README or a short portfolio note.
+Place these in the `images/` folder.
 
-1. **Langfuse trace overview for a deep research query**
-   - Show the full request trace
-   - Best single screenshot for end-to-end observability
+### 1. RAG Metrics Dashboard
+> **Placeholder:** `images/rag_metrics.png`
+>
+> Show the aggregated RAG observability scores — retrieval_relevance, context_utilization, citation_coverage, faithfulness_proxy, source_diversity. This demonstrates retrieval quality tracking.
 
-2. **Expanded trace timeline**
-   - Show supervisor, research subgraph, reflection loop, and finalization
-   - Proves multi-agent orchestration
+### 2. Trace Graph — Full Request
+> **Placeholder:** `images/trace_graph.png`
+>
+> Show the full LangGraph trace for a deep research request. This is the single best screenshot for showing multi-agent orchestration end-to-end.
 
-3. **Trace metadata / session panel**
-   - Show `thread_id`, `mode`, and `model_used`
-   - Proves trace grouping and tagging
+### 3. Trace Content — Node Details
+> **Placeholder:** `images/trace_content.png`
+>
+> Expand a trace to show what was traced — generation inputs, outputs, and intermediate state. Proves the agent's reasoning path is visible.
 
-4. **Trace generation details**
-   - Show token counts and latency per LLM call
-   - Best evidence for LLM-native observability
+### 4. Trace Types — Generation / Agent / Chain
+> **Placeholder:** `images/trace_types.png`
+>
+> Show the different span types in Langfuse — LLM generation spans, agent nodes, and chain edges. Demonstrates the structured nature of the trace.
 
-5. **`GET /metrics` JSON response**
-   - Show `summary.by_role`
-   - Show `p95_latency_ms`
-   - Useful for demoing a lightweight ops dashboard
+### 5. Metrics Endpoint Response
+> **Placeholder:** `images/metrics_endpoint.png`
+>
+> Show the `GET /metrics` JSON response with `summary.by_role`, `p95_latency_ms`, and RAG observability averages.
 
-6. **RAG eval report output**
-   - Show answer relevance, hallucination, context precision, and context recall
-   - Strong proof of quality control and retrieval grounding
+---
 
 ## Suggested Demo Query
 
-Use a query that naturally triggers multiple nodes and at least one reflection loop, such as:
+Use a query that naturally triggers multiple nodes and at least one reflection loop:
 
-- “Legal Analysis: Director Duties and Oppression/Mis-management Remedies under the Companies Act, 2013 (with recent legal context)”
-- “Explain the exact wording of Section 7(5)(c) of the Insolvency and Bankruptcy Code, 2016 and recent context”
+> "Legal Analysis: Director Duties and Oppression/Mis-management Remedies under the Companies Act, 2013 (with recent legal context)"
 
-These queries produce richer traces than a simple factual chat.
+This produces a richer trace than a simple factual chat.
+
+---
 
 ## Notes
 
-- Observability is opt-in and does not change the Cloud Run deployment path.
-- If Langfuse env vars are missing, Vidhijna still runs normally.
-- The current branch keeps SSE streaming intact.
+- Observability is **opt-in** — if Langfuse env vars are missing, Vidhijna runs normally without tracing
+- Tracing does not change the Cloud Run deployment path
+- SSE streaming remains intact
+- RAGAS evaluation was removed from this version

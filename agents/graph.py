@@ -90,6 +90,7 @@ def build_runtime_config(
     thread_id: str,
     *,
     request_id: str = "",
+    langfuse_trace_id: str = "",
     mode: str = "",
     model_used: str = "",
     user_id: str = "",
@@ -100,7 +101,8 @@ def build_runtime_config(
     """
     metadata = {
         "langfuse_session_id": thread_id,
-        "langfuse_trace_id": request_id,
+        "langfuse_trace_id": langfuse_trace_id or request_id,
+        "request_id": request_id,
         "thread_id": thread_id,
         "mode": mode,
         "model_used": model_used,
