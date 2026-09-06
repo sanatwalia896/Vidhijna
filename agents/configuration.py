@@ -14,9 +14,9 @@ class SearchAPI(str, Enum):
 
 
 class GroqModel(str, Enum):
-    LLAMA_8B  = "llama-3.1-8b-instant"
-    LLAMA_70B = "llama-3.3-70b-versatile"
-    LLAMA_3B  = "llama-3.2-3b-preview"
+    LLAMA_8B  = "openai/gpt-oss-120b"
+    LLAMA_70B = "openai/gpt-oss-120b"
+    LLAMA_3B  = "openai/gpt-oss-20b"
     OPENAI_20B = "openai/gpt-oss-20b"
 
 
