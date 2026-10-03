@@ -452,11 +452,14 @@ function handleEvt(evt, msgEl, isResearch) {
         case "token":
             appendToken(msgEl, evt.content || "");
             msgEl.dataset.hasContent = "1";
+            msgEl.dataset.streamedAnswer = "1";
             break;
 
         case "final":
             if (evt.content) {
-                setMsgContent(msgEl, evt.content);
+                if (evt.streamed || msgEl.dataset.streamedAnswer !== "1") {
+                    setMsgContent(msgEl, evt.content);
+                }
                 msgEl.dataset.hasContent = "1";
                 if (evt.citations) { S.citations.push(...evt.citations); evt.citations.forEach(c => addSource(c)); }
                 if (evt.entities) { Object.assign(S.entities, evt.entities); updateEntities(evt.entities); }

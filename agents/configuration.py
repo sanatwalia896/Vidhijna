@@ -14,10 +14,14 @@ class SearchAPI(str, Enum):
 
 
 class GroqModel(str, Enum):
-    LLAMA_8B  = "openai/gpt-oss-120b"
-    LLAMA_70B = "openai/gpt-oss-120b"
-    LLAMA_3B  = "openai/gpt-oss-20b"
+    # Only OpenAI OSS models currently available through Groq for this app.
+    OPENAI_120B = "openai/gpt-oss-120b"
     OPENAI_20B = "openai/gpt-oss-20b"
+
+    # Backwards-compatible aliases for older config/env references.
+    LLAMA_70B = "openai/gpt-oss-120b"
+    LLAMA_8B = "openai/gpt-oss-20b"
+    LLAMA_3B = "openai/gpt-oss-20b"
 
 
 class ResearchMode(str, Enum):
@@ -50,10 +54,10 @@ class Configuration:
     """
 
     # ── LLM — one model per agent ─────────────────────────────────────────────
-    groq_model: str = os.environ.get("GROQ_MODEL", GroqModel.LLAMA_8B.value)
-    research_model: str = os.environ.get("RESEARCH_MODEL", GroqModel.OPENAI_20B.value)
-    chat_model: str = os.environ.get("CHAT_MODEL", GroqModel.LLAMA_8B.value)
-    supervisor_model: str = os.environ.get("SUPERVISOR_MODEL", GroqModel.LLAMA_8B.value)
+    groq_model: str = os.environ.get("GROQ_MODEL", GroqModel.OPENAI_20B.value)
+    research_model: str = os.environ.get("RESEARCH_MODEL", GroqModel.OPENAI_120B.value)
+    chat_model: str = os.environ.get("CHAT_MODEL", GroqModel.OPENAI_20B.value)
+    supervisor_model: str = os.environ.get("SUPERVISOR_MODEL", GroqModel.OPENAI_20B.value)
     groq_api_key: str = os.environ.get("GROQ_API_KEY", "")
 
     # ── Embeddings ────────────────────────────────────────────────────────────
@@ -315,4 +319,3 @@ class Configuration:
         if len(conditions) == 1:
             return conditions[0]
         return {"$and": conditions}
-

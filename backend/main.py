@@ -80,6 +80,23 @@ def sse_event(event_type: str, data: dict) -> str:
     payload = {"type": event_type, "timestamp": datetime.utcnow().isoformat(), **data}
     return f"data: {json.dumps(payload)}\n\n"
 
+
+def iter_text_chunks(text: str, chunk_size: int = 24):
+    """Yield small text chunks for progressive rendering in the browser."""
+    if not text:
+        return
+
+    buf = ""
+    for part in text.split(" "):
+        next_buf = f"{buf} {part}" if buf else part
+        if len(next_buf) >= chunk_size:
+            yield next_buf + " "
+            buf = ""
+        else:
+            buf = next_buf
+    if buf:
+        yield buf
+
 # ── Health ────────────────────────────────────────────────────────────────────
 
 @app.get("/")
@@ -183,6 +200,7 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
     accumulated_entities = {}
     accumulated_citations = []
     last_final_response = ""
+    final_response_streamed = False
     
     # Update thread store
     if thread_id not in threads_store:
@@ -197,12 +215,19 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
     yield sse_event("status", {"content": "Initializing Vidhijna Multi-Agent System..."})
 
     try:
-        # astream yields {node_name: state_update_dict} for each completed node
-        async for chunk in graph.astream(input_data, config, stream_mode="updates"):
-            if not isinstance(chunk, dict):
+        # astream yields {node_name: state_update_dict} for each completed node.
+        # subgraphs=True exposes updates from internal specialist nodes too.
+        async for chunk in graph.astream(input_data, config, stream_mode="updates", subgraphs=True):
+            namespace = None
+            data = chunk
+
+            if isinstance(chunk, tuple) and len(chunk) == 2:
+                namespace, data = chunk
+
+            if not isinstance(data, dict):
                 continue
 
-            for node_name, update in chunk.items():
+            for node_name, update in data.items():
                 if not isinstance(update, dict):
                     continue
                 
@@ -217,6 +242,15 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
                     for msg in status_log:
                         if msg and isinstance(msg, str):
                             yield sse_event("status", {"content": msg})
+
+                            if (
+                                node_name == "reflect"
+                                and msg.startswith("🔄 Loop")
+                            ):
+                                yield sse_event("loop_start", {
+                                    "content": msg,
+                                    "namespace": str(namespace or ""),
+                                })
 
                 # ── Stream legal entities as flash cards ─────────────────
                 entities = update.get("legal_entities")
@@ -272,11 +306,18 @@ async def run_agent_stream(input_data: dict, thread_id: str) -> AsyncGenerator[s
                 final = update.get("final_response")
                 if final and isinstance(final, str):
                     last_final_response = final
+                    if node_name == "response_formatter" and not final_response_streamed:
+                        yield sse_event("answer_start", {"node": node_name})
+                        for piece in iter_text_chunks(final):
+                            yield sse_event("token", {"content": piece})
+                            await asyncio.sleep(0)
+                        final_response_streamed = True
 
         # ── After stream completes, send the final event ─────────────────
         if last_final_response:
             yield sse_event("final", {
                 "content": last_final_response,
+                "streamed": final_response_streamed,
                 "citations": _safe_serialize(accumulated_citations),
                 "entities": _safe_serialize(accumulated_entities),
                 "mode": input_data.get("mode", "auto"),

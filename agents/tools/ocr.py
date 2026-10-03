@@ -3,14 +3,15 @@ tools/ocr.py — Document text extraction
 
 Handles:
   - Text PDFs      → pdfplumber
-  - Scanned PDFs   → ChatGroq vision LLM (page-by-page)
-  - Images         → ChatGroq vision LLM
+  - Scanned PDFs   → vision OCR only when a vision model is configured
+  - Images         → vision OCR only when a vision model is configured
   - DOCX           → python-docx
 """
 
 import base64
 import gc
 import io
+import os
 from pathlib import Path
 
 # Module-level singleton — avoids creating a new HTTP client per page
@@ -19,10 +20,14 @@ _vision_llm = None
 
 def _get_vision_llm():
     global _vision_llm
+    vision_model = os.environ.get("GROQ_VISION_MODEL", "qwen/qwen3.8-27b").strip()
+    if not vision_model:
+        return None
+
     if _vision_llm is None:
         from langchain_groq import ChatGroq
         _vision_llm = ChatGroq(
-            model="llama-3.2-11b-vision-preview",
+            model=vision_model,
             temperature=0,
             request_timeout=30,
             max_retries=2,
@@ -46,7 +51,7 @@ def extract_text_from_pdf(file_bytes: bytes) -> str:
 
 
 def extract_text_from_image(file_bytes: bytes, mime_type: str = "image/png") -> str:
-    """Extract text from a scanned image using ChatGroq vision LLM."""
+    """Extract text from a scanned image using ChatGroq vision LLM, when configured."""
     return _extract_text_via_vision_llm(file_bytes, mime_type)
 
 
@@ -97,7 +102,7 @@ def extract_text(file_bytes: bytes, filename: str) -> tuple[str, str]:
 
 
 def _extract_text_via_vision_llm(image_bytes: bytes, mime_type: str = "image/png") -> str:
-    """Send an image to ChatGroq vision model and return extracted text."""
+    """Send an image to a configured vision model and return extracted text."""
     try:
         from langchain_core.messages import HumanMessage
 
@@ -105,6 +110,10 @@ def _extract_text_via_vision_llm(image_bytes: bytes, mime_type: str = "image/png
         data_url = f"data:{mime_type};base64,{b64}"
 
         llm = _get_vision_llm()
+        if llm is None:
+            print("[OCR] No GROQ_VISION_MODEL configured; image OCR is unavailable.")
+            return ""
+
         message = HumanMessage(content=[
             {
                 "type": "image_url",

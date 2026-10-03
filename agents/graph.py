@@ -259,9 +259,9 @@ def build_graph():
     # Formatter is the last stop
     builder.add_edge("response_formatter", END)
 
-    from langgraph.checkpoint.memory import MemorySaver
-    checkpointer = MemorySaver()
-    return builder.compile(checkpointer=checkpointer)
+    # from langgraph.checkpoint.memory import MemorySaver
+    # checkpointer = MemorySaver()
+    return builder.compile()
 
 
 # Compile on import — graph is ready to use

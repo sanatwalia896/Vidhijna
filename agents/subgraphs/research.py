@@ -45,8 +45,7 @@ def _llm(model: str, temperature: float = 0.1, json_mode: bool = False,
     kwargs = dict(model=model, temperature=temperature, max_retries=2)
     if json_mode:
         kwargs["model_kwargs"] = {"response_format": {"type": "json_object"}}
-    # reasoning_effort is a top-level param — only for reasoning models (20B).
-    # Do NOT pass it for 8B models; ChatGroq rejects it.
+    # reasoning_effort is a top-level param for OpenAI OSS reasoning models.
     if reasoning_effort:
         kwargs["reasoning_effort"] = reasoning_effort
     return ChatGroq(**kwargs)
@@ -244,7 +243,7 @@ def summarize_legal_node(state: VidhijnaState, config: RunnableConfig) -> dict:
         return {"status_log": ["⚖️ No legal provisions to summarize."]}
 
     cfg = Configuration.from_runnable_config(config)
-    llm = _llm(cfg.groq_model)  # 8B — summarization doesn't need 70B reasoning
+    llm = _llm(cfg.groq_model)  # Fast/default text model for summarization
     query = state.rewritten_query or state.query
 
     formatted = format_chunks(state.legal_chunks)
@@ -269,7 +268,7 @@ def summarize_books_node(state: VidhijnaState, config: RunnableConfig) -> dict:
         return {"status_log": ["📚 No commentary to summarize."]}
 
     cfg = Configuration.from_runnable_config(config)
-    llm = _llm(cfg.groq_model)  # 8B — summarization doesn't need 70B reasoning
+    llm = _llm(cfg.groq_model)  # Fast/default text model for summarization
     query = state.rewritten_query or state.query
 
     formatted = format_chunks(state.book_chunks)
@@ -294,7 +293,7 @@ def summarize_web_node(state: VidhijnaState, config: RunnableConfig) -> dict:
         return {"web_summary": "", "status_log": ["🌐 No web results to summarize."]}
 
     cfg = Configuration.from_runnable_config(config)
-    llm = _llm(cfg.groq_model)  # 8B — summarization doesn't need 70B reasoning
+    llm = _llm(cfg.groq_model)  # Fast/default text model for summarization
 
     prompt = WEB_RESEARCH_SUMMARY_PROMPT.format(
         query=state.rewritten_query or state.query,
